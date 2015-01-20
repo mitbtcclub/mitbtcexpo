@@ -1,0 +1,164 @@
+/*
+*   Icons configuration
+*/
+
+.social-icons {
+    display: table;
+    
+    a {
+        display: table-cell;
+    }
+}
+[class^="sicon-"] i,
+[class*=" sicon-"] i {
+    display: block;
+    width: 25px;
+    height: 25px;
+    .ie7-restore-right-whitespace();
+    
+    line-height: 14px;
+    vertical-align: text-top;
+    background-image: url("@{siconSpritePath}");
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+    text-align: center;
+    
+}
+.sicon-white {
+    i {
+        background-image: url("@{siconWhiteSpritePath}");
+    }
+}
+.sicon-black {
+    i {
+        background-image: url("@{siconSpritePath}");
+    }
+}
+
+
+/*
+*   Social icons configuration
+*/
+
+.sicon-search i{
+    background-position: 3px 0px;
+}
+.sicon-place i{
+    background-position: -37px 0px;
+}
+.sicon-phone i{
+    background-position: -77px 0px;
+}
+.sicon-mail i{
+    background-position: -117px 0px;
+}
+.sicon-clock i{
+    background-position: -157px 0px;
+}
+.sicon-facebook i{
+    background-position: -197px 0px;
+}
+.sicon-twitter i{
+    background-position: -237px -1px;
+}
+.sicon-linkedin i{
+    background-position: -277px -1px;
+}
+.sicon-youtube i{
+    background-position: -317px -1px;
+}
+.sicon-pinterest i{
+    background-position: -356px -1px;
+}
+
+/*
+*   Small social icons with border
+*/
+
+.social-icons.bordered {
+    border-right: 2px solid @white;
+
+    a {
+        border: 2px solid @white;
+        border-right: none;
+        padding: 6px;
+        .transition(all 0.2s ease-in-out);
+        
+        
+        &:hover {
+            background-color: #ffffff;
+            
+            & i {
+                background-image: url("@{siconSpritePath}");
+            }
+        }
+    }
+}
+
+.social-icons.bordered-black {
+    border-right: 2px solid @grayDarker;
+    
+    a {
+        border: 2px solid @grayDarker;
+        border-right: none;
+        
+        &:hover {
+            background-color: @grayDarker;
+        
+            & i {
+                background-image: url("@{siconWhiteSpritePath}");
+            }
+        }
+    }
+    
+}
+
+/*
+*   Big social icons with hover background
+*   Default usage: Header
+*/
+
+.social-icons.hover-big {
+    [class^="sicon-"],
+    [class*=" sicon-"] {
+        padding: 9px 8px 8px;
+        .transition(all 0.2s ease-in-out);
+    }
+    a i {
+        .transition(all 0.3s ease-in-out);
+    }
+    a:hover i{
+        background-image: url("@{siconWhiteSpritePath}");
+    }
+    
+    .sicon-facebook:hover {
+        background-color: #3b5998;
+    }
+    .sicon-twitter:hover {
+        background-color: #44CBFF;
+    }
+    .sicon-linkedin:hover {
+        background-color: #1E79C0;
+    }
+    .sicon-youtube:hover {
+        background-color: #FF0000;
+    }
+    .sicon-pinterest:hover {
+        background-color: #D90000;
+    }
+    .sicon-search:hover {
+        background-color: @black;
+    }
+    .sicon-place:hover {
+        background-color: @black;
+    }
+    .sicon-phone:hover {
+        background-color: @black;
+    }
+    .sicon-mail:hover {
+        background-color: @black;
+    }
+    .sicon-clock:hover {
+        background-color: @black;
+    }
+}

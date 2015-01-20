@@ -1,0 +1,51 @@
+/*
+*   PAGE | ABOUT
+*/
+
+.page-about {
+    .about-items {
+        .item {
+            position: relative;
+            display: inline-block;
+            color: #fff;
+            overflow: hidden;
+            
+            &:hover .about-overlay {
+                .opacity(95);
+                left: 0;
+                .rotate(360deg);
+            }
+        }
+        .about-overlay {
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: -100%;
+            position: absolute;
+            display: block;
+            z-index: 4;
+            background-color: @blueGray;
+            .opacity(0);
+            .transition(all 0.5s ease-in-out);
+            
+            .social-icons {
+                left: 50%;
+                margin-left: -85px;
+                margin-top: -15px;
+                position: absolute;
+                text-align: center;
+                top: 50%;
+                width: 170px;
+                z-index: 6;
+                
+                a {
+                    padding: 4px;
+                }
+                i {
+                    display: inline-block;
+                }
+            }
+        }
+
+    }
+}

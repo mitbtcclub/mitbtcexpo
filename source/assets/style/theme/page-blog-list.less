@@ -1,0 +1,173 @@
+/*
+*   PAGE | BLOG LIST
+*/
+
+.page-blog-list {
+    margin-bottom: 70px;
+
+    h5 {
+        margin-bottom: 12px;
+    }
+    .read-more {
+        text-align: right;
+        margin-bottom: 20px;
+            
+        & a {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 11px;
+            font-weight: bold;
+            text-transform: uppercase;
+            line-height: 20px;
+            letter-spacing: 1px;
+            color: @white;
+            padding: 3px 8px;
+            margin: 0 3px;
+            position: relative;
+            background-color: @grayLighter;
+            
+            &:hover,
+            &.active {
+                background-color: @blueGray;
+                text-decoration: none;
+                color: @white;
+            }
+        }
+    }
+    
+    article {
+        margin-bottom: 60px;
+        
+        p {
+            font-size: 0.8em;
+            line-height: @baseLineHeight / 1.2;
+        }
+    }
+    
+    .blog-list-right {
+        .block {
+            padding-bottom: 30px;
+        }
+        h6 {
+            border-bottom: 1px solid @grayLighter;
+        }
+        
+        h6:first-child {
+            padding-top: 0px;
+        }
+        
+        .submenu {
+            text-align: left;
+        }
+        
+        .simple-link-list {
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+            padding-top: 15px;
+            
+            li {
+                list-style: none;
+                margin: 0px;
+                padding: 0px;
+                
+                a {
+                    color: @grayDarker;
+                    font-size: 0.8em;
+                    padding: 5px 0px;
+                }
+            }
+        }
+        
+        .twitterfeed {
+            font-size: 0.8em;
+            
+            ul {
+                list-style: none;
+                margin: 0px;
+                padding: 0px;
+                padding-top: 15px;
+                
+                li {
+                    list-style: none;
+                    margin: 0px;
+                    padding: 0px;
+                    padding-top: 10px;
+                }
+            }
+        }
+    }
+    
+    .comments {
+        background-color: #eee;
+        padding: 4px 10px;
+        font-size: 11px;
+        text-transform: uppercase;
+        font-weight: bold;
+        
+        a {
+            font-size: 11px;
+            font-weight: bold;
+        }
+    }
+    
+    .comments-details {
+        background-color: #eee;
+        padding: 15px;
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 30px;
+        
+        .media {
+            padding: 15px 0 25px;
+            border-bottom: 1px solid @grayLighter;
+        }
+        .media:last-child {
+            border-bottom: none;
+        }
+        .comments-post-info {
+            font-size: 11px;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: @gray;
+        }
+    }
+    
+    .write-comment {
+        font-size: 14px;
+        line-height: 19px;
+        
+        form {
+            input[type='text'] {
+                background-color: @veryLight;
+                color: #666666;
+                font-size: 14px;
+            }
+            input[type='text']:focus {
+                background-color: #fff;
+            }
+            
+            textarea {
+                background-color: @veryLight;
+                color: #666666;
+                font-size: 14px;
+            }
+            textarea:focus {
+                background-color: #fff;
+            }
+            
+            .btn {
+                font-size: 11px;
+                font-weight: bold;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+            }
+            
+            .media {
+                padding-top: 24px;
+            }
+        }
+    }
+}
+.fixed-visable + #page-blog-list {
+    padding-top: 60px;
+}

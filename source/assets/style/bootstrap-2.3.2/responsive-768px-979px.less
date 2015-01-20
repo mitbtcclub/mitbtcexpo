@@ -1,0 +1,77 @@
+//
+// Responsive: Tablet to desktop
+// --------------------------------------------------
+
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+  // Fixed grid
+  #grid > .core(@gridColumnWidth768, @gridGutterWidth768);
+
+  // Fluid grid
+  #grid > .fluid(@fluidGridColumnWidth768, @fluidGridGutterWidth768);
+
+  // Input grid
+  #grid > .input(@gridColumnWidth768, @gridGutterWidth768);
+
+  // No need to reset .thumbnails here since it's the same @gridGutterWidth
+
+  
+  
+  
+/*
+*   Smaller topography
+*/
+    h1 { 
+        font-size: @baseFontSize * 3.2;
+        line-height: @baseLineHeight * 2.5;
+    } 
+/*
+*   Prepare template for tablet resolution
+*/
+    .thumbnails > li {
+        float: left; // Explicity set the float since we don't require .span* classes
+        margin-bottom: @baseLineHeight;
+        margin-left: @gridGutterWidth768;
+    }
+
+    #navigation {
+        #main-menu {
+            float: right;
+        }
+        .social-icons {
+            display: none;
+        }
+    }
+    
+    #page-about .about-items .item {
+        display: block;
+    }
+    #page-twitter {
+        .twitterfeed {
+            min-height: 75px;
+        }
+    }
+    
+    .brand {
+        padding-left: 15px;
+    }
+    
+    //Remove functionalities for the sake of speed.
+    .overlay {
+        display: none;
+    }
+    body .paralax {
+        background-attachment: scroll !important;
+    }
+      
+    .cutBy10 {
+        margin:auto;
+    }
+    
+    .line-divider-inline:after,
+    .show-more-cube,
+    .line-divider:after {
+        width: 80%;
+    }
+}

@@ -1,0 +1,71 @@
+/*
+*   PAGE | TWITTER
+*/
+
+.page-twitter {
+    position: relative;
+    background: url(../images/pages/twitter/tw_bck.jpg) 50% 0 no-repeat fixed;
+    .background-size(cover);
+    padding-top: 90px;
+    padding-bottom: 130px;
+    
+    .container {
+        z-index: 2;
+        position: relative;
+    }
+    .twitter-devider {
+        background: url(../images/css/divider_tw.png) no-repeat center bottom;
+        padding-bottom: 60px;
+    }
+    
+    .twitterfeed {
+        min-height: 55px;
+        padding-top: 20px;
+        position: relative;
+        
+        .tweet_time {
+            display: none;
+            
+            a {
+                font-size: 11px;
+                color: @white;
+                display: block;
+            }
+        }
+        .tweet_text a:hover {
+            color: @linkColor;
+            text-decoration: underline;
+        }
+        
+        .tweet_list {
+            padding: 0px;
+            margin: 0px;
+            list-style: none;
+            
+            li {
+                padding: 0px;
+                margin: 0px;
+                list-style: none;
+            }
+        }
+        
+        .carousel-indicators {
+            bottom: -70px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            top: auto;
+            
+            li {
+                .border-radius(8px);
+                cursor: pointer;
+                display: inline-block;
+                float: none;
+                height: 8px;
+                width: 8px;
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+        }
+    }
+}

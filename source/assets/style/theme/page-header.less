@@ -1,0 +1,104 @@
+/*
+*   HEADER
+*/
+
+.pages header {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+ 
+#navigation {
+    background-color: @bodyBackground;
+    width: 100%;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.65);
+    z-index: 2000;
+
+      // Fix for IE7's bad z-indexing so dropdowns don't appear below content that follows the navbar
+      *position: relative;
+      *z-index: 2000;
+    
+    .brand {
+        padding: 7px 100px 8px 0px;
+        text-align: left;
+    }
+    
+    #main-menu {
+        display: inline-block;
+        float: none;
+        margin: 0 auto;
+        padding: 0px;
+        position: relative;
+        text-align: center;
+        line-height: 18px;
+        font-size: 12px;
+        list-style: none;
+        
+        li {
+            display: inline-block;
+            position: relative;
+            padding: 0px;
+            margin: 0px;
+            line-height: 18px;
+            list-style: none;
+        }
+        a {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 13px;
+            font-weight: bold;
+            text-transform: uppercase;
+            line-height: 18px;
+            letter-spacing: 1px;
+            color: @grayDarker;
+            padding: 12px 15px;
+            margin: 0px;
+            text-decoration: none;
+            text-shadow: 0 1px 0 #ffffff;
+            position: relative;
+            display: block;
+        }
+        li a:focus,
+        li a:hover {
+            background: none;
+            outline: medium none;
+        }
+        li:hover a:after,
+        li.active a:after {
+            background-color: @grayLighter;
+            bottom: -4px;
+            content: "";
+            height: 7px;
+            left: 50%;
+            margin-left: -4px;
+            position: absolute;
+            .rotate(45deg);
+            width: 7px;
+        }
+    }
+    
+    .mobile-menu {
+        display: none;
+        float: right;
+        padding: 7px 10px;
+        margin-left: 5px;
+        margin-top: 3px;
+        cursor: pointer;
+        
+        .icon-bar {
+            background-color: @grayDarker;
+            .border-radius(1px);
+            .box-shadow(0 1px 0 rgba(0, 0, 0, 0.25));
+            display: block;
+            height: 3px;
+            width: 26px;
+            margin-bottom: 3px;
+            margin-top: 1px;
+            
+        }
+        &:hover {
+            .icon-bar {
+                background-color: @blueGray;
+            }
+        }
+    }
+}  
