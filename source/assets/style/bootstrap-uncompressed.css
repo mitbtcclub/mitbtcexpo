@@ -12,11 +12,11 @@
 */
 .page-welcome {
   width: 100%;
-  height: 100%;
+  height: 850%;
   position: relative;
   overflow: hidden;
   text-align: center;
-  background: #292929 url(../images/pages/welcome/welcome.jpg) 50% 0 repeat fixed;
+  background: url(../images/pages/welcome/welcome.jpg) 50% 0 repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -110,8 +110,12 @@
 .page-welcome .centralized {
   z-index: 2;
 }
-/**   PAGE | WORK*/.portfolio-items {
-  /*    * Filtering configuration    */
+/*
+*   PAGE | WORK
+*/.portfolio-items {
+  /*
+    * Filtering configuration
+    */
 }
 .portfolio-items a {
   position: relative;
@@ -235,7 +239,9 @@
 .portfolio-item-details .submenu span:hover {
   text-decoration: none;
 }
-/**   PAGE | FEATURES*/.page-features {
+/*
+*   PAGE | FEATURES
+*/.page-features {
   position: relative;
   background: url(../images/pages/features/q_bck.jpg) 50% 0 no-repeat fixed;
   -webkit-background-size: cover;
@@ -618,7 +624,9 @@
 .page-contact form .media {
   padding-top: 24px;
 }
-/**   PAGE | CLIENTS*/.page-clients .row-fluid {
+/*
+*   PAGE | CLIENTS
+*/.page-clients .row-fluid {
   padding-bottom: 40px;
   padding-top: 15px;
 }
@@ -722,7 +730,9 @@
 #navigation .mobile-menu:hover .icon-bar {
   background-color: #4e808e;
 }
-/**   FOOTER*/.pages footer {
+/*
+*   FOOTER
+*/.pages footer {
   padding-top: 30px;
   padding-bottom: 60px;
   text-align: center;
