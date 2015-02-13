@@ -105,7 +105,8 @@
 						<div class="line-divider" id="banner">
 							<h1>MIT BITCOIN EXPO</h1>
 						</div>
-						<p> March 07 - 08, 2015</p>
+						<h2> March 07 - 08, 2015</h2>
+                        <p>Location: <a href = "https://www.google.com/maps/place/Compton+Labs/@42.36094,-71.091239,17z/data=!3m1!4b1!4m2!3m1!1s0x89e370a962cdee87:0xc0dc57ed7b9909ab">Building 26-100</a></p>
 
 						<div class="social-icons sicon-white bordered">
 							<a href="https://www.facebook.com/MITBitcoinClub" class="sicon-facebook"><i>Facebook</i></a>
@@ -125,7 +126,6 @@
       <!-- shit in da center -->
       <header>
          <h4 class="line-divider">Details</h4>
-         <h1>Registration</h1>
      </header>
 </div>
 </div>
@@ -146,7 +146,7 @@
         <div class="row">
            <div class="span8 offset2">
               <p>
-                 /* This page will be updated as more speakers confirm */
+                 <!--/* This page will be updated as more speakers confirm */-->
              </p>
          </div>
      </div>
@@ -404,7 +404,7 @@
     					</div>
     					<div class="media">
     						<div class="social-icons sicon-white pull-left">
-    							<a href="http://bitcoin.mit.edu" class="sicon-place"><i>Location</i></a>
+    							<a href="http://bitcoin.mit.edu" class="sicon-phone"><i>Website</i></a>
     						</div> 
     						<div class="media-body smallFontBy08">
     							bitcoin.mit.edu
@@ -444,15 +444,22 @@
                <div class="row">
                    <div class="span8 offset2">
                        <p>
-                           This event is brought to you by:
+                           This event is made possible by our sponsors:
                        </p>
                    </div>
                </div>
            </header>
            <!-- sponsor logos -->
            <div class="row-fluid">
-                    {% for index, (image,name) in enumerate(sponsors) %}
-               <div class="span6 center">
+                    {% for index, (image,name) in enumerate(goldsponsors) %}
+                <div class="center"><p>GOLD SPONSOR</p></div>
+               <div class="center">
+                   <img src="{{image}}" alt="{{{name}}"></br></br></br>
+               </div>
+                    {% end %}
+                <div class ="center"><P>SILVER SPONSOR</P></div>
+                    {% for index, (image,name) in enumerate(silversponsors) %}
+               <div class="center">
                    <img src="{{image}}" alt="{{{name}}">
                </div>
                     {% end %}
