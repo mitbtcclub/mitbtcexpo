@@ -76,5 +76,7 @@ speakers = [("""./headshots/Gavin.png""",
 """Jinglan Wang""",
 """President, Wellesley Bitcoin""",
 """Jing is currently a junior at Wellesley College, studying studio art and CS. She is working on developing a cryptocurrency course at Wellesley. She also writes and illustrates comics on Bitcoin and cryptography.""")]
+sponsors = [("""./sponsors/circle.png""","Circle"),
+("""./sponsors/chain.png""","Chain")]
 with open("index.html", "w") as f:
-    f.write(loader.load("index.tmpl").generate(speakers=speakers))
+    f.write(loader.load("index.tmpl").generate(speakers=speakers,sponsors=sponsors))

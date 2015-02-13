@@ -462,7 +462,38 @@
     </div>
     <!-- END PAGE | CONTACT -->
 
-
+<!-- PAGE | SPONSORS -->
+   <div class="pages page-sponsors" id="page-sponsors">
+       <div class="container">
+           <header>
+               <h4 class="line-divider">Sponsors</h4>
+               <div class="row">
+                   <div class="span8 offset2">
+                       <p>
+                           This event is brought to you by:
+                       </p>
+                   </div>
+               </div>
+           </header>
+           <!-- sponsor logos -->
+           <div class="row-fluid">
+                    {% for index, (image,name) in enumerate(sponsors) %}
+               <div class="span6 center">
+                   <img src="{{image}}" alt="{{{name}}">
+               </div>
+                    {% end %}
+           </div>
+           <!-- Short text related to sponsors/ mission -->
+           <div class="row-fluid">
+               <div class="span8 offset2 center white smallFontBy08">
+                   <p>
+                       Given the potential impact of cryptocurrency on society it is imperative for us, as witnesses to its birth, to nurture and cultivate further investigation into its uses. The MIT Bitcoin Expo is a student-run conference that aims to create a dynamic space for the exploration of cryptocurrency and facilitate networking between present and future hackers, entrepreneurs, and policy makers. 
+                   </p>
+               </div>
+           </div>
+       </div>
+   </div>
+   <!-- END PAGE | SPONSORS -->
 
 
     <!-- JQUERY -->
