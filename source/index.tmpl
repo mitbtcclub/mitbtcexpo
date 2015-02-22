@@ -42,7 +42,9 @@
             a.yellowlink:hover {
                 color: #ff5500;
             }
-
+            .sponsor-img {
+                padding: 20px;
+            }
         </style>
     </head>
 
@@ -227,6 +229,9 @@
                 </div>
                 <!-- End Contact information -->
             </div>
+            <div class="center">
+                <p>Our code of conduct is viewable here: <a href="https://titleix.mit.edu/">titleix.mit.edu/</a></p>
+            </div>
             </article>
         </div>
 
@@ -250,12 +255,12 @@
             </header>
             <!-- sponsor logos -->
             <div class="row-fluid">
-                {% for index, (image,name) in enumerate(goldsponsors) %}
-                <div class="center"><p>GOLD SPONSOR</p></div>
+                <div class="center"><p>GOLD SPONSORS</p></div>
                 <div class="center">
-                    <img src="{{image}}" alt="{{{name}}"></br></br></br>
-                </div>
+                {% for index, (image,name) in enumerate(goldsponsors) %}
+                    <img class="sponsor-img" src="{{image}}" alt="{{{name}}">
                 {% end %}
+                </div></br></br>
                 <div class ="center"><P>SILVER SPONSOR</P></div>
                 {% for index, (image,name) in enumerate(silversponsors) %}
                 <div class="center">
