@@ -262,11 +262,17 @@
                 {% end %}
                 </div></br></br>
                 <div class ="center"><P>SILVER SPONSOR</P></div>
-                {% for index, (image,name) in enumerate(silversponsors) %}
                 <div class="center">
+                {% for index, (image,name) in enumerate(silversponsors) %}
                     <img src="{{image}}" alt="{{{name}}">
-                </div>
                 {% end %}
+                </div></br></br>
+                <div class="center"><p>MEDIA SPONSORS</p></div>
+                <div class="center">
+                {% for index, (image,name) in enumerate(mediasponsors) %}
+                    <img src="{{image}}" alt="{{{name}}">
+                {% end %}
+                </div>
             </div>
             <!-- Short text related to sponsors/ mission -->
             <div class="row-fluid">

@@ -86,8 +86,8 @@ speakers = [("""./headshots/Gavin.png""",
 """Eric acts as BitPay's chief developer evangelist and open source advocate, and was the founding engineer and CTO of several companies related to decentralization.  He is the co-host of the DECENTRALIZE podcast, and a proud autodidact and polymath."""),
 ("""./headshots/Harry.png""",
 """Harry Yeh""",
-"""Serial Entrepreneur, Binary Financial""",
-"""Harry is Serial Entrepreneur with a software and infrastructure engineering background, and has over 15 years experience in the Technology and Business Field. He has been the CTO and Co-Founder in a few startups as well as running his on technology consulting company. Harry also has years of experience trading stocks, options and currencies."""),
+"""Managing Partner, Binary Financial""",
+"""Harry is a Managing Partner at Binary Financial and is known in the digital currency space for trading and facilitating large block trades for high net worth clients and institutions. Harry is a Serial Entrepreneur with a software and infrastructure engineering background, and has over 15 years experience in the Technology and Business Field."""),
 ("""./headshots/Kristov.png""",
 """Kristov Atlas""",
 """Security Engineer, Blockchain""",
@@ -126,5 +126,6 @@ speakers = [("""./headshots/Gavin.png""",
 """Jing is currently a junior at Wellesley College, studying studio art and CS. She is working on developing a cryptocurrency course at Wellesley. She also writes and illustrates comics on Bitcoin and cryptography.""")]
 goldsponsors = [("""./sponsors/chain.png""","Chain"),("""./sponsors/digitalbtc.png""","DigitalBTC")]
 silversponsors = [("""./sponsors/circle.png""","Circle")]
+mediasponsors = [("""./sponsors/btcfoundation.png""","Bitcoin Foundation")]
 with open("index.html", "w") as f:
-    f.write(loader.load("index.tmpl").generate(speakers=speakers,goldsponsors=goldsponsors,silversponsors=silversponsors))
+    f.write(loader.load("index.tmpl").generate(speakers=speakers,goldsponsors=goldsponsors,silversponsors=silversponsors,mediasponsors=mediasponsors))
