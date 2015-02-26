@@ -119,6 +119,10 @@ speakers = [("""./headshots/Gavin.png""",
 """Marco Cuesta""",
 """Vice President of Sales, Alt-Options LLC""",
 """Marco is the cofounder and Vice President of Sales of Alt-Options LLC, a Boston based Bitcoin derivates exchange. He founded the Boston University Bitcoin Club, has over 5 years of securities trading experience, and entrepreneurial sprit that expands a variety sectors."""),
+("""./headshots/Shea.png""",
+"""Ryan Shea""",
+"""CEO, Onename""",
+"""Ryan is the Co-founder and CEO of Onename, which gives users a digital passport to login around the web and stay in control of their identity and data. He co-founded HackPrinceton, was on the Forbes 30 Under 30 for Consumer Tech, and is passionate about open source and decentralization."""),
 ("""./headshots/Dan.png""",
 """Dan Elitzer""",
 """MIT Bitcoin Project""",
@@ -157,6 +161,6 @@ for row in csv.reader(scsv.split('\n'), delimiter=','):
 
 goldsponsors = [("""./sponsors/chain.png""","Chain"),("""./sponsors/digitalbtc.png""","DigitalBTC")]
 silversponsors = [("""./sponsors/circle.png""","Circle")]
-mediasponsors = [("""./sponsors/btcfoundation.png""","Bitcoin Foundation")]
+mediasponsors = [("""./sponsors/btcfoundation.png""","Bitcoin Foundation"),("""./sponsors/ccn.png""","College Cryptocurrency Network")]
 with open("index.html", "w") as f:
     f.write(loader.load("index.tmpl").generate(speakers=speakers,day1=day1,day2=day2,goldsponsors=goldsponsors,silversponsors=silversponsors,mediasponsors=mediasponsors))
