@@ -74,6 +74,8 @@
 		  </li>
 		  <li><a href="#page-speakers">Speakers</a>
 		  </li>
+                        <li><a href="#page-schedule">Schedule</a>
+                        </li>
 		  <li><a href="#page-contact">Contact</a>
 		  </li>
 		</ul>
@@ -180,6 +182,66 @@
     </div>
     </div>
     <!-- END PAGE | SPEAKERS -->
+
+    <!-- PAGE | SCHEDULE -->
+        
+        <div class="pages white page-twitter" id="page-schedule">
+            <!-- Page overlay -->
+            <div class="overlay"></div>
+            <div class="container">
+                <!-- Header -->
+                <header>
+                    <h4 class="line-divider">2015 Expo Schedule</h4>
+                    <h2>DAY 1</h2>
+                </header>
+                <!-- End Header -->
+                <!-- Schedule Table -->
+                <table class="table table-condensed">
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Topic</th>
+                            <th>Speakers</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for index, [time,event,speaker] in enumerate(day1) %}
+                        <tr>
+                            <td>{{time}}</td>
+                            <td>{{event}}</td>
+                            <td>{{speaker}}</td>
+                        </tr>           
+                        {% end %}        
+                    </tbody>
+                </table>
+                <!-- End Schedule Table-->
+                <!-- Header -->
+                <header>
+                    <h2>DAY 2</h2>
+                </header>
+                <table class="table table-condensed">
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Topic</th>
+                            <th>Speakers</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for index, [time,event,speaker] in enumerate(day2) %}
+                        <tr>
+                            <td>{{time}}</td>
+                            <td>{{event}}</td>
+                            <td>{{speaker}}</td>
+                        </tr>           
+                        {% end %}           
+                    </tbody>
+                </table>
+                <!-- End Schedule Table-->
+            </div>
+        </div>
+    </div>
+    <!-- END PAGE | SCHEDULE -->
 
     <!-- PAGE | CONTACT -->
     <div class="pages black-bg white page-contact" id="page-contact">

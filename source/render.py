@@ -1,3 +1,6 @@
+import StringIO
+import csv
+
 from tornado import template
 loader = template.Loader(".")
 speakers = [("""./headshots/Gavin.png""",
@@ -140,8 +143,20 @@ speakers = [("""./headshots/Gavin.png""",
 """Jinglan Wang""",
 """President, Wellesley Bitcoin""",
 """Jing is currently a junior at Wellesley College, studying studio art and CS. She is working on developing a cryptocurrency course at Wellesley. She also writes and illustrates comics on Bitcoin and cryptography.""")]
+scsv= open("day1.csv", "r").read()
+day1= []
+for row in csv.reader(scsv.split('\n'), delimiter=','):
+	talkers = ", ".join([x for x in row[2:] if x != ""])
+	day1.append([row[0],row[1],talkers])
+
+scsv= open("day2.csv", "r").read()
+day2= []
+for row in csv.reader(scsv.split('\n'), delimiter=','):
+	talkers = ", ".join([x for x in row[2:] if x != ""])
+	day2.append([row[0],row[1],talkers])
+
 goldsponsors = [("""./sponsors/chain.png""","Chain"),("""./sponsors/digitalbtc.png""","DigitalBTC")]
 silversponsors = [("""./sponsors/circle.png""","Circle")]
 mediasponsors = [("""./sponsors/btcfoundation.png""","Bitcoin Foundation")]
 with open("index.html", "w") as f:
-    f.write(loader.load("index.tmpl").generate(speakers=speakers,goldsponsors=goldsponsors,silversponsors=silversponsors,mediasponsors=mediasponsors))
+    f.write(loader.load("index.tmpl").generate(speakers=speakers,day1=day1,day2=day2,goldsponsors=goldsponsors,silversponsors=silversponsors,mediasponsors=mediasponsors))
