@@ -169,6 +169,6 @@ for row in csv.reader(scsv.split('\n'), delimiter=','):
 
 goldsponsors = [("""./sponsors/chain.png""","Chain"),("""./sponsors/digitalbtc.png""","DigitalBTC")]
 silversponsors = [("""./sponsors/circle.png""","Circle"),("""./sponsors/fidelity.png""","Fidelity")]
-mediasponsors = [("""./sponsors/btcfoundation.png""","Bitcoin Foundation"),("""./sponsors/ccn.png""","College Cryptocurrency Network")]
+mediasponsors = [("""./sponsors/followthecoin.png""","Follow the Coin"),("""./sponsors/btcfoundation.png""","Bitcoin Foundation"),("""./sponsors/ccn.png""","College Cryptocurrency Network")]
 with open("index.html", "w") as f:
     f.write(loader.load("index.tmpl").generate(speakers=speakers,day1=day1,day2=day2,goldsponsors=goldsponsors,silversponsors=silversponsors,mediasponsors=mediasponsors))
