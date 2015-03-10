@@ -154,7 +154,11 @@ speakers = [("""./headshots/Gavin.png""",
 ("""./headshots/Jinglan.png""",
 """Jinglan Wang""",
 """President, Wellesley Bitcoin""",
-"""Jing is currently a junior at Wellesley College, studying studio art and CS. She is working on developing a cryptocurrency course at Wellesley. She also writes and illustrates comics on Bitcoin and cryptography.""")]
+"""Jing is currently a junior at Wellesley College, studying studio art and CS. She is working on developing a cryptocurrency course at Wellesley. She also writes and illustrates comics on Bitcoin and cryptography."""),
+("""./headshots/Nchinda2.png""",
+"""Nchinda^2""",
+"""Sophmore, MIT""",
+"""Nchinda Nchinda is a sophmore at MIT and member of the MIT Bitcoin club. He is responsible for uploading most of the speaker bios and photos and updating the website in general. During the conference he ran the livestream and moderated the chat.""")]
 scsv= open("day1.csv", "r").read()
 day1= []
 for row in csv.reader(scsv.split('\n'), delimiter=','):
