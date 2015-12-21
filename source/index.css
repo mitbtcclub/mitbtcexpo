@@ -1,0 +1,22 @@
+html,body,h1,h2,h3,h4,h5,h6 {
+  font-family: 'Lato', sans-serif;
+}
+
+#page-welcome {
+  display: flex;
+}
+
+.center {
+  position: relative;
+  margin: auto;
+}
+
+a.yellowlink {
+  color: #ffff00;
+}
+a.yellowlink:hover {
+  color: #ff5500;
+}
+.sponsor-img {
+  padding: 20px;
+}

@@ -27,11 +27,11 @@
     position: relative;
     text-align: center;
     margin-top: 20px;
-    
+
     ul {
         margin: 0;
     }
-    
+
     li {
         display: inline-table;
     }
@@ -48,7 +48,7 @@
         position: relative;
         background-color: @grayLighter;
     }
-    
+
     a:hover,
     a.active {
         background-color: @blueGray;
@@ -67,7 +67,7 @@
     width: 630px;
     text-align: center;
     margin: auto;
-    
+
     a {
         background-color: @blueGray;
         color: #FFFFFF;
@@ -138,31 +138,4 @@
     right: 0;
     left: 0;
     .opacity(40);
-}
-
-
-/*
-*   Center block
-*/
-
-.centralized {
-    left: 50%;
-    top: 50%;
-    float: left;
-    position: relative;
-    visibility: hidden;
-    .opacity(0);
-}
-
-
-/*
-*   Loading block
-*/
-
-.loading {
-    position: fixed;
-    width: 100%;
-    bottom: 0px;
-    display: none;
-    z-index: 200;
 }

@@ -1,394 +1,286 @@
 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- META DATA -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black">
-        <meta name="description" content="MIT Bitcoin Expo 2015">
+<head>
+  <!-- META DATA -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+  <meta name="description" content="MIT Bitcoin Expo 2015">
 
-        <title>MIT Bitcoin Expo 2015</title>
+  <title>MIT Bitcoin Expo 2015</title>
 
-        <!-- STYLESHEETS -->
-        <link rel="stylesheet" href="assets/style/bootstrap.css" type="text/css" />
-        <link rel="icon" type="image/x-icon" href="./assets/images/ico/favicon.ico">
+  <!-- STYLESHEETS -->
+  <link rel="stylesheet" href="assets/style/bootstrap.css" type="text/css" />
+  <link rel="stylesheet" href="index.css" type="text/css" />
+  <link rel="icon" type="image/x-icon" href="./assets/images/ico/favicon.ico">
 
-        <!-- GOOGLE WEB FONTS -->
-        <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-        <style>
-            html,body,h1,h2,h3,h4,h5,h6 {
-	   font-family: 'Lato', sans-serif;
-	}
-            button {
-                background: #cf624f;
-                background-image: -webkit-linear-gradient(top, #cf624f, #7a2828);
-                background-image: -moz-linear-gradient(top, #cf624f, #7a2828);
-                background-image: -ms-linear-gradient(top, #cf624f, #7a2828);
-                background-image: -o-linear-gradient(top, #cf624f, #7a2828);
-                background-image: linear-gradient(to bottom, #cf624f, #7a2828);
-                color: #ffffff;
-                font-family: Georgia, serif;
-                font-size: 64px;
-                padding: 20px 20px 30px 20px;
-                text-decoration: none;
-                border: none;
-                outline: none;
-            }
-            a.yellowlink {
-                color: #ffff00;
-            }
-            a.yellowlink:hover {
-                color: #ff5500;
-            }
-            .sponsor-img {
-                padding: 20px;
-            }
+  <!-- GOOGLE WEB FONTS -->
+  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+</head>
 
-            #livestream{
-                 text-decoration:none; 
-                 text-align:center; 
-                 padding:10px 6px;
-                 font:40px Arial, Helvetica, sans-serif; 
-                 font-weight:bold; 
-                 color:#732525;
-                 -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
-                 -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
-                 box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
-                 opacity:0.6; 
-                 -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60); 
-                 filter: alpha(opacity=60); 
-            }
-        </style>
-    </head>
-
-    <body>
-        <!-- NAVIGATION -->
-        <nav class="fixed-top" id="navigation">
-	<div class="container">
-	   <div class="row-fluid">
-	       <div class="span12 center">
-		<!-- LOGO for when we have one-->
-		<a class="brand pull-left" href="./">
-		  MIT BITCOIN EXPO
-		</a>
-		<!-- END LOGO -->
-
-		<!-- MOBILE MENU STUFF -->
-		<div class="mobile-menu" data-toggle="collapse" data-target=".nav-collapse">
-		  <span class="icon-bar"></span>
-		  <span class="icon-bar"></span>
-		  <span class="icon-bar"></span>
-		</div>
-		<!-- END MOBILE MENU STUFF -->
-
-		<!-- MAIN MENU -->
-		<ul id="main-menu" class="nav-collapse collapse">
-		  <li><a href="#page-details">Viewing</a>
-		  </li>
-		  <li><a href="#page-speakers">Speakers</a>
-		  </li>
-                        <li><a href="#page-schedule">Schedule</a>
-                        </li>
-		  <li><a href="#page-contact">Contact</a>
-		  </li>
-		</ul>
-		<!-- END MAIN MENU -->
-
-		<!-- SOCIAL ICONS -->
-		<div class="social-icons hover-big pull-right">
-		  <a href="https://www.facebook.com/MITBitcoinClub" class="sicon-facebook"><i>Facebook</i></a>
-		  <a href="https://twitter.com/mitbitcoinclub" class="sicon-twitter"><i>Twitter</i></a>
-		  <a href="https://www.youtube.com/user/MITBitcoinClub" class="sicon-youtube"><i>Youtube</i></a>
-		</div>
-		<!-- END SOCIAL ICONS -->
-	       </div>
-	   </div>
-	</div>
-        </nav>
-        <!-- END NAVIGATION -->
-
-        <!-- PAGE | WELCOME -->
-        <div class="pages white page-welcome" id="page-welcome">
-	<div class="overlay"></div>
-	   <div class="centralized">
-	       <div class="container">
-	           <div class="row-fluid">
-	               <div class="span12 center">
-                            <!--logo here, when we have a logo -->
-		      <div class="line-divider" id="banner">
-		          <h1>MIT BITCOIN EXPO</h1>
-		      </div>
-		      <h2> March 07 - 08, 2015</h2>
-                            <h5>Location: <a href = "https://www.google.com/maps/place/Compton+Labs/@42.36094,-71.091239,17z/data=!3m1!4b1!4m2!3m1!1s0x89e370a962cdee87:0xc0dc57ed7b9909ab" class="yellowlink">Compton Labs, Building 26-100</a></h5>
-
-                            <div class="social-icons sicon-white bordered">
-                            <a href="https://www.facebook.com/MITBitcoinClub" class="sicon-facebook"><i>Facebook</i></a>
-                            <a href="https://twitter.com/mitbitcoinclub" class="sicon-twitter"><i>Twitter</i></a>
-                            <a href="https://www.youtube.com/user/MITBitcoinClub" class="sicon-youtube"><i>Youtube</i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- END PAGE | Welcome -->
-
-    <!-- PAGE | Registration -->
-    <div class="pages black page-details" id="page-details">
-        <div class="container">
-            <header>
-                <h4 class="line-divider">Viewing</h4>
-            </header>
-            <div class="center">
-                <a href="https://www.youtube.com/watch?v=lIgjogLipvk" id="livestream">Day 1 Feed</a>
-            </div>
-            </br>
-            <div class="center">
-                <a href="https://www.youtube.com/watch?v=96ULlHhia_Q" id="livestream">Day 2 Feed</a>
-            </div>
-            </br>
-        </div>
-    </div>
-    <!-- END PAGE | Registration -->
-
-    <!-- PAGE | SPEAKERS -->
-    <div class="pages black page-speakers" id="page-speakers">
+<body>
+  <!-- NAVIGATION -->
+  <nav class="fixed-top" id="navigation">
     <div class="container">
-        <header>
-            <h4 class="line-divider">2015 Expo Speakers</h4>
-            <h1>Meet Our Speakers</h1>
-            <div class="row">
-            <div class="span8 offset2">
-                <p>
-                <!--/* This page will be updated as more speakers confirm */-->
-                </p>
-            </div>
-            </div>
-        </header>
-        <article>
-            <!-- List of speakers and short bios-->
-            <div id="speakerlist">
-            {% for index, (image, name, byline, bio) in enumerate(speakers) %}
-                {% if index %3 == 0 %}
-                <div class="thumbnails about-items row">
-                {% end %}
-                    <div class="span4 center">
-                        <div class="item">
-                            <img class="img-circle" src="{{image}}" alt="MIT BITCOIN EXPO">
-                        </div>
-                        <h5>
-                            {{name}}<br/>
-                            <small>{{byline}}</small>
-                        </h5>
-                        <p class="smallFontBy08"> {{bio}}</p>
-                    </div>
-                    {% if index %3 == 2 %}
-                </div>
-                    {% end %}
-                {% end %}
-            {% if len(speakers) %3 != 2 %}
-            </div>
+      <div class="row-fluid">
+        <div class="span12 center">
+          <!-- LOGO for when we have one-->
+          <a class="brand pull-left" href="./">
+            MIT BITCOIN EXPO
+          </a>
+          <!-- END LOGO -->
+
+          <!-- MOBILE MENU STUFF -->
+          <div class="mobile-menu" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </div>
+          <!-- END MOBILE MENU STUFF -->
+
+          <!-- MAIN MENU -->
+          <ul id="main-menu" class="nav-collapse collapse">
+            <li><a href="#page-details">Viewing</a>
+            </li>
+            <li><a href="#page-speakers">Speakers</a>
+            </li>
+            <li><a href="#page-schedule">Schedule</a>
+            </li>
+            <li><a href="#page-contact">Contact</a>
+            </li>
+          </ul>
+          <!-- END MAIN MENU -->
+
+          <!-- SOCIAL ICONS -->
+          <div class="social-icons hover-big pull-right">
+            <a href="https://www.facebook.com/MITBitcoinClub" class="sicon-facebook"><i>Facebook</i></a>
+            <a href="https://twitter.com/mitbitcoinclub" class="sicon-twitter"><i>Twitter</i></a>
+            <a href="https://www.youtube.com/user/MITBitcoinClub" class="sicon-youtube"><i>Youtube</i></a>
+          </div>
+          <!-- END SOCIAL ICONS -->
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- END NAVIGATION -->
+
+  <!-- PAGE | WELCOME -->
+  <div class="pages white page-welcome" id="page-welcome">
+    <div class="center">
+      <!--logo here, when we have a logo -->
+      <div class="line-divider" id="banner">
+        <h1>Democratic People's Republic of Distributed Consensus Expo</h1>
+      </div>
+      <h2> March 07 - 08, 2015</h2>
+      <h5>Location: <a href = "https://www.google.com/maps/place/Compton+Labs/@42.36094,-71.091239,17z/data=!3m1!4b1!4m2!3m1!1s0x89e370a962cdee87:0xc0dc57ed7b9909ab" class="yellowlink">Compton Labs, Building 26-100</a></h5>
+
+      <div class="social-icons sicon-white bordered">
+        <a href="https://www.facebook.com/MITBitcoinClub" class="sicon-facebook"><i>Facebook</i></a>
+        <a href="https://twitter.com/mitbitcoinclub" class="sicon-twitter"><i>Twitter</i></a>
+        <a href="https://www.youtube.com/user/MITBitcoinClub" class="sicon-youtube"><i>Youtube</i></a>
+      </div>
+    </div>
+  </div>
+  <!-- END PAGE | Welcome -->
+
+  <!-- PAGE | SPEAKERS -->
+  <div class="pages black page-speakers" id="page-speakers">
+    <div class="container">
+      <header>
+        <h4 class="line-divider">2015 Expo Speakers</h4>
+        <h1>Meet Our Speakers</h1>
+        <p>
+          This page will be updated as more speakers confirm
+        </p>
+      </header>
+      <article>
+        <!-- List of speakers and short bios-->
+        <div id="speakerlist">
+          {% for index, (image, name, byline, bio) in enumerate(speakers) %}
+          {% if index %3 == 0 %}
+          <div class="thumbnails about-items row">
             {% end %}
+            <div class="span4 center">
+              <img class="img-circle" src="{{image}}" alt="MIT BITCOIN EXPO">
+              <h5>
+                {{name}}<br/>
+                <small>{{byline}}</small>
+              </h5>
+              <p class="smallFontBy08"> {{bio}}</p>
+            </div>
+            {% if index %3 == 2 %}
+          </div>
+          {% end %}
+          {% end %}
+          {% if len(speakers) %3 != 2 %}
         </div>
-        </article>
-        <footer>
-            <!-- More speakers -->
-            <div class="show-more-cube">
-            </div>
-        </footer>
-    </div>
-    </div>
-    <!-- END PAGE | SPEAKERS -->
+        {% end %}
+      </div>
+    </article>
+  </div>
+</div>
+<!-- END PAGE | SPEAKERS -->
 
-    <!-- PAGE | SCHEDULE -->
-        
-        <div class="pages white page-twitter" id="page-schedule">
-            <!-- Page overlay -->
-            <div class="overlay"></div>
-            <div class="container">
-                <!-- Header -->
-                <header>
-                    <h4 class="line-divider">2015 Expo Schedule</h4>
-                    <h2>DAY 1</h2>
-                </header>
-                <!-- End Header -->
-                <!-- Schedule Table -->
-                <table class="table table-condensed">
-                    <thead>
-                        <tr>
-                            <th>Time</th>
-                            <th>Topic</th>
-                            <th>Speakers</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {% for index, [time,event,speaker] in enumerate(day1) %}
-                        <tr>
-                            <td>{{time}}</td>
-                            <td>{{event}}</td>
-                            <td>{{speaker}}</td>
-                        </tr>           
-                        {% end %}        
-                    </tbody>
-                </table>
-                <!-- Header -->
-                <header>
-                    <h2>DAY 2</h2>
-                </header>
-                <table class="table table-condensed">
-                    <thead>
-                        <tr>
-                            <th>Time</th>
-                            <th>Topic</th>
-                            <th>Speakers</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {% for index, [time,event,speaker] in enumerate(day2) %}
-                        <tr>
-                            <td>{{time}}</td>
-                            <td>{{event}}</td>
-                            <td>{{speaker}}</td>
-                        </tr>           
-                        {% end %}           
-                    </tbody>
-                </table>
-                <!-- End Schedule Table-->
+<!-- PAGE | SCHEDULE -->
+
+<div class="pages white page-schedule" id="page-schedule">
+  <div class="container">
+    <header>
+      <h4 class="line-divider">2015 Expo Schedule</h4>
+      <h2>DAY 1</h2>
+    </header>
+    <!-- Schedule Table -->
+    <table class="table table-condensed">
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Topic</th>
+          <th>Speakers</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for index, [time,event,speaker] in enumerate(day1) %}
+        <tr>
+          <td>{{time}}</td>
+          <td>{{event}}</td>
+          <td>{{speaker}}</td>
+        </tr>
+        {% end %}
+      </tbody>
+    </table>
+
+    <header>
+      <h2>DAY 2</h2>
+    </header>
+    <!-- Schedule Table -->
+    <table class="table table-condensed">
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Topic</th>
+          <th>Speakers</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for index, [time,event,speaker] in enumerate(day2) %}
+        <tr>
+          <td>{{time}}</td>
+          <td>{{event}}</td>
+          <td>{{speaker}}</td>
+        </tr>
+        {% end %}
+      </tbody>
+    </table>
+    <!-- End Schedule Table-->
+  </div>
+</div>
+<!-- END PAGE | SCHEDULE -->
+
+<!-- PAGE | CONTACT -->
+<div class="pages black-bg white page-contact" id="page-contact">
+  <div class="container">
+    <header>
+      <h4 class="line-divider">Contact</h4>
+      <h1>Questions? Comments?</h1>
+      <p>
+        Want to become a sponsor? Have cool research you want to present?
+      </p>
+    </header>
+    <article>
+      <div class="row-fluid">
+        <!-- Contact information -->
+        <div class="span5 offset1">
+          <div class="media">
+            <a href="https://www.google.com/maps/place/Compton+Labs/@42.36094,-71.091239,17z/data=!3m1!4b1!4m2!3m1!1s0x89e370a962cdee87:0xc0dc57ed7b9909ab"
+            class="social-icons sicon-white pull-left sicon-place"><i>Location</i></a>
+            <p class="media-body smallFontBy08">
+              Massachusetts Institute of Technology
+            </p>
+          </div>
+          <div class="media">
+            <a class="social-icons sicon-white sicon-phone pull-left" href="http://bitcoin.mit.edu"><i>Website</i></a>
+            <p class="media-body smallFontBy08">bitcoin.mit.edu</p>
+          </div>
+          <div class="media">
+            <a class="social-icons sicon-white sicon-mail pull-left" href="mailto:mitbtc-officers@mit.edu"><i>email</i></a>
+            <p class="media-body smallFontBy08">
+              mitbtc-officers@mit.edu</p>
             </div>
+            <br/>
+            <br/>
+            <br/>
+          </div>
+          <!-- End Contact information -->
         </div>
-    </div>
-    <!-- END PAGE | SCHEDULE -->
-
-    <!-- PAGE | CONTACT -->
-    <div class="pages black-bg white page-contact" id="page-contact">
-        <div class="container">
-            <header>
-                <h4 class="line-divider">Contact</h4>
-                <h1>Questions? Comments?</h1>
-                <div class="row">
-                    <div class="span8 offset2">
-                        <p>
-                            Want to become a sponsor? Have cool research you want to present? 
-                        </p>
-                    </div>
-                </div>
-            </header>
-            <article>
-                <div class="row-fluid">
-                    <!-- Contact information -->
-                    <div class="span5 offset1">
-                        <div class="media">
-                            <div class="social-icons sicon-white pull-left">
-                                <a href="https://www.google.com/maps/place/Compton+Labs/@42.36094,-71.091239,17z/data=!3m1!4b1!4m2!3m1!1s0x89e370a962cdee87:0xc0dc57ed7b9909ab" class="sicon-place"><i>Location</i></a>
-                            </div> 
-                            <div class="media-body smallFontBy08">
-                                <p>Massachusetts Institute of Technology</p>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class="social-icons sicon-white pull-left">
-                                <a href="http://bitcoin.mit.edu" class="sicon-phone"><i>Website</i></a>
-                            </div> 
-                            <div class="media-body smallFontBy08">
-                                <p>bitcoin.mit.edu</p>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class="social-icons sicon-white pull-left">
-                                <a href="mailto:mitbtc-officers@mit.edu" class="sicon-mail"><i>email</i></a>
-                            </div> 
-                        <div class="media-body smallFontBy08">
-                            <p>mitbtc-officers@mit.edu</p>
-                        </div>
-                    </div>
-                    <br/>
-                    <br/>
-                    <br/>
-                </div>
-                <!-- End Contact information -->
-            </div>
-            <div class="center">
-                <p>Our code of conduct is viewable here: <a href="https://titleix.mit.edu/">titleix.mit.edu/</a></p>
-            </div>
-            </article>
+        <div class="center">
+          <p>Our code of conduct is viewable here: <a href="https://titleix.mit.edu/">titleix.mit.edu/</a></p>
         </div>
+      </article>
+    </div>
 
-        <!-- Background map image -->
-        <div id="map-image">
-            <img src="assets/images/pages/contact/map_bck.jpg" alt="MIT Bitcoin Club">
+    <!-- Background map image -->
+    <div id="map-image">
+      <img src="assets/images/pages/contact/map_bck.jpg">
+    </div>
+  </div>
+  <!-- END PAGE | CONTACT -->
+
+  <!-- PAGE | SPONSORS -->
+  <div class="pages page-sponsors" id="page-sponsors">
+    <div class="container">
+      <header>
+        <h4 class="line-divider">Sponsors</h4>
+        <div class="row">
+          <div class="span8 offset2">
+            <p>This event is made possible by our sponsors:</p>
+          </div>
         </div>
-    </div>
-    <!-- END PAGE | CONTACT -->
-
-    <!-- PAGE | SPONSORS -->
-    <div class="pages page-sponsors" id="page-sponsors">
-        <div class="container">
-            <header>
-                <h4 class="line-divider">Sponsors</h4>
-                <div class="row">
-                    <div class="span8 offset2">
-                        <p>This event is made possible by our sponsors:</p>
-                    </div>
-                </div>
-            </header>
-            <!-- sponsor logos -->
-            <div class="row-fluid">
-                <div class="center"><p>GOLD SPONSORS</p></div>
-                <div class="center">
-                {% for index, (image,name) in enumerate(goldsponsors) %}
-                    <img class="sponsor-img" src="{{image}}" alt="{{{name}}">
-                {% end %}
-                </div></br></br>
-                <div class ="center"><P>SILVER SPONSORS</P></div>
-                <div class="center">
-                {% for index, (image,name) in enumerate(silversponsors) %}
-                    <img src="{{image}}" alt="{{{name}}">
-                {% end %}
-                </div></br></br>
-                <div class="center"><p>MEDIA SPONSORS</p></div>
-                <div class="center">
-                {% for index, (image,name) in enumerate(mediasponsors) %}
-                    <img src="{{image}}" alt="{{{name}}">
-                {% end %}
-                </div>
-            </div>
-            <!-- Short text related to sponsors/ mission -->
-            <div class="row-fluid">
-            <div class="span8 offset2 center white smallFontBy08">
-                <p>
-                     Given the potential impact of cryptocurrency on society it is imperative for us, as witnesses to its birth, to nurture and cultivate further investigation into its uses. The MIT Bitcoin Expo is a student-run conference that aims to create a dynamic space for the exploration of cryptocurrency and facilitate networking between present and future hackers, entrepreneurs, and policy makers. 
-                </p>
-            </div>
+      </header>
+      <!-- sponsor logos -->
+      <div class="row-fluid">
+        <div class="center">
+          <p>GOLD SPONSORS</p>
+          {% for index, (image,name) in enumerate(goldsponsors) %}
+          <img class="sponsor-img" src="{{image}}" alt="{{{name}}">
+          {% end %}
+        </br></br>
+        <p>SILVER SPONSORS</p>
+          {% for index, (image,name) in enumerate(silversponsors) %}
+          <img src="{{image}}" alt="{{{name}}">
+          {% end %}
+        </br></br>
+        <p>MEDIA SPONSORS</p>
+          {% for index, (image,name) in enumerate(mediasponsors) %}
+          <img src="{{image}}" alt="{{{name}}">
+          {% end %}
         </div>
+      </div>
+      <!-- Short text related to sponsors/ mission -->
+      <div class="row-fluid">
+        <div class="span8 offset2 center smallFontBy08">
+          <p>
+            Given the potential impact of cryptocurrency on society it is imperative for us, as witnesses to its birth, to nurture and cultivate further investigation into its uses. The MIT Bitcoin Expo is a student-run conference that aims to create a dynamic space for the exploration of cryptocurrency and facilitate networking between present and future hackers, entrepreneurs, and policy makers.
+          </p>
+        </div>
+      </div>
     </div>
-    </div>
-    <!-- END PAGE | SPONSORS -->
+  </div>
+  <!-- END PAGE | SPONSORS -->
 
 
-<!-- JQUERY -->
-<script src="assets/js/jquery-1.10.2.min.js" type="text/javascript"></script>
+  <!-- JQUERY -->
+  <script src="assets/js/jquery-1.10.2.min.js" type="text/javascript"></script>
+
+  <!-- TWITTER BOOTSTRAP -->
+  <script src="assets/js/bootstrap/bootstrap.min.js" type="text/javascript"></script>
+
+  <!-- PLUGINS -->
+  <script src="assets/js/plugins/jquery.fixedonlater.min.js" type="text/javascript"></script>
 
 
-<!-- TWITTER BOOTSTRAP -->
-<script src="assets/js/bootstrap/bootstrap.min.js" type="text/javascript"></script>
-    <!--[if lt IE 9]>
-        <script src="assets/js/bootstrap/html5shiv.js"></script>
-        <![endif]-->
+  <!-- INITIALIZE -->
+  <script src="assets/js/application/source/application.js" type="text/javascript"></script>
 
+</body>
 
-        <!-- PLUGINS -->
-        <script src="assets/js/plugins/jquery.centralized.min.js" type="text/javascript"></script>
-        <script src="assets/js/plugins/jquery.fixedonlater.min.js" type="text/javascript"></script>
-        <script src="assets/js/plugins/jquery.hashloader.min.js" type="text/javascript"></script>
-        <script src="assets/js/plugins/jquery.nav.min.js" type="text/javascript"></script>
-        <script src="assets/js/plugins/jquery.scrollTo.min.js" type="text/javascript"></script>
-
-
-        <!-- INITIALIZE -->
-        <script src="assets/js/application/application.min.js" type="text/javascript"></script>
-
-    </body>
-
-    </html>
+</html>
