@@ -19,8 +19,8 @@ for row in csv.reader(scsv.split('\n'), delimiter=','):
 	talkers = ", ".join([x for x in row[2:] if x != ""])
 	day2.append([row[0],row[1],talkers])
 
-goldsponsors = [("""./sponsors/chain.png""","Chain")]
-silversponsors = [("""./sponsors/circle.png""","Circle")]
-mediasponsors = [("""./sponsors/followthecoin.png""","Follow the Coin")]
+goldsponsors = []
+silversponsors = []
+mediasponsors = []
 with open("index.html", "w") as f:
     f.write(loader.load("index.tmpl").generate(speakers=speakers,day1=day1,day2=day2,goldsponsors=goldsponsors,silversponsors=silversponsors,mediasponsors=mediasponsors))
