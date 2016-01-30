@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -67,10 +66,10 @@
     <div class="center">
       <!--logo here, when we have a logo -->
       <div class="line-divider" id="banner">
-        <h1>Democratic People's Republic of Distributed Consensus Expo</h1>
+        <h1>MIT Bitcoin Expo</h1>
       </div>
       <h2> March 05 - 06, 2016</h2>
-      <h5>Location: To Be Determined</h5>
+      <h5>Location: <a href="http://sambergconferencecenter.mit.edu">Building E52: The Samberg Center</a></h5>
 
       <div class="social-icons sicon-white bordered">
         <a href="https://www.facebook.com/MITBitcoinClub" class="sicon-facebook"><i>Facebook</i></a>
@@ -93,12 +92,12 @@
       <article>
         <!-- List of speakers and short bios-->
         <div id="speakerlist">
-          {% for index, (image, name, byline, bio, color) in enumerate(speakers) %}
+          {% for index, (image, name, byline, color, bio) in enumerate(speakers) %}
           {% if index %3 == 0 %}
           <div class="thumbnails about-items row">
             {% end %}
             <div class="span4 center">
-              <img class="img-circle" style="border-color:{{color}}" src="{{image}}" alt="MIT BITCOIN EXPO">
+              <img class="img-circle" style="border-color:{{color}};background:{{color}}" src="{{image}}" alt="MIT BITCOIN EXPO">
               <h5>
                 {{name}}<br/>
                 <small>{{byline}}</small>
@@ -119,14 +118,13 @@
 <!-- END PAGE | SPEAKERS -->
 
 <!-- PAGE | SCHEDULE -->
-
+<!--
 <div class="pages white page-schedule" id="page-schedule">
   <div class="container">
     <header>
       <h4 class="line-divider">2016 Expo Schedule</h4>
       <h2>DAY 1</h2>
     </header>
-    <!-- Schedule Table -->
     <table class="table table-condensed">
       <thead>
         <tr>
@@ -149,7 +147,6 @@
     <header>
       <h2>DAY 2</h2>
     </header>
-    <!-- Schedule Table -->
     <table class="table table-condensed">
       <thead>
         <tr>
@@ -168,7 +165,6 @@
         {% end %}
       </tbody>
     </table>
-    <!-- End Schedule Table-->
   </div>
 </div>
 <!-- END PAGE | SCHEDULE -->

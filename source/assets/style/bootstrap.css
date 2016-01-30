@@ -198,7 +198,7 @@
 }
 .page-speakers .container .img-circle {
   background: #aa0000;
-  border: 10px inset;
+  border: 10px outset;
 }
 /*
 *   PAGE | ABOUT
