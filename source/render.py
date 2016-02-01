@@ -4,14 +4,14 @@ import csv
 from tornado import template
 loader = template.Loader(".")
 
-scsv= open("speakers.csv", "r").read()
+scsv= open("speakers.psv", "r").read()
 speakers=[]
 prefix="./assets/images/headshots/"
 for row in csv.reader(scsv.split('\n'), delimiter='|'):
     row = list(row)
     row[0]=prefix+row[0]
     speakers.append(row)
-print(speakers)
+
 scsv= open("day1.csv", "r").read()
 day1= []
 for row in csv.reader(scsv.split('\n'), delimiter=','):
