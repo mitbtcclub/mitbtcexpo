@@ -1,7 +1,82 @@
 $(document).ready(function(){
-    /* Fix navigation. */
-    $('#navigation').fixedonlater({
-        speedDown: 250,
-        speedUp: 100
-    });
-});
+  /* Fix navigation. */
+  $('#navigation').fixedonlater({
+    speedDown: 250,
+    speedUp: 100
+  });
+})
+
+//adjust anchors so they account for the static top bar
+var betterAnchor = function(document, history, location) {
+  var HISTORY_SUPPORT = !!(history && history.pushState);
+
+  var anchorScrolls = {
+    OLD_ANCHOR_REGEX: "#",
+    NEW_ANCHOR_REGEX: "@",
+    ANCHOR_REGEX: /^#[^ ]+$/,
+    BETTER_ANCHOR_REGEX: /^@[^ ]+$/,
+
+    /**
+    * Establish events, and fix initial scroll position if a hash is provided.
+    */
+    init: function() {
+      this.scrollIfAnchor(location.hash);
+      var self = this;
+      $('a').each(function() {
+        var elem = $(this)
+        var href = elem.attr('href')
+        if(self.ANCHOR_REGEX.test(href))
+        elem.attr("href",href.replace(self.OLD_ANCHOR_REGEX,self.NEW_ANCHOR_REGEX))
+      })
+      $('body').on('click', 'a', $.proxy(this, 'delegateAnchors'));
+    },
+
+    /**
+    * Return the offset amount to deduct from the normal scroll position.
+    * Modify as appropriate to allow for dynamic calculations
+    */
+    getFixedOffset: function() {
+      return $('#navigation').height()
+    },
+
+    /**
+    * If the provided href is an anchor which resolves to an element on the
+    * page, scroll to it.
+    * @param  {String} href
+    * @return {Boolean} - Was the href an anchor.
+    */
+    scrollIfAnchor: function(href, pushToHistory) {
+      var match, anchorOffset;
+
+      if(!this.BETTER_ANCHOR_REGEX.test(href)) {
+        return false;
+      }
+
+      match = document.getElementById(href.slice(1));
+      if(match) {
+        anchorOffset = $(match).offset().top - this.getFixedOffset();
+        $('html, body').animate({ scrollTop: anchorOffset});
+
+        // Add the state to history as-per normal anchor links
+        try {
+          if(HISTORY_SUPPORT && pushToHistory) {
+            history.pushState({}, document.title, location.pathname + href);
+          }
+        } catch (e) {}
+      }
+
+      return !!match;
+    },
+
+    /**
+    * If the click event's target was an anchor, fix the scroll position.
+    */
+    delegateAnchors: function(e) {
+      var elem = e.target;
+      this.scrollIfAnchor(elem.getAttribute('href'), true)
+      e.preventDefault();
+    }
+  };
+  $(document).ready($.proxy(anchorScrolls, 'init'))
+}
+betterAnchor(window.document, window.history, window.location)
