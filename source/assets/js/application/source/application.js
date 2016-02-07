@@ -73,8 +73,9 @@ var betterAnchor = function(document, history, location) {
     */
     delegateAnchors: function(e) {
       var elem = e.target;
-      this.scrollIfAnchor(elem.getAttribute('href'), true)
-      e.preventDefault();
+      if(this.scrollIfAnchor(elem.getAttribute('href'), true)) {
+        e.preventDefault();
+      }
     }
   };
   $(document).ready($.proxy(anchorScrolls, 'init'))
