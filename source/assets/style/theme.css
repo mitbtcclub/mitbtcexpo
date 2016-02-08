@@ -19,102 +19,25 @@
   h1 {
     font-size: 4.5rem;
   }
+  #navigation {
+    display: flex;
+    align-items: center;
+  }
 }
 #navigation {
-  background-color: #292929;
+  background: #292929;
   width: 100%;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.65);
   z-index: 2000;
   *position: relative;
   *z-index: 2000;
 }
-#navigation .brand {
-  padding: 7px 100px 8px 0px;
+#navigation .navbar-brand {
   text-align: left;
   color: #9d261d;
 }
-#navigation .brand:hover {
+#navigation .navbar-brand:hover {
   text-decoration: none;
-}
-#navigation #main-menu {
-  display: inline-block;
-  float: none;
-  margin: 0 auto;
-  padding: 0px;
-  position: relative;
-  text-align: center;
-  line-height: 18px;
-  font-size: 12px;
-  list-style: none;
-}
-#navigation #main-menu li {
-  display: inline-block;
-  position: relative;
-  padding: 0px;
-  margin: 0px;
-  line-height: 18px;
-  list-style: none;
-}
-#navigation #main-menu a {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 13px;
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 18px;
-  letter-spacing: 1px;
-  color: #eeeeee;
-  padding: 12px 15px;
-  margin: 0px;
-  text-decoration: none;
-  text-shadow: 0 1px 0 #ffffff;
-  position: relative;
-  display: block;
-}
-#navigation #main-menu li a:focus,
-#navigation #main-menu li a:hover {
-  background: none;
-  outline: medium none;
-}
-#navigation #main-menu li:hover a:after,
-#navigation #main-menu li.active a:after {
-  background-color: #bbbbbb;
-  bottom: -4px;
-  content: "";
-  height: 7px;
-  left: 50%;
-  margin-left: -4px;
-  position: absolute;
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
-  width: 7px;
-}
-#navigation .mobile-menu {
-  display: none;
-  float: right;
-  padding: 7px 10px;
-  margin-left: 5px;
-  margin-top: 3px;
-  cursor: pointer;
-}
-#navigation .mobile-menu .icon-bar {
-  background-color: #292929;
-  -webkit-border-radius: 1px;
-  -moz-border-radius: 1px;
-  border-radius: 1px;
-  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
-  display: block;
-  height: 3px;
-  width: 26px;
-  margin-bottom: 3px;
-  margin-top: 1px;
-}
-#navigation .mobile-menu:hover .icon-bar {
-  background-color: #4e808e;
 }
 /*
 *   PAGE | WELCOME
