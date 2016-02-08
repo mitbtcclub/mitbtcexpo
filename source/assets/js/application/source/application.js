@@ -11,23 +11,14 @@ var betterAnchor = function(document, history, location) {
   var HISTORY_SUPPORT = !!(history && history.pushState);
 
   var anchorScrolls = {
-    OLD_ANCHOR_REGEX: "#",
-    NEW_ANCHOR_REGEX: "@",
+    ANCHOR_REGEX: "#",
     ANCHOR_REGEX: /^#[^ ]+$/,
-    BETTER_ANCHOR_REGEX: /^@[^ ]+$/,
 
     /**
     * Establish events, and fix initial scroll position if a hash is provided.
     */
     init: function() {
       this.scrollIfAnchor(location.hash);
-      var self = this;
-      $('a').each(function() {
-        var elem = $(this)
-        var href = elem.attr('href')
-        if(self.ANCHOR_REGEX.test(href))
-        elem.attr("href",href.replace(self.OLD_ANCHOR_REGEX,self.NEW_ANCHOR_REGEX))
-      })
       $('body').on('click', 'a', $.proxy(this, 'delegateAnchors'));
     },
 
@@ -48,7 +39,7 @@ var betterAnchor = function(document, history, location) {
     scrollIfAnchor: function(href, pushToHistory) {
       var match, anchorOffset;
 
-      if(!this.BETTER_ANCHOR_REGEX.test(href)) {
+      if(!this.ANCHOR_REGEX.test(href)) {
         return false;
       }
 
