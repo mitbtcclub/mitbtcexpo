@@ -9,7 +9,7 @@
   <title>MIT Bitcoin Expo 2016</title>
 
   <!-- STYLESHEETS -->
-  <link rel="stylesheet" href="assets/style/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="assets/style/bootstrap-3.3.6-dist/css/bootstrap.css" type="text/css" />
   <link rel="stylesheet" href="assets/style/theme.css" type="text/css" />
   <link rel="stylesheet" href="index.css" type="text/css" />
   <link rel="icon" type="image/x-icon" href="./assets/images/ico/favicon.ico">
@@ -20,39 +20,30 @@
 
 <body>
   <!-- NAVIGATION -->
-  <nav class="fixed-top" id="navigation">
-    <div class="container">
-      <div class="row-fluid">
-        <div class="span12 center">
-          <!-- LOGO for when we have one-->
-          <a class="brand pull-left" href="./">
-            MIT BITCOIN EXPO
-          </a>
-          <!-- END LOGO -->
-
-          <!-- MOBILE MENU STUFF -->
-          <div class="mobile-menu" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </div>
-          <!-- END MOBILE MENU STUFF -->
-
-          <!-- MAIN MENU -->
-          <ul id="main-menu" class="nav-collapse collapse">
-            <li><a href="#registration">Registration</a>
-              <li><a href="#speakers">Speakers</a>
-              </li>
-              <!--<li><a href="#page-schedule">Schedule</a>
-            </li>-->
-            <li><a href="#page-contact">Contact</a>
-            </li>
-          </ul>
-          <!-- END MAIN MENU -->
-        </div>
-      </div>
+  <nav id="navigation" class="navbar navbar-inverse fixed-top">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="./">MIT BITCOIN EXPO</a>
     </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div id="navbar" class="navbar-collapse collapse" aria-expanded="false">
+      <ul class="nav navbar-nav">
+        <li><a href="#registration">Registration</a>
+          <li><a href="#speakers">Speakers</a></li>
+          <!--<li><a href="#page-schedule">Schedule</a>
+        </li>-->
+        <li><a href="#page-contact">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
   </nav>
+
   <!-- END NAVIGATION -->
 
   <!-- PAGE | WELCOME -->
@@ -63,7 +54,7 @@
         <h1>MIT Bitcoin Expo</h1>
       </div>
       <h2> March 05 - 06, 2016</h2>
-      <h5>Location: <a href="http://sambergconferencecenter.mit.edu">Building E52: The Samberg Center</a></h5>
+      <h3>Location: <a href="http://sambergconferencecenter.mit.edu">Building E52: The Samberg Center</a></h3>
 
       <div class="social-icons sicon-white bordered">
         <a href="https://www.facebook.com/MITBitcoinClub" class="sicon-facebook"><i>Facebook</i></a>
@@ -78,13 +69,13 @@
   <div class="pages black page-speakers" id="page-speakers">
     <div class="container">
       <header id="registration">
-        <h4 class="line-divider">Registration</h4>
-        <a href="https://www.eventbrite.com/e/mit-bitcoin-expo-2016-tickets-20991924411">
+        <h3 class="line-divider">Registration</h3>
+        <a href="http://mitbitcoinexpo2016.eventbrite.com">
           <button id="register">&rarr; here &larr;</button>
         </a>
       </header>
       <header id="speakers">
-        <h4 class="line-divider">2016 Expo Speakers</h4>
+        <h3 class="line-divider">2016 Expo Speakers</h3>
         <p>
           This page will be updated as more speakers confirm
         </p>
@@ -98,10 +89,10 @@
             
             <div class="col-md-4 center">
               <img class="img-circle col-md-12" style="border-color:#ABB3B5;background:#ABB3B5" src="./assets/images/headshots/pindar.jpg" alt="MIT BITCOIN EXPO">
-              <h5>
+              <h4>
                 Pindar Wong<br/>
-                <small>Chairman, VeriFi (Hong Kong) Ltd</small>
-              </h5>
+                Chairman, VeriFi (Hong Kong) Ltd
+              </h4>
               <p class="smallFontBy08"> Pindar Wong is an internet pioneer, who co-founded the first licensed Internet Service Provider in Hong Kong in 1993. He is the Chairman of VeriFi (Hong Kong) Ltd, a discrete Internet Financial Infrastructure consultancy. In 2015, he helped organise Asia&#39;s first Blockchainworkshops.org and Phase 1 and 2 of ScalingBitcoin.org. As a Commissioner on the Global Commission on Internet Governance he is helping to articulate and advance a strategic vision for the future of Internet governance. Pindar serves on the School of Engineering Advisory Committee HKUST, the Technical Advisory Board of the Packet Clearing House and Editorial Advisory Board of the Internet Protocol Journal. Previously, he was the first Vice-Chairman of ICANN, Chairman of the Asia Pacific Internet Association, alternate Chairman of Asia Pacific Network Information Center, Chairman of APRICOT and elected Trustee of the Internet Society.After helping to introduce Creative Commons to HK in 2008, he stood down as the Co-Public Lead of Creative Commons Hong Kong in 2014. From 2010-2015 he served on the Digital 21 Strategy Advisory Committee of the Hong Kong Government and the Task Force on Industry Facilitation. He graduated with First Class Honours in Computing Science from Imperial College London and was a Sir Edward Youde Research Fellow.</p>
             </div>
             
@@ -109,10 +100,10 @@
           
             <div class="col-md-4 center">
               <img class="img-circle col-md-12" style="border-color:#A4845E;background:#A4845E" src="./assets/images/headshots/shaul.jpg" alt="MIT BITCOIN EXPO">
-              <h5>
+              <h4>
                 Shaul Kfir<br/>
-                <small>CTO, Digital Asset Holdings</small>
-              </h5>
+                CTO, Digital Asset Holdings
+              </h4>
               <p class="smallFontBy08"> Shaul is the CTO of Digital Asset Holdings. Formerly he was a software engineer with a background in research cryptography at SCIPR cryptography lab and a visiting scientist at MIT CSAIL, where he gained extensive experience implementing cryptographic protocols in the field of Zero Knowledge Proofs and Computational Privacy and Integrity. He served as CTO for two previous startups in Tel Aviv. Prior to his involvement in cryptography, Shaul served as a Lieutenant Commander in the Israeli Navy, leading diverse technical teams across challenging environments. Digital Asset Holdings builds distributed, encrypted straight through processing tools in order to increase efficiency, security, compliance and settlement speed.</p>
             </div>
             
@@ -120,10 +111,10 @@
           
             <div class="col-md-4 center">
               <img class="img-circle col-md-12" style="border-color:#855D43;background:#855D43" src="./assets/images/headshots/melanie.jpg" alt="MIT BITCOIN EXPO">
-              <h5>
+              <h4>
                 Melanie Shapiro<br/>
-                <small>CEO, Case</small>
-              </h5>
+                CEO, Case
+              </h4>
               <p class="smallFontBy08"> Melanie is the CEO and founder of Case, a provider of advanced cryptographic key management services. Case is a dedicated device that ties physical identity and location to secure transaction signing. Prior to Case, Melanie co-founded Digsby, a messaging platform for managing online social identities, which was acquired in 2011. Melanie has a PhD in Consumer Behavior, and studied technology adoption behavior at Microsoft.</p>
             </div>
             
@@ -135,10 +126,10 @@
             
             <div class="col-md-4 center">
               <img class="img-circle col-md-12" style="border-color:#B9B9B9;background:#B9B9B9" src="./assets/images/headshots/david.png" alt="MIT BITCOIN EXPO">
-              <h5>
+              <h4>
                 David Vorick<br/>
-                <small>CEO, Sia</small>
-              </h5>
+                CEO, Sia
+              </h4>
               <p class="smallFontBy08"> David is a graduate of Rensselaer Polytechnic Institute, where he studied Computer Science, finished his degree in three years, and graduated with honors. He has been following computer security trends since the age of 15. David has previously interned at IBM where he worked on the mainframe operating system, and turned down a job offer from Google after graduation in order to pursue Sia.</p>
             </div>
             
@@ -146,10 +137,10 @@
           
             <div class="col-md-4 center">
               <img class="img-circle col-md-12" style="border-color:#D3D3D1;background:#D3D3D1" src="./assets/images/headshots/joseph.jpg" alt="MIT BITCOIN EXPO">
-              <h5>
+              <h4>
                 Joseph Poon<br/>
-                <small>Co-Author, Lightning Network</small>
-              </h5>
+                Co-Author, Lightning Network
+              </h4>
               <p class="smallFontBy08"> Joseph Poon the co-author of The Lightning Network, a decentralized Bitcoin transaction system which uses Bitcoin&#39;s smart contract scripting mechanism to conduct millions to billions of transactions per second without trusted custodians.</p>
             </div>
             
@@ -157,10 +148,10 @@
           
             <div class="col-md-4 center">
               <img class="img-circle col-md-12" style="border-color:#FFF8DE;background:#FFF8DE" src="./assets/images/headshots/christian.jpg" alt="MIT BITCOIN EXPO">
-              <h5>
+              <h4>
                 Christian Lundkvist<br/>
-                <small>Senior Technologist/Strategist</small>
-              </h5>
+                Senior Technologist/Strategist
+              </h4>
               <p class="smallFontBy08"> Christian started his career as a mathematician doing research in Algebraic Geometry, followed by a deep dive into quantitative finance developing and implementing derivatives pricing models at Bloomberg. After venturing down the Bitcoin rabbit hole he discovered Ethereum and ConsenSys. Christian is now working on a diverse set of projects including accounting systems, document signing, wallets, and various financial applications. He also maintains a general overview of ConsenSys projects and provides technical expertise when needed. When not in the Blockchain world Christian enjoys scuba diving in the waters of the NorthEast US.</p>
             </div>
             
@@ -172,10 +163,10 @@
             
             <div class="col-md-4 center">
               <img class="img-circle col-md-12" style="border-color:#BDB39A;background:#BDB39A" src="./assets/images/headshots/kathleen.jpg" alt="MIT BITCOIN EXPO">
-              <h5>
+              <h4>
                 Kathleen Breitman<br/>
-                <small>Strategy Associate, R3</small>
-              </h5>
+                Strategy Associate, R3
+              </h4>
               <p class="smallFontBy08"> Kathleen Breitman is a Strategy Associate at R3, a fintech innovation firm currently managing a distributed ledger consortium of 42 global banks. Before joining R3, Kathleen worked at Accenture within their fintech/blockchain practice and at Bridgewater as an analyst. She gained her first exposure to blockchain technology through Tezos, a cryptocurrency project she conducted with her husband in 2014. Kathleen holds a degree from Cornell University</p>
             </div>
             
@@ -183,10 +174,10 @@
           
             <div class="col-md-4 center">
               <img class="img-circle col-md-12" style="border-color:#363D1E;background:#363D1E" src="./assets/images/headshots/ted.jpg" alt="MIT BITCOIN EXPO">
-              <h5>
+              <h4>
                 Ted Shabecoff<br/>
-                <small>Founder, Germinal Fund</small>
-              </h5>
+                Founder, Germinal Fund
+              </h4>
               <p class="smallFontBy08"> Ted Shabecoff is a student of Economics and Government at Wesleyan University and founder of Germinal Fund, a 501 c3 that extends crowdfunded loans to small business owners. He is currently working with a startup, Venture Equity Exchange, to build distributed financial and corporate governance applications on top of the Ethereum Blockchain.</p>
             </div>
             
@@ -194,10 +185,10 @@
           
             <div class="col-md-4 center">
               <img class="img-circle col-md-12" style="border-color:#7A6E6D;background:#7A6E6D" src="./assets/images/headshots/dean.png" alt="MIT BITCOIN EXPO">
-              <h5>
+              <h4>
                 Dean Masley<br/>
-                <small>Executive Director, BEN</small>
-              </h5>
+                Executive Director, BEN
+              </h4>
               <p class="smallFontBy08"> Dean Masley is the executive director of the Blockchain Education Network, a global network of local bitcoin and blockchain communities that collaborate on global projects to further the blockchain grassroots education movement. Also, Dean is the co-founder of Unsung.org, the sharing economy solution to solving hunger in the US. #HackHunger</p>
             </div>
             
@@ -209,10 +200,10 @@
             
             <div class="col-md-4 center">
               <img class="img-circle col-md-12" style="border-color:#A8C1DF;background:#A8C1DF" src="./assets/images/headshots/michael.jpg" alt="MIT BITCOIN EXPO">
-              <h5>
+              <h4>
                 Michael Gord<br/>
-                <small>Founder, Bitcion Canada</small>
-              </h5>
+                Founder, Bitcion Canada
+              </h4>
               <p class="smallFontBy08"> Michael Gord is the founder of Bitcoin Canada and the McGill Cryptocurrency Club. While at McGill, Michael organized the Bitcoin Airdrop events where he gave hundreds of students their first bitcoin.</p>
             </div>
             
@@ -220,10 +211,10 @@
           
             <div class="col-md-4 center">
               <img class="img-circle col-md-12" style="border-color:#EB0B0D;background:#EB0B0D" src="./assets/images/headshots/nchinda2.png" alt="MIT BITCOIN EXPO">
-              <h5>
+              <h4>
                 Nchinda^2<br/>
-                <small>Executive Director, MITBTC Expo</small>
-              </h5>
+                Executive Director, MITBTC Expo
+              </h4>
               <p class="smallFontBy08"> Nchinda is an undergraduate at the Massachusetts Institute of Technology (MIT) studying computer and political science. As an officer for the MIT Bitcoin Club he spends his time researching and developing decentralized applications and neocurrencies. He has a strong background in altruism as a former member of the National Youth Leadership Council and during high school co-founded a non-profit, Lead2Change Milwaukee. His persona exists as much in physical as in electronic mediums as Firescar96.</p>
             </div>
             
@@ -231,10 +222,10 @@
           
             <div class="col-md-4 center">
               <img class="img-circle col-md-12" style="border-color:#F6F8F5;background:#F6F8F5" src="./assets/images/headshots/dominik.jpg" alt="MIT BITCOIN EXPO">
-              <h5>
+              <h4>
                 Dominik Schiener<br/>
-                <small>Independent Developer</small>
-              </h5>
+                Independent Developer
+              </h4>
               <p class="smallFontBy08"> Dominik is a Developer and Entrepreneur from Italy currently working on Blockchain-based solutions for eGovernance and International Trade. He&#39;s also working on Digital Identity (http://composui.com) as well as new decision-making solutions (Liquid Democracy). He won the 2016 Shanghai Blockchain Hackathon organized by Deloitte and Wanxiang.</p>
             </div>
             
@@ -292,7 +283,7 @@
 <div class="pages white page-schedule" id="page-schedule">
 <div class="container">
 <header>
-<h4 class="line-divider">2016 Expo Schedule</h4>
+<h5 class="line-divider">2016 Expo Schedule</h5>
 <h2>DAY 1</h2>
 </header>
 <table class="table table-condensed">
@@ -343,7 +334,7 @@
 <div class="pages black-bg white page-contact" id="page-contact">
   <div class="container">
     <header>
-      <h4 class="line-divider">Contact</h4>
+      <h3 class="line-divider">Contact</h3>
       <h1>Questions? Comments?</h1>
       <p>
         Want to become a sponsor? Have cool research you want to present?
@@ -436,11 +427,10 @@ Given the potential impact of cryptocurrency on society it is imperative for us,
 <script src="assets/js/jquery-1.10.2.min.js" type="text/javascript"></script>
 
 <!-- TWITTER BOOTSTRAP -->
-<script src="assets/js/bootstrap/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
 
 <!-- PLUGINS -->
 <script src="assets/js/plugins/jquery.fixedonlater.min.js" type="text/javascript"></script>
-
 
 <!-- INITIALIZE -->
 <script src="assets/js/application/source/application.js" type="text/javascript"></script>
