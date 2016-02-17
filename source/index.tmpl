@@ -9,7 +9,7 @@
   <title>MIT Bitcoin Expo 2016</title>
 
   <!-- STYLESHEETS -->
-  <link rel="stylesheet" href="assets/style/bootstrap-3.3.6-dist/css/bootstrap.css" type="text/css" />
+  <link rel="stylesheet" href="assets/style/bootstrap.css" type="text/css" />
   <link rel="stylesheet" href="assets/style/theme.css" type="text/css" />
   <link rel="stylesheet" href="index.css" type="text/css" />
   <link rel="icon" type="image/x-icon" href="./assets/images/ico/favicon.ico">
@@ -29,7 +29,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="./">MIT BITCOIN EXPO</a>
+      <a class="navbar-brand" href="/">MIT BITCOIN EXPO</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -37,191 +37,195 @@
       <ul class="nav navbar-nav">
         <li><a href="#registration">Registration</a>
           <li><a href="#speakers">Speakers</a></li>
-          <!--<li><a href="#page-schedule">Schedule</a>
-        </li>-->
-        <li><a href="#page-contact">Contact</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </nav>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#page-contact">Contact</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </nav>
 
-  <!-- END NAVIGATION -->
+    <!-- END NAVIGATION -->
 
-  <!-- PAGE | WELCOME -->
-  <div class="pages white page-welcome" id="page-welcome">
-    <div class="center">
-      <!--logo here, when we have a logo -->
-      <div class="line-divider" id="banner">
-        <h1>MIT Bitcoin Expo</h1>
-      </div>
-      <h2> March 05 - 06, 2016</h2>
-      <h3>Location: <a href="http://sambergconferencecenter.mit.edu">Building E52: The Samberg Center</a></h3>
+    <!-- PAGE | WELCOME -->
+    <div class="pages white page-welcome" id="page-welcome">
+      <div class="center">
+        <!--logo here, when we have a logo -->
+        <div class="line-divider" id="banner">
+          <h1>MIT Bitcoin Expo</h1>
+        </div>
+        <h2> March 05 - 06, 2016</h2>
+        <h3>Location: <a href="http://sambergconferencecenter.mit.edu">Building E52: The Samberg Center</a></h3>
 
-      <div class="social-icons sicon-white bordered">
-        <a href="https://www.facebook.com/MITBitcoinClub" class="sicon-facebook"><i>Facebook</i></a>
-        <a href="https://twitter.com/mitbitcoinclub" class="sicon-twitter"><i>Twitter</i></a>
-        <a href="https://www.youtube.com/user/MITBitcoinClub" class="sicon-youtube"><i>Youtube</i></a>
+        <div class="social-icons sicon-white bordered">
+          <a href="https://www.facebook.com/MITBitcoinClub" class="sicon-facebook"><i>Facebook</i></a>
+          <a href="https://twitter.com/mitbitcoinclub" class="sicon-twitter"><i>Twitter</i></a>
+          <a href="https://www.youtube.com/user/MITBitcoinClub" class="sicon-youtube"><i>Youtube</i></a>
+        </div>
       </div>
     </div>
-  </div>
-  <!-- END PAGE | Welcome -->
+    <!-- END PAGE | Welcome -->
 
-  <!-- PAGE | SPEAKERS -->
-  <div class="pages black page-speakers" id="page-speakers">
+    <!-- PAGE | SPEAKERS -->
+    <div class="pages black page-speakers" id="page-speakers">
+      <div class="container">
+        <header id="registration">
+          <h3 class="line-divider">Registration</h3>
+          <a id="register" href="http://mitbitcoinexpo2016.eventbrite.com">
+            &rarr; here &larr;
+          </a>
+        </header>
+        <header id="speakers">
+          <h3 class="line-divider">2016 Expo Speakers</h3>
+          <p>This page will be updated as more speakers confirm</p>
+        </header>
+        <article>
+          <!-- List of speakers and short bios-->
+          <div id="speakerlist">
+            {% for index, (image, name, byline, color, bio) in enumerate(speakers) %}
+            {% if index %3 == 0 %}
+            <div class="thumbnails about-items row">
+              {% end %}
+              <div class="col-md-4 center">
+                <img class="img-circle" style="border-color:{{color}};background:{{color}}" src="{{image}}" alt="MIT BITCOIN EXPO">
+                <h4>
+                  {{name}}<br/>
+                  {{byline}}
+                </h4>
+                <p class="smallFontBy08"> {{bio}}</p>
+              </div>
+              {% if index %3 == 2 %}
+            </div>
+            {% end %}
+            {% end %}
+            {% if len(speakers) %3 != 2 %}
+          </div>
+          {% end %}
+        </div>
+      </article>
+    </div>
+  </div>
+  <!-- END PAGE | SPEAKERS -->
+
+  <!-- PAGE | SCHEDULE -->
+
+  <div class="pages white page-schedule" id="page-schedule">
     <div class="container">
-      <header id="registration">
-        <h3 class="line-divider">Registration</h3>
-        <a href="http://mitbitcoinexpo2016.eventbrite.com">
-          <button id="register">&rarr; here &larr;</button>
-        </a>
+      <header id="schedule">
+        <h3 class="line-divider">2016 Expo Schedule</h3>
+        <p>Exact times and titles subject to minor change</p>
       </header>
-      <header id="speakers">
-        <h3 class="line-divider">2016 Expo Speakers</h3>
+      <h2>DAY 1</h2>
+      <table class="table table-condensed">
+        <thead>
+          <tr>
+            <th class="text-nowrap"><h4>Time</h4></th>
+            <th><h4>Topic</h4></th>
+            <th><h4>Speakers</h4></th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for index, [time,event,speaker1,speaker2,speaker3,speaker4,moderator] in enumerate(day1) %}
+          <tr>
+            <td class="text-nowrap">{{time}}</td>
+            <td>{{event}}</td>
+            <td>{{speaker1}}</td>
+            <td>{{speaker2}}</td>
+            <td>{{speaker3}}</td>
+            <td>{{speaker4}}</td>
+            <td>{{moderator}}</td>
+          </tr>
+          {% end %}
+        </tbody>
+      </table>
+
+      <h2>DAY 2</h2>
+      <table class="table table-condensed">
+        <thead>
+          <tr>
+            <th class="text-nowrap"><h4>Time</h4></th>
+            <th><h4>Topic</h4></th>
+            <th><h4>Speakers</h4></th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for index, [time,event,speaker1,speaker2,speaker3,speaker4,moderator] in enumerate(day2) %}
+          <tr>
+            <td class="text-nowrap">{{time}}</td>
+            <td>{{event}}</td>
+            <td>{{speaker1}}</td>
+            <td>{{speaker2}}</td>
+            <td>{{speaker3}}</td>
+            <td>{{speaker4}}</td>
+            <td>{{moderator}}</td>
+          </tr>
+          {% end %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <!-- END PAGE | SCHEDULE -->
+
+  <!-- PAGE | CONTACT -->
+  <div class="pages black-bg white page-contact" id="page-contact">
+    <div class="container">
+      <header>
+        <h3 class="line-divider">Contact</h3>
+        <h1>Questions? Comments?</h1>
         <p>
-          This page will be updated as more speakers confirm
+          Want to become a sponsor? Have cool research you want to present?
         </p>
       </header>
       <article>
-        <!-- List of speakers and short bios-->
-        <div id="speakerlist">
-          {% for index, (image, name, byline, color, bio) in enumerate(speakers) %}
-          {% if index %3 == 0 %}
-          <div class="thumbnails about-items row">
-            {% end %}
-            <div class="col-md-4 center">
-              <img class="img-circle" style="border-color:{{color}};background:{{color}}" src="{{image}}" alt="MIT BITCOIN EXPO">
-              <h4>
-                {{name}}<br/>
-                {{byline}}
-              </h4>
-              <p class="smallFontBy08"> {{bio}}</p>
+        <div class="row-fluid">
+          <!-- Contact information -->
+          <div class="span5 offset1">
+            <div class="media">
+              <a href="https://www.google.com/maps/place/Compton+Labs/@42.36094,-71.091239,17z/data=!3m1!4b1!4m2!3m1!1s0x89e370a962cdee87:0xc0dc57ed7b9909ab"
+              class="social-icons sicon-white pull-left sicon-place"><i>Location</i>
+              <p class="media-body smallFontBy08">
+                Massachusetts Institute of Technology
+              </p>
             </div>
-            {% if index %3 == 2 %}
-          </div>
-          {% end %}
-          {% end %}
-          {% if len(speakers) %3 != 2 %}
-        </div>
-        {% end %}
-      </div>
-    </article>
-  </div>
-</div>
-<!-- END PAGE | SPEAKERS -->
-
-<!-- PAGE | SCHEDULE -->
-<!--
-<div class="pages white page-schedule" id="page-schedule">
-<div class="container">
-<header>
-<h5 class="line-divider">2016 Expo Schedule</h5>
-<h2>DAY 1</h2>
-</header>
-<table class="table table-condensed">
-<thead>
-<tr>
-<th>Time</th>
-<th>Topic</th>
-<th>Speakers</th>
-</tr>
-</thead>
-<tbody>
-{% for index, [time,event,speaker] in enumerate(day1) %}
-<tr>
-<td>{{time}}</td>
-<td>{{event}}</td>
-<td>{{speaker}}</td>
-</tr>
-{% end %}
-</tbody>
-</table>
-
-<header>
-<h2>DAY 2</h2>
-</header>
-<table class="table table-condensed">
-<thead>
-<tr>
-<th>Time</th>
-<th>Topic</th>
-<th>Speakers</th>
-</tr>
-</thead>
-<tbody>
-{% for index, [time,event,speaker] in enumerate(day2) %}
-<tr>
-<td>{{time}}</td>
-<td>{{event}}</td>
-<td>{{speaker}}</td>
-</tr>
-{% end %}
-</tbody>
-</table>
-</div>
-</div>
-<!-- END PAGE | SCHEDULE -->
-
-<!-- PAGE | CONTACT -->
-<div class="pages black-bg white page-contact" id="page-contact">
-  <div class="container">
-    <header>
-      <h3 class="line-divider">Contact</h3>
-      <h1>Questions? Comments?</h1>
-      <p>
-        Want to become a sponsor? Have cool research you want to present?
-      </p>
-    </header>
-    <article>
-      <div class="row-fluid">
-        <!-- Contact information -->
-        <div class="span5 offset1">
-          <div class="media">
-            <a href="https://www.google.com/maps/place/Compton+Labs/@42.36094,-71.091239,17z/data=!3m1!4b1!4m2!3m1!1s0x89e370a962cdee87:0xc0dc57ed7b9909ab"
-            class="social-icons sicon-white pull-left sicon-place"><i>Location</i>
-            <p class="media-body smallFontBy08">
-              Massachusetts Institute of Technology
-            </p>
-          </div>
-        </a>
-
-        <div class="media">
-          <a class="social-icons sicon-white sicon-phone pull-left" href="http://bitcoin.mit.edu"><i>Website</i>
-            <p class="media-body smallFontBy08">bitcoin.mit.edu</p>
           </a>
-        </div>
-        <div class="media">
-          <a class="social-icons sicon-white sicon-mail pull-left" href="mailto:mitbtc-officers@mit.edu"><i>email</i>
-            <p class="media-body smallFontBy08">
-              mitbtc-officers@mit.edu</p>
+
+          <div class="media">
+            <a class="social-icons sicon-white sicon-phone pull-left" href="http://bitcoin.mit.edu"><i>Website</i>
+              <p class="media-body smallFontBy08">bitcoin.mit.edu</p>
             </a>
           </div>
-          <br/>
-          <br/>
-          <br/>
+          <div class="media">
+            <a class="social-icons sicon-white sicon-mail pull-left" href="mailto:mitbtc-officers@mit.edu"><i>email</i>
+              <p class="media-body smallFontBy08">
+                mitbtc-officers@mit.edu</p>
+              </a>
+            </div>
+            <br/>
+            <br/>
+            <br/>
+          </div>
+          <!-- End Contact information -->
         </div>
-        <!-- End Contact information -->
-      </div>
-      <div class="center">
-        <p>Our code of conduct is viewable here: <a href="https://titleix.mit.edu/">titleix.mit.edu/</a></p>
-      </div>
-    </article>
-  </div>
+        <div class="center">
+          <p>Our code of conduct is viewable here: <a href="https://titleix.mit.edu/">titleix.mit.edu/</a></p>
+        </div>
+      </article>
+    </div>
 
-  <!-- Background map image -->
-  <div id="map-image">
-    <img src="assets/images/pages/contact/bck.png">
+    <!-- Background map image -->
+    <div id="map-image">
+      <img src="assets/images/pages/contact/bck.png">
+    </div>
   </div>
-</div>
-<!-- END PAGE | CONTACT -->
+  <!-- END PAGE | CONTACT -->
 
-<!-- PAGE | SPONSORS -->
-<!--
-<div class="pages page-sponsors" id="page-sponsors">
-<div class="container">
-<header>
-<h4 class="line-divider">Sponsors</h4>
-<div class="row">
-<div class="span8 offset2">
-<p>This event is made possible by our sponsors:</p>
+  <!-- PAGE | SPONSORS -->
+  <!--
+  <div class="pages page-sponsors" id="page-sponsors">
+  <div class="container">
+  <header>
+  <h4 class="line-divider">Sponsors</h4>
+  <div class="row">
+  <div class="span8 offset2">
+  <p>This event is made possible by our sponsors:</p>
 </div>
 </div>
 </header>
