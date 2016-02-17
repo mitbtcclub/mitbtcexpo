@@ -71,18 +71,6 @@
   -o-background-size: cover;
   background-size: cover;
 }
-.page-speakers .container {
-  z-index: 2;
-  position: relative;
-  color: white;
-}
-.page-speakers .container img {
-  width: 100%;
-}
-.page-speakers .container .img-circle {
-  background: #aa0000;
-  border: 10px outset;
-}
 .page-speakers #register {
   flex: 1 1 auto;
   position: relative;
@@ -105,6 +93,21 @@
 .page-speakers #register:hover:after {
   width: 100%;
   left: 0;
+}
+.page-speakers div.container {
+  z-index: 2;
+  position: relative;
+  color: white;
+}
+.page-speakers div.container div.row div {
+  padding-bottom: 20px;
+}
+.page-speakers div.container img {
+  width: 100%;
+}
+.page-speakers div.container .img-circle {
+  background: #aa0000;
+  border: 10px outset;
 }
 /*
 *   PAGE | ABOUT
