@@ -180,6 +180,7 @@
   z-index: 2;
   position: relative;
   font-size: 15px;
+  overflow-x: auto;
 }
 /*
 *   PAGE | CONTACT
