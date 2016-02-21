@@ -7,36 +7,3 @@
   padding-bottom: 40px;
   text-align: center;
 }
-
-@media only screen and (min-width : 768px) {
-  h1 {
-    font-size: 6rem;
-  }
-  #navigation {
-    display: flex;
-    align-items: center;
-  }
-  #navigation {
-    display: flex;
-    align-items: center;
-  }
-}
-
-#navigation {
-  background: @bodyBackground;
-  width: 100%;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.65);
-  z-index: 2000;
-
-  // Fix for IE7's bad z-indexing so dropdowns don't appear below content that follows the navbar
-  *position: relative;
-  *z-index: 2000;
-
-  .navbar-brand {
-    text-align: left;
-    color: @red;
-  }
-  .navbar-brand:hover {
-    text-decoration: none;
-  }
-}

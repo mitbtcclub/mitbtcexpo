@@ -15,34 +15,6 @@
   padding-bottom: 40px;
   text-align: center;
 }
-@media only screen and (min-width: 768px) {
-  h1 {
-    font-size: 6rem;
-  }
-  #navigation {
-    display: flex;
-    align-items: center;
-  }
-  #navigation {
-    display: flex;
-    align-items: center;
-  }
-}
-#navigation {
-  background: #292929;
-  width: 100%;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.65);
-  z-index: 2000;
-  *position: relative;
-  *z-index: 2000;
-}
-#navigation .navbar-brand {
-  text-align: left;
-  color: #9d261d;
-}
-#navigation .navbar-brand:hover {
-  text-decoration: none;
-}
 /*
 *   PAGE | WELCOME
 */
@@ -871,4 +843,38 @@ table th[class*="span"],
 }
 .table-hover tbody tr.info:hover > td {
   background-color: #c4e3f3;
+}
+/*Application styling and overwrites*/
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 6rem;
+  }
+  #navigation {
+    display: flex;
+    align-items: center;
+    margin: 0;
+  }
+}
+#navigation {
+  background: #292929;
+  width: 100%;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.65);
+  transform: translateY(-100%);
+  transition: 0.2s transform cubic-bezier(0.3, 0.73, 0.3, 0.74);
+  position: fixed;
+  z-index: 2000;
+}
+#navigation.down {
+  transform: translateY(0);
+}
+#navigation .navbar-brand {
+  text-align: left;
+  color: #9d261d;
+}
+#navigation .navbar-brand:hover {
+  text-decoration: none;
+}
+#main {
+  height: 100%;
+  width: 100%;
 }
