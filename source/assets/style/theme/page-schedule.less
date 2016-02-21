@@ -3,18 +3,20 @@
 */
 
 .page-schedule{
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  background: @grayDarker url(../../images/pages/schedule/bck.jpg) 50% 0 repeat fixed;
+  .background-size(cover);
+
+  padding-top: 90px;
+  padding-bottom: 130px;
+
+  .container {
+    z-index: 2;
     position: relative;
-    overflow: hidden;
-    background: url(../../images/pages/schedule/bck.jpg) 50% 0 no-repeat fixed;
-    .background-size(cover);
-
-    padding-top: 90px;
-    padding-bottom: 130px;
-
-    .container {
-        z-index: 2;
-        position: relative;
-    }
+    font-size: 15px;
+    overflow-x: auto;
+  }
 }

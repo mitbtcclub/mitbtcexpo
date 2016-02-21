@@ -14,15 +14,15 @@ for row in csv.reader(scsv.split('\n'), delimiter='|'):
 
 scsv= open("day1.csv", "r").read()
 day1= []
-for row in csv.reader(scsv.split('\n'), delimiter=','):
-	talkers = ", ".join([x for x in row[2:] if x != ""])
-	day1.append([row[0],row[1],talkers])
+for row in csv.reader(scsv.split('\n'), delimiter='|'):
+    talkers = ", ".join([x for x in row[2:] if x != ""])
+    day1.append(row)
 
 scsv= open("day2.csv", "r").read()
 day2= []
-for row in csv.reader(scsv.split('\n'), delimiter=','):
+for row in csv.reader(scsv.split('\n'), delimiter='|'):
 	talkers = ", ".join([x for x in row[2:] if x != ""])
-	day2.append([row[0],row[1],talkers])
+	day2.append(row)
 
 goldsponsors = []
 silversponsors = []

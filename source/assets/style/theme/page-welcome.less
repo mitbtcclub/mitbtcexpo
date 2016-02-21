@@ -11,43 +11,6 @@
     background: @grayDarker url(../../images/pages/welcome/welcome.jpg) 50% 0 repeat fixed;
     .background-size(cover);
 
-    .logo {
-        .transition(all 0.5s ease-in-out);
-        height: 140px;
-        position: relative;
-        width: 140px;
-        margin: 0 auto;
-
-        .scrollNormal {
-            .opacity(100);
-            position:absolute;
-            top: 0px;
-            left: 50%;
-            margin-left: -70px;
-            .transition(all 0.5s ease-in-out);
-        }
-
-        .scrollDown {
-            .opacity(0);
-            position:absolute;
-            top: 0px;
-            left: 50%;
-            margin-left: -70px;
-            .transition(all 0.5s ease-in-out);
-        }
-    }
-    .logo:hover {
-        .scrollNormal {
-            .opacity(0);
-            .rotate(360deg);
-        }
-        .scrollDown {
-            .opacity(100);
-            .rotate(-360deg);
-        }
-
-    }
-
     /* Social icons box */
     .social-icons {
         margin: 50px auto 0;
