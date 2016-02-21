@@ -1,7 +1,8 @@
 $(document).ready(function(){
   $("#main").mCustomScrollbar({
     theme:"light-thick",
-    scrollInertia: 500,
+    autoHideScrollbar: true,
+    scrollInertia: 300,
     snapAmount: 1,
     // snapOffset: -100,
     mouseWheel:{
@@ -16,6 +17,8 @@ $(document).ready(function(){
       }
     }
   })
+  $("#navigation").removeClass("down");
+
 })
 $('.fullheight').css('height',$(window).height())
 $(window).resize(function() {
