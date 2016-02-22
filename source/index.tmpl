@@ -165,7 +165,7 @@
     <!-- END PAGE | SCHEDULE -->
 
     <!-- PAGE | SPONSORS -->
-    <div class="pages page-sponsors fullheight" id="page-sponsors">
+    <div class="pages page-sponsors" id="page-sponsors">
       <div class="container">
         <header id="schedule">
           <h3 class="line-divider">Sponsors</h3>
@@ -175,13 +175,13 @@
         <div class="row-fluid">
           <div class="center">
             <h4>BITCOIN LEVEL</h4>
-            {% for index, (image,name,width) in enumerate(bitcoinsponsors) %}
-            <img class="sponsor-img" src="{{image}}" alt="{{{name}}" width="{{width}}"></img>
+            {% for index, (image,name) in enumerate(bitcoinsponsors) %}
+            <img class="sponsor-img" src="{{image}}" alt="{{{name}}"></img>
             {% end %}
           </br></br>
           <h4>LITECOIN LEVEL</h4>
           {% for index, (image,name,width) in enumerate(litecoinsponsors) %}
-          <img src="{{image}}" alt="{{{name}}" width="{{width}}"></img>
+          <img class="sponsor-img" src="{{image}}" alt="{{{name}}"></img>
           {% end %}
           <!-- </br></br>
           <p>MEDIA SPONSORS</p>

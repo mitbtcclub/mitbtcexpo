@@ -153,6 +153,10 @@
   z-index: 2;
   position: relative;
   font-size: 15px;
+}
+.page-schedule .container table {
+  position: relative;
+  display: block;
   overflow-x: auto;
 }
 /*
