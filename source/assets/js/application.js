@@ -2,7 +2,7 @@ $(document).ready(function(){
   $("#main").mCustomScrollbar({
     theme:"light-thick",
     autoHideScrollbar: true,
-    scrollInertia: 300,
+    scrollInertia: 500,
     snapAmount: 1,
     // snapOffset: -100,
     mouseWheel:{

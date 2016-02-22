@@ -19,9 +19,10 @@
 *   PAGE | WELCOME
 */
 .page-welcome {
+  position: relative;
+  display: flex;
   width: 100%;
   height: 100%;
-  position: relative;
   overflow: hidden;
   text-align: center;
   background: #292929 url(../images/pages/welcome/welcome.jpg) 50% 0 repeat fixed;
@@ -159,13 +160,35 @@
 */
 .page-contact {
   position: relative;
+  display: flex;
   padding-bottom: 50px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  background: url(../images/pages/sponsors/bck.png) 50% 0 no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .page-contact .container {
   position: relative;
   z-index: 2;
 }
-.page-contact #map-image {
+.page-contact .container p {
+  font-size: 15px;
+}
+/**   PAGE | SPEAKERS*/
+.page-sponsors {
+  position: relative;
+}
+.page-sponsors .container {
+  z-index: 2;
+  position: relative;
+  color: white;
+}
+.page-sponsors #map-image {
   position: absolute;
   top: 0;
   left: 0;
@@ -174,54 +197,9 @@
   z-index: 1;
   overflow: hidden;
 }
-.page-contact #map-image img {
+.page-sponsors #map-image img {
   height: 100%;
   width: 100%;
-}
-.page-contact form input[type='email'],
-.page-contact form input[type='text'] {
-  background-color: #CCCCCC;
-  color: #666666;
-  font-size: 0.8em;
-}
-.page-contact form input[type='email']:focus,
-.page-contact form input[type='text']:focus {
-  background-color: #fff;
-}
-.page-contact form textarea {
-  background-color: #CCCCCC;
-  color: #666666;
-  font-size: 0.8em;
-}
-.page-contact form textarea:focus {
-  background-color: #fff;
-}
-.page-contact form .btn {
-  font-size: 11px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-.page-contact form .media {
-  padding-top: 24px;
-}
-/**   PAGE | SPEAKERS*/
-.page-sponsors {
-  position: relative;
-  background: url(../images/pages/sponsors/bck.png) 50% 0 no-repeat fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-.page-sponsors .container {
-  z-index: 2;
-  position: relative;
-  color: white;
-}
-.page-sponsors .container .img-circle {
-  background: #aa0000;
-  border: 10px inset;
 }
 /*
 *   Icons configuration
