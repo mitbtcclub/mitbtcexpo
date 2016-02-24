@@ -6,10 +6,10 @@ loader = template.Loader(".")
 
 scsv= open("speakers.psv", "r").read()
 speakers=[]
-prefix="./assets/images/headshots/"
+speakerprefix="./assets/images/headshots/"
 for row in csv.reader(scsv.split('\n'), delimiter='|'):
     row = list(row)
-    row[0]=prefix+row[0]
+    row[0]=speakerprefix+row[0]
     speakers.append(row)
 
 scsv= open("day1.csv", "r").read()
@@ -24,8 +24,11 @@ for row in csv.reader(scsv.split('\n'), delimiter='|'):
 	talkers = ", ".join([x for x in row[2:] if x != ""])
 	day2.append(row)
 
-goldsponsors = []
-silversponsors = []
+sponsorprefix = "./assets/images/sponsors/"
+bitcoinsponsors = [["fidelity.png", "fidelity"]]
+bitcoinsponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],bitcoinsponsors)
+litecoinsponsors = [["bitfury.png","bitfury"]]
+litecoinsponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],litecoinsponsors)
 mediasponsors = []
 with open("index.html", "w") as f:
-    f.write(loader.load("index.tmpl").generate(speakers=speakers,day1=day1,day2=day2,goldsponsors=goldsponsors,silversponsors=silversponsors,mediasponsors=mediasponsors))
+    f.write(loader.load("index.tmpl").generate(speakers=speakers,day1=day1,day2=day2,bitcoinsponsors=bitcoinsponsors,litecoinsponsors=litecoinsponsors,mediasponsors=mediasponsors))
