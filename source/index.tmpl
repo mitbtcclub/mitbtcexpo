@@ -62,7 +62,9 @@
           <a href="https://twitter.com/mitbitcoinclub" class="sicon-twitter"><i>Twitter</i></a>
           <a href="https://www.youtube.com/user/MITBitcoinClub" class="sicon-youtube"><i>Youtube</i></a>
         </div>
+
       </div>
+      <h2 id="tickets">&#8595;  Buy A Ticket &#8595; </h2>
     </div>
     <!-- END PAGE | Welcome -->
 
@@ -70,7 +72,6 @@
     <div class="pages black page-speakers" id="page-speakers">
       <div class="container">
         <header id="registration">
-          <h3 class="line-divider">Registration</h3>
           <a id="register" href="http://mitbitcoinexpo2016.eventbrite.com">
             &rarr; here &larr;
           </a>
@@ -92,7 +93,7 @@
                   {{name}}<br/>
                   {{byline}}
                 </h4>
-                <p class="smallFontBy08"> {{bio}}</p>
+                <p class="smallFontBy08"> {%raw next(iter({bio})) %}</p>
               </div>
               {% if index %3 == 2 %}
             </div>

@@ -27,7 +27,7 @@ for row in csv.reader(scsv.split('\n'), delimiter='|'):
 sponsorprefix = "./assets/images/sponsors/"
 bitcoinsponsors = [["fidelity.png", "fidelity"]]
 bitcoinsponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],bitcoinsponsors)
-litecoinsponsors = [["bitfury.png","bitfury"]]
+litecoinsponsors = [["bitfury.png","bitfury"],["bitmain.png","bitmain"]]
 litecoinsponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],litecoinsponsors)
 mediasponsors = []
 with open("index.html", "w") as f:
