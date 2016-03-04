@@ -15,14 +15,14 @@ for row in csv.reader(scsv.split('\n'), delimiter='|'):
 scsv= open("day1.csv", "r").read()
 day1= []
 for row in csv.reader(scsv.split('\n'), delimiter='|'):
-    talkers = ", ".join([x for x in row[2:] if x != ""])
-    day1.append(row)
+    time = row[0]+" - "+row[1]
+    day1.append([time]+row[2:])
 
 scsv= open("day2.csv", "r").read()
 day2= []
 for row in csv.reader(scsv.split('\n'), delimiter='|'):
-	talkers = ", ".join([x for x in row[2:] if x != ""])
-	day2.append(row)
+    time = row[0]+" - "+row[1]
+    day2.append([time]+row[2:])
 
 sponsorprefix = "./assets/images/sponsors/"
 bitcoinsponsors = [["fidelity.png", "fidelity"]]
