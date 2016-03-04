@@ -29,6 +29,7 @@ bitcoinsponsors = [["fidelity.png", "fidelity"]]
 bitcoinsponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],bitcoinsponsors)
 litecoinsponsors = [["bitfury.png","bitfury"],["bitmain.png","bitmain"]]
 litecoinsponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],litecoinsponsors)
-mediasponsors = []
+mediasponsors = [["ben.png","ben"],["teradek.png","teradek3"]]
+mediasponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],mediasponsors)
 with open("index.html", "w") as f:
     f.write(loader.load("index.tmpl").generate(speakers=speakers,day1=day1,day2=day2,bitcoinsponsors=bitcoinsponsors,litecoinsponsors=litecoinsponsors,mediasponsors=mediasponsors))
