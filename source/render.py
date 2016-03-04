@@ -15,20 +15,21 @@ for row in csv.reader(scsv.split('\n'), delimiter='|'):
 scsv= open("day1.csv", "r").read()
 day1= []
 for row in csv.reader(scsv.split('\n'), delimiter='|'):
-    talkers = ", ".join([x for x in row[2:] if x != ""])
-    day1.append(row)
+    time = row[0]+" - "+row[1]
+    day1.append([time]+row[2:])
 
 scsv= open("day2.csv", "r").read()
 day2= []
 for row in csv.reader(scsv.split('\n'), delimiter='|'):
-	talkers = ", ".join([x for x in row[2:] if x != ""])
-	day2.append(row)
+    time = row[0]+" - "+row[1]
+    day2.append([time]+row[2:])
 
 sponsorprefix = "./assets/images/sponsors/"
 bitcoinsponsors = [["fidelity.png", "fidelity"]]
 bitcoinsponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],bitcoinsponsors)
 litecoinsponsors = [["bitfury.png","bitfury"],["bitmain.png","bitmain"]]
 litecoinsponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],litecoinsponsors)
-mediasponsors = []
+mediasponsors = [["ben.png","ben"],["teradek.png","teradek3"]]
+mediasponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],mediasponsors)
 with open("index.html", "w") as f:
     f.write(loader.load("index.tmpl").generate(speakers=speakers,day1=day1,day2=day2,bitcoinsponsors=bitcoinsponsors,litecoinsponsors=litecoinsponsors,mediasponsors=mediasponsors))
