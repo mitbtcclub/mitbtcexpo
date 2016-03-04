@@ -78,6 +78,11 @@
   width: 100%;
   left: 0;
 }
+.page-speakers #register.disabled {
+  pointer-events: none;
+  cursor: default;
+  color: #777;
+}
 .page-speakers div.container {
   z-index: 2;
   position: relative;
