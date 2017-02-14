@@ -65,6 +65,45 @@
     </div>
     <!-- END PAGE | Welcome -->
 
+    <!-- PAGE | SPEAKERS -->
+    <div class="pages black page-speakers" id="page-speakers">
+      <div class="container">
+        <header id="registration">
+          <a id="register" href="mitbitcoinexpo2017.eventbrite.com">
+            &rarr; Register Here &larr;
+          </a>
+        </header>
+        <header id="speakers">
+          <h3 class="line-divider">2016 Expo Speakers</h3>
+          <p>This page will be updated as more speakers confirm</p>
+        </header>
+        <article>
+          <!-- List of speakers and short bios-->
+          <div id="speakerlist">
+            {% for index, (image, name, byline, color, bio) in enumerate(speakers) %}
+            {% if index %3 == 0 %}
+            <div class="thumbnails about-items row">
+              {% end %}
+              <div class="col-md-4 center">
+                <img class="img-circle" style="border-color:{{color}};background:{{color}}" src="{{image}}" alt="MIT BITCOIN EXPO">
+                <h4>
+                  {{name}}<br/>
+                  {{byline}}
+                </h4>
+                <p class="smallFontBy08"> {%raw next(iter({bio})) %}</p>
+              </div>
+              {% if index %3 == 2 %}
+            </div>
+            {% end %}
+            {% end %}
+            {% if len(speakers) %3 != 2 %}
+          </div>
+          {% end %}
+        </div>
+      </article>
+    </div>
+    <!-- END PAGE | SPEAKERS -->
+
     <!-- PAGE | CONTACT -->
     <div class="pages page-contact fullheight" id="page-contact">
       <div class="center">
@@ -114,22 +153,21 @@
       <div class="container">
         <header id="schedule">
           <div class="line-divider">
-            <h1>Past Sponsors</h1>
-            <p>We really appreciate you!</p>
+            <h1>Sponsored By</h1>
           </div>
         </header>
         <!-- sponsor logos -->
         <div class="row-fluid">
           <div class="center">
-            <h4>BITCOIN LEVEL</h4>
+            <!--<h4>BITCOIN LEVEL</h4>-->
             {% for index, (image,name) in enumerate(bitcoinsponsors) %}
             <img class="sponsor-img" src="{{image}}" alt="{{{name}}"></img>
             {% end %}
-          </br></br>
-          <h4>LITECOIN LEVEL</h4>
+            </br></br>
+          <!--<h4>LITECOIN LEVEL</h4>
           {% for index, (image,name) in enumerate(litecoinsponsors) %}
           <img class="sponsor-img" src="{{image}}" alt="{{{name}}"></img>
-          {% end %}
+          {% end %}-->
         </div>
       </div>
       <!-- Short text related to sponsors/ mission -->
