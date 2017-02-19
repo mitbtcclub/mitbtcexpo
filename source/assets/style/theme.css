@@ -10,6 +10,7 @@
 /*
 *   HEADER
 */
+@import "scroller.css";
 .pages header {
   margin-top: 30px;
   padding-bottom: 40px;
@@ -38,7 +39,9 @@
 .page-welcome .social-icons {
   margin: 50px auto 0;
 }
-/**   PAGE | SPEAKERS*/
+/*
+*   PAGE | SPEAKERS
+*/
 .page-speakers {
   position: relative;
   background: url(../images/pages/speakers/bck.png) 50% 0 no-repeat fixed;
@@ -125,7 +128,7 @@
   position: absolute;
   display: block;
   z-index: 4;
-  background-color: #4e808e;
+  background-color: #4E808E;
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-transition: all 0.5s ease-in-out;
@@ -172,8 +175,8 @@
 }
 .page-schedule .container table {
   position: relative;
-  display: block;
   overflow-x: auto;
+  margin: auto;
 }
 /*
 *   PAGE | CONTACT
@@ -199,7 +202,9 @@
 .page-contact .container p {
   font-size: 15px;
 }
-/**   PAGE | SPEAKERS*/
+/*
+*   PAGE | SPEAKERS
+*/
 .page-sponsors {
   position: relative;
 }
@@ -286,10 +291,10 @@
 *   Small social icons with border
 */
 .social-icons.bordered {
-  border-right: 2px solid #ffffff;
+  border-right: 2px solid #fff;
 }
 .social-icons.bordered a {
-  border: 2px solid #ffffff;
+  border: 2px solid #fff;
   border-right: none;
   padding: 6px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -353,19 +358,19 @@
   background-color: #D90000;
 }
 .social-icons.hover-big .sicon-search:hover {
-  background-color: #000000;
+  background-color: #000;
 }
 .social-icons.hover-big .sicon-place:hover {
-  background-color: #000000;
+  background-color: #000;
 }
 .social-icons.hover-big .sicon-phone:hover {
-  background-color: #000000;
+  background-color: #000;
 }
 .social-icons.hover-big .sicon-mail:hover {
-  background-color: #000000;
+  background-color: #000;
 }
 .social-icons.hover-big .sicon-clock:hover {
-  background-color: #000000;
+  background-color: #000;
 }
 /*
 *   Fixed elements, top or bottom.
@@ -409,7 +414,7 @@
   text-transform: uppercase;
   line-height: 28px;
   letter-spacing: 1px;
-  color: #ffffff;
+  color: #fff;
   padding: 3px 8px;
   margin: 0 3px;
   position: relative;
@@ -417,9 +422,9 @@
 }
 .submenu a:hover,
 .submenu a.active {
-  background-color: #4e808e;
+  background-color: #4E808E;
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
 }
 /*
 *   Show more cube
@@ -432,7 +437,7 @@
   margin: auto;
 }
 .show-more-cube a {
-  background-color: #4e808e;
+  background-color: #4E808E;
   color: #FFFFFF;
   display: block;
   font-size: 11px;
@@ -460,7 +465,7 @@
 }
 .show-more-cube a:hover {
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
   opacity: 0.8;
   filter: alpha(opacity=80);
 }
@@ -542,11 +547,11 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
   line-height: 27px;
-  color: #ffffff;
+  color: #fff;
   background-color: #292929;
 }
 a {
-  color: #4e808e;
+  color: #4E808E;
   text-decoration: none;
 }
 a:hover {
@@ -573,7 +578,7 @@ a:hover {
   border-radius: 500px;
 }
 .white {
-  color: #ffffff;
+  color: #fff;
 }
 .black-bg {
   background-color: #292929;
@@ -613,7 +618,6 @@ table {
   border-spacing: 0;
 }
 .table {
-  width: 100%;
   margin-bottom: 27px;
 }
 .table th,
@@ -622,7 +626,7 @@ table {
   line-height: 27px;
   text-align: left;
   vertical-align: top;
-  border-top: 1px solid #dddddd;
+  border-top: 1px solid #ddd;
 }
 .table th {
   font-weight: bold;
@@ -639,7 +643,7 @@ table {
   border-top: 0;
 }
 .table tbody + tbody {
-  border-top: 2px solid #dddddd;
+  border-top: 2px solid #ddd;
 }
 .table .table {
   background-color: #292929;
@@ -649,7 +653,7 @@ table {
   padding: 4px 5px;
 }
 .table-bordered {
-  border: 1px solid #dddddd;
+  border: 1px solid #ddd;
   border-collapse: separate;
   *border-collapse: collapse;
   border-left: 0;
@@ -659,7 +663,7 @@ table {
 }
 .table-bordered th,
 .table-bordered td {
-  border-left: 1px solid #dddddd;
+  border-left: 1px solid #ddd;
 }
 .table-bordered caption + thead tr:first-child th,
 .table-bordered caption + tbody tr:first-child th,

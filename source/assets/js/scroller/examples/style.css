@@ -1,7 +1,7 @@
 /* stylesheet for demo and examples */
 
-@import url(http://fonts.googleapis.com/css?family=Lobster+Two:700italic,700);
-@import url(http://fonts.googleapis.com/css?family=Oswald:300);
+@import url(../imageshttp://fonts.googleapis.com/css?family=Lobster+Two:700italic,700);
+@import url(../imageshttp://fonts.googleapis.com/css?family=Oswald:300);
 
 body{
 	background-color: #222;
@@ -358,7 +358,7 @@ hr + .content:nth-child(odd) h2{
 
 .showcase #content-3.content{
 	background-color: #412626;
-	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAJ0lEQVQIW2NkwA7+M2IR/w8UY0SXAAuCFCNLwAWRJVAEYRIYgiAJALsgBgYbCawOAAAAAElFTkSuQmCC");
+	background-image: url(../images"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAJ0lEQVQIW2NkwA7+M2IR/w8UY0SXAAuCFCNLwAWRJVAEYRIYgiAJALsgBgYbCawOAAAAAElFTkSuQmCC");
 	margin-right: 40px;
 	width: 310px;
 }
@@ -372,7 +372,7 @@ hr + .content:nth-child(odd) h2{
 .showcase #content-6.horizontal-images.content{
 	padding: 10px 0 5px 0;
 	background-color: #444;
-	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQIW2NkYGA4A8QmQAwGjDAGNgGwSgwVAFVOAgV/1mwxAAAAAElFTkSuQmCC");
+	background-image: url(../images"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQIW2NkYGA4A8QmQAwGjDAGNgGwSgwVAFVOAgV/1mwxAAAAAElFTkSuQmCC");
 }
 
 .showcase #content-6.horizontal-images.content .mCSB_scrollTools{
@@ -399,7 +399,7 @@ hr + .content:nth-child(odd) h2{
 	height: 580px;
 	padding: 0;
 	background-color: #151515;
-	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAK0lEQVQIW2NkwAL+//9vzIguDhZkZDyLIgETBCmGSyALwiXQBcES2ARBEgCUVxc3f8oLcQAAAABJRU5ErkJggg==");
+	background-image: url(../images"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAK0lEQVQIW2NkwAL+//9vzIguDhZkZDyLIgETBCmGSyALwiXQBcES2ARBEgCUVxc3f8oLcQAAAABJRU5ErkJggg==");
 	border: 5px solid rgba(0,0,0,0.5);
 	margin-right: 40px;
 	margin-bottom: 50px;
