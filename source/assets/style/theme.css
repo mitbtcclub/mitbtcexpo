@@ -177,6 +177,7 @@
   position: relative;
   overflow-x: auto;
   margin: auto;
+  table-layout: fixed;
 }
 /*
 *   PAGE | CONTACT
