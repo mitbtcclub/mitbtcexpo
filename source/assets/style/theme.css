@@ -214,6 +214,9 @@
   position: relative;
   color: white;
 }
+.page-sponsors img {
+  width: 100%;
+}
 .page-sponsors #map-image {
   position: absolute;
   top: 0;
