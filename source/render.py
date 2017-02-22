@@ -27,11 +27,11 @@ for row in csv.reader(scsv.split('\n'), delimiter='|'):
     day2.append([time]+row[2:])
 
 sponsorprefix = "./assets/images/sponsors/"
-bitcoinsponsors = [["bitfury.png?v=1.1","bitfury"]]
-bitcoinsponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],bitcoinsponsors)
-litecoinsponsors = []
-litecoinsponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],litecoinsponsors)
+platinumsponsors = [["bitfury.png?v=1.1","bitfury"]]
+platinumsponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],platinumsponsors)
+silversponsors = [["sia.png", "siacoin"]]
+silversponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],silversponsors)
 mediasponsors = []
 mediasponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],mediasponsors)
 with open("index.html", "w") as f:
-    f.write(loader.load("index.tmpl").generate(speakers=speakers,day1=day1,day2=day2,bitcoinsponsors=bitcoinsponsors,litecoinsponsors=litecoinsponsors,mediasponsors=mediasponsors))
+    f.write(loader.load("index.tmpl").generate(speakers=speakers,day1=day1,day2=day2,platinumsponsors=platinumsponsors,silversponsors=silversponsors,mediasponsors=mediasponsors))

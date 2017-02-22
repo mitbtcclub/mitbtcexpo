@@ -214,8 +214,11 @@
   position: relative;
   color: white;
 }
-.page-sponsors img {
+.page-sponsors img.sponsor-platinum {
   width: 100%;
+}
+.page-sponsors img.sponsor-silver {
+  width: 15%;
 }
 .page-sponsors #map-image {
   position: absolute;
