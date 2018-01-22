@@ -1,24 +1,5 @@
 $(document).ready(function(){
-  $("#main").mCustomScrollbar({
-    theme:"light-thick",
-    autoHideScrollbar: true,
-    scrollInertia: 500,
-    snapAmount: 1,
-    // snapOffset: -100,
-    mouseWheel:{
-      scrollAmount: 300
-    },
-    callbacks:{
-      whileScrolling:function(){
-        var toSpeakers = $("#page-welcome").height()
-        //refers to the distance of the scrollbar in pixels
-        var fromTop = -this.mcs.top+$('#navigation').height()
-        $("#navigation").toggleClass("down", (fromTop >= toSpeakers));
-      }
-    }
-  })
   $("#navigation").removeClass("down");
-
 })
 $('.fullheight').css('height',$(window).height())
 $(window).resize(function() {

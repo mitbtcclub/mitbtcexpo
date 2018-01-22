@@ -29,7 +29,7 @@
   height: 100%;
   overflow: hidden;
   text-align: center;
-  background: #292929 url(../images/pages/welcome/32-123.jpg) 50% 0 repeat fixed;
+  background: #292929 url(../images/pages/welcome/26-100.jpg) 50% 0 repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -208,6 +208,9 @@
   display: inline-block;
   background: #000000bd;
   padding: 15px;
+}
+.page-contact .container i {
+  margin-right: 10px;
 }
 /*
 *   PAGE | SPEAKERS
