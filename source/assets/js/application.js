@@ -1,9 +1,25 @@
 $(document).ready(function(){
   $("#navigation").removeClass("down");
+  $(window).on("scroll", function(event) {
+    var toSpeakers = $("#page-welcome").height()
+    //refers to the distance of the scrollbar in pixels
+    var fromTop = document.documentElement.scrollTop+$('#navigation').height()
+    $("#navigation").toggleClass("down", (fromTop >= toSpeakers));
+  });
+
+  $('.pages').on('scrollSpy:enter', function() {
+    $('a[href="#'+$(this).attr('id')+'"]').toggleClass("active", true)
+  });
+
+  $('.pages').on('scrollSpy:exit', function() {
+    $('a[href="#'+$(this).attr('id')+'"]').toggleClass("active", false)
+  });
+
+  $('.pages').scrollSpy();
 })
-$('.fullheight').css('height',$(window).height())
+$('.fullheight').css('height',$(window).height()+1)
 $(window).resize(function() {
-  $('.fullheight').css('height',$(window).height())
+  $('.fullheight').css('height',$(window).height()+1)
 });
 
 //adjust anchors so they account for the static top bar
@@ -46,10 +62,13 @@ var betterAnchor = function(document, history, location) {
       match = $(href)
       if(match.length > 0) {
         console.log(this.getFixedOffset());
-        anchorOffset = match.offset().top - this.getFixedOffset();
-        anchorOffset=anchorOffset>0?"-="+String(anchorOffset):String(anchorOffset).replace('-','+=')
-        console.log(anchorOffset);
-        $('#main').mCustomScrollbar('scrollTo',anchorOffset)
+        var anchorOffset = match.offset().top - this.getFixedOffset();
+        // anchorOffset=anchorOffset>0?"-="+String(anchorOffset):String(anchorOffset).replace('-','+=')
+        window.scroll({
+          top: anchorOffset,
+          behavior: 'smooth'
+        });
+
 
         // Add the state to history as-per normal anchor links
         try {

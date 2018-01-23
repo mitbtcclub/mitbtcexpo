@@ -112,6 +112,10 @@
   background: #aa0000;
   border: 10px outset;
 }
+.page-speakers div.container h4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
 /*
 *   PAGE | ABOUT
 */
@@ -828,6 +832,10 @@ table th[class*="span"],
 }
 #navigation .navbar-brand:hover {
   text-decoration: none;
+}
+#navigation a.active {
+  background: #6b0700;
+  color: #fffc27;
 }
 #main {
   height: 100%;
