@@ -30,7 +30,7 @@ platinumsponsors = []
 platinumsponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],platinumsponsors)
 silversponsors = []
 silversponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],silversponsors)
-mediasponsors = []
+mediasponsors = [["protocol.png","Protocol Labs"]]
 mediasponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],mediasponsors)
 with open("index.html", "w") as f:
     f.write(loader.load("index.tmpl").generate(speakers=speakers,day1=day1,day2=day2,platinumsponsors=platinumsponsors,silversponsors=silversponsors,mediasponsors=mediasponsors))

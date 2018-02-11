@@ -56,6 +56,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  padding-bottom: 50px;
 }
 .page-speakers div.container {
   z-index: 2;
@@ -216,16 +217,17 @@
 .page-contact .container i {
   margin-right: 10px;
 }
-/*
-*   PAGE | SPEAKERS
-*/
+/* * PAGE | SPEAKERS */
 .page-sponsors {
   position: relative;
+  padding-bottom: 50px;
+  padding-top: 25px;
 }
 .page-sponsors .container {
   z-index: 2;
   position: relative;
   color: white;
+  text-align: center;
 }
 .page-sponsors img.sponsor-platinum {
   width: 100%;

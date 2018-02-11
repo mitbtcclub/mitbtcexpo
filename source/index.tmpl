@@ -152,7 +152,7 @@
     <!-- END PAGE | SCHEDULE -->
 
     <!-- PAGE | SPONSORS -->
-    <!-- <div class="pages page-sponsors" id="page-sponsors">
+    <div class="pages page-sponsors" id="page-sponsors">
       <div class="container">
         <header id="schedule">
           <div class="line-divider">
@@ -161,7 +161,7 @@
         </header>
         <div class="row-fluid">
           <div class="center">
-            <h4>PLATINUM LEVEL</h4>
+            <!-- <h4>PLATINUM LEVEL</h4>
             {% for index, (image,name) in enumerate(platinumsponsors) %}
             <img class="sponsor-platinum" src="{{image}}" alt="{{{name}}"></img>
             <br/><br/>
@@ -171,13 +171,19 @@
             <img class="sponsor-silver" src="{{image}}" alt="{{{name}}"></img>
             <br/><br/>
             {% end %}
+             -->
+            <h4>MEDIA SPONSOR</h4>
+            {% for index, (image,name) in enumerate(mediasponsors) %}
+            <img class="sponsor-bronze" src="{{image}}" alt="{{{name}}"></img>
+            <br/><br/>
+            {% end %}
           </div>
         </div>
       </div>
       <div id="map-image">
         <img src="assets/images/pages/contact/bck.png">
       </div>
-    </div> -->
+    </div>
     <!-- END PAGE | SPONSORS -->
 
     <!-- PAGE | CONTACT -->
