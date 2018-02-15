@@ -62,8 +62,7 @@ var betterAnchor = function(document, history, location) {
       match = $(href)
       if(match.length > 0) {
         console.log(this.getFixedOffset());
-        var anchorOffset = match.offset().top - this.getFixedOffset();
-        // anchorOffset=anchorOffset>0?"-="+String(anchorOffset):String(anchorOffset).replace('-','+=')
+        var anchorOffset = match.offset().top - this.getFixedOffset()+1; //add one pixel to make sure it activates the nav highlighting for the right page
         window.scroll({
           top: anchorOffset,
           behavior: 'smooth'
