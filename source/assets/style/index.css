@@ -46,6 +46,40 @@
 .page-welcome .social-icons {
   margin: 50px auto 0;
 }
+.page-welcome #registration {
+  padding-bottom: 0;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.page-welcome #register {
+  flex: 1 1 auto;
+  position: relative;
+  transition: .3s;
+  font-size: 50px;
+  border: none;
+  background: rgba(51, 51, 51, 0);
+  color: #B80103;
+  padding: 5px 7px;
+  display: inline-block;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.page-welcome #register:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+.page-welcome #register.disabled {
+  pointer-events: none;
+  cursor: default;
+  color: #777;
+}
+.page-welcome #register button {
+  background-color: transparent;
+  border: solid 3px #500500;
+  padding: 0 0 2px 0;
+}
 /*
 *   PAGE | SPEAKERS
 */
@@ -76,36 +110,6 @@
 .page-speakers div.container h4 {
   text-align: center;
   margin-bottom: 20px;
-}
-.page-speakers div.container #registration {
-  padding-bottom: 0;
-}
-.page-speakers div.container #register {
-  flex: 1 1 auto;
-  position: relative;
-  transition: .3s;
-  font-size: 50px;
-  border: none;
-  background: rgba(51, 51, 51, 0);
-  color: #B80103;
-  padding: 5px 7px;
-  display: inline-block;
-  margin-bottom: 20px;
-  font-weight: 400;
-}
-.page-speakers div.container #register:hover {
-  cursor: pointer;
-  text-decoration: none;
-}
-.page-speakers div.container #register.disabled {
-  pointer-events: none;
-  cursor: default;
-  color: #777;
-}
-.page-speakers div.container #register button {
-  background-color: transparent;
-  border: solid 3px #500500;
-  padding: 0 0 2px 0;
 }
 /*
 *   PAGE | ABOUT
@@ -232,8 +236,13 @@
 .page-sponsors img.sponsor-platinum {
   width: 100%;
 }
+.page-sponsors img.sponsor-gold {
+  width: 70%;
+}
 .page-sponsors img.sponsor-silver {
-  width: 15%;
+  width: 22%;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .page-sponsors #map-image {
   position: absolute;

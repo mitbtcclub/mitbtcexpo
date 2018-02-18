@@ -60,18 +60,59 @@
           <a href="https://www.youtube.com/user/MITBitcoinClub" class="sicon-youtube"><i>Youtube</i></a>
         </div>
 
-      </div>
-    </div>
-    <!-- END PAGE | Welcome -->
-
-    <!-- PAGE | SPEAKERS -->
-    <div class="pages black page-speakers" id="page-speakers">
-      <div class="container">
         <header id="registration">
           <a id="register" href="https://www.eventbrite.com/e/mit-bitcoin-expo-2018-tickets-42412362518?aff=es2">
             <button>&rarr; Buy Tickets &larr;</button>
           </a>
         </header>
+      </div>
+    </div>
+    <!-- END PAGE | Welcome -->
+
+    <!-- PAGE | COMPETITION -->
+    <div class="pages page-competition" id="page-competition">
+      <div class="center">
+        <div class="container">
+          <header id="schedule">
+            <div class="line-divider">
+              <h1>MIT Bitcoin Competition</h1>
+            </div>
+          </header>
+          <div class="row-fluid">
+              <p>
+              The MIT Bitcoin Competition, first of its kind, will help take entrepreneurs working on nascent blockchain projects to the next level.
+              </p>
+
+              <p>
+              Eligibility Requirements: Team must be Boston-based and have not already raised significant funding.
+              </p>
+
+              <p>
+              Timeline:
+              </p>
+
+              <ul>
+                <li>Friday, February 9th 2018 - Application Submission Opens/Begins</li>
+                <li>Wednesday, February 28th 2018 - Application Submission Deadline</li>
+                <li>Tuesday, March 7th 2018 - Finalists Announced</li>
+                <li>Finalists will receive complimentary registration for two members of each team and mentoring from our sponsors to prepare them for a presentation at the Expo.</li>
+              </ul>
+
+              <p>
+              There will be a grand prize at the competition as well as prizes presented by select sponsors.
+              </p>
+
+              <center><h2><a href="https://goo.gl/forms/QdmZrQzgZdFNHYxE2"><button>Apply Here</button></a></h2></center>
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END PAGE | COMPETITION -->
+
+    <!-- PAGE | SPEAKERS -->
+    <div class="pages black page-speakers" id="page-speakers">
+      <div class="container">
         <header id="speakers">
           <h3 class="line-divider">2018 Expo Speakers</h3>
           <p>This page will be updated as more speakers confirm</p>
@@ -79,7 +120,7 @@
         <article>
           <!-- List of speakers and short bios-->
           <div id="speakerlist">
-            {% for index, (image, name, byline, color, bio) in enumerate(speakers) %}
+            {% for index, (image, name, byline, color) in enumerate(speakers) %}
             {% if index %3 == 0 %}
             <div class="thumbnails about-items row">
               {% end %}
@@ -89,7 +130,7 @@
                   {{name}}<br/>
                   {{byline}}
                 </h4>
-                <p class="smallFontBy08"> {%raw next(iter({bio})) %}</p>
+              <br/>
               </div>
               {% if index %3 == 2 %}
             </div>
@@ -152,47 +193,6 @@
     </div> -->
     <!-- END PAGE | SCHEDULE -->
 
-    <!-- PAGE | COMPETITION -->
-    <div class="pages page-competition fullheight" id="page-competition">
-      <div class="center">
-        <div class="container">
-          <header id="schedule">
-            <div class="line-divider">
-              <h1>MIT Bitcoin Competition</h1>
-            </div>
-          </header>
-          <div class="row-fluid">
-              <p>
-              The MIT Bitcoin Competition, first of its kind, will help take entrepreneurs working on nascent blockchain projects to the next level.
-              </p>
-
-              <p>
-              Eligibility Requirements: Team must be Boston-based and have not already raised significant funding.
-              </p>
-
-              <p>
-              Timeline:
-              </p>
-
-              <ul>
-                <li>Friday, February 9th 2018 - Application Submission Opens/Begins</li>
-                <li>Friday, February 23rd 2018 - Application Submission Deadline</li>
-                <li>Friday, March 2nd 2018 - Finalists Announced</li>
-                <li>Finalists will receive complimentary registration for two members of each team and mentoring from our sponsors to prepare them for a presentation at the Expo.</li>
-              </ul>
-
-              <p>
-              There will be a grand prize at the competition as well as prizes presented by select sponsors.
-              </p>
-
-              <center><h2><a href="https://goo.gl/forms/QdmZrQzgZdFNHYxE2"><button>Apply Here</button></a></h2></center>
-              </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- END PAGE | COMPETITION -->
-
     <!-- PAGE | SPONSORS -->
     <div class="pages page-sponsors" id="page-sponsors">
       <div class="container">
@@ -208,12 +208,16 @@
             <img class="sponsor-platinum" src="{{image}}" alt="{{{name}}"></img>
             <br/><br/>
             {% end %}
-            <h4>SILVER LEVEL</h4>
-            {% for index, (image,name) in enumerate(silversponsors) %}
-            <img class="sponsor-silver" src="{{image}}" alt="{{{name}}"></img>
+             -->
+            <h4>GOLD LEVEL</h4>
+            {% for index, (image,name) in enumerate(goldsponsors) %}
+            <img class="sponsor-gold" src="{{image}}" alt="{{{name}}"></img>
             <br/><br/>
             {% end %}
-             -->
+             <h4>SILVER LEVEL</h4>
+             {% for index, (image,name) in enumerate(silversponsors) %}
+             <img class="sponsor-silver" src="{{image}}" alt="{{{name}}"></img>
+             {% end %}
             <h4>MEDIA SPONSOR</h4>
             {% for index, (image,name) in enumerate(mediasponsors) %}
             <img class="sponsor-bronze" src="{{image}}" alt="{{{name}}"></img>
