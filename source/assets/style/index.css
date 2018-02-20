@@ -287,6 +287,9 @@
   padding: 5 5 7px 5;
   font-size: 30px;
 }
+.page-competition .container img.sponsor-competition {
+  width: 20%;
+}
 /*
 *   PAGE | WELCOME (HACKATHON)
 */
@@ -358,7 +361,6 @@
   display: flex;
   padding-bottom: 50px;
   width: 100%;
-  height: 100%;
   overflow: hidden;
   background: #00001a 50% 0 repeat fixed;
   -webkit-background-size: cover;
