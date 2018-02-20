@@ -16,9 +16,12 @@
   z-index: 2000;
   transform: translateY(-100%);
   transition: 0.2s transform cubic-bezier(.3,.73,.3,.74);
-
   position: fixed;
   z-index: 2000;
+
+  &.hackathon {
+    background: #06032b;
+  }
 
   &.down {
     transform: translateY(0);
@@ -27,6 +30,10 @@
   .navbar-brand {
     text-align: left;
     color: @red;
+
+    &.hackathon {
+      color: #a79600;
+    }
   }
   .navbar-brand:hover {
     text-decoration: none;
@@ -35,6 +42,10 @@
   a.active {
     background: #6b0700;
     color: #fffc27;
+
+    &.hackathon {
+      background: #6b4000;
+    }
   }
 }
 

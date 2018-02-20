@@ -1,34 +1,64 @@
 /*
-*   PAGE | CONTACT
+*   PAGE | WELCOME (HACKATHON)
 */
 
-.page-hackathon {
+.page-welcome-h {
   position: relative;
+  display: -webkit-flex;
   display: flex;
-  padding-bottom: 50px;
+  -webkit-flex-direction: column;
+  flex-direction: column;
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background: url(../images/pages/competition/kresge.jpg) bottom center no-repeat fixed;
-  .background-size(cover);
-
-  .container {
-    position: relative;
-    z-index: 2;
-
-    p {
-      font-size: 22px;
-    }
-
-    ul {
-      font-size: 16px;
-    }
-
-    button {
-      background-color: transparent;
-      border: solid 3px #ffc40d;
-      padding: 5 5 7px 5;
-      font-size: 30px;
-    }
-  }
+  text-align: center;
+  background: url(../images/pages/motion-back.png) bottom center no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* Social icons box */
+}
+.page-welcome-h h1 {
+  font-size: 120px;
+  color: #ffa300;
+  margin-top: 130px;
+}
+.page-welcome-h h2 {
+  font-size: 60px;
+}
+.page-welcome-h .social-icons {
+  margin: 50px auto 0;
+}
+.page-welcome-h #registration {
+  padding-bottom: 0;
+  position: relative;
+  margin-top: 20px;
+}
+.page-welcome-h #register {
+  flex: 1 1 auto;
+  position: relative;
+  transition: .3s;
+  font-size: 20px;
+  border: none;
+  background: rgba(51, 51, 51, 0);
+  color: rgb(183, 185, 14);
+  padding: 5px 7px;
+  display: inline-block;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.page-welcome-h #register:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+.page-welcome-h #register.disabled {
+  pointer-events: none;
+  cursor: default;
+  color: #777;
+}
+.page-welcome-h #register button {
+  background-color: transparent;
+  border: solid 3px rgb(183, 185, 14);
+  padding: 0 0 2px 0;
 }
