@@ -242,6 +242,9 @@
   padding-left: 15px;
   padding-right: 15px;
 }
+.page-sponsors img.sponsor-media {
+  width: 30%;
+}
 .page-sponsors #map-image {
   position: absolute;
   top: 0;
