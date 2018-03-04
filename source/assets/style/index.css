@@ -34,6 +34,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  min-height: 800px;
   /* Social icons box */
 }
 .page-welcome h1 {
@@ -49,7 +50,17 @@
 .page-welcome #registration {
   padding-bottom: 0;
   position: relative;
-  margin-top: 200px;
+}
+.page-welcome #registration:before {
+  content: '';
+  height: 100px;
+  width: 10%;
+  display: block;
+}
+@media only screen and (max-width: 960px) {
+  .page-welcome #registration:before {
+    max-height: 5vh;
+  }
 }
 .page-welcome #register {
   flex: 1 1 auto;
@@ -58,7 +69,7 @@
   font-size: 45px;
   border: none;
   background: rgba(51, 51, 51, 0);
-  color: #B80103;
+  color: #d50002;
   padding: 5px 7px;
   display: inline-block;
   margin-bottom: 20px;
@@ -75,7 +86,7 @@
 }
 .page-welcome #register button {
   background-color: transparent;
-  border: solid 3px #500500;
+  border: solid 3px #B80103;
   padding: 0 0 2px 0;
 }
 /*
