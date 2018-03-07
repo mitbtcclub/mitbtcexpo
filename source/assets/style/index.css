@@ -246,7 +246,9 @@
   width: 100%;
 }
 .page-sponsors img.sponsor-gold {
-  width: 40%;
+  width: 30%;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .page-sponsors img.sponsor-silver {
   width: 22%;
@@ -255,6 +257,13 @@
 }
 .page-sponsors img.sponsor-media {
   width: 30%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.page-sponsors img.sponsor-academic {
+  width: 15%;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .page-sponsors #map-image {
   position: absolute;

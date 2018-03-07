@@ -13,26 +13,47 @@ for row in csv.reader(scsv.split('\n'), delimiter='|'):
     row[0]=speakerprefix+row[0]
     speakers.append(row)
 
-day1= []
-scsv= open("day1.csv", "r").read()
-for row in csv.reader(scsv.split('\n'), delimiter='|'):
-    time = row[0]+" - "+row[1]
-    day1.append([time]+row[2:])
+day1_26= []
+# scsv= open("day1_26.csv", "r").read()
+# for row in csv.reader(scsv.split('\n'), delimiter='|'):
+#     if len(row) == 0:
+#         break
+#     time = row[0]+" - "+row[1]
+#     day1_26.append([time]+row[2:])
+day1_32= []
+# scsv= open("day1_32.csv", "r").read()
+# for row in csv.reader(scsv.split('\n'), delimiter='|'):
+#     if len(row) == 0:
+#         break
+#     time = row[0]+" - "+row[1]
+#     day1_32.append([time]+row[2:])
 
-day2= []
-scsv= open("day2.csv", "r").read()
-for row in csv.reader(scsv.split('\n'), delimiter='|'):
-    time = row[0]+" - "+row[1]
-    day2.append([time]+row[2:])
+day2_26= []
+# scsv= open("day2_26.csv", "r").read()
+# for row in csv.reader(scsv.split('\n'), delimiter='|'):
+#     if len(row) == 0:
+#         break
+#     time = row[0]+" - "+row[1]
+#     day2_26.append([time]+row[2:])
+day2_32= []
+# scsv= open("day2_32.csv", "r").read()
+# for row in csv.reader(scsv.split('\n'), delimiter='|'):
+#     if len(row) == 0:
+#         break
+#     time = row[0]+" - "+row[1]
+#     day2_32.append([time]+row[2:])
 
 sponsorprefix = "./assets/images/sponsors/"
 platinumsponsors = [["protocol.png","Protocol Labs"]]
 platinumsponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],platinumsponsors)
-goldsponsors = [["arcc.png","ARCC"], ["zkcapital.jpg","zkCapital"], ["nucypher.svg","NuCypher"], ["zion.png","City of Zion"], ["pillar.png", "Pillar VC"]]
+goldsponsors = [["arcc.png","ARCC"], ["zkcapital.jpg","zkCapital"], ["nucypher.svg","NuCypher"], ["zion.png","City of Zion"], ["pillar.png", "Pillar VC"], ["inblockchain.png", "InBlockchain"]]
 goldsponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],goldsponsors)
-silversponsors = [["jarvis.png","Jarvis"], ["shapeshift.png","Shapeshift"], ["raptor.png","Raptor"], ["chaincode.png","Chaincode"]]
+silversponsors = [["jarvis.png","Jarvis"], ["shapeshift.png","Shapeshift"], ["raptor.png","Raptor"], ["chaincode.png","Chaincode"], ["ledger.png","Ledger Wallet"]
+]
 silversponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],silversponsors)
 mediasponsors = [["protocol.png","Protocol Labs"]]
 mediasponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],mediasponsors)
+academicsponsors = [["dci.png","Digital Currency Initiative"], ["ben.jpg", "Blockchain Education Network"]]
+academicsponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],academicsponsors)
 with open("index.html", "w") as f:
-    f.write(loader.load("index.tmpl").generate(speakers=speakers,day1=day1,day2=day2,platinumsponsors=platinumsponsors,goldsponsors=goldsponsors,silversponsors=silversponsors,mediasponsors=mediasponsors))
+    f.write(loader.load("index.tmpl").generate(speakers=speakers,day1_26=day1_26,day1_32=day1_32,day2_26=day2_26,day2_32=day2_32,platinumsponsors=platinumsponsors,goldsponsors=goldsponsors,silversponsors=silversponsors,mediasponsors=mediasponsors,academicsponsors=academicsponsors))
