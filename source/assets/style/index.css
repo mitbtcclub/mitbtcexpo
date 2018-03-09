@@ -187,6 +187,10 @@
   padding-top: 90px;
   padding-bottom: 130px;
 }
+.page-schedule header {
+  margin-top: 40px;
+  padding-bottom: 0;
+}
 .page-schedule .container {
   z-index: 2;
   position: relative;
@@ -197,6 +201,7 @@
   overflow-x: auto;
   margin: auto;
   table-layout: fixed;
+  float: none;
 }
 /*
 *   PAGE | CONTACT

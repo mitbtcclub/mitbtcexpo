@@ -14,34 +14,36 @@ for row in csv.reader(scsv.split('\n'), delimiter='|'):
     speakers.append(row)
 
 day1_26= []
-# scsv= open("day1_26.csv", "r").read()
-# for row in csv.reader(scsv.split('\n'), delimiter='|'):
-#     if len(row) == 0:
-#         break
-#     time = row[0]+" - "+row[1]
-#     day1_26.append([time]+row[2:])
+scsv= open("day1_26.csv", "r").read()
+for row in csv.reader(scsv.split('\n'), delimiter='|'):
+    if len(row) == 0:
+        break
+    time = row[0]+" - "+row[1]
+    day1_26.append([time]+row[2:])
 day1_32= []
-# scsv= open("day1_32.csv", "r").read()
-# for row in csv.reader(scsv.split('\n'), delimiter='|'):
-#     if len(row) == 0:
-#         break
-#     time = row[0]+" - "+row[1]
-#     day1_32.append([time]+row[2:])
+scsv= open("day1_32.csv", "r").read()
+for row in csv.reader(scsv.split('\n'), delimiter='|'):
+    if len(row) == 0:
+        break
+    time = row[0]+" - "+row[1]
+    panelists = "".join([x if i == 0 else ", "+x for i,x in enumerate(row[5:9]) if x != ""])
+    day1_32.append([time]+row[2:5]+[panelists])
 
 day2_26= []
-# scsv= open("day2_26.csv", "r").read()
-# for row in csv.reader(scsv.split('\n'), delimiter='|'):
-#     if len(row) == 0:
-#         break
-#     time = row[0]+" - "+row[1]
-#     day2_26.append([time]+row[2:])
+scsv= open("day2_26.csv", "r").read()
+for row in csv.reader(scsv.split('\n'), delimiter='|'):
+    if len(row) == 0:
+        break
+    time = row[0]+" - "+row[1]
+    day2_26.append([time]+row[2:])
 day2_32= []
-# scsv= open("day2_32.csv", "r").read()
-# for row in csv.reader(scsv.split('\n'), delimiter='|'):
-#     if len(row) == 0:
-#         break
-#     time = row[0]+" - "+row[1]
-#     day2_32.append([time]+row[2:])
+scsv= open("day2_32.csv", "r").read()
+for row in csv.reader(scsv.split('\n'), delimiter='|'):
+    if len(row) == 0:
+        break
+    time = row[0]+" - "+row[1]
+    panelists = "".join([x if i == 0 else ", "+x for i,x in enumerate(row[5:9]) if x != ""])
+    day2_32.append([time]+row[2:5]+[panelists])
 
 sponsorprefix = "./assets/images/sponsors/"
 platinumsponsors = [["protocol.png","Protocol Labs"]]
