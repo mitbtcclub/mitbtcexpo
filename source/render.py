@@ -46,7 +46,7 @@ for row in csv.reader(scsv.split('\n'), delimiter='|'):
     day2_32.append([time]+row[2:5]+[panelists])
 
 sponsorprefix = "./assets/images/sponsors/"
-platinumsponsors = [["protocol.png","Protocol Labs"]]
+platinumsponsors = [["circle.png","Circle Wallet"]]
 platinumsponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],platinumsponsors)
 goldsponsors = [["arcc.png","ARCC"], ["zkcapital.png","zkCapital"], ["nucypher.svg","NuCypher"], ["zion.png","City of Zion"], ["pillar.png", "Pillar VC"], ["inblockchain.png", "InBlockchain"]]
 goldsponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],goldsponsors)
