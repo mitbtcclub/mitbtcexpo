@@ -10,7 +10,7 @@
 
   <!-- STYLESHEETS -->
   <link rel="stylesheet" href="./assets/style/bootstrap.min.css" type="text/css" />
-  <link rel="stylesheet" href="./assets/style/index.css?v=1.3" type="text/css" />
+  <link rel="stylesheet" href="./assets/style/index.css?v=1.6" type="text/css" />
   <link rel="icon" type="image/x-icon" href="./assets/images/ico/favicon.ico">
 
   <!-- GOOGLE WEB FONTS -->
@@ -19,7 +19,7 @@
 
 <body>
   <!-- NAVIGATION -->
-  <nav id="navigation" class="navbar navbar-inverse down">
+  <nav id="navigation" class="navbar navbar-inverse dropdown down">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -35,9 +35,10 @@
     <div id="navbar" class="navbar-collapse collapse" aria-expanded="false">
       <ul class="nav navbar-nav">
         <li><a href="hackathon.html">Hackathon</a></li>
+        <li><a href="women.html">Women's Event</a></li>
         <li><a href="#page-competition">Competition</a></li>
         <li><a href="#page-speakers">Speakers</a></li>
-        <!-- <li><a href="#page-schedule">Schedule</a></li> -->
+        <li><a href="#page-schedule">Schedule</a></li>
         <li><a href="#page-sponsors">Sponsors</a></li>
         <li><a href="#page-contact">Contact</a></li>
       </ul>
@@ -156,7 +157,7 @@
         <table class="table table-condensed col-md-8">
           <thead>
             <tr>
-              <th class="text-nowrap"><h4>Time</h4></th>
+              <th><h4>Time</h4></th>
               <th><h4>Topic</h4></th>
               <th><h4>Speakers</h4></th>
             </tr>
@@ -164,7 +165,7 @@
           <tbody>
             {% for index, [time,event,format,speaker] in enumerate(day1_26) %}
             <tr>
-              <td class="text-nowrap">{{time}}</td>
+              <td>{{time}}</td>
               <td>{{event}}</td>
               <td>{{speaker}}</td>
             </tr>
@@ -175,15 +176,16 @@
         <table class="table table-condensed">
           <thead>
             <tr>
-              <th class="text-nowrap"><h4>Time</h4></th>
+              <th><h4>Time</h4></th>
               <th><h4>Topic</h4></th>
-              <th><h4>Speakers</h4></th>
+              <th><h4>Moderator</h4></th>
+              <th><h4>Panelists</h4></th>
             </tr>
           </thead>
           <tbody>
             {% for index, [time,format,event,moderator,panelists] in enumerate(day1_32) %}
             <tr>
-              <td class="text-nowrap">{{time}}</td>
+              <td>{{time}}</td>
               <td>{{event}}</td>
               <td>{{moderator}}</td>
               <td>{{panelists}}</td>
@@ -198,7 +200,7 @@
           <table class="table table-condensed col-md-8">
             <thead>
               <tr>
-                <th class="text-nowrap"><h4>Time</h4></th>
+                <th><h4>Time</h4></th>
                 <th><h4>Topic</h4></th>
                 <th><h4>Speakers</h4></th>
               </tr>
@@ -206,7 +208,7 @@
             <tbody>
               {% for index, [time,event,format,speaker] in enumerate(day2_26) %}
               <tr>
-                <td class="text-nowrap">{{time}}</td>
+                <td>{{time}}</td>
                 <td>{{event}}</td>
                 <td>{{speaker}}</td>
               </tr>
@@ -217,15 +219,16 @@
           <table class="table table-condensed">
             <thead>
               <tr>
-                <th class="text-nowrap"><h4>Time</h4></th>
+                <th><h4>Time</h4></th>
                 <th><h4>Topic</h4></th>
-                <th><h4>Speakers</h4></th>
+                <th><h4>Moderator</h4></th>
+                <th><h4>Panelists</h4></th>
               </tr>
             </thead>
             <tbody>
-              {% for index, [time,format,event,moderator,panelists] in enumerate(day1_32) %}
+              {% for index, [time,format,event,moderator,panelists] in enumerate(day2_32) %}
               <tr>
-                <td class="text-nowrap">{{time}}</td>
+                <td>{{time}}</td>
                 <td>{{event}}</td>
                 <td>{{moderator}}</td>
                 <td>{{panelists}}</td>

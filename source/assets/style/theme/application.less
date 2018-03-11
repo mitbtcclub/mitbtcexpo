@@ -9,22 +9,27 @@
   }
 }
 
+
 #navigation {
-  background: @bodyBackground;
+  background: none;
   width: 100%;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.65);
   z-index: 2000;
-  transform: translateY(-100%);
+  // transform: translateY(-100%);
   transition: 0.2s transform cubic-bezier(.3,.73,.3,.74);
   position: fixed;
-  z-index: 2000;
 
   &.hackathon {
-    background: #06032b;
+    background: #06032b !important;
+  }
+
+  &.women {
+    background: #1a0012 !important;
   }
 
   &.down {
-    transform: translateY(0);
+    // transform: translateY(0);
+    background: @bodyBackground;
   }
 
   .navbar-brand {

@@ -1,10 +1,12 @@
 $(document).ready(function(){
   $("#navigation").removeClass("down");
   $(window).on("scroll", function(event) {
-    var toSpeakers = $("#page-welcome").height()
     //refers to the distance of the scrollbar in pixels
     var fromTop = document.documentElement.scrollTop+$('#navigation').height()
-    $("#navigation").toggleClass("down", (fromTop >= toSpeakers));
+    // var toSpeakers = $("#page-welcome").height()
+    // $("#navigation.dropdown").toggleClass("down", (fromTop >= toSpeakers));
+    console.log(fromTop);
+    $("#navigation").toggleClass("down", (fromTop >= 75));
   });
 
   $('.pages').on('scrollSpy:enter', function() {

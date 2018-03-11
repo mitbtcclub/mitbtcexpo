@@ -10,7 +10,6 @@
 /*
 *   HEADER
 */
-@import "scroller.css";
 .pages header {
   margin-top: 30px;
   padding-bottom: 40px;
@@ -381,6 +380,69 @@
   padding: 0 0 2px 0;
 }
 /*
+*   PAGE | WELCOME (WOMEN)
+*/
+.page-welcome-w {
+  position: relative;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  background: url(../images/pages/women/Kismet_robot_at_MIT_Museum.jpg) bottom center no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* Social icons box */
+}
+.page-welcome-w h1 {
+  font-size: 120px;
+  color: #ffa300;
+  margin-top: 130px;
+}
+.page-welcome-w h2 {
+  font-size: 60px;
+}
+.page-welcome-w .social-icons {
+  margin: 50px auto 0;
+}
+.page-welcome-w #registration {
+  padding-bottom: 0;
+  position: relative;
+  margin-top: 20px;
+}
+.page-welcome-w #register {
+  flex: 1 1 auto;
+  position: relative;
+  transition: .3s;
+  font-size: 20px;
+  border: none;
+  background: rgba(51, 51, 51, 0);
+  color: #b7b90e;
+  padding: 5px 7px;
+  display: inline-block;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.page-welcome-w #register:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+.page-welcome-w #register.disabled {
+  pointer-events: none;
+  cursor: default;
+  color: #777;
+}
+.page-welcome-w #register button {
+  background-color: transparent;
+  border: solid 3px #b7b90e;
+  padding: 0 0 2px 0;
+}
+/*
 *   PAGE | ABOUT (HACKATHON)
 */
 .page-about-h {
@@ -412,6 +474,37 @@
   font-size: 30px;
 }
 /*
+*   PAGE | ABOUT (HACKATHON)
+*/
+.page-about-w {
+  position: relative;
+  display: flex;
+  padding-bottom: 50px;
+  width: 100%;
+  overflow: hidden;
+  background: #1a0012 50% 0 repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.page-about-w .container {
+  position: relative;
+  z-index: 2;
+}
+.page-about-w .container p {
+  font-size: 22px;
+}
+.page-about-w .container ul {
+  font-size: 16px;
+}
+.page-about-w .container button {
+  background-color: transparent;
+  border: solid 3px #ffc40d;
+  padding: 5 5 7px 5;
+  font-size: 30px;
+}
+/*
 *   PAGE | CONTACT (HACKATHON)
 */
 .page-contact-h {
@@ -423,6 +516,38 @@
   overflow: hidden;
   text-align: center;
   background: #00001a repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.page-contact-h .container {
+  position: relative;
+  z-index: 2;
+}
+.page-contact-h .container p {
+  font-size: 20px;
+}
+.page-contact-h .container .contrast {
+  display: inline-block;
+  background: #000000bd;
+  padding: 0px;
+}
+.page-contact-h .container i {
+  margin-right: 10px;
+}
+/*
+*   PAGE | CONTACT (HACKATHON)
+*/
+.page-contact-w {
+  position: relative;
+  display: flex;
+  padding-bottom: 0px;
+  width: 100%;
+  height: 60px;
+  overflow: hidden;
+  text-align: center;
+  background: #1a0012 repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1001,19 +1126,21 @@ table th[class*="span"],
   }
 }
 #navigation {
-  background: #292929;
+  background: none;
   width: 100%;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.65);
-  transform: translateY(-100%);
+  z-index: 2000;
   transition: 0.2s transform cubic-bezier(0.3, 0.73, 0.3, 0.74);
   position: fixed;
-  z-index: 2000;
 }
 #navigation.hackathon {
-  background: #06032b;
+  background: #06032b !important;
+}
+#navigation.women {
+  background: #1a0012 !important;
 }
 #navigation.down {
-  transform: translateY(0);
+  background: #292929;
 }
 #navigation .navbar-brand {
   text-align: left;
