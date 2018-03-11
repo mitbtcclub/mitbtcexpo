@@ -48,7 +48,7 @@ for row in csv.reader(scsv.split('\n'), delimiter='|'):
 sponsorprefix = "./assets/images/sponsors/"
 platinumsponsors = [["protocol.png","Protocol Labs"]]
 platinumsponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],platinumsponsors)
-goldsponsors = [["arcc.png","ARCC"], ["zkcapital.jpg","zkCapital"], ["nucypher.svg","NuCypher"], ["zion.png","City of Zion"], ["pillar.png", "Pillar VC"], ["inblockchain.png", "InBlockchain"]]
+goldsponsors = [["arcc.png","ARCC"], ["zkcapital.png","zkCapital"], ["nucypher.svg","NuCypher"], ["zion.png","City of Zion"], ["pillar.png", "Pillar VC"], ["inblockchain.png", "InBlockchain"]]
 goldsponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],goldsponsors)
 silversponsors = [["jarvis.png","Jarvis"], ["shapeshift.png","Shapeshift"], ["raptor.png","Raptor"], ["chaincode.png","Chaincode"], ["ledger.png","Ledger Wallet"]
 ]
