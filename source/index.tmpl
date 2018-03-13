@@ -251,28 +251,23 @@
           <div class="center">
             <h4>PLATINUM LEVEL</h4>
             {% for index, (image,name,url) in enumerate(platinumsponsors) %}
-            <a href="{{url}}"><img class="sponsor-platinum" src="{{image}}" alt="{{{name}}"></img></a>
+            <a href="{{url}}"><img class="sponsor-platinum" src="{{image}}" alt="{{name}}"></img></a>
             <br/><br/>
             {% end %}
             </br></br>
             <h3>GOLD LEVEL</h3>
             {% for index, (image,name,url) in enumerate(goldsponsors) %}
-            <a href="{{url}}"><img class="sponsor-gold" src="{{image}}" alt="{{{name}}"></img></a>
+            <a href="{{url}}"><img class="sponsor-gold" src="{{image}}" alt="{{name}}"></img></a>
             {% end %}
             </br></br>
              <h3>SILVER LEVEL</h3>
              {% for index, (image,name,url) in enumerate(silversponsors) %}
-             <a href="{{url}}"><img class="sponsor-silver" src="{{image}}" alt="{{{name}}"></img></a>
+             <a href="{{url}}"><img class="sponsor-silver" src="{{image}}" alt="{{name}}"></img></a>
              {% end %}
              </br></br>
-            <h3>MEDIA SPONSOR</h3>
-            {% for index, (image,name,url) in enumerate(mediasponsors) %}
-            <a href="{{url}}"><img class="sponsor-media" src="{{image}}" alt="{{{name}}"></img></a>
-            {% end %}
-            </br></br>
            <h3>ACADEMIC SPONSOR</h3>
            {% for index, (image,name,url) in enumerate(academicsponsors) %}
-           <a href="{{url}}"><img class="sponsor-academic" src="{{image}}" alt="{{{name}}"></img></a>
+           <a href="{{url}}"><img class="sponsor-academic" src="{{image}}" alt="{{name}}"></img></a>
            {% end %}
            <br/><br/>
           </div>
