@@ -56,3 +56,24 @@ academicsponsors = [["dci.png","Digital Currency Initiative", "http://dci.mit.ed
 academicsponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],academicsponsors)
 with open("index.html", "w") as f:
     f.write(loader.load("index.tmpl").generate(speakers=speakers,day1_26=day1_26,day1_32=day1_32,day2_26=day2_26,day2_32=day2_32,platinumsponsors=platinumsponsors,goldsponsors=goldsponsors,silversponsors=silversponsors,academicsponsors=academicsponsors))
+
+
+
+# Hackathon Page
+day1_h= []
+scsv= open("day1_h.csv", "r").read()
+for row in csv.reader(scsv.split('\n'), delimiter='|'):
+    if len(row) == 0:
+        break
+    time = row[0]+" - "+row[1]
+    day1_h.append([time]+row[2:])
+day2_h= []
+scsv= open("day2_h.csv", "r").read()
+for row in csv.reader(scsv.split('\n'), delimiter='|'):
+    if len(row) == 0:
+        break
+    time = row[0]+" - "+row[1]
+    day2_h.append([time]+row[2:])
+
+with open("hackathon.html", "w") as f:
+    f.write(loader.load("hackathon.tmpl").generate(day1_h=day1_h,day2_h=day2_h,platinumsponsors=platinumsponsors,goldsponsors=goldsponsors,silversponsors=silversponsors,academicsponsors=academicsponsors))

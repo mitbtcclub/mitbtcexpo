@@ -113,105 +113,14 @@
             </tr>
           </thead>
           <tbody>
-            
+            {% for index, [time,topic,location,speaker] in enumerate(day1_h) %}
             <tr>
-              <td>7:00 AM - 8:00 AM</td>
-              <td>Registration &amp; Breakfast</td>
-              <td>Forbes Cafe</td>
-              <td></td>
+              <td>{{time}}</td>
+              <td>{{topic}}</td>
+              <td>{{location}}</td>
+              <td>{{speaker}}</td>
             </tr>
-            
-            <tr>
-              <td>8:00 AM - 8:30 AM</td>
-              <td>Opening Ceremony</td>
-              <td>32-123</td>
-              <td></td>
-            </tr>
-            
-            <tr>
-              <td>8:30 AM - </td>
-              <td>Hacking Begins</td>
-              <td>Forbes Cafe</td>
-              <td></td>
-            </tr>
-            
-            <tr>
-              <td>9:00 AM - 10:00 AM</td>
-              <td>Team Formation</td>
-              <td>32-123</td>
-              <td></td>
-            </tr>
-            
-            <tr>
-              <td>10:00 AM - 11:00 AM</td>
-              <td>Ethereum</td>
-              <td>32-123</td>
-              <td>ZK Capital</td>
-            </tr>
-            
-            <tr>
-              <td>11:00 AM - 12:00 PM</td>
-              <td>Neo</td>
-              <td>32-123</td>
-              <td>City of Zion</td>
-            </tr>
-            
-            <tr>
-              <td>12:00 PM - 1:00 PM</td>
-              <td>Lunch</td>
-              <td>Forbes Cafe</td>
-              <td></td>
-            </tr>
-            
-            <tr>
-              <td>1:00 PM - 2:00 PM</td>
-              <td>IPFS</td>
-              <td>32-123</td>
-              <td>Protocol Labs</td>
-            </tr>
-            
-            <tr>
-              <td>2:00 PM - 3:00 PM</td>
-              <td>NuCypher</td>
-              <td>32-123</td>
-              <td>NuCypher</td>
-            </tr>
-            
-            <tr>
-              <td>3:00 PM - 4:00 PM</td>
-              <td>Dharma Protocol</td>
-              <td>32-123</td>
-              <td>ZK Capital</td>
-            </tr>
-            
-            <tr>
-              <td>4:00 PM - 5:00 PM</td>
-              <td>MIT Campus Tour</td>
-              <td>Stata Entrance</td>
-              <td></td>
-            </tr>
-            
-            <tr>
-              <td>6:00 PM - 7:00 PM</td>
-              <td>Dinner</td>
-              <td>Forbes Cafe</td>
-              <td></td>
-            </tr>
-            
-            <tr>
-              <td>7:00 PM - 8:00 PM</td>
-              <td>Crytocurrency Careers</td>
-              <td>32-123</td>
-              <td></td>
-            </tr>
-            
-            <tr>
-              <td>10:00 PM - 11:00 PM</td>
-              <td>Late Night Snack</td>
-              <td>Forbes Cafe</td>
-              <td></td>
-            </tr>
-            
+            {% end %}
           </tbody>
         </table>
         <h2>Saturday</h2>
@@ -224,43 +133,13 @@
             </tr>
           </thead>
           <tbody>
-            
+            {% for index, [time,topic,location,speaker] in enumerate(day2_h) %}
             <tr>
-              <td>7:00 AM - 9:00 AM</td>
-              <td>Breakfast</td>
-              <td>Forbes Cafe</td>
+              <td>{{time}}</td>
+              <td>{{topic}}</td>
+              <td>{{location}}</td>
             </tr>
-            
-            <tr>
-              <td>8:30 AM - </td>
-              <td>Hacking Ends</td>
-              <td>Forbes Cafe</td>
-            </tr>
-            
-            <tr>
-              <td>9:00 AM - 10:00 AM</td>
-              <td>Judging</td>
-              <td>Forbes Cafe</td>
-            </tr>
-            
-            <tr>
-              <td>10:00 AM - </td>
-              <td>Expo Starts</td>
-              <td>Forbes Cafe</td>
-            </tr>
-            
-            <tr>
-              <td>3:00 PM - 4:00 PM</td>
-              <td>Finalist Presentations</td>
-              <td>26-100</td>
-            </tr>
-            
-            <tr>
-              <td>4:00 PM - 4:15 PM</td>
-              <td>Award Ceremony</td>
-              <td>26-100</td>
-            </tr>
-            
+            {% end %}
           </tbody>
         </table>
       </div>
@@ -278,51 +157,25 @@
         <div class="row-fluid">
           <div class="center">
             <h4>PLATINUM LEVEL</h4>
-            
-            <a href="https://www.circle.com/en/"><img class="sponsor-platinum" src="./assets/images/sponsors/circle.png" alt="Circle Wallet"></img></a>
+            {% for index, (image,name,url) in enumerate(platinumsponsors) %}
+            <a href="{{url}}"><img class="sponsor-platinum" src="{{image}}" alt="{{name}}"></img></a>
             <br/><br/>
-            
+            {% end %}
             </br></br>
             <h3>GOLD LEVEL</h3>
-            
-            <a href="http://ibmr.io"><img class="sponsor-gold" src="./assets/images/sponsors/arcc.jpg" alt="ARCC"></img></a>
-            
-            <a href="https://zk.capital"><img class="sponsor-gold" src="./assets/images/sponsors/zkcapital.png" alt="zkCapital"></img></a>
-            
-            <a href="https://www.nucypher.com"><img class="sponsor-gold" src="./assets/images/sponsors/nucypher.svg" alt="NuCypher"></img></a>
-            
-            <a href="https://cityofzion.io"><img class="sponsor-gold" src="./assets/images/sponsors/zion.png" alt="City of Zion"></img></a>
-            
-            <a href="https://pillar.vc"><img class="sponsor-gold" src="./assets/images/sponsors/pillar.png" alt="Pillar VC"></img></a>
-            
-            <a href="https://protocol.ai"><img class="sponsor-gold" src="./assets/images/sponsors/protocol.png" alt="Protocol Labs"></img></a>
-            
-            <a href="http://www.inblockchain.com"><img class="sponsor-gold" src="./assets/images/sponsors/inblockchain.png" alt="InBlockchain"></img></a>
-            
-            <a href="https://fusion.org"><img class="sponsor-gold" src="./assets/images/sponsors/fusion.svg" alt="Fusion"></img></a>
-            
+            {% for index, (image,name,url) in enumerate(goldsponsors) %}
+            <a href="{{url}}"><img class="sponsor-gold" src="{{image}}" alt="{{name}}"></img></a>
+            {% end %}
             </br></br>
              <h3>SILVER LEVEL</h3>
-             
-             <a href="https://jarvis.ai"><img class="sponsor-silver" src="./assets/images/sponsors/jarvis.png" alt="Jarvis"></img></a>
-             
-             <a href="https://www.shapeshift.io"><img class="sponsor-silver" src="./assets/images/sponsors/shapeshift.png" alt="Shapeshift"></img></a>
-             
-             <a href="http://www.raptorgroup.com"><img class="sponsor-silver" src="./assets/images/sponsors/raptor.png" alt="Raptor"></img></a>
-             
-             <a href="http://www.chaincode.com"><img class="sponsor-silver" src="./assets/images/sponsors/chaincode.png" alt="Chaincode"></img></a>
-             
-             <a href="https://www.ledgerwallet.com"><img class="sponsor-silver" src="./assets/images/sponsors/ledger.png" alt="Ledger Wallet"></img></a>
-             
-             <a href="https://siafunds.tech"><img class="sponsor-silver" src="./assets/images/sponsors/sia.png" alt="Sia"></img></a>
-             
+             {% for index, (image,name,url) in enumerate(silversponsors) %}
+             <a href="{{url}}"><img class="sponsor-silver" src="{{image}}" alt="{{name}}"></img></a>
+             {% end %}
              </br></br>
            <h3>ACADEMIC SPONSOR</h3>
-           
-           <a href="http://dci.mit.edu"><img class="sponsor-academic" src="./assets/images/sponsors/dci.png" alt="Digital Currency Initiative"></img></a>
-           
-           <a href="https://www.blockchainedu.org"><img class="sponsor-academic" src="./assets/images/sponsors/ben.jpg" alt="Blockchain Education Network"></img></a>
-           
+           {% for index, (image,name,url) in enumerate(academicsponsors) %}
+           <a href="{{url}}"><img class="sponsor-academic" src="{{image}}" alt="{{name}}"></img></a>
+           {% end %}
            <br/><br/>
           </div>
         </div>
