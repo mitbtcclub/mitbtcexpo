@@ -1,5 +1,9 @@
+castor.jpg|Amy Castor|Independent Writer|#CBCBCB
 amy.jpg|Amy Yin|Software Engineer, Coinbase|#3D4359
+poelstra.jpg|Andrew Poelstra|Mathmatician, Blockstream|#1F1F1F
 antonio.jpg|Antonio Tenorio-Fornés|PhD student, Universidad Complutense de Madrid|#E28A42
+juels.jpg|Ari Juels|Professor, Cornell Tech|#5F3E53
+gervais.jpg|Arthur Gervais|Assistant Prof, Imperial College|#E7A396
 narayanan.jpg|Arvind Narayanan|Assistant Prof., Princeton|#3973C5
 fisch.jpg|Ben Fisch|PhD Student, Stanford|#030303
 jones.jpg|Ben Jones|Member, MIT BTC Club|#1A4A8A
@@ -14,6 +18,7 @@ shi.jpg|Elaine Shi|Associate Professor, Cornell|#133CB0
 meltzer.jpg|Eric Meltzer|Partner, INBlockchain|#25282F
 schwartz.jpg|Evan Schwartz|Founder, Interledger Protocol|#E0E0DE
 tramer.jpg|Florian Tramèr|PhD student, Stanford|#B3CAEC
+fare.jpg|François-René Rideau|Philosopher|#CACACA
 gary.jpg|Gary Genseler|Senior Lecturer, MIT Sloan|#E4BFB6
 zyskind.jpg|Guy Zyskind|CEO, Enigma|#2B521D
 lovejoy.jpg|James Lovejoy|Lead Developer, Vertcoin|#FFF098
@@ -22,8 +27,9 @@ jared.jpg|Jared Tate|Founder, DigiByte Blockchain|#3B698A
 graber.jpg|Jay Graber|Developer, Zcash|#758E9D
 gardner.jpg|Jeremy Gardner|Managing Partner, Ausum Ventures|#202020
 rubin.jpg|Jeremy Rubin|Co-founder, MIT Bitcoin Club|#1E1E1E
+wu.png|Jiangang Wu|Co-founder, FUSION|#CDCDC3
 jill.jpg|Jill Carlson|Independent Consultant|#E28A42
-krug.jpg|Joey Krug|Co-founder, Augur|#ECA160
+wang.jpg|Jinglan Wang|Executive Director, BEN|#78493E
 john.jpg|John Newbery|Open Source Developer. Chaincode|#A55B52
 joi.jpg|Joi Ito|Director, MIT Media Lab|#845122
 benet.jpg|Juan Benet|Founder, Protocol Labs|#303050
@@ -31,13 +37,18 @@ karl.jpg|Karl Floersch|Developer, Casper|#9E6764
 xie.jpg|Linda Xie|Co-founder, Scalar Capital|#4D5130
 kiffer.jpg|Lucianna Kiffer|PhD Student, Northeastern University|#5F5A3D
 michael.jpg|Michael Casey|Public Speaker and Journalist|#8E8E8E
+peck.jpg|Morgan Peck |Writer, Scientific American|#84494F
 narula.jpg|Neha Narula|Director, MIT DCI|#B4CCE4
 ayton.jpg|Nick Ayton|Founder, Chainstarter|#7C6963
+carter.jpg|Nick Carter|Researcher, Fidelity|#373538
+paige.jpg|Paige Peterson|User Education, Zcash|#7A6B66
 panay.jpg|Panos Panay|Co-founder, Open Music Initiative|#3A3132
+murck.jpg|Patrick Murck|Special Counsel, Cooley|#AD413E
 stzorc.jpg|Paul Stzorc|Hivemind|#344260
+doge.png|Paul Wegzyn|Member, MIT BTC Club|#BE973E
 rizzo.jpg|Pete Rizzo|Editor, Coindesk|#B69D96
-kasireddy.jpg|Preethi Kasireddy|Blockchain Engineer|#E9DADF
 mercer.jpg|Rebekah Mercer|Cryptography, Researcher|#E14046
+goldberg.jpg|Sharon Goldberg|Associate Professor, Boston University|#E39241
 kalla.jpg|Sid Kalla|Co-Founder, Turing Group|#677264
 silvio.jpg|Silvio Micali|Inventor, Algorand|#5B3212
 roos.jpg|Stephanie Roos|Postdoc, University of Waterloo|#FEFEFE
@@ -45,22 +56,14 @@ dryja.jpg|Tadge Dryja|Thought Leader, MIT DCI|#E7DDDC
 monahan.jpg|Taylor Monahan|Founder & CEO, MyCrypto|#CA1D4B
 warren.jpg|Will Warren|Co-founder, 0x|#DBCEBD
 sompolinsky.jpg|Yonatan Sompolinsky|Co-founder, DAGlabs|#D57B85
-castor.jpg|Amy Castor|Independent Writer|#CBCBCB
-fare.jpg|François-René Rideau|Philosopher|#CACACA
-paige.jpg|Paige Peterson|User Education, Zcash|#7A6B66
-gervais.jpg|Arthur Gervais|Assistant Prof, Imperial College|#E7A396
-wang.jpg|Jinglan Wang|Executive Director, BEN|#78493E
-goldberg.jpg|Sharon Goldberg|Associate Professor, Boston University|#E39241
-juels.jpg|Ari Juels|Professor, Cornell Tech|#5F3E53
-murck.jpg|Patrick Murck|Special Counsel, Cooley|#AD413E
-peck.jpg|Morgan Peck |Writer, Scientific American|#84494F
-doge.png|Paul Wegzyn|Member, MIT BTC Club|#BE973E
-wu.png|Jiangang Wu|Co-founder, FUSION|#CDCDC3
-manikantan.jpg|Chet Manikantan|Expo Director|manikantan
+marco.jpg|Marco Peereboom|Lead Developer, Decred|#747474
+manikantan.jpg|Chet Manikantan|Expo Director|#6197C5
 gosathya.jpg|Sathya|Expo Content|#C84940
 sachdev.jpg|Sahil|Expo Sponsorships|#030D93
 manasi.png|Manasi|Expo Content|#393739
 nchinda.png|Firescar96|Expo Logistics|#B82B01
 pinos.jpg|Erick|MITBTC President|#25F4FA
 chang.jpg|Vincent|MITBTC Treasurer|#F2E906
+hash.jpg|Hash|Expo Marketing|#FE0000
+arjun.jpg|Arjun|Expo Sponsorships|#615E4F
 doge.png|Doge Doggie|Certified Authentic Shibe|#BE973E
