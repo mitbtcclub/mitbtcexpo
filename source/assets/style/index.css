@@ -36,6 +36,14 @@
   min-height: 800px;
   /* Social icons box */
 }
+.page-welcome.flashback {
+  text-align: center;
+  background: #292929 url(../images/pages/welcome/26-100.jpg) 50% 0 repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .page-welcome .info-box {
   margin: auto 20px;
   background: rgba(0, 0, 0, 0.73);
@@ -340,131 +348,20 @@
 .page-competition .container img.sponsor-competition {
   width: 20%;
 }
-/*
-*   PAGE | ABOUT (HACKATHON)
-*/
-.page-about-h {
+.page-competition .container .aspect-ratio {
   position: relative;
-  display: flex;
-  padding-bottom: 50px;
   width: 100%;
-  overflow: hidden;
-  background: #00001a 50% 0 repeat fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  height: 0;
+  padding-bottom: 56%;
+  /* The height of the item will now be 56% of the width. */
+  background: url(../images/loader.gif) center center no-repeat;
 }
-.page-about-h .container {
-  position: relative;
-  z-index: 2;
-}
-.page-about-h .container p {
-  font-size: 22px;
-}
-.page-about-h .container ul {
-  font-size: 16px;
-}
-.page-about-h .container button {
-  background-color: transparent;
-  border: solid 3px #ffc40d;
-  padding: 5 5 7px 5;
-  font-size: 30px;
-}
-/*
-*   PAGE | ABOUT (HACKATHON)
-*/
-.page-about-w {
-  position: relative;
-  display: flex;
-  padding-bottom: 50px;
+.page-competition .container .aspect-ratio iframe {
+  position: absolute;
   width: 100%;
-  overflow: hidden;
-  background: #1a0012 50% 0 repeat fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-.page-about-w .container {
-  position: relative;
-  z-index: 2;
-}
-.page-about-w .container p {
-  font-size: 22px;
-}
-.page-about-w .container ul {
-  font-size: 16px;
-}
-.page-about-w .container button {
-  background-color: transparent;
-  border: solid 3px #ffc40d;
-  padding: 5 5 7px 5;
-  font-size: 30px;
-}
-/*
-*   PAGE | CONTACT (HACKATHON)
-*/
-.page-contact-h {
-  position: relative;
-  display: flex;
-  padding-bottom: 0px;
-  width: 100%;
-  height: 60px;
-  overflow: hidden;
-  text-align: center;
-  background: #00001a repeat fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-.page-contact-h .container {
-  position: relative;
-  z-index: 2;
-}
-.page-contact-h .container p {
-  font-size: 20px;
-}
-.page-contact-h .container .contrast {
-  display: inline-block;
-  background: #000000bd;
-  padding: 0px;
-}
-.page-contact-h .container i {
-  margin-right: 10px;
-}
-/*
-*   PAGE | CONTACT (HACKATHON)
-*/
-.page-contact-w {
-  position: relative;
-  display: flex;
-  padding-bottom: 0px;
-  width: 100%;
-  height: 60px;
-  overflow: hidden;
-  text-align: center;
-  background: #1a0012 repeat fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-.page-contact-h .container {
-  position: relative;
-  z-index: 2;
-}
-.page-contact-h .container p {
-  font-size: 20px;
-}
-.page-contact-h .container .contrast {
-  display: inline-block;
-  background: #000000bd;
-  padding: 0px;
-}
-.page-contact-h .container i {
-  margin-right: 10px;
+  height: 100%;
+  left: 0;
+  top: 0;
 }
 /*
 *   Icons configuration
@@ -1024,28 +921,31 @@ table th[class*="span"],
   }
 }
 #navigation {
-  background: none;
+  background: rgba(222, 6, 6, 0.53);
   width: 100%;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.65);
   z-index: 2000;
   transition: 0.2s transform cubic-bezier(0.3, 0.73, 0.3, 0.74);
   position: fixed;
-}
-#navigation.hackathon {
-  background: #06032b !important;
-}
-#navigation.women {
-  background: #1a0012 !important;
+  color: #c4371e;
+  background: rgba(0, 0, 0, 0.73);
+  font-size: 20px;
 }
 #navigation.down {
   background: #292929;
 }
+#navigation ul {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+#navigation ul li {
+  margin: 0 5%;
+}
 #navigation .navbar-brand {
   text-align: left;
   color: #9d261d;
-}
-#navigation .navbar-brand.hackathon {
-  color: #a79600;
+  display: none;
 }
 #navigation .navbar-brand:hover {
   text-decoration: none;

@@ -11,34 +11,37 @@
 
 
 #navigation {
-  background: none;
+  background: rgba(222, 6, 6, 0.53);
   width: 100%;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.65);
   z-index: 2000;
   // transform: translateY(-100%);
   transition: 0.2s transform cubic-bezier(.3,.73,.3,.74);
   position: fixed;
+  color: #c4371e;
+  background: rgba(0, 0, 0, 0.73);
+  font-size: 20px;
 
-  &.hackathon {
-    background: #06032b !important;
-  }
-
-  &.women {
-    background: #1a0012 !important;
-  }
 
   &.down {
     // transform: translateY(0);
     background: @bodyBackground;
   }
 
+  ul {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+
+    li {
+      margin: 0 5%;
+    }
+  }
+
   .navbar-brand {
     text-align: left;
     color: @red;
-
-    &.hackathon {
-      color: #a79600;
-    }
+    display: none;
   }
   .navbar-brand:hover {
     text-decoration: none;

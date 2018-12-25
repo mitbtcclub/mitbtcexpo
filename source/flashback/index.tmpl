@@ -11,12 +11,12 @@
     <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
     <meta http-equiv="pragma" content="no-cache" />
 
-  <title>MIT Bitcoin Expo 2019</title>
+  <title>MIT Bitcoin Expo 2018</title>
 
   <!-- STYLESHEETS -->
-  <link rel="stylesheet" href="./assets/style/bootstrap.min.css" type="text/css" />
-  <link rel="stylesheet" href="./assets/style/index.css?v=1.7" type="text/css" />
-  <link rel="icon" type="image/x-icon" href="./assets/images/ico/favicon.ico">
+  <link rel="stylesheet" href="../assets/style/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="../assets/style/index.css?v=1.6" type="text/css" />
+  <link rel="icon" type="image/x-icon" href="../assets/images/ico/favicon.ico">
 
   <!-- GOOGLE WEB FONTS -->
   <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
@@ -39,8 +39,8 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div id="navbar" class="navbar-collapse collapse" aria-expanded="false">
       <ul class="nav navbar-nav">
-        <li><a href="index.html">Looking Forward</a></li>
-        <li><a href="flashback/index.html">Flashback</a></li>
+        <li><a href="../index.html">Looking Forward</a></li>
+        <li><a href="index.html">Flashback</a></li>
       </ul>
     </div>
   </nav>
@@ -48,66 +48,45 @@
 
   <main id="main">
     <!-- PAGE | WELCOME -->
-    <div class="pages white page-welcome fullheight" id="page-welcome">
-      <div class="info-box center">
-        <h3>MIT Bitcoin Expo 2019</h3>
-        </br>
-        <h2>The Next Ten Years</h3>
-        </br>
-        <h3>March 9-10 | <span class="highlight">Coming Soon<span></h3>
-        </br>
+    <div class="pages white page-welcome fullheight flashback" id="page-welcome">
+      <div class="center">
+        <div class="line-divider" id="banner">
+          <h1>!=$</h1>
+        </div>
+        <h2>MIT Bitcoin Expo 2018</h2>
+        <h3>March 17-18 | <a href="http://whereis.mit.edu/?go=26">Room 26-100</a></h3> and <a href="http://whereis.mit.edu/?go=32">32-123</a></h3>
+
         <div class="social-icons sicon-white bordered">
           <a href="https://www.facebook.com/MITBitcoinClub" class="sicon-facebook"><i>Facebook</i></a>
           <a href="https://twitter.com/mitbitcoinclub" class="sicon-twitter"><i>Twitter</i></a>
           <a href="https://www.youtube.com/user/MITBitcoinClub" class="sicon-youtube"><i>Youtube</i></a>
         </div>
-        <header id="registration">
-          <a id="register" href="https://mit.us19.list-manage.com/subscribe?u=5e74f7dc8f2d9250ee6161239&id=acfe325ed1">
-            <button>&rarr; Signup for Updates &larr;</button>
-          </a>
-        </header>
-        </br>
       </div>
     </div>
     <!-- END PAGE | Welcome -->
 
-    <!-- PAGE | SPEAKERS -->
-    <!-- <div class="pages black page-speakers" id="page-speakers">
-      <div class="container">
-        <header id="speakers">
-          <h3 class="line-divider">2019 Expo Speakers</h3>
-        </header>
-        <article>
-          <div id="speakerlist">
-            {% for index, (image, name, byline, color) in enumerate(speakers) %}
-            {% if index %3 == 0 %}
-            <div class="thumbnails about-items row">
-              {% end %}
-              <div class="col-md-4 center">
-                <img class="img-circle" style="border-color:{{color}};background:{{color}}" src="{{image}}" alt="MIT BITCOIN EXPO">
-                <h4>
-                  {{name}}<br/>
-                  {{byline}}
-                </h4>
-              <br/>
-              </div>
-              {% if index %3 == 2 %}
+    <!-- PAGE | COMPETITION -->
+    <div class="pages page-competition" id="page-competition">
+      <div class="center">
+        <div class="container">
+          <header id="schedule">
+            <div class="line-divider">
+              <h1>2018 Highlights</h1>
             </div>
-            {% end %}
-            {% end %}
-            {% if len(speakers) %3 != 2 %}
+          </header>
+          <div class="aspect-ratio">
+            <iframe src="https://www.youtube.com/embed/d26r0YDeqq4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          {% end %}
-        </article>
+        </div>
       </div>
-    </div> -->
-    <!-- END PAGE | SPEAKERS -->
+    </div>
+    <!-- END PAGE | COMPETITION -->
 
     <!-- PAGE | SCHEDULE -->
-    <!-- <div class="pages white page-schedule" id="page-schedule">
+    <div class="pages white page-schedule" id="page-schedule">
       <div class="container">
         <header id="schedule">
-          <h3 class="line-divider">2019 Expo Schedule Day 1</h3>
+          <h3 class="line-divider">2018 Expo Schedule Day 1</h3>
         </header>
         <h2>26-100</h2>
         <table class="table table-condensed col-md-8">
@@ -150,7 +129,7 @@
           </tbody>
         </table>
           <header id="schedule">
-            <h3 class="line-divider">2019 Expo Schedule Day 2</h3>
+            <h3 class="line-divider">2018 Expo Schedule Day 2</h3>
           </header>
           <h2>26-100</h2>
           <table class="table table-condensed col-md-8">
@@ -193,11 +172,11 @@
             </tbody>
           </table>
       </div>
-    </div> -->
+    </div>
     <!-- END PAGE | SCHEDULE -->
 
     <!-- PAGE | SPONSORS -->
-    <!-- <div class="pages page-sponsors" id="page-sponsors">
+    <div class="pages page-sponsors" id="page-sponsors">
       <div class="container">
         <header id="schedule">
           <div class="line-divider">
@@ -208,38 +187,39 @@
           <div class="center">
             <h4>PLATINUM LEVEL</h4>
             {% for index, (image,name,url) in enumerate(platinumsponsors) %}
-            <a href="{{url}}"><img class="sponsor-platinum" src="{{image}}" alt="{{name}}"></img></a>
+            <a href="{{url}}"><img class="sponsor-platinum" src=".{{image}}" alt="{{name}}"></img></a>
             <br/><br/>
             {% end %}
             </br></br>
             <h3>GOLD LEVEL</h3>
             {% for index, (image,name,url) in enumerate(goldsponsors) %}
-            <a href="{{url}}"><img class="sponsor-gold" src="{{image}}" alt="{{name}}"></img></a>
+            <a href="{{url}}"><img class="sponsor-gold" src=".{{image}}" alt="{{name}}"></img></a>
             {% end %}
             </br></br>
              <h3>SILVER LEVEL</h3>
              {% for index, (image,name,url) in enumerate(silversponsors) %}
-             <a href="{{url}}"><img class="sponsor-silver" src="{{image}}" alt="{{name}}"></img></a>
+             <a href="{{url}}"><img class="sponsor-silver" src=".{{image}}" alt="{{name}}"></img></a>
              {% end %}
              </br></br>
            <h3>ACADEMIC SPONSOR</h3>
            {% for index, (image,name,url) in enumerate(academicsponsors) %}
-           <a href="{{url}}"><img class="sponsor-academic" src="{{image}}" alt="{{name}}"></img></a>
+           <a href="{{url}}"><img class="sponsor-academic" src=".{{image}}" alt="{{name}}"></img></a>
            {% end %}
            <br/><br/>
           </div>
         </div>
       </div>
       <div id="map-image">
-        <img src="assets/images/pages/contact/bck.jpg">
+        <img src="../assets/images/pages/contact/bck.jpg">
       </div>
-    </div> -->
+    </div>
     <!-- END PAGE | SPONSORS -->
 
     <!-- PAGE | CONTACT -->
-    <!-- <div class="pages page-contact fullheight" id="page-contact">
+    <div class="pages page-contact fullheight" id="page-contact">
       <div class="center">
         <div class="container">
+          <!--logo here, when we have a logo -->
           <div class="line-divider" id="banner">
             <h1>Questions? Comments?</h1>
             <p>
@@ -275,7 +255,7 @@
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
     <!-- END PAGE | CONTACT -->
 
   </main>
