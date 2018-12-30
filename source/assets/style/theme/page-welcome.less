@@ -31,6 +31,17 @@
     text-align: center;
   }
 
+  @media only screen and (max-width: 560px) {
+    .info-box {
+      width: 100%;
+      margin: auto;
+    }
+
+    .arrow {
+      display: none;
+    }
+  }
+
   .highlight {
     color: #ffc40d;
   }
@@ -102,10 +113,15 @@
       cursor: default;
       color: #777;
     }
+
     button {
       background-color: transparent;
       border: solid 3px #B80103;
       padding: 0 0 2px 0;
+
+      @media only screen and (max-width: 540px) {
+        padding: 5px;
+      }
     }
   }
 }
