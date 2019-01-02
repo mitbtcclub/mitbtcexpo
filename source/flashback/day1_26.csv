@@ -1,19 +1,29 @@
-8:30 AM|10:00 AM|Registration||
 10:00 AM|10:15 AM|Welcome by MIT Bitcoin Expo Director and Expo Committee Members|Opening Remarks|Chet Manikantan
 10:15 AM|11:00 AM|Opening Keynote Fireside Chat|Keynote|Joi Ito and Pete Rizzo
 11:00 AM|11:20 AM|Improving efficiency of smart contracts on the bitcoin network|Talk/Presentation|Tadge
-11:20 AM|11:30 AM|Break||
 11:30 AM|11:50 AM|BlockSci: A high-performance tool for blockchain analytics|Talk/Presentation|Arvind Narayanan
 11:50 AM|12:10 PM|Music, Blockchain and Future of Creative Rights|Talk/Presentation|Panos Panay
 12:10 PM|12:40 PM|Filecoin & the Rise of Open Services|Talk/Presentation|Juan Benet
 12:40 PM|1:00 PM|Proofs of Replication for Decentralized File Storage Networks|Talk/Presentation|Ben Fisch
-1:00 PM|2:00 PM|Lunch||
 2:00 PM|2:20 PM|Technological Opportunity, Bubbles and Innovation: The Dynamics of Initial Coin Offerings|Talk/Presentation|Christian Catalini
 2:20 PM|2:40 PM|How Hierarchical Deterministic Wallets Eliminate the Middle Man for Merchants|Talk/Presentation|Amy Yin
 2:40 PM|3:00 PM|The Challenges of Noncustodial Wallet Engineering|Talk/Presentation|Jameson Lopp
-3:00 PM|3:15 PM|Break||
 3:15 PM|3:35 PM|Grand Vision on the Future of Cloud: Introducing the Internet Computer|Talk/Presentation|Dominic Williams
 3:35 PM|3:55 PM|Hard forks and their lessons|Talk/Presentation|Lucianna Kiffer
 3:55 PM|4:25 PM|Under the Hood: How Blockchain Peer-to-Peer Networks Impact Blockchain Security|Talk/Presentation|Sharon Goldberg
 4:25 PM|4:30 PM|Announcements by MIT Bitcoin Club|Announcements|Nchinda Nchinda
 4:30 PM|5:00 PM|How to Build Third Generation Blockchains|Closing Talk|Charles Hoskinson
+10:00 AM|10:45 AM|zkLedger: How I learned to stop worrying and love auditing|Opening Talk|Neha Narula
+10:45 AM|11:05 AM|Are DAG-based protocols novel?|Talk/Presentation|Yonatan Sompolinsky
+11:20 AM|11:40 AM|Trusted-Hardware and Blockchain Alchemy: Oracles, Paralysis Proofs, Exchanges & more|Talk/Presentation|Ari Juels
+11:40 AM|12:00 PM|Streaming Payments and the Future of Interoperability|Talk/Presentation|Evan Schwartz
+12:00 PM|12:20 PM|0x: An Open Protocol For Low-Friction P2P Exchange|Talk/Presentation|Will Warren
+12:20 PM|12:40 PM|GasToken: A Journey Through Blockchain Resource Arbitrage|Talk/Presentation|Florian Tramer
+12:40 PM|1:00 PM|Wallet Security |Talk/Presentation|Charles Guillemet
+2:00 PM|2:30 PM|Thunderella: Blockchains with Optimistic Instant Confirmation|Talk/Presentation|Elaine Shi
+2:30 PM|2:50 PM|Towards transaction privacy|Talk/Presentation|Rebekah Mercer
+2:50 PM|3:10 PM|Fast and Private Off-Chain Payments|Talk/Presentation|Stefanie Roos
+3:25 PM|3:55 PM|Algorand: A Truly Distributed Ledger|Talk/Presentation|Silvio Macali
+3:55 PM|4:15 PM|The Tokenization of Everything|Talk/Presentation|Jeremy Allaire
+4:15 PM|4:45 PM|Closing Keynote|Keynote|Taylor Monahan
+4:45 PM|5:00 PM|Closing Remarks by the MIT Bitcoin Club President|Expo Closing Talk|Erick Pinos
