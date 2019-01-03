@@ -51,6 +51,15 @@
   width: 500px;
   text-align: center;
 }
+@media only screen and (max-width: 560px) {
+  .page-welcome .info-box {
+    width: 100%;
+    margin: auto;
+  }
+  .page-welcome .arrow {
+    display: none;
+  }
+}
 .page-welcome .highlight {
   color: #ffc40d;
 }
@@ -70,7 +79,7 @@
   padding: 10px;
 }
 .page-welcome h3 {
-  color: #ffc40d;;
+  color: #c4371e;
   font-weight: bold;
   display: inline-block;
   padding: 10px;
@@ -119,6 +128,11 @@
   background-color: transparent;
   border: solid 3px #B80103;
   padding: 0 0 2px 0;
+}
+@media only screen and (max-width: 540px) {
+  .page-welcome #register button {
+    padding: 5px;
+  }
 }
 /*
 *   PAGE | SPEAKERS
@@ -950,12 +964,15 @@ table th[class*="span"],
 #navigation .navbar-brand:hover {
   text-decoration: none;
 }
+#navigation a {
+  color: #ffc40d;
+}
+#navigation a:hover {
+  color: #c09100;
+}
 #navigation a.active {
   background: #6b0700;
   color: #fffc27;
-}
-#navigation a.active.hackathon {
-  background: #6b4000;
 }
 #main {
   height: 100%;
