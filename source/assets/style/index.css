@@ -272,13 +272,13 @@
 .page-contact .container p {
   font-size: 20px;
 }
-.page-contact .container .contrast {
+.page-contact .container i {
+  margin-right: 10px;
+}
+.page-contact .contrast {
   display: inline-block;
   background: #000000bd;
   padding: 15px;
-}
-.page-contact .container i {
-  margin-right: 10px;
 }
 /* * PAGE | SPEAKERS */
 .page-sponsors {
