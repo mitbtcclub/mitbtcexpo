@@ -61,7 +61,7 @@
   }
 }
 .page-welcome .highlight {
-  color: #ffc40d;
+  color: #ffffff;
 }
 .page-welcome h1 {
   font-size: 120px;
@@ -105,7 +105,7 @@
 .page-welcome #register {
   flex: 1 1 auto;
   position: relative;
-  transition: .3s;
+  transition: 0.3s;
   font-size: 32px;
   border: none;
   background: rgba(51, 51, 51, 0);
@@ -126,8 +126,8 @@
 }
 .page-welcome #register button {
   background-color: transparent;
-  border: solid 3px #B80103;
-  padding: 0 0 2px 0;
+  border: solid 2px #ffffff;
+  padding: 0 5px 0 5px;
 }
 @media only screen and (max-width: 540px) {
   .page-welcome #register button {
@@ -259,7 +259,7 @@
   height: 100%;
   overflow: hidden;
   text-align: center;
-  background: url(../images/pages/contact/stata.jpg) bottom center no-repeat fixed;
+  background: url(../images/pages/contact/lecture_hall.jpg) bottom center no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -391,7 +391,7 @@
   display: block;
   width: 25px;
   height: 25px;
-  *margin-right: .3em;
+  *margin-right: 0.3em;
   line-height: 14px;
   vertical-align: text-top;
   background-image: url("../images/css/sicon-set.png");
