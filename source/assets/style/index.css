@@ -61,7 +61,7 @@
   }
 }
 .page-welcome .highlight {
-  color: #ffc40d;
+  color: #ffffff;
 }
 .page-welcome h1 {
   font-size: 120px;
@@ -126,8 +126,8 @@
 }
 .page-welcome #register button {
   background-color: transparent;
-  border: solid 3px #B80103;
-  padding: 0 0 2px 0;
+  border: solid 2px #ffffff;
+  padding: 0 5px 0 5px;
 }
 @media only screen and (max-width: 540px) {
   .page-welcome #register button {
@@ -259,7 +259,7 @@
   height: 100%;
   overflow: hidden;
   text-align: center;
-  background: url(../images/pages/contact/stata.jpg) bottom center no-repeat fixed;
+  background: url(../images/pages/contact/lecture_hall.jpg) bottom center no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
