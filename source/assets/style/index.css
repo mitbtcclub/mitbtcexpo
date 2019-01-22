@@ -614,12 +614,14 @@
 }
 html,
 body {
+  
+  cursor: url(https://cdn-images-1.medium.com/max/1200/1*qhsL7p_ffEc9O6gITiJ4_A.png), auto;
   height: 100%;
   width: 100%;
 }
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 100;
   color: #fff;
   background-color: #292929;
