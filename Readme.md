@@ -1,4 +1,4 @@
-[Live Site](http://mitbitcoinexpo.org) for 2019
+[Live Site](http://mitbitcoinexpo.org)
 
 2018 site is in the commit history
 
