@@ -51,7 +51,7 @@ def generateHTML(prefix):
     platinumsponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],platinumsponsors)
     goldsponsors = []
     goldsponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],goldsponsors)
-    silversponsors = [["chaincode.png","Chaincode", "http://www.chaincode.com"], ["zcoin.png","ZCoin","https://zcoin.io/"]]
+    silversponsors = [["chaincode.png","Chaincode", "http://www.chaincode.com"], ["zcoin.png","ZCoin","https://zcoin.io/"],["FCAT.png","Fidelity Center for Applied Technology","https://www.fidelitylabs.com/"]]
     # ["fidelity.png","Fidelity", "https://www.fidelity.com/"]
     silversponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],silversponsors)
     academicpartners = [["dci.png","Digital Currency Initiative", "http://dci.mit.edu"], ["ben.jpg", "Blockchain Education Network", "https://www.blockchainedu.org"]]
