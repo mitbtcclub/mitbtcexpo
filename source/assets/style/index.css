@@ -61,7 +61,7 @@
   }
 }
 .page-welcome .highlight {
-  color: #ffffff;
+  color: #000000;
 }
 .page-welcome h1 {
   font-size: 120px;
@@ -125,7 +125,7 @@
   color: #777;
 }
 .page-welcome #register button {
-  background-color: transparent;
+  background-color: #ffffff;
   border: solid 2px #ffffff;
   padding: 0 5px 0 5px;
 }
@@ -619,7 +619,7 @@ body {
 }
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 100;
   color: #fff;
   background-color: #292929;
