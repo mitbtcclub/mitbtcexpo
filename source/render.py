@@ -53,7 +53,7 @@ def generateHTML(prefix):
     goldsponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],goldsponsors)
     silversponsors = [["chaincode.png","Chaincode", "http://www.chaincode.com"], ["zcoin.png","ZCoin","https://zcoin.io/"],["FCAT.png","Fidelity Center for Applied Technology","https://www.fidelitylabs.com/"]]
     silversponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],silversponsors)
-    academicpartners = [["dci.png","Digital Currency Initiative", "http://dci.mit.edu"], ["ben.jpg", "Blockchain Education Network", "https://www.blockchainedu.org"], ["SloanBlockchain.png","http://blockchain.mit.edu/","Sloan Blockchain"],["casa.png","Casa", "https://keys.casa/"]]
+    academicpartners = [["ben.jpg", "Blockchain Education Network", "https://www.blockchainedu.org"], ["SloanBlockchain.png","http://blockchain.mit.edu/","Sloan Blockchain"],["casa.png","Casa", "https://keys.casa/"], ["dci.png","Digital Currency Initiative", "http://dci.mit.edu"]]
     academicpartners = map(lambda x: [sponsorprefix+x[0]]+x[1:],academicpartners)
     with open(prefix + "index.html", "wb") as f:
         f.write(loader.load(prefix + "index.tmpl").generate(speakers=speakers,day1_26=day1_26,day1_32=day1_32,day2_26=day2_26,day2_32=day2_32,platinumsponsors=platinumsponsors,goldsponsors=goldsponsors,silversponsors=silversponsors,academicpartners=academicpartners))
