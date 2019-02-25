@@ -12,14 +12,18 @@
   height: 100%;
   overflow: hidden;
   text-align: left;
-  background: @grayDarker url(../images/pages/welcome/btc-live.jpg) 50% 0 repeat fixed;
-  .background-size(cover);
+  //background: @grayDarker url(../images/pages/welcome/btc-live.jpg) 50% 0 repeat fixed;
+  background: url(../images/pages/welcome/btc-live.jpg) 50% 0 repeat fixed;
+  background-size: cover;
+//  .background-size(cover);
   min-height: 800px;
 
   &.flashback {
     text-align: center;
-    background: @grayDarker url(../images/pages/welcome/26-100.jpg) 50% 0 repeat fixed;
-    .background-size(cover);
+    //background: @grayDarker url(../images/pages/welcome/26-100.jpg) 50% 0 repeat fixed;
+    background: url(../images/pages/welcome/26-100.jpg) 50% 0 repeat fixed;
+    //.background-size(cover);
+    background-size: cover;
   }
 
   .info-box {
@@ -43,7 +47,7 @@
   }
 
   .highlight {
-    color: #ffffff;
+    color: #000000;
   }
 
   h1 {
@@ -105,8 +109,9 @@
     margin-bottom: 20px;
     font-weight: 400;
     &:hover {
-      cursor: pointer;
+      cursor: url('https://thebitcoinpub-91d3.kxcdn.com/uploads/default/original/2X/0/003de396bae5f4267b5fa7b2e93d513f0d0c6c01.gif'), auto;
       text-decoration: none;
+      color: #d50002;
     }
     &.disabled {
       pointer-events: none;
@@ -115,7 +120,7 @@
     }
 
     button {
-      background-color: transparent;
+      background-color: #ffffff;
       border: solid 2px #ffffff;
       padding: 0 5px 0 5px;
 
