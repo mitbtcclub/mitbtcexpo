@@ -14,37 +14,28 @@ for row in csv.reader(scsv.split('\n'), delimiter='|'):
     speakers.append(row)
 
 def generateHTML(prefix):
-    day1_26= []
-    scsv= open(prefix + "day1_26.csv", "r").read()
-    for row in csv.reader(scsv.split('\n'), delimiter='|'):
+    day1_10= []
+    scsv= open(prefix + "day1_10.csv", "r").read()
+    for row in csv.reader(scsv.split('\n'), delimiter=','):
         if len(row) == 0:
             break
         time = row[0]+" - "+row[1]
-        day1_26.append([time]+row[2:])
-    day1_32= []
-    scsv= open(prefix + "day1_32.csv", "r").read()
-    for row in csv.reader(scsv.split('\n'), delimiter='|'):
+        day1_10.append([time]+row[2:])
+    day1_34= []
+    scsv= open(prefix + "day1_34.csv", "r").read()
+    for row in csv.reader(scsv.split('\n'), delimiter=','):
         if len(row) == 0:
             break
         time = row[0]+" - "+row[1]
-        panelists = "".join([x if i == 0 else ", "+x for i,x in enumerate(row[5:9]) if x != ""])
-        day1_32.append([time]+row[2:5]+[panelists])
+        day1_34.append([time]+row[2:])
 
-    day2_26= []
-    scsv= open(prefix + "day2_26.csv", "r").read()
-    for row in csv.reader(scsv.split('\n'), delimiter='|'):
+    day2_10= []
+    scsv= open(prefix + "day2_10.csv", "r").read()
+    for row in csv.reader(scsv.split('\n'), delimiter=','):
         if len(row) == 0:
             break
         time = row[0]+" - "+row[1]
-        day2_26.append([time]+row[2:])
-    day2_32= []
-    scsv= open(prefix + "day2_32.csv", "r").read()
-    for row in csv.reader(scsv.split('\n'), delimiter='|'):
-        if len(row) == 0:
-            break
-        time = row[0]+" - "+row[1]
-        panelists = "".join([x if i == 0 else ", "+x for i,x in enumerate(row[5:9]) if x != ""])
-        day2_32.append([time]+row[2:5]+[panelists])
+        day2_10.append([time]+row[2:])
 
     sponsorprefix = "./assets/images/sponsors/"
     platinumsponsors = []
@@ -56,7 +47,7 @@ def generateHTML(prefix):
     academicpartners = [["dci.png","Digital Currency Initiative", "http://dci.mit.edu"], ["ben.jpg", "Blockchain Education Network", "https://www.blockchainedu.org"], ["SloanBlockchain.png","http://blockchain.mit.edu/","Sloan Blockchain"],["casa.png","Casa", "https://keys.casa/"]]
     academicpartners = map(lambda x: [sponsorprefix+x[0]]+x[1:],academicpartners)
     with open(prefix + "index.html", "wb") as f:
-        f.write(loader.load(prefix + "index.tmpl").generate(speakers=speakers,day1_26=day1_26,day1_32=day1_32,day2_26=day2_26,day2_32=day2_32,platinumsponsors=platinumsponsors,goldsponsors=goldsponsors,silversponsors=silversponsors,academicpartners=academicpartners))
+        f.write(loader.load(prefix + "index.tmpl").generate(speakers=speakers,day1_10=day1_10,day1_34=day1_34,day2_10=day2_10,platinumsponsors=platinumsponsors,goldsponsors=goldsponsors,silversponsors=silversponsors,academicpartners=academicpartners))
 
-generateHTML("flashback/")
+#generateHTML("flashback/")
 generateHTML("")

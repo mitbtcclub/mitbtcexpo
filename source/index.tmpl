@@ -104,96 +104,79 @@
     <!-- END PAGE | SPEAKERS -->
 
     <!-- PAGE | SCHEDULE -->
-    <!-- <div class="pages white page-schedule" id="page-schedule">
+    <<div class="pages white page-schedule" id="page-schedule">
       <div class="container">
         <header id="schedule">
-          <h3 class="line-divider">2019 Expo Schedule Day 1</h3>
+          <h1 class="line-divider">2019 Expo Schedule Day 1</h1>
         </header>
-        <h2>26-100</h2>
+        <h2>10-250</h2>
         <table class="table table-condensed col-md-8">
           <thead>
             <tr>
               <th><h4>Time</h4></th>
-              <th><h4>Topic</h4></th>
-              <th><h4>Speakers</h4></th>
+              <th><h4>Description</h4></th>
+              <th><h4>Presenters</h4></th>
+              <th><h4>Moderator</h4></th>
             </tr>
           </thead>
           <tbody>
-            {% for index, [time,event,format,speaker] in enumerate(day1_26) %}
+            {% for index, [time,description,presenters,moderator] in enumerate(day1_10) %}
             <tr>
               <td>{{time}}</td>
-              <td>{{event}}</td>
-              <td>{{speaker}}</td>
+              <td>{{description}}</td>
+              <td>{{presenters}}</td>
+              <td>{{moderator}}</td>
             </tr>
             {% end %}
           </tbody>
         </table>
-        <h2>32-123</h2>
-        <table class="table table-condensed">
+        <h2>34-101</h2>
+        <table class="table table-condensed col-md-8">
           <thead>
             <tr>
               <th><h4>Time</h4></th>
-              <th><h4>Topic</h4></th>
+              <th><h4>Description</h4></th>
+              <th><h4>Presenters</h4></th>
               <th><h4>Moderator</h4></th>
-              <th><h4>Panelists</h4></th>
             </tr>
           </thead>
           <tbody>
-            {% for index, [time,format,event,moderator,panelists] in enumerate(day1_32) %}
+            {% for index, [time,description,presenters,moderator] in enumerate(day1_34) %}
             <tr>
               <td>{{time}}</td>
-              <td>{{event}}</td>
+              <td>{{description}}</td>
+              <td>{{presenters}}</td>
               <td>{{moderator}}</td>
-              <td>{{panelists}}</td>
             </tr>
             {% end %}
           </tbody>
         </table>
           <header id="schedule">
-            <h3 class="line-divider">2019 Expo Schedule Day 2</h3>
+            <h1 class="line-divider">2019 Expo Schedule Day 2</h1>
           </header>
-          <h2>26-100</h2>
+          <h2>10-250</h2>
           <table class="table table-condensed col-md-8">
             <thead>
               <tr>
                 <th><h4>Time</h4></th>
-                <th><h4>Topic</h4></th>
-                <th><h4>Speakers</h4></th>
-              </tr>
-            </thead>
-            <tbody>
-              {% for index, [time,event,format,speaker] in enumerate(day2_26) %}
-              <tr>
-                <td>{{time}}</td>
-                <td>{{event}}</td>
-                <td>{{speaker}}</td>
-              </tr>
-              {% end %}
-            </tbody>
-          </table>
-          <h2>32-123</h2>
-          <table class="table table-condensed">
-            <thead>
-              <tr>
-                <th><h4>Time</h4></th>
-                <th><h4>Topic</h4></th>
+                <th><h4>Description</h4></th>
+                <th><h4>Presenters</h4></th>
                 <th><h4>Moderator</h4></th>
-                <th><h4>Panelists</h4></th>
               </tr>
             </thead>
             <tbody>
-              {% for index, [time,format,event,moderator,panelists] in enumerate(day2_32) %}
+              {% for index, [time,description,presenters,moderator] in enumerate(day2_10) %}
               <tr>
                 <td>{{time}}</td>
-                <td>{{event}}</td>
+                <td>{{description}}</td>
+                <td>{{presenters}}</td>
                 <td>{{moderator}}</td>
-                <td>{{panelists}}</td>
               </tr>
               {% end %}
             </tbody>
           </table>
       </div>
-    </div> -->
+    </div>
     <!-- END PAGE | SCHEDULE -->
 
     <!-- PAGE | SPONSORS -->
