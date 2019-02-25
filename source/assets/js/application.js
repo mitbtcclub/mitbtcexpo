@@ -10,10 +10,12 @@ $(document).ready(function(){
   });
 
   $('.pages').on('scrollSpy:enter', function() {
+    console.log(' entering', this);
     $('a[href="#'+$(this).attr('id')+'"]').toggleClass("active", true)
   });
 
   $('.pages').on('scrollSpy:exit', function() {
+    console.log(' leaving', $(this));
     $('a[href="#'+$(this).attr('id')+'"]').toggleClass("active", false)
   });
 
@@ -64,7 +66,7 @@ var betterAnchor = function(document, history, location) {
       match = $(href)
       if(match.length > 0) {
         console.log(this.getFixedOffset());
-        var anchorOffset = match.offset().top - this.getFixedOffset()+1; //add one pixel to make sure it activates the nav highlighting for the right page
+        var anchorOffset = match.offset().top - this.getFixedOffset()+2; //add one pixel to make sure it activates the nav highlighting for the right page
         window.scroll({
           top: anchorOffset,
           behavior: 'smooth'
