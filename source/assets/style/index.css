@@ -953,7 +953,7 @@ table th[class*="span"],
   justify-content: space-around;
 }
 #navigation ul li {
-  margin: 0 5%;
+  margin: 0 3%;
 }
 #navigation .navbar-brand {
   text-align: left;
