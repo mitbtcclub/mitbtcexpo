@@ -244,8 +244,18 @@
   position: relative;
   overflow-x: auto;
   margin: auto;
-  table-layout: fixed;
   float: none;
+  display: inline-block;
+}
+@media only screen and (max-width: 960px) {
+  .page-schedule .container table tbody {
+    border: solid 2px white;
+  }
+  .page-schedule .container table td {
+    min-width: 180px;
+    word-break: break-word;
+    padding: 10px;
+  }
 }
 /*
 *   PAGE | CONTACT
