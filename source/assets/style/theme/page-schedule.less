@@ -22,12 +22,24 @@
     z-index: 2;
     position: relative;
     font-size: 15px;
+
     table {
       position: relative;
       overflow-x: auto;
       margin: auto;
-      table-layout: fixed;
       float: none;
+      display: inline-block;
+
+      @media only screen and (max-width: 960px) {
+          tbody {
+            border: solid 2px white;
+          }
+          td {
+            min-width: 180px;
+            word-break: break-word;
+            padding: 10px;
+          }
+      }
     }
   }
 }
