@@ -1,6 +1,6 @@
 8:00 AM,9:00 AM,Registration,,
 9:00 AM,9:15 AM,Welcome by MIT Bitcoin Expo Director and Expo Committee Members,,
-9:15 AM,9:45 AM,Privacy,Andrew Poelstra,
+9:15 AM,9:45 AM,"Schnorr, MuSig, Thresholds and More for Bitcoin: A History",Andrew Poelstra,
 9:45 AM,10:15 AM,Utreexo: Reducing bitcoin nodes to 1 kilobyte,Tadge Dryja,
 10:15 AM,10:50 AM,Blockchain Security,Mark Nesbitt + Cory Fields + Carl Dong,Sharon Goldberg
 10:50 AM,11:00 AM,Break,,
@@ -10,10 +10,10 @@
 12:30 PM,1:30 PM,Lunch,,
 1:30 PM,2:10 PM,"Past, Present, and Future of Digital Asset Regulation",Gary Gensler + Hester Peirce,
 2:10 PM,2:35 PM,Atomic Swaps,James Prestwich,
-2:35 PM,3:00 PM,ZCash Governance,Josh Cincinnati,
+2:35 PM,3:00 PM,Zcash Governance: The Road Toward 2-of-2 Multisig,Josh Cincinnati,
 3:00 PM,3:10 PM,Break,,
-3:10 PM,3:35 PM,Deconstructing the blockchain to approach physical limits,Giulia Fanti,
-3:35 PM,4:00 PM,Arwen,Sharon Goldberg,
+3:10 PM,3:35 PM,Zero knowledge proofs and smart contracts with Bulletproofs,Cathie Yun,
+3:35 PM,4:00 PM,Arwen: Non-custodial solutions for centralized exchanges,Sharon Goldberg,
 4:00 PM,4:35 PM,Centralized Exchanges,TBD,Frank Chaparro
 4:35 PM,4:45 PM,Break,,
 4:45 PM,5:30 PM,Livestream from 34-101,,
