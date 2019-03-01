@@ -13,6 +13,16 @@ for row in csv.reader(scsv.split('\n'), delimiter='|'):
     row[0]=speakerprefix+row[0]
     speakers.append(row)
 
+teamcsv = open("team.csv", "r").read()
+team=[]
+teamprefix="./assets/images/headshots/"
+for row in csv.reader(teamcsv.split('\n'), delimiter='|'):
+    row = list(row)
+    if row == []:
+        break
+    row[0]=teamprefix+row[0]
+    team.append(row)
+
 def generateHTML(prefix):
     day1_10= []
     scsv= open(prefix + "day1_10.csv", "r").read()
@@ -49,7 +59,7 @@ def generateHTML(prefix):
     mediapartners = [["cointelegraph.png", "Cointelegraph", "https://cointelegraph.com/"]]
     mediapartners = map(lambda x: [sponsorprefix+x[0]]+x[1:],mediapartners)
     with open(prefix + "index.html", "wb") as f:
-        f.write(loader.load(prefix + "index.tmpl").generate(speakers=speakers,day1_10=day1_10,day1_34=day1_34,day2_10=day2_10,platinumsponsors=platinumsponsors,goldsponsors=goldsponsors,silversponsors=silversponsors,academicpartners=academicpartners,mediapartners=mediapartners))
+        f.write(loader.load(prefix + "index.tmpl").generate(team=team,speakers=speakers,day1_10=day1_10,day1_34=day1_34,day2_10=day2_10,platinumsponsors=platinumsponsors,goldsponsors=goldsponsors,silversponsors=silversponsors,academicpartners=academicpartners,mediapartners=mediapartners))
 
 #generateHTML("flashback/")
 generateHTML("")

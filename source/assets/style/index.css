@@ -165,6 +165,45 @@
   margin-bottom: 20px;
 }
 /*
+*   PAGE | SPEAKERS
+*/
+#team-spacer {
+  height: 50px;
+  background: url(../images/pages/team/cupcake.jpg) 50% 0 no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.page-team {
+  position: relative;
+  background: url(../images/pages/team/cupcake.jpg) 50% 0 no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+.page-team div.container {
+  z-index: 2;
+  position: relative;
+  color: white;
+}
+.page-team div.container div.row div {
+  padding-bottom: 20px;
+}
+.page-team div.container img {
+  width: 100%;
+}
+.page-team div.container .img-circle {
+  background: #aa0000;
+  border: 10px outset;
+}
+.page-team div.container h4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+/*
 *   PAGE | ABOUT
 */
 .page-about .about-items .item {
@@ -305,7 +344,7 @@
   width: 100%;
 }
 .page-sponsors img.sponsor-gold {
-  width: 60%;
+  width: 70%;
   padding-left: 15px;
   padding-right: 15px;
 }
