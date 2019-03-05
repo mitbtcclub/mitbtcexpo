@@ -25,27 +25,28 @@ for row in csv.reader(teamcsv.split('\n'), delimiter='|'):
 
 def generateHTML(prefix):
     day1_10= []
-    # scsv= open(prefix + "day1_10.csv", "r").read()
-    # for row in csv.reader(scsv.split('\n'), delimiter='|'):
-    #     if len(row) == 0:
-    #         break
-    #     time = row[0]+" - "+row[1]
-    #     day1_10.append([time]+row[2:])
+    scsv= open(prefix + "day1_10.csv", "r").read()
+    for row in csv.reader(scsv.split('\n'), delimiter='|'):
+        if len(row) == 0:
+            break
+        time = row[0]+" - "+row[1]
+        day1_10.append([time]+row[2:])
+
     day1_34= []
-    # scsv= open(prefix + "day1_34.csv", "r").read()
-    # for row in csv.reader(scsv.split('\n'), delimiter='|'):
-    #     if len(row) == 0:
-    #         break
-    #     time = row[0]+" - "+row[1]
-    #     day1_34.append([time]+row[2:])
+    scsv= open(prefix + "day1_34.csv", "r").read()
+    for row in csv.reader(scsv.split('\n'), delimiter='|'):
+        if len(row) == 0:
+            break
+        time = row[0]+" - "+row[1]
+        day1_34.append([time]+row[2:])
 
     day2_10= []
-    # scsv= open(prefix + "day2_10.csv", "r").read()
-    # for row in csv.reader(scsv.split('\n'), delimiter='|'):
-    #     if len(row) == 0:
-    #         break
-    #     time = row[0]+" - "+row[1]
-    #     day2_10.append([time]+row[2:])
+    scsv= open(prefix + "day2_10.csv", "r").read()
+    for row in csv.reader(scsv.split('\n'), delimiter='|'):
+        if len(row) == 0:
+            break
+        time = row[0]+" - "+row[1]
+        day2_10.append([time]+row[2:])
 
     sponsorprefix = "./assets/images/sponsors/"
     platinumsponsors = []
