@@ -53,7 +53,7 @@ def generateHTML(prefix):
     platinumsponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],platinumsponsors)
     goldsponsors = [["nash.png","Nash","http://nash.io"],["nebulous.jpg","Nebulous","https://sia.tech/"]]
     goldsponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],goldsponsors)
-    silversponsors = [["chaincode.png","Chaincode", "http://www.chaincode.com"], ["zcoin.png","ZCoin","https://zcoin.io/"],["FCAT.png","Fidelity Center for Applied Technology","https://www.fidelitylabs.com/"],["stellar.png","Stellar","https://www.stellar.org/"],["algorand.png","Algorand","https://www.algorand.com/"],["accomplice.png","Accomplice","https://accomplice.co/"]]
+    silversponsors = [["chaincode.png","Chaincode", "http://www.chaincode.com"], ["zcoin.png","ZCoin","https://zcoin.io/"],["FCAT.png","Fidelity Center for Applied Technology","https://www.fidelitylabs.com/"],["stellar.png","Stellar","https://www.stellar.org/"],["algorand.png","Algorand","https://www.algorand.com/"],["accomplice.png","Accomplice","https://accomplice.co/"], ["vechain.png", "VeChain", "https://www.vechain.org"]]
     silversponsors = map(lambda x: [sponsorprefix+x[0]]+x[1:],silversponsors)
     academicpartners = [["ben.jpg", "Blockchain Education Network", "https://www.blockchainedu.org"], ["SloanBlockchain.png","http://blockchain.mit.edu/","Sloan Blockchain"],["casa.png","Casa", "https://keys.casa/"], ["dci.png","Digital Currency Initiative", "http://dci.mit.edu"]]
     academicpartners = map(lambda x: [sponsorprefix+x[0]]+x[1:],academicpartners)
