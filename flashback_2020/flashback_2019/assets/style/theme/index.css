@@ -1,0 +1,114 @@
+/*
+*   PAGE | WELCOME
+*/
+.page-welcome {
+  position: relative;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-align: left;
+  background: url(../images/pages/welcome/btc-live.jpg) 50% 0 repeat fixed;
+  background-size: cover;
+  min-height: 800px;
+  /* Social icons box */
+}
+.page-welcome.flashback {
+  text-align: center;
+  background: url(../images/pages/welcome/26-100.jpg) 50% 0 repeat fixed;
+  background-size: cover;
+}
+.page-welcome .info-box {
+  margin: auto 20px;
+  background: rgba(0, 0, 0, 0.73);
+  display: inline-block;
+  width: 500px;
+  text-align: center;
+}
+@media only screen and (max-width: 560px) {
+  .page-welcome .info-box {
+    width: 100%;
+    margin: auto;
+  }
+  .page-welcome .arrow {
+    display: none;
+  }
+}
+.page-welcome .highlight {
+  color: #000000;
+}
+.page-welcome h1 {
+  font-size: 120px;
+  font-style: oblique;
+  font-weight: bold;
+  color: #c4371e;
+  display: inline-block;
+  padding: 10px;
+}
+.page-welcome h2 {
+  font-size: 60px;
+  font-weight: bold;
+  display: inline-block;
+  color: #c4371e;
+  padding: 10px;
+}
+.page-welcome h3 {
+  color: #c4371e;
+  font-weight: bold;
+  display: inline-block;
+  padding: 10px;
+}
+.page-welcome .social-icons {
+  margin: 50px auto 0;
+}
+.page-welcome #registration {
+  padding-bottom: 0;
+  position: relative;
+}
+.page-welcome #registration:before {
+  content: '';
+  height: 50px;
+  width: 10%;
+  display: block;
+}
+@media only screen and (max-width: 960px) {
+  .page-welcome #registration:before {
+    max-height: 5vh;
+  }
+}
+.page-welcome #register {
+  flex: 1 1 auto;
+  position: relative;
+  transition: 0.3s;
+  font-size: 32px;
+  border: none;
+  background: rgba(51, 51, 51, 0);
+  color: #d50002;
+  padding: 5px 7px;
+  display: inline-block;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.page-welcome #register:hover {
+  cursor: url('https://thebitcoinpub-91d3.kxcdn.com/uploads/default/original/2X/0/003de396bae5f4267b5fa7b2e93d513f0d0c6c01.gif'), auto;
+  text-decoration: none;
+  color: #d50002;
+}
+.page-welcome #register.disabled {
+  pointer-events: none;
+  cursor: default;
+  color: #777;
+}
+.page-welcome #register button {
+  background-color: #ffffff;
+  border: solid 2px #ffffff;
+  padding: 0 5px 0 5px;
+}
+@media only screen and (max-width: 540px) {
+  .page-welcome #register button {
+    padding: 5px;
+  }
+}
