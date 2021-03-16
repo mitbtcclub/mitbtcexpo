@@ -1,0 +1,3 @@
+Gloria is currently working on package validation/relay in Bitcoin Core. She just graduated from UC Berkeley in December and was previously president of Blockchain at Berkeley.
+
+>>188cec773836f29dd4eacc2a785191ddfb00220d

@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link rel="alternate" title="RSS Feed" href="/rss.xml" type="application/rss+xml">
-<title>Welcome</title>
+<title>Write</title>
 <style type="text/css">
 <!--
 /* begin css/default.css */
@@ -259,14 +259,14 @@ input:focus {
 <!-- / topmenu2.template -->
 </b>
 <p><MAIN ID=maincontent><A NAME=maincontent></A>
-<!-- window/standard.template -->
+<form action="/post.html" method=GET id=compose class=submit name=compose target=_top><!-- window/standard.template -->
 <font face=arial>
 	<table cellspacing=0 cellpadding=6 border=0 bgcolor="#c0c0c0" class=dialog>
 		<!-- titlebar_with_button.template -->
 <tr bgcolor="#000080" class=titlebar>
 	<td valign=middle>
 		<img src="/logo.png" height=16 width=16>
-		<font color="#ffffff"><b>Welcome</b></font>
+		<font color="#ffffff"><b>Write</b></font>
 		<br>
 	</td>
 </tr>
@@ -277,22 +277,83 @@ input:focus {
 
 		
 
-		<tr class=content><td><!-- welcome.template -->
-	<img src=/banner_2x1.jpg alt="
-	MIT Bitcoin Expo 2021
-	The New Normal
-	April 3-4th, 2021" width="99%">
-	<h3><a href="https://tinyurl.com/4ezdhdk">Register</a></h3>
-	<h3><a href="https://forms.gle/JUvaggfVCNS8P54G7">Hackathon</a></h3>
-	<h3><a href="https://eepurl.com/gOVdKb">Join the Mailing List</a></h3>
-<!-- / welcome.template -->
+		<tr class=content><td><!-- write.template -->
+<fieldset>
+	<span id=writeintro></span>
+	<span class=beginner><label for="comment" class=beginner>Share with Everyone:</label><br></span>
+	<textarea
+		class=txtarea
+		id=comment
+		title="Enter some text to share."
+		rows=9
+		cols=32
+		name=comment
+		autofocus
+		wrap=soft
+	></textarea><br>
+	<p>
+		<input type=submit value="Send Now" name=addtext id=addtext>
+		<span id=spanSignAs></span>
+		<p id=spanWriteAdvanced class=advanced></p>
+		<span class=advanced>
+			<label for=recfing>
+				<input name=recfing id=recfing type=checkbox>
+				Record anonymous identifier
+			</label>
+		</span>
+	</p>
+</fieldset>
+<!--/ write.template -->
 </td></tr>
 
 		
 	</table>
 </font>
 <!-- / window/standard.template -->
-<a name=8013688d></a></main>
+<a name=24b52b1d></a><span class=advanced><!-- window/standard.template -->
+<font face=arial>
+	<table cellspacing=0 cellpadding=6 border=0 bgcolor="#c0c0c0" class=dialog>
+		<!-- titlebar_with_button.template -->
+<tr bgcolor="#000080" class=titlebar>
+	<td valign=middle>
+		<img src="/logo.png" height=16 width=16>
+		<font color="#ffffff"><b>Options</b></font>
+		<br>
+	</td>
+</tr>
+<!-- / titlebar_with_button.template -->
+
+
+		
+
+		
+
+		<tr class=content><td><!-- write_js.template ; additional controls for js-enhanced write form -->
+<hr class=advanced>
+<span id=spanInputOptions class=advanced>
+	<p>
+		Input Options: <noscript>(JavaScript enhanced)</noscript><br>
+		<a href="/frame.html" target=_top>Keyboard</a><br>
+		<a href="/frame2.html" target=_top>Android</a><br>
+		<a href="/frame2.html" target=_top>iPhone</a><br>
+		<a href="/frame2.html" target=_top>iPad</a><br>
+		<a href="/frame3.html" target=_top>Netscape</a><br>
+	</p>
+
+	<p>
+		Keyboard Layouts: <noscript>(requires JavaScript)</noscript><br>
+		Russian: Ctrl+R, Alt+R, Meta+R<br>
+		Dvorak: Ctrl+D, Alt+D, Meta+D
+	</p>
+</span>
+<!-- / write_js.template -->
+</td></tr>
+
+		
+	</table>
+</font>
+<!-- / window/standard.template -->
+<a name=529e42c9></a></span></form></main>
 <hr>
 <img src="/p.gif" alt="" height=1 width=1>
 <!-- back_to_top_button.template -->

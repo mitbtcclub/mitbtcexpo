@@ -1,0 +1,341 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="alternate" title="RSS Feed" href="/rss.xml" type="application/rss+xml">
+<title>Compost</title>
+<style type="text/css">
+<!--
+/* begin css/default.css */
+.tag-flag,
+.tag-troll,
+.tag-spam,
+.tag-remove,
+.tag-abuse {
+/* negative (red) tags */
+	color: #c00000;
+}
+
+.tag-remove {
+/* remove tag */
+	font-weight: bold;
+}
+
+.tag-approve,
+.tag-accept,
+.tag-friend,
+.tag-attend {
+/* positive (green) tags */
+	color: #008000;
+}
+
+div.reply {
+/* creates indented effect for sub-replies */
+	margin-left: 2%;
+	padding-left: 3em;
+}
+
+.item-textart {
+/* textart items get monospace font */
+	font-family: monospace;
+	font-size: 12pt;
+}
+
+.tag-aolart {
+/* aol art in 10-point arial font */
+    font-family: Arial;
+    font-size: 10pt;
+}
+
+div.txt {
+	padding-left: 1em;
+}
+
+.byadmin {
+/* text by admin, displayed in red for users' sake */
+	color: red;
+}
+
+.signed {
+/* signed things are displayed in gold */
+    border-color: gold;
+}
+
+
+#eventLocation, #eventBrcLocation {
+/* event form */
+	background-color: #ffffff;
+	padding: 5pt;
+}
+
+#eventDate {
+/* event form */
+	background-color: #e0e0e0;
+	padding: 5pt;
+}
+
+#loadingIndicator, #spanLoadingIndicator, #ariaAlert {
+	color: #000000;
+	background-color: #f0f0d0;
+	padding: 3pt;
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: 0;
+	font-family: tahoma, arial, sans-serif;
+	font-size: smaller;
+	font-weight: bold;
+}
+#loadingIndicator a {
+	/* style for links in loading indicator */
+}
+.notification {
+	color: #000000;
+	background-color: #f0f0d0;
+	padding: 3pt;
+	font-size: smaller;
+	font-weight: bold;
+}
+noscript {
+	color: red;
+}
+.menubar a, .titlebar a {
+	text-decoration: none;
+	color: #000000;
+}
+/* end css/default.css */
+
+/* avatar.css */
+.avatar .icon {
+	font-weight: bold;
+	font-size: smaller;
+}
+/* / avatar.css */
+
+/* dragging.css */
+
+table.dialog {
+	display: inline-block;
+	vertical-align: top;
+}
+form {
+	display: inline;
+}
+
+/* / dragging.css */
+
+/* theme/mitbtc/additional.css */
+.titlebar {
+	background-image: url('/triangles_hor.gif');
+	background-repeat: no-repeat;
+  	background-size: auto;
+}
+/* / theme/mitbtc/additional.css */
+/* theme/chicago/additional.css */
+body {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	background-color: #008080;
+}
+input {
+	border-color: blue;
+}
+input[type=text], input[type=password], select, option, textarea {
+	background-color: #ffffff;
+	color: #000000;
+}
+#txtClock {
+	border: 1pt inset #c0c0c0;
+}
+@media (prefers-color-scheme: dark) {
+
+}
+.beginner {
+    background-color: #f0f0d0;
+}
+.dialog {
+	box-shadow: 3pt 3pt 0 rgba(0, 20, 20, 0.5);
+	border: #c0c0c0 outset 2pt;
+	background-color: #c0c0c0;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+.statusbar td {
+	border: 1pt inset #c0c0c0;
+}
+textarea {
+    font-family: Fixedsys, "Courier New", Courier, monospace;
+    font-size: 12pt;
+}
+
+.txt {
+/* regular text */
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 14pt;
+	background-color: #d0d2d4;
+	border: 1pt #ffffff inset;
+}
+
+a:focus, a:active {
+    color: red !important;
+    background-color: orange !important;
+}
+textarea:focus {
+    background-color: #fff0e0;
+}
+input:focus {
+    background-color: orange;
+}
+#serverResponse {
+/* response messages from the server */
+    background-color: #ffc080;
+    color: #000000;
+    padding: 5pt;
+    spacing: 5pt;
+    border: 0;
+	box-shadow: 5pt 5pt 0 #006767;
+}
+#txtClock {
+	border: 1pt inset #c0c0c0;
+	background-color: #c0c0c0;
+}
+/* / theme/chicago/additional.css */
+-->
+</style>
+</head>
+<body background="./triangles.gif">
+<b><!-- topmenu2.template -->
+<table cellspacing=0 cellpadding=3 border=0 bgcolor="#c0c0c0" class=dialog>
+	<tr bgcolor="#000080" class=titlebar>
+		<td colspan=2>
+			<small>
+			<a tabindex=2 href="#maincontent" name=top><font color="#ffffff">MIT Bitcoin Expo</font></a>
+<!--			<a tabindex=2 href="#maincontent" name=top><font color="#ffffff">Skip to main content</font></a>;-->
+<!--			<a href="/access.html?light=1" tabindex=3><font color="#ffffff">Accessibility mode</font></a>;-->
+			<br>
+			</small>
+		</td>
+	</tr>
+	<tr bgcolor="#c0c0c0" class=menubar>
+		<td>
+			<big>
+				<big><!-- menuitem.template -->
+<a accesskey="h" href="/"><u>H</u>ome</a> &nbsp; 
+<!-- / menuitem.template -->
+<!-- menuitem.template -->
+<a accesskey="r" href="https://tinyurl.com/4ezdhdk"><u>R</u>egister</a> &nbsp; 
+<!-- / menuitem.template -->
+<!-- menuitem.template -->
+<a accesskey="s" href="/speakers.html"><u>S</u>peakers</a> &nbsp; 
+<!-- / menuitem.template -->
+<!-- menuitem.template -->
+<a accesskey="p" href="/sponsors.html">S<u>p</u>onsors</a> &nbsp; 
+<!-- / menuitem.template -->
+<!-- menuitem.template -->
+<a accesskey="a" href="/agenda.html"><u>A</u>genda</a> &nbsp; 
+<!-- / menuitem.template -->
+<!-- menuitem.template -->
+<a accesskey="c" href="https://forms.gle/JUvaggfVCNS8P54G7">Ha<u>c</u>kathon</a> &nbsp; 
+<!-- / menuitem.template -->
+<!-- menuitem.template -->
+<a accesskey="o" href="/committee.html">C<u>o</u>mmittee</a> &nbsp; 
+<!-- / menuitem.template -->
+<!-- menuitem.template -->
+<a accesskey="l" href="/links.html"><u>L</u>inks</a> &nbsp; 
+<!-- / menuitem.template -->
+<!-- menuitem.template -->
+<a accesskey="m" href="https://eepurl.com/gOVdKb"><u>M</u>ailing List</a> &nbsp; 
+<!-- / menuitem.template -->
+<!-- menuitem.template -->
+<a accesskey="i" href="/flashback_2020/">Pr<u>i</u>or Expo</a> &nbsp; 
+<!-- / menuitem.template -->
+</big>
+				<span class=advanced></span>
+				<span class=admin> </span>
+			</big>
+		</td>
+	</tr>
+</table>
+<!-- / topmenu2.template -->
+</b>
+<p><MAIN ID=maincontent><A NAME=maincontent></A>
+<!-- window/standard.template -->
+<font face=arial>
+	<table cellspacing=0 cellpadding=6 border=0 bgcolor="#c0c0c0" class=dialog>
+		<!-- titlebar_with_button.template -->
+<tr bgcolor="#000080" class=titlebar>
+	<td valign=middle colspan=6>
+		<img src="/logo.png" height=16 width=16>
+		<font color="#ffffff"><b>Compost</b></font>
+		<br>
+	</td>
+</tr>
+<!-- / titlebar_with_button.template -->
+
+
+		
+
+		<!-- header_wrapper.template -->
+<tr class=heading>
+	<!-- header_column.template -->
+<th align=left>item_title</th>
+<!-- / header_column.template -->
+<!-- header_column.template -->
+<th align=left>author_key</th>
+<!-- / header_column.template -->
+<!-- header_column.template -->
+<th align=left>add_timestamp</th>
+<!-- / header_column.template -->
+<!-- header_column.template -->
+<th align=left>item_score</th>
+<!-- / header_column.template -->
+<!-- header_column.template -->
+<th align=left>child_count</th>
+<!-- / header_column.template -->
+<!-- header_column.template -->
+<th align=left>file_hash<br></th>
+<!-- / header_column.template -->
+
+</tr>
+<!-- / header_wrapper.template -->
+
+
+		<tbody class=content><tr bgcolor="#ffffff"><td><b><a href="/d8/a7/d8a7f946.html">Kim Grauer is the Head of Research at Chainalysis, where she ex</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615853853 title="20:17" class=timestamp>20:17</span><!-- / timestamp.template --></td><td>-</td><td>-</td><td class=advanced>d8a7f9466c05bb636c1c2f50dfa0f69d148a6e74</td></tr><tr bgcolor="#e0e0e0"><td><b><a href="/3f/2a/3f2afdee.html">Sacha Ghebali is US Operations and Data Analytics Lead at Kaiko</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615853513 title="20:11" class=timestamp>20:11</span><!-- / timestamp.template --></td><td>-</td><td>-</td><td class=advanced>3f2afdeea9f67febbb61125da36280edca8e283a</td></tr><tr bgcolor="#ffffff"><td><b><a href="/04/b2/04b2a1f3.html">Dan is currently Growth lead at Kraken. His former company Inte</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615852764 title="19:59" class=timestamp>19:59</span><!-- / timestamp.template --></td><td>-</td><td>-</td><td class=advanced>04b2a1f31d9c287c3ee76e4e88955679b5428eeb</td></tr><tr bgcolor="#e0e0e0"><td><b><a href="/e4/14/e414217b.html">Max is contributing to several free software projects, building</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615852721 title="19:58" class=timestamp>19:58</span><!-- / timestamp.template --></td><td>-</td><td>-</td><td class=advanced>e414217bb5c5c46f343b1b5bc9879f1f5bcbf555</td></tr><tr bgcolor="#ffffff"><td><b><a href="/f3/60/f36047af.html">Founder and developer of Lightning Network.</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615852186 title="19:49" class=timestamp>19:49</span><!-- / timestamp.template --></td><td>-</td><td>-</td><td class=advanced>f36047af9495c4588b699ccf4295cccf66cc23b1</td></tr><tr bgcolor="#e0e0e0"><td><b><a href="/a1/94/a1940e30.html">Ethan is co-founder and CFO of Luxor Mining, a hashrate based p</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615851947 title="19:45" class=timestamp>19:45</span><!-- / timestamp.template --></td><td>-</td><td>-</td><td class=advanced>a1940e3093b932bc6bc08b8bc1d6dfb4cba8d556</td></tr><tr bgcolor="#ffffff"><td><b><a href="/41/62/4162306a.html">name: Jim Cunha</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615850968 title="19:29" class=timestamp>19:29</span><!-- / timestamp.template --></td><td>-</td><td>-</td><td class=advanced>4162306a4955da34a53657d6c6597a482b0a8662</td></tr><tr bgcolor="#e0e0e0"><td><b><a href="/db/a1/dba11e38.html">Bryan Bishop has a background in software engineering, bitcoin,</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615850787 title="19:26" class=timestamp>19:26</span><!-- / timestamp.template --></td><td>-</td><td>-</td><td class=advanced>dba11e38b43841dc640d38488cc610beb71224ad</td></tr><tr bgcolor="#ffffff"><td><b><a href="/51/1e/511e802c.html">Jameson has been building multisignature Bitcoin wallets for 6 </a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615850665 title="19:24" class=timestamp>19:24</span><!-- / timestamp.template --></td><td>-</td><td>-</td><td class=advanced>511e802c69a982d72240968d9cf0a585198b4f28</td></tr><tr bgcolor="#e0e0e0"><td><b><a href="/a9/6a/a96aa2ec.html">Rob Margolis is a Director on the Global Digital Markets desk a</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615850617 title="19:23" class=timestamp>19:23</span><!-- / timestamp.template --></td><td>-</td><td>-</td><td class=advanced>a96aa2eca826cca5a8249c7b76c0941a553b62ee</td></tr><tr bgcolor="#ffffff"><td><b><a href="/5d/f5/5df552da.html">Peter McCormack is a full time journalist/podcaster covering to</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615850577 title="19:22" class=timestamp>19:22</span><!-- / timestamp.template --></td><td>-</td><td>-</td><td class=advanced>5df552da2d8ad25630074febd180aa19e5b32c85</td></tr><tr bgcolor="#e0e0e0"><td><b><a href="/b6/38/b6384d25.html">Neha Narula is the Director of the Digital Currency Initiative </a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615850500 title="19:21" class=timestamp>19:21</span><!-- / timestamp.template --></td><td>-</td><td>-</td><td class=advanced>b6384d25fa68f0d4dbe6f4c576c8faf6cfcaea5f</td></tr><tr bgcolor="#ffffff"><td><b><a href="/ce/e5/cee5f833.html">Michael Perklin is a cryptocurrency security expert, having pro</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615850382 title="19:19" class=timestamp>19:19</span><!-- / timestamp.template --></td><td>-</td><td>-</td><td class=advanced>cee5f833a3bb882289265b4a25818e0fc9e4bf10</td></tr><tr bgcolor="#e0e0e0"><td><b><a href="/3f/a6/3fa6349f.html">Rene is researching on improving the payment reliability on the</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615850265 title="19:17" class=timestamp>19:17</span><!-- / timestamp.template --></td><td>-</td><td>-</td><td class=advanced>3fa6349f325a05ab8fe10321729eca3a72cc11de</td></tr><tr bgcolor="#ffffff"><td><b><a href="/30/f3/30f383a8.html">Mr. Saylor is a technologist, entrepreneur, business executive,</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615850200 title="19:16" class=timestamp>19:16</span><!-- / timestamp.template --></td><td>-</td><td>-</td><td class=advanced>30f383a82a74cd7c37994d691bb15434d3ad17d2</td></tr><tr bgcolor="#e0e0e0"><td><b><a href="/ad/75/ad751916.html">AJ works on Galaxy Digital’s mining team, where he focuses on</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615850138 title="19:15" class=timestamp>19:15</span><!-- / timestamp.template --></td><td>-</td><td>-</td><td class=advanced>ad75191699372751fffd36fe93d210548fb14f50</td></tr><tr bgcolor="#ffffff"><td><b><a href="/54/2d/542d7196.html">-- </a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615850046 title="19:14" class=timestamp>19:14</span><!-- / timestamp.template --></td><td>-</td><td>-</td><td class=advanced>542d719645bc241ac817af68d3e2549fc75dba42</td></tr><tr bgcolor="#e0e0e0"><td><b><a href="/3f/78/3f78d91e.html">name: Jimmy Song</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615849985 title="19:13" class=timestamp>19:13</span><!-- / timestamp.template --></td><td>-</td><td>-</td><td class=advanced>3f78d91e55e4902c4f712e33a054334b075be7b8</td></tr><tr bgcolor="#ffffff"><td><b><a href="/20/b7/20b7dd47.html">name: David Vorick</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615849239 title="19:00" class=timestamp>19:00</span><!-- / timestamp.template --></td><td>-</td><td>-</td><td class=advanced>20b7dd47d58d424cafde621ea824701a0b402163</td></tr><tr bgcolor="#e0e0e0"><td><b><a href="/28/fe/28feb4eb.html">I am Director of Bitcoin Mining at Fidelity's Center for Applie</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615849148 title="18:59" class=timestamp>18:59</span><!-- / timestamp.template --></td><td>-</td><td>-</td><td class=advanced>28feb4eb277d4913f1e2111e5f5c9729600966cd</td></tr><tr bgcolor="#ffffff"><td><b><a href="/e7/6c/e76c162a.html">Pieter discovered Bitcoin in December 2010 and started contribu</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615849031 title="18:57" class=timestamp>18:57</span><!-- / timestamp.template --></td><td>-</td><td>-</td><td class=advanced>e76c162aa49d1abdec1f5dba31d67df6a776e9ba</td></tr><tr bgcolor="#e0e0e0"><td><b><a href="/b9/41/b9415908.html">Gloria is currently working on package validation/relay in Bitc</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615848905 title="18:55" class=timestamp>18:55</span><!-- / timestamp.template --></td><td>-</td><td>-</td><td class=advanced>b941590837ce678976d5afbad33450a57729cdb9</td></tr><tr bgcolor="#ffffff"><td><b><a href="/6c/95/6c954303.html">Robleh Ali is a founder of Wadagso Inc a specialist company off</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615848454 title="18:47" class=timestamp>18:47</span><!-- / timestamp.template --></td><td>-</td><td>-</td><td class=advanced>6c954303c37f25e58ca39bc6201132742c7f5a2e</td></tr><tr bgcolor="#e0e0e0"><td><b><a href="/f6/3f/f63fdde3.html">Previously, Dr. Zou held various positions in China Investment </a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615847504 title="18:31" class=timestamp>18:31</span><!-- / timestamp.template --></td><td>-</td><td>-</td><td class=advanced>f63fdde38ceff4e810ff74ddf0fa233d37644ed9</td></tr><tr bgcolor="#ffffff"><td><b><a href="/33/1c/331c9afd.html">Gloria is currently working on package validation/relay in Bitc</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615841088 title="16:44" class=timestamp>16:44</span><!-- / timestamp.template --></td><td>-</td><td>-</td><td class=advanced>331c9afd39944e471036a56292a666b67345789e</td></tr><tr bgcolor="#e0e0e0"><td><b><a href="/94/3f/943f9188.html">Mr. Saylor is a technologist, entrepreneur, business executive,</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615841001 title="16:43" class=timestamp>16:43</span><!-- / timestamp.template --></td><td>-</td><td>-</td><td class=advanced>943f91889a2d73339eadd1feba6efc4528de2e23</td></tr><tr bgcolor="#ffffff"><td><b><a href="/f7/a5/f7a516e2.html">Jimmy Song is a Bitcoin developer, educator and entrepreneur. H</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615840968 title="16:42" class=timestamp>16:42</span><!-- / timestamp.template --></td><td>-</td><td>-</td><td class=advanced>f7a516e28dfb5b2d5d26978136159d47220c99ac</td></tr><tr bgcolor="#e0e0e0"><td><b><a href="/d8/44/d8442c09.html">Michael Perklin is a cryptocurrency security expert, having pro</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615840914 title="16:41" class=timestamp>16:41</span><!-- / timestamp.template --></td><td>-</td><td>-</td><td class=advanced>d8442c0920ff3c784b8611a9f4e1fdfb27360183</td></tr><tr bgcolor="#ffffff"><td><b><a href="/78/0e/780e6fa1.html">Robleh Ali is a founder of Wadagso Inc a specialist company off</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615840319 title="16:31" class=timestamp>16:31</span><!-- / timestamp.template --></td><td>-</td><td>-</td><td class=advanced>780e6fa104292e27bd08c72347d1d525af4b9624</td></tr><tr bgcolor="#e0e0e0"><td><b><a href="/b7/e5/b7e52af2.html">title: Robleh Ali</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615838464 title="16:01" class=timestamp>16:01</span><!-- / timestamp.template --></td><td>-</td><td>-</td><td class=advanced>b7e52af2ed00a5402c910b0cba445efcd2a82f4f</td></tr><tr bgcolor="#ffffff"><td><b><a href="/3b/7e/3b7e87b2.html">sha512.js</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615650867 title="03/13" class=timestamp>03/13</span><!-- / timestamp.template --></td><td>-</td><td>-</td><td class=advanced>3b7e87b28588bd9410425716f6a02b6324d01629</td></tr><tr bgcolor="#e0e0e0"><td><b><a href="/c0/14/c014e677.html">Mining Team, Galaxy Digital</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615846615 title="18:16" class=timestamp>18:16</span><!-- / timestamp.template --></td><td>-</td><td>1</td><td class=advanced>c014e677e54f7a8e88c0c00eaab6c2e0a5657402</td></tr><tr bgcolor="#ffffff"><td><b><a href="/59/d5/59d570ad.html">Chief Marketing Officer, NiceHash</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615846613 title="18:16" class=timestamp>18:16</span><!-- / timestamp.template --></td><td>-</td><td>1</td><td class=advanced>59d570ad15388b8643f5a5bf6fa45b19d166aee8</td></tr><tr bgcolor="#e0e0e0"><td><b><a href="/5b/62/5b625e55.html">Co-Founder and CEO, Sia</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615846610 title="18:16" class=timestamp>18:16</span><!-- / timestamp.template --></td><td>-</td><td>1</td><td class=advanced>5b625e55e2dffc8cb2d89194b3bb560057dbcc66</td></tr><tr bgcolor="#ffffff"><td><b><a href="/e4/83/e4833d92.html">Director on the Global Digital Markets desk, BlockFi</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615846607 title="18:16" class=timestamp>18:16</span><!-- / timestamp.template --></td><td>-</td><td>1</td><td class=advanced>e4833d926e7a087501ddffbf6b610e7ee1f1ba46</td></tr><tr bgcolor="#e0e0e0"><td><b><a href="/55/7d/557d8670.html">Director, Bitcoin Mining at Fidelity Investments</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615846603 title="18:16" class=timestamp>18:16</span><!-- / timestamp.template --></td><td>-</td><td>1</td><td class=advanced>557d867024a2b019891e30ad7a7e7d93500e4a5f</td></tr><tr bgcolor="#ffffff"><td><b><a href="/d7/0b/d70ba2e6.html">CTO at Avanti Bank &amp; Trust</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615846600 title="18:16" class=timestamp>18:16</span><!-- / timestamp.template --></td><td>-</td><td>1</td><td class=advanced>d70ba2e6a0a32ddd848e03f3d1c611c6f84f04c2</td></tr><tr bgcolor="#e0e0e0"><td><b><a href="/4e/18/4e18fe3e.html">Founder, Mensa's Bitcoin Special Interest Group</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615841622 title="16:53" class=timestamp>16:53</span><!-- / timestamp.template --></td><td>-</td><td>1</td><td class=advanced>4e18fe3e9e36633e5e7ae437d8bf96704d128a0d</td></tr><tr bgcolor="#ffffff"><td><b><a href="/bf/32/bf328036.html">Co-founder &amp; CFO, Luxor Mining</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615841617 title="16:53" class=timestamp>16:53</span><!-- / timestamp.template --></td><td>-</td><td>1</td><td class=advanced>bf328036a6a72561e5b5e729602f88ad17917b11</td></tr><tr bgcolor="#e0e0e0"><td><b><a href="/e3/7a/e37a5cc2.html">Senior Vice President, Boston Federal Reserve</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615841614 title="16:53" class=timestamp>16:53</span><!-- / timestamp.template --></td><td>-</td><td>1</td><td class=advanced>e37a5cc2203a333acdc8ffaf3c1fc1f172dbdeda</td></tr><tr bgcolor="#ffffff"><td><b><a href="/d7/76/d7769760.html">Bitcoin Core Developer</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615841610 title="16:53" class=timestamp>16:53</span><!-- / timestamp.template --></td><td>-</td><td>1</td><td class=advanced>d77697609b29232d57fb68e92201a10daf908d4f</td></tr><tr bgcolor="#e0e0e0"><td><b><a href="/7c/e0/7ce0af9b.html">Founder of Wadagso Inc</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615841600 title="16:53" class=timestamp>16:53</span><!-- / timestamp.template --></td><td>-</td><td>1</td><td class=advanced>7ce0af9bc3b390015f9b1a467f9f78c25572266d</td></tr><tr bgcolor="#ffffff"><td><b><a href="/06/1e/061e4f05.html">Growth Lead, Kraken</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615841598 title="16:53" class=timestamp>16:53</span><!-- / timestamp.template --></td><td>-</td><td>1</td><td class=advanced>061e4f05e0fdbdf453315ab0b317862add0f3394</td></tr><tr bgcolor="#e0e0e0"><td><b><a href="/6d/33/6d33c2d7.html">DCI researcher, co-inventor of the Lightning Network, Bitcoin developer working on scalability</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615840425 title="16:33" class=timestamp>16:33</span><!-- / timestamp.template --></td><td>-</td><td>1</td><td class=advanced>6d33c2d71f2a67f117c162d2e740bbc29788faf8</td></tr><tr bgcolor="#ffffff"><td><b><a href="/10/5d/105dd8f5.html">Chief Economist of Wanxiang Blockchain</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615840419 title="16:33" class=timestamp>16:33</span><!-- / timestamp.template --></td><td>-</td><td>1</td><td class=advanced>105dd8f5d515f5e5cc7481fbbbd5d299248635a5</td></tr><tr bgcolor="#e0e0e0"><td><b><a href="/31/f3/31f385b9.html">Head of Research, Chainalysis Inc.</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615840412 title="16:33" class=timestamp>16:33</span><!-- / timestamp.template --></td><td>-</td><td>1</td><td class=advanced>31f385b95e4cdd48983dc42d6b51a8b78f865465</td></tr><tr bgcolor="#ffffff"><td><b><a href="/ff/3f/ff3fa51e.html">Creator, What Bitcoin Did Podcast</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615840409 title="16:33" class=timestamp>16:33</span><!-- / timestamp.template --></td><td>-</td><td>1</td><td class=advanced>ff3fa51e38ab70f08359da32abfb26fba269430b</td></tr><tr bgcolor="#e0e0e0"><td><b><a href="/c3/3e/c33e7120.html">Researcher at Norwegian University of Science and Technology</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615840405 title="16:33" class=timestamp>16:33</span><!-- / timestamp.template --></td><td>-</td><td>1</td><td class=advanced>c33e7120784c999f515ff615c7de8a01a8cf09d0</td></tr><tr bgcolor="#ffffff"><td><b><a href="/1b/1e/1b1e627b.html">Engineer, Chaincode Labs</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615839501 title="16:18" class=timestamp>16:18</span><!-- / timestamp.template --></td><td>-</td><td>1</td><td class=advanced>1b1e627b3e2f3f9717ab1b2d0b926f633c3244be</td></tr><tr bgcolor="#e0e0e0"><td><b><a href="/3c/f8/3cf883fb.html">Developer</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615839492 title="16:18" class=timestamp>16:18</span><!-- / timestamp.template --></td><td>-</td><td>1</td><td class=advanced>3cf883fb321275e21a3636bcc8c3ed24412f0f7b</td></tr><tr bgcolor="#ffffff"><td><b><a href="/fe/a8/fea8cfa7.html">US Operations &amp; Data Analytics Lead, Kaiko</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615839484 title="16:18" class=timestamp>16:18</span><!-- / timestamp.template --></td><td>-</td><td>1</td><td class=advanced>fea8cfa7e6d290f92542d26997b293a5bf51237e</td></tr><tr bgcolor="#e0e0e0"><td><b><a href="/72/3d/723de7b9.html">Founder &amp; Developer, Lightning Network</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615839473 title="16:17" class=timestamp>16:17</span><!-- / timestamp.template --></td><td>-</td><td>1</td><td class=advanced>723de7b9becd8ffff2e045448905e3a7e105443f</td></tr><tr bgcolor="#ffffff"><td><b><a href="/75/6b/756bb6b6.html">CISO of ShapeShift, President of C4</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615840415 title="16:33" class=timestamp>16:33</span><!-- / timestamp.template --></td><td>-</td><td>2</td><td class=advanced>756bb6b6c9067ed0ec3d2c9f86605bf865c9e2d4</td></tr><tr bgcolor="#e0e0e0"><td><b><a href="/00/c1/00c12478.html">Bitcoin Developer</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615839496 title="16:18" class=timestamp>16:18</span><!-- / timestamp.template --></td><td>-</td><td>2</td><td class=advanced>00c124781875dc784e317fdba2f5b445469fb5aa</td></tr><tr bgcolor="#ffffff"><td><b><a href="/5f/e7/5fe70773.html">Chairman of the Board of Directors and Chief Executive Officer of MicroStrategy, Inc.</a></b></td><td>-</td><td><!-- timestamp.template --><span epoch=1615839469 title="16:17" class=timestamp>16:17</span><!-- / timestamp.template --></td><td>-</td><td>2</td><td class=advanced>5fe707737fea2cb19c4ecbb6c3cf69f67509e62e</td></tr></tbody>
+
+		
+	</table>
+</font>
+<!-- / window/standard.template -->
+<a name=7a2f8be4></a><pre class=advanced><br><hr>SELECT
+	item_title,
+	author_key,
+	add_timestamp,
+	item_score,
+	child_count,
+	file_hash
+FROM
+	item_flat
+ORDER BY
+	child_count ASC,
+	add_timestamp DESC
+LIMIT 250</pre></main>
+<hr>
+<img src="/p.gif" alt="" height=1 width=1>
+<!-- back_to_top_button.template -->
+<a
+    href="#"
+    onclick="if (window.scrollTo) { window.scrollTo(0, 0); return false; }"
+    title="Back to top"
+    id=aBackToTop
+    style="
+        position: fixed;
+        right: 5pt;
+        bottom: 5pt;
+        background-color: #f0f0d0;
+        border: 5pt;
+        padding: 5pt;
+        border-radius: 5pt;
+        text-decoration: none;
+    "
+>^^</span></a>
+<!-- / back_to_top_button.template --></body></html>
