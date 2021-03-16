@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link rel="alternate" title="RSS Feed" href="/rss.xml" type="application/rss+xml">
-<title>Welcome</title>
+<title>Tags</title>
 <style type="text/css">
 <!--
 /* begin css/default.css */
@@ -264,9 +264,9 @@ input:focus {
 	<table cellspacing=0 cellpadding=6 border=0 bgcolor="#c0c0c0" class=dialog>
 		<!-- titlebar_with_button.template -->
 <tr bgcolor="#000080" class=titlebar>
-	<td valign=middle>
+	<td valign=middle colspan=2>
 		<img src="/logo.png" height=16 width=16>
-		<font color="#ffffff"><b>Welcome</b></font>
+		<font color="#ffffff"><b>Tags</b></font>
 		<br>
 	</td>
 </tr>
@@ -275,24 +275,49 @@ input:focus {
 
 		
 
-		
+		<!-- header_wrapper.template -->
+<tr class=heading>
+	<!-- header_column.template -->
+<th align=left>vote_value</th>
+<!-- / header_column.template -->
+<!-- header_column.template -->
+<th align=left>vote_count<br></th>
+<!-- / header_column.template -->
 
-		<tr class=content><td><!-- welcome.template -->
-	<img src=/banner_2x1.jpg alt="
-	MIT Bitcoin Expo 2021
-	The New Normal
-	April 3-4th, 2021" width="99%">
-	<h3><a href="https://tinyurl.com/4ezdhdk">Register</a></h3>
-	<h3><a href="https://forms.gle/JUvaggfVCNS8P54G7">Hackathon</a></h3>
-	<h3><a href="https://eepurl.com/gOVdKb">Join the Mailing List</a></h3>
-<!-- / welcome.template -->
-</td></tr>
+</tr>
+<!-- / header_wrapper.template -->
+
+
+		<tbody class=content><tr bgcolor="#ffffff"><td><a href="/top/hastext.html">hastext</a></td><td>1</td></tr><tr bgcolor="#e0e0e0"><td><a href="/top/hastitle.html">hastitle</a></td><td>1</td></tr><tr bgcolor="#ffffff"><td><a href="/top/image.html">image</a></td><td>1</td></tr></tbody>
 
 		
 	</table>
 </font>
 <!-- / window/standard.template -->
-<a name=8013688d></a></main>
+<a name=5a0ef621></a><pre class=advanced><br><hr>SELECT
+	vote_value,
+	vote_count
+FROM (
+	SELECT
+		vote_value,
+		COUNT(vote_value) AS vote_count
+	FROM
+		vote
+		LEFT JOIN vote_value ON (vote.vote_value = vote_value.vote)
+	WHERE
+		IFNULL(vote_value.value, 0) &gt;= 0
+			AND
+		file_hash IN (SELECT file_hash FROM item)
+	GROUP BY
+		vote.vote_value,
+		file_hash
+	)
+WHERE
+	vote_count &gt;= 1
+GROUP BY
+	vote_value
+ORDER BY
+	vote_count</pre></main>
 <hr>
 <img src="/p.gif" alt="" height=1 width=1>
 <!-- back_to_top_button.template -->

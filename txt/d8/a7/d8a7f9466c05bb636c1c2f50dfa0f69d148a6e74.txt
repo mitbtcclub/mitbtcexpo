@@ -1,0 +1,7 @@
+Kim Grauer is the Head of Research at Chainalysis, where she examines trends in cryptocurrency economics and crime. She was trained in economics at the London School of Economics and in politics at Oxford University. Previously, she explored technological advancements in developing countries as an academic research associate at the London School of Economics and was an economics researcher at the New York City Economic Development Corporation.
+
+-- 
+name: Kimberly Grauer
+title: Head of Research, Chainalysis Inc.
+
+>>31f385b95e4cdd48983dc42d6b51a8b78f865465

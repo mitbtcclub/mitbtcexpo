@@ -1,0 +1,7 @@
+Pieter discovered Bitcoin in December 2010 and started contributing code to the project in May 2011. Since then, he has written significant parts of the reference client’s code, in particular, to improve performance and code organization. In addition to authoring and co-authoring 16 Bitcoin Improvement Proposals, Pieter contributed to the design of Miniscript, and co-authored papers on MuSig and Bulletproof, and contributed to libraries like libsecp256k1, ctaes, and minisketch. Before Chaincode, Pieter was a co-founder and Core Engineer at Blockstream and worked as a Site Reliability Engineer at Google. Pieter received his Ph.D. in Computer Science at the University of Leuven, where he focused on programming language design.
+
+-- 
+name: Pieter Wuille
+title: Engineer, Chaincode Labs
+
+>>1b1e627b3e2f3f9717ab1b2d0b926f633c3244be

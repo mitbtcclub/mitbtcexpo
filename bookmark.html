@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link rel="alternate" title="RSS Feed" href="/rss.xml" type="application/rss+xml">
-<title>Welcome</title>
+<title>Bookmark</title>
 <style type="text/css">
 <!--
 /* begin css/default.css */
@@ -266,7 +266,7 @@ input:focus {
 <tr bgcolor="#000080" class=titlebar>
 	<td valign=middle>
 		<img src="/logo.png" height=16 width=16>
-		<font color="#ffffff"><b>Welcome</b></font>
+		<font color="#ffffff"><b>Bookmark</b></font>
 		<br>
 	</td>
 </tr>
@@ -277,22 +277,80 @@ input:focus {
 
 		
 
-		<tr class=content><td><!-- welcome.template -->
-	<img src=/banner_2x1.jpg alt="
-	MIT Bitcoin Expo 2021
-	The New Normal
-	April 3-4th, 2021" width="99%">
-	<h3><a href="https://tinyurl.com/4ezdhdk">Register</a></h3>
-	<h3><a href="https://forms.gle/JUvaggfVCNS8P54G7">Hackathon</a></h3>
-	<h3><a href="https://eepurl.com/gOVdKb">Join the Mailing List</a></h3>
-<!-- / welcome.template -->
+		<tr class=content><td><!-- bookmark.template -->
+<fieldset>
+    <legend><p>Same Window</p></legend>
+
+    <p>
+        <span class=beginner>
+            These bookmarklets are the most compatible.<br>
+            They do not try to open a new window or tab.
+        </span>
+    </p>
+
+    <p>
+        <a href="javascript:window.location='http://localhost:2784/post.html?comment='+encodeURIComponent(document.location)">+URL</a>
+        <br>
+        <span class=beginner>Clip just the address of current page as a new item</span>
+    </p>
+
+    <p>
+        <a href="javascript:window.location='http://localhost:2784/post.html?comment='+encodeURIComponent(window.getSelection())+'&;s='+encodeURIComponent(document.location)">Clip</a>
+        <br>
+        <span class=beginner>Clip selected text and current page URL into new item.</span>
+    </p>
+</fieldset>
+
+<fieldset>
+    <legend><p>New Window</p></legend>
+
+    <p>
+        <span class=beginner>
+            These bookmarks try to open a new window.<br>
+            They may be affected by popup blockers.
+        </span>
+    </p>
+
+    <p>
+        <a href="javascript:void(window.open('http://localhost:2784/post.html?comment='+encodeURIComponent(window.getSelection())+'&t='+encodeURIComponent(document.title)+'&s='+encodeURIComponent(document.location)))">
+            Clip
+        </a>
+        <br>
+        <span class=beginner>Clip selected text into new item along with URL and Title for attribution</span>
+    </p>
+
+    <p>
+        <a href="javascript:void(window.open('http://localhost:2784/post.html?comment='+encodeURIComponent(window.getSelection())))">
+            Rip
+        </a>
+        <br>
+        <span class=beginner>Clip just the selected text into new item</span>
+    </p>
+
+    <p>
+        <span class=advanced>
+            Technical note: window.open() is used to open new window.
+        </span>
+    </p>
+</fieldset>
+
+<fieldset class=admin>
+    <legend><p>Operator</p></legend>
+    <p class=beginner>These bookmarks help operate system.</p>
+    <p>
+        <a href="http://localhost:2784/post.html?comment=Update">UPDATE</a>
+        <br>
+        <span class=beginner>Update site to reflect new data.</span>
+    </p>
+</fieldset>
+<!-- / bookmark.template -->
 </td></tr>
 
 		
 	</table>
 </font>
 <!-- / window/standard.template -->
-<a name=8013688d></a></main>
+<a name=14e88ec0></a></main>
 <hr>
 <img src="/p.gif" alt="" height=1 width=1>
 <!-- back_to_top_button.template -->
