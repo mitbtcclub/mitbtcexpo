@@ -1,0 +1,259 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+        <title>jstest1</title>
+
+        <style type="text/css">
+            <!--
+                input {
+                    box-shadow: 3pt 3pt 5pt gray;
+                }
+                p {
+                    padding-left: 15pt;
+                    font-family: monospace;
+                    font-size: 8pt;
+                }
+            -->
+        </style>
+    </head>
+    <body background="/triangles.gif" onbeforeunload="if (window.ShowPreNavigateNotification){ ShowPreNavigateNotification();}" >
+        <noscript>
+            <p>
+                <font color="#ff8000">
+                    <b>JavaScript</b> appears to be turned off or unsupported.<br>
+                    Please skip Step 1 and go straight to Step 2.
+                </font>
+            </p>
+        </noscript>
+
+        <form name=frmTest id=frmTest action="/post.html">
+            <p>
+                To help site better itself, please follow steps below:
+            </p>
+
+            <input
+                type=button
+                onclick="if(window.RunTest || RunTest) { return RunTest() } else { alert('window.RunTest was FALSE. You may be using Netscape 2.01?'); return false; }"
+                value="1. Run Tests"
+            >
+
+            <input type=submit value="2. Share With Operator" onclick="this.value='Meditate...'; return true;">
+
+            <p>
+                Comments:<br>
+                <input name=comment type=text size=80>
+            </p>
+
+            <p>
+                User Agent Seen By Server:<br>
+                <input name=txtNetworkUserAgent type=text size=80>
+            </p>
+
+            <hr>
+
+            <p>
+                navigator.userAgent:<br>
+                <input name=txtNavigatorUserAgent type=text size=80>
+            </p>
+
+            <p>
+                navigator.language:<br>
+                <input type=text name=txtNavigatorLanguage size=11>
+            </p>
+
+            <hr>
+
+            <p>
+                <input type=text name=txtDocumentGetElementById size=11>
+                document.getElementById
+            </p>
+
+            <p>
+                <input type=text name=txtDocumentGetElementsByClassName size=11>
+                document.getElementsByClassName
+            </p>
+
+            <p>
+                <input type=text name=txtWindowLocalStorage size=11>
+                window.localStorage
+            </p>
+
+            <p>
+                <input type=text name=txtWindowPromise size=11>
+                window.Promise
+            </p>
+
+            <p>
+                <input type=text name=txtWindowUnescape size=11>
+                window.unescape
+            </p>
+
+            <p>
+                <input type=text name=txtWindowXmlHttpRequest size=11>
+                window.XMLHttpRequest
+            </p>
+
+            <p>
+                <input type=text name=txtStringFromCharCode size=11>
+                String.fromCharCode
+            </p>
+
+            <p>
+                <input type=text name=txtDateGetMilliseconds size=11>
+                Date.getMilliseconds
+            </p>
+
+            <p>
+                <input type=text name=txtWindowHistory size=11>
+                window.history
+            </p>
+
+            <p>
+                <input type=text name=txtWindowSetTimeout size=11>
+                window.setTimeout
+            </p>
+
+            <p>
+                <input type=text name=txtWindowSetTimeoutReturn size=11>
+                window.setTimeout(...)
+            </p>
+
+            <hr>
+
+            <p>
+                <input type=text name=txtNavigatorJavaEnabled size=11>
+                navigator.javaEnabled
+            </p>
+
+            <p>
+                <input type=text name=txtDocumentLayers size=11>
+                document.layers
+            </p>
+
+            <p>
+                <input type=text name=txtDocumentAll size=11>
+                document.all
+            </p>
+
+            <p>
+                <input type=text name=txtWindowOpener size=11>
+                window.opener
+            </p>
+        </form>
+    
+<!-- InjectJs: jstest1 -->
+
+<!-- html/utils/scriptinject.template -->
+<script language=javascript><!--
+// begin jstest1.js
+
+function RunTest() {
+	//alert('DEBUG: RunTest() begins');
+
+	//alert('DEBUG: Looking for document.getElementById...');
+
+
+	if (window.navigator) {
+		//alert('DEBUG: window.navigator was true, looking for navigator.language and navigator.userAgent');
+
+		document.frmTest.txtNavigatorUserAgent.value = navigator.userAgent;
+		document.frmTest.txtNavigatorLanguage.value = navigator.language;
+	}
+
+	var d = new Date();
+	document.frmTest.comment.value += (' E' + d.getTime()) + ' ';
+
+	// this is the most basic syntax for this file
+	// for brevity, the rest of the tests are done with !!foo.bar syntax
+	// i have not seen this cause an issue so far, it's very basic js
+	// if it's ever a problem, can be changed to this syntax
+	// even opera 3.62 is ok with it,
+	if (document.getElementById) {
+		document.frmTest.txtDocumentGetElementById.value = 'true';
+	} else {
+		document.frmTest.txtDocumentGetElementById.value = 'false';
+	}
+
+
+	//alert('DEBUG: Looking for document.getElementsByClassName...');
+	document.frmTest.txtDocumentGetElementsByClassName.value = !!document.getElementsByClassName;
+
+	//alert('DEBUG: Looking for window.localStorage...');
+	document.frmTest.txtWindowLocalStorage.value = !!window.localStorage;
+
+	//alert('DEBUG: Looking for window.Promise...');
+	document.frmTest.txtWindowPromise.value = !!window.Promise;
+
+	//alert('DEBUG: Looking for window.unescape...');
+	document.frmTest.txtWindowUnescape.value = !!window.unescape;
+
+	//alert('DEBUG: Looking for window.XMLHttpRequest...');
+	document.frmTest.txtWindowXmlHttpRequest.value = !!window.XMLHttpRequest;
+
+	if (navigator.userAgent.indexOf('Opera 3.') != -1) {
+		//alert('DEBUG: Skipping String.fromCharCode, Opera 3.');
+		document.frmTest.txtStringFromCharCode.value = 'skipped';
+	} else {
+		//alert('DEBUG: Looking for String.fromCharCode...');
+		document.frmTest.txtStringFromCharCode.value = !!String.fromCharCode;
+	}
+
+	//alert('DEBUG: Looking for Date.getMilliseconds...');
+	var now = new Date();
+	document.frmTest.txtDateGetMilliseconds.value = !!now.getMilliseconds;
+
+	//alert('DEBUG: Looking for window.history...');
+	document.frmTest.txtWindowHistory.value = !!window.history;
+
+	if (navigator.userAgent.indexOf('compatible; MSIE 3.0') != -1) {
+		//alert('DEBUG: Skipping String.fromCharCode, compatible; MSIE 3.0;');
+		document.frmTest.txtWindowSetTimeout.value = 'skipped';
+	} else {
+		//alert('DEBUG: Looking for window.setTimeout...');
+		document.frmTest.txtWindowSetTimeout.value = !!window.setTimeout;
+	}
+
+	//alert('DEBUG: Testing window.setTimeout(...)...');
+	document.frmTest.txtWindowSetTimeoutReturn.value = 'false';
+	//alert('DEBUG: Calling window.setTimeout("setTimeoutReturn()", 10);');
+    window.setTimeout('setTimeoutReturn()', 500);
+
+	//#todo remove this probably
+	if (navigator.userAgent.indexOf('MSIE 6.') != -1 || navigator.userAgent.indexOf('MSIE 5.5') != -1) {
+	    //alert('DEBUG: Skipping navigator.javaEnabled, MSIE 6./5.5');
+	    document.frmTest.txtStringFromCharCode.value = 'skipped';
+	} else {
+        //alert('DEBUG: Looking for navigator.javaEnabled...');
+        document.frmTest.txtNavigatorJavaEnabled.value = !!navigator.javaEnabled ? (navigator.javaEnabled() ? 'true' : 'false') : 'undefined';
+    }
+
+	//alert('DEBUG: Looking for document.layers...');
+	document.frmTest.txtDocumentLayers.value = !!document.layers;
+
+	//alert('DEBUG: Looking for document.all...');
+	document.frmTest.txtDocumentAll.value = !!document.all;
+
+	//alert('DEBUG: Looking for window.opener...');
+	document.frmTest.txtWindowOpener.value = window.opener;
+
+	document.frmTest.comment.value += (' E' + d.getTime()) + ' ';
+
+	//alert('DEBUG: Finished, returning.');
+	return false;
+}
+
+function setTimeoutReturn() {
+    //alert('DEBUG: setTimeoutReturn()');
+	document.frmTest.txtWindowSetTimeoutReturn.value = 'true';
+}
+
+// end jstest1.js
+
+// -->
+</script>
+<!-- / html/utils/scriptinject.template -->
+</body>
+</html>

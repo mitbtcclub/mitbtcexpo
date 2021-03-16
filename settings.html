@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link rel="alternate" title="RSS Feed" href="/rss.xml" type="application/rss+xml">
-<title>Welcome</title>
+<title>Settings</title>
 <style type="text/css">
 <!--
 /* begin css/default.css */
@@ -307,14 +307,14 @@ if (document.createElement) {
 <!-- / topmenu2.template -->
 </b>
 <p><MAIN ID=maincontent><A NAME=maincontent></A>
-<!-- window/standard.template -->
+<form id=frmSettings name=frmSettings><!-- window/standard.template -->
 <font face=arial>
 	<table cellspacing=0 cellpadding=6 border=0 bgcolor="#c0c0c0" class=dialog>
 		<!-- titlebar_with_button.template -->
 <tr bgcolor="#35163A" class=titlebar>
 	<td valign=middle>
 		<img src="/logo.png" height=16 width=16>
-		<font color="#ffffff"><b>Welcome</b></font>
+		<font color="#ffffff"><b>Settings</b></font>
 		<br>
 	</td>
 </tr>
@@ -325,22 +325,208 @@ if (document.createElement) {
 
 		
 
-		<tr class=content><td><!-- welcome.template -->
-	<img src=/banner_2x1.jpg alt="
-	MIT Bitcoin Expo 2021
-	The New Normal
-	April 3-4th, 2021" width="99%">
-	<h3><a href="https://tinyurl.com/4ezdhdk">Register</a></h3>
-	<h3><a href="https://forms.gle/JUvaggfVCNS8P54G7">Hackathon</a></h3>
-	<h3><a href="https://eepurl.com/gOVdKb">Join the Mailing List</a></h3>
-<!-- / welcome.template -->
+		<tr class=content><td><!-- settings.template -->
+<noscript>
+	<legend><b>JavaScript Information</b><br></legend>
+	<p>
+		Enhancements marked with star below (<b>*</b>) <br>
+		require modern <b>JavaScript</b>.
+	</p>
+
+	<p><hr></p>
+</noscript>
+
+<fieldset>
+	<legend><b>Interface and Appearance</b><br></legend>
+
+	<p>
+		<input type=submit name=ui value="Beginner" onclick="if (window.SetInterfaceMode) { return SetInterfaceMode('beginner'); }">
+		<input type=submit name=ui value="Intermediate" onclick="if (window.SetInterfaceMode) { return SetInterfaceMode('intermediate'); }">
+		<input type=submit name=ui value="Expert" class=advanced onclick="if (window.SetInterfaceMode) { return SetInterfaceMode('expert'); }">
+		<span class=beginner><br>Use these buttons to adjust interface<noscript><b>*</b></noscript></span>
+	</p>
+
+	<p>
+		<label for=chkExpertTimestamps class=advanced>
+			<input type=checkbox id=chkExpertTimestamps name=chkExpertTimestamps onchange="if (window.SaveCheckbox) { SaveCheckbox(this, 'expert_timestamps'); }">
+			Display timestamps as seconds<noscript><b>*</b></noscript>
+		</label>
+	</p>
+
+	<p>
+		<label for=chkShowAdvanced class=advanced>
+			<input type=checkbox id=chkShowAdvanced name=chkShowAdmin onchange="if (window.SaveCheckbox) { SaveCheckbox(this, 'show_advanced'); }">
+			Show advanced controls<noscript><b>*</b></noscript>
+		</label>
+	</p>
+
+	<p>
+		<label for=chkShowAdmin class=advanced>
+			<input type=checkbox id=chkShowAdmin name=chkShowAdmin onchange="if (window.SaveCheckbox) { SaveCheckbox(this, 'show_admin'); }">
+			Show operator controls<noscript><b>*</b></noscript>
+		</label>
+	</p>
+
+	<p>
+		<label for=chkDraggable class=advanced>
+			<input type=checkbox id=chkDraggable name=chkDraggable onchange="if (window.SaveCheckbox) { SaveCheckbox(this, 'draggable'); }">
+			Enable dragging automatically<noscript><b>*</b></noscript>
+		</label>
+	</p>
+</fieldset>
+
+<fieldset>
+<legend><b>Writing</b><br></legend>
+
+<p>
+	<label for=chkWriteEnhance class=advanced>
+		<input type=checkbox id=chkWriteEnhance name=chkWriteEnhance onchange="if (window.SaveCheckbox) { SaveCheckbox(this, 'write_enhance'); }">
+		Make write box big and blue<noscript><b>*</b></noscript>
+	</label>
+</p>
+
+<p>
+	<label for=chkWriteAutoSave>
+		<input type=checkbox id=chkWriteAutoSave name=chkWriteAutoSave onchange="if (window.SaveCheckbox) { SaveCheckbox(this, 'write_autosave'); }">
+		Automatically save drafts on device<noscript><b>*</b></noscript>
+	</label>
+</p>
+
+</fieldset>
+<!-- / settings.template -->
 </td></tr>
 
 		
 	</table>
 </font>
 <!-- / window/standard.template -->
-<a name=8013688d></a></main>
+<a name=75a85af7></a></form><!-- window/standard.template -->
+<font face=arial>
+	<table cellspacing=0 cellpadding=6 border=0 bgcolor="#c0c0c0" class=dialog>
+		<!-- titlebar_with_button.template -->
+<tr bgcolor="#35163A" class=titlebar>
+	<td valign=middle>
+		<img src="/logo.png" height=16 width=16>
+		<font color="#ffffff"><b>Stats</b></font>
+		<br>
+	</td>
+</tr>
+<!-- / titlebar_with_button.template -->
+
+
+		
+
+		
+
+		<tr class=content><td><!-- stats.template -->
+
+<fieldset class=beginner>
+	<p>Updated: <!-- timestamp.template --><span epoch=1615874869 title="02:07" class=timestamp>02:07</span><!-- / timestamp.template -->
+	<p></p>
+	<p id=diagnostics><font color=orange><b>Check engine!</b></font></p>
+</fieldset>
+<fieldset class=advanced>
+	<p>Built: <!-- timestamp.template --><span epoch=1615874595 title="02:03" class=timestamp>02:03</span><!-- / timestamp.template -->
+	<p><a href="/tags.html">4 tags</a>
+	<p><a href="/authors.html">0 authors</a>
+	<p><a href="/chain.log">74 html/chain.log
+</a>
+	<p><a href="/compost.html">54 items</a>
+	<p><a href="/data.html">83 files</a>
+	<p>Server: (Not defined)
+	<p>Version: 6680ed72
+</fieldset>
+
+<!-- / stats.template -->
+</td></tr>
+
+		
+	</table>
+</font>
+<!-- / window/standard.template -->
+<a name=e1c996ca></a><form id=frmOperator name=frmOperator class=admin><!-- window/standard.template -->
+<font face=arial>
+	<table cellspacing=0 cellpadding=6 border=0 bgcolor="#c0c0c0" class=dialog>
+		<!-- titlebar_with_button.template -->
+<tr bgcolor="#35163A" class=titlebar>
+	<td valign=middle>
+		<img src="/logo.png" height=16 width=16>
+		<font color="#ffffff"><b>Operator</b></font>
+		<br>
+	</td>
+</tr>
+<!-- / titlebar_with_button.template -->
+
+
+		
+
+		
+
+		<tr class=content><td><!-- operator.template -->
+
+<fieldset class=beginner>
+	<legend><b>Attention:</b><br></legend>
+	Use operator controls with care!<br>
+</fieldset>
+
+<fieldset>
+	<legend><b>Operator Controls</b></legend>
+
+	<p>
+		<span class=beginner>
+			If something you expect does not appear, try this button:<br>
+		</span>
+		<label for=chkUpdate>
+			<input type=checkbox id=chkUpdate name=chkUpdate>
+			Update
+		</label>
+		<input type=submit name=btnUpdate id=btnUpdate value=Update>
+	</p>
+	<p>
+		<span class=beginner>
+			Upgrade software to latest version:<br>
+		</span>
+		<label for=chkUpgrade>
+			<input type=checkbox id=chkUpgrade name=chkUpgrade>
+			Upgrade
+		</label>
+		<input type=submit name=btnUpgrade id=btnUpgrade value=Upgrade>
+	</p>
+	<p>
+		<span class=beginner>
+			Use Flush to make space for new content:<br>
+		</span>
+		<label for=chkFlush>
+			<input type=checkbox id=chkFlush name=chkFlush>
+			Flush
+		</label>
+		<input type=submit name=btnFlush id=btnFlush value=Flush>
+	</p>
+	<p class=beginner>
+		To activate, check box, then press button.<br>
+		This helps prevent accidental activation.<br>
+	</p>
+</fieldset>
+
+<fieldset>
+	<legend><b>Content Filter</b><br></legend>
+	<span class=beginner>(This doesn't do anything at the moment.)<br></span>
+	<label for=filter_1><input type=radio name=filter value=0.99 id=filter_1> 99.999%</label><br>
+	<label for=filter_2><input type=radio name=filter value=0.999 id=filter_2> 9.9999%</label><br>
+	<label for=filter_3><input type=radio name=filter value=0.099 id=filter_3> 0.99999%</label><br>
+	<label for=filter_4 class=admin><input type=radio name=filter value=0.0099 id=filter_4> 0.099999%</label><br>
+	<label for=filter_5 class=admin><input type=radio name=filter value=0.00099 id=filter_5> 0.0099999%</label><br>
+	<input type=submit value="Save Filter Level" name=btnSaveFilterLevel>
+	<!-- As long as it's five nines, the decimal position doesn't matter -->
+</fieldset>
+<!-- / operator.template -->
+</td></tr>
+
+		
+	</table>
+</font>
+<!-- / window/standard.template -->
+<a name=290ca8ca></a></form></main>
 <hr>
 <img src="/p.gif" alt="" height=1 width=1>
 <!-- back_to_top_button.template -->
@@ -361,94 +547,10 @@ if (document.createElement) {
     "
 >^^</span></a>
 <!-- / back_to_top_button.template -->
-<!-- InjectJs: avatar settings profile utils timestamp dragging -->
+<!-- InjectJs: settings avatar profile timestamp pingback utils fresh dragging -->
 
 <!-- html/utils/scriptinject.template -->
 <script language=javascript><!--
-// == begin avatar.js
-
-function setAva () { // sets avatar widgets (and italicizes Profile link)
-	//alert('DEBUG: setAva() begins');
-	
-	if (document.getElementById && String.fromCharCode) {
-		var myidBox = document.getElementById('myid'); // displays username (if preference is set)
-		var signinBox = document.getElementById('signin'); // Profile link
-
-		var gt = String.fromCharCode(62);
-
-		if (myidBox && signinBox && window.localStorage) { // check for elements and features
-			var myAvatar = localStorage.getItem('avatar');
-
-			if (!myAvatar) { // less error prone than checking for ==n ull, i think
-				signinBox.innerHTML = '<a href="/profile.html"' + gt + 'Profile</a' + gt + '';
-			} else {
-				signinBox.innerHTML = '';
-				var myFp = localStorage.getItem('fingerprint');
-
-				if (window.location.pathname == '/author/' + myFp + '/' || window.location.pathname == '/author/' + myFp + '/index.html') {
-					var itsYou = document.getElementById('itsyou');
-					itsYou.innerHTML = 'This is your profile!';
-				}
-
-				if (window.GetPrefs) {
-					if (GetPrefs('display_username')) {
-						myidBox.innerHTML = '<a href="/profile.html" class=avatar' + gt + myAvatar + '</a' + gt;
-						signinBox.innerHTML = '';
-					} else {
-						myidBox.innerHTML = '';
-						signinBox.innerHTML = '<a href="/profile.html"' + gt + '<i' + gt + 'Profile</i' + gt + '</a' + gt + '';
-					}
-				} else {
-					myidBox.innerHTML = '';
-					signinBox.innerHTML = '<a href="/profile.html"' + gt + '<i' + gt + 'Profile</i' + gt + '</a' + gt + '';
-				}
-
-				if (!window.openpgp && document.head && document.getElementById && window.localStorage) {
-					//alert('DEBUG: setAva: loading openpgp.js');
-					window.openPgpJsLoadBegin = 1;
-
-					var script = document.createElement('script');
-					script.src = '/openpgp.js';
-					script.async = false; // This is required for synchronous execution
-					document.head.appendChild(script);
-				}
-
-				if (!window.setAvatar && document.head && document.head.appendChild && document.getElementById && window.localStorage) {
-					//alert('DEBUG: setAva: loading crypto2.js');
-
-					var script2 = document.createElement('script');
-					script2.src = '/crypto2.js';
-					script2.async = false; // This is required for synchronous execution
-					document.head.appendChild(script2);
-				}
-			}
-		}
-	}
-
-	return true;
-} // setAva()
-if (window.localStorage && document.getElementById) {
-	setAva();
-}
-
-function getAvatar () { // retrieve previously built avatar from localStorage (already in html form)
-	if (window.localStorage) {
-		var myAvatar = localStorage.getItem("avatar");
-		if (!myAvatar || myAvatar.length == 0) {
-			return '';
-		} else {
-			return myAvatar;
-		}
-	} else {
-		return 'Anonymous*';
-	}
-
-	return false;
-} // getAvatar()
-
-// == end avatar.js
-
-
 // == begin settings.js
 
 var showAdvancedLastAction = '';
@@ -907,6 +1009,90 @@ if (window.EventLoop) {
 }
 
 // == end settings.js
+
+
+// == begin avatar.js
+
+function setAva () { // sets avatar widgets (and italicizes Profile link)
+	//alert('DEBUG: setAva() begins');
+	
+	if (document.getElementById && String.fromCharCode) {
+		var myidBox = document.getElementById('myid'); // displays username (if preference is set)
+		var signinBox = document.getElementById('signin'); // Profile link
+
+		var gt = String.fromCharCode(62);
+
+		if (myidBox && signinBox && window.localStorage) { // check for elements and features
+			var myAvatar = localStorage.getItem('avatar');
+
+			if (!myAvatar) { // less error prone than checking for ==n ull, i think
+				signinBox.innerHTML = '<a href="/profile.html"' + gt + 'Profile</a' + gt + '';
+			} else {
+				signinBox.innerHTML = '';
+				var myFp = localStorage.getItem('fingerprint');
+
+				if (window.location.pathname == '/author/' + myFp + '/' || window.location.pathname == '/author/' + myFp + '/index.html') {
+					var itsYou = document.getElementById('itsyou');
+					itsYou.innerHTML = 'This is your profile!';
+				}
+
+				if (window.GetPrefs) {
+					if (GetPrefs('display_username')) {
+						myidBox.innerHTML = '<a href="/profile.html" class=avatar' + gt + myAvatar + '</a' + gt;
+						signinBox.innerHTML = '';
+					} else {
+						myidBox.innerHTML = '';
+						signinBox.innerHTML = '<a href="/profile.html"' + gt + '<i' + gt + 'Profile</i' + gt + '</a' + gt + '';
+					}
+				} else {
+					myidBox.innerHTML = '';
+					signinBox.innerHTML = '<a href="/profile.html"' + gt + '<i' + gt + 'Profile</i' + gt + '</a' + gt + '';
+				}
+
+				if (!window.openpgp && document.head && document.getElementById && window.localStorage) {
+					//alert('DEBUG: setAva: loading openpgp.js');
+					window.openPgpJsLoadBegin = 1;
+
+					var script = document.createElement('script');
+					script.src = '/openpgp.js';
+					script.async = false; // This is required for synchronous execution
+					document.head.appendChild(script);
+				}
+
+				if (!window.setAvatar && document.head && document.head.appendChild && document.getElementById && window.localStorage) {
+					//alert('DEBUG: setAva: loading crypto2.js');
+
+					var script2 = document.createElement('script');
+					script2.src = '/crypto2.js';
+					script2.async = false; // This is required for synchronous execution
+					document.head.appendChild(script2);
+				}
+			}
+		}
+	}
+
+	return true;
+} // setAva()
+if (window.localStorage && document.getElementById) {
+	setAva();
+}
+
+function getAvatar () { // retrieve previously built avatar from localStorage (already in html form)
+	if (window.localStorage) {
+		var myAvatar = localStorage.getItem("avatar");
+		if (!myAvatar || myAvatar.length == 0) {
+			return '';
+		} else {
+			return myAvatar;
+		}
+	} else {
+		return 'Anonymous*';
+	}
+
+	return false;
+} // getAvatar()
+
+// == end avatar.js
 
 
 // begin profile.js
@@ -1604,6 +1790,186 @@ function GetCookie (cname) { // get cookie value
 // end profile.js
 
 
+// == begin timestamp.js
+
+function LongAgo (seconds) { // returns string with time units
+// takes seconds as parameter
+// returns a string like "3 days ago" or "3 days from now"
+	var flip = 0;
+	if (seconds < 0) {
+		flip = 1;
+		seconds = 0 - seconds;
+	}
+
+	if (seconds < 60) {
+		if (seconds != 1) {
+			seconds = seconds + ' seconds';
+		} else {
+			seconds = seconds + ' second';
+		}
+	} else {
+		seconds = Math.floor(seconds / 60);
+
+		if (seconds < 60) {
+			if (seconds != 1) {
+				seconds = seconds + ' minutes';
+			} else {
+				seconds = seconds + ' minute';
+			}
+		} else {
+			seconds = Math.floor(seconds / 60);
+
+			if (seconds < 24) {
+				if (seconds != 1) {
+					seconds = seconds + ' hours';
+				} else {
+					seconds = seconds + ' hour';
+				}
+			} else {
+				seconds = Math.floor(seconds / 24);
+
+				if (seconds < 7) {
+					if (seconds != 1) {
+						seconds = seconds + ' days';
+					} else {
+						seconds = seconds + ' day';
+					}
+				} else {
+					if (seconds < 30) {
+						seconds = Math.floor(seconds / 7);
+						if (seconds != 1) {
+							seconds = seconds + ' weeks';
+						} else {
+							seconds = seconds + ' week';
+						}
+					} else {
+						if (seconds < 365) {
+							seconds = Math.floor(seconds / 30);
+
+							if (seconds != 1) {
+								seconds = seconds + ' months';
+							} else {
+								seconds = seconds + ' month';
+							}
+						} else {
+							seconds = Math.floor(seconds / 365);
+							if (seconds != 1) {
+								seconds = seconds + ' years';
+							} else {
+								seconds = seconds + ' year';
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	if (flip) {
+		return seconds + ' ago';
+	}
+
+	if (seconds != '0 seconds') {
+		return seconds + ' from now';
+	}
+
+	return 'just now!';
+}
+
+function ShowTimestamps () { // finds any class=timestamp, updates its displayed time as needed
+// currently requires getElementsByClassName()
+// in the future, ie4+, nn4+, and others compat can be improved
+
+	//alert('DEBUG: ShowTimestamps()');
+	if (document.getElementsByClassName) {
+		//alert('DEBUG: ShowTimestamps: document.getElementsByClassName feature check passed');
+		var d = new Date();
+		var curTime = Math.floor(d.getTime() / 1000);
+		var changeLogged = 0;
+		var showAdvancedMode = 0;
+
+		if (window.GetPrefs) {
+			if (GetPrefs('expert_timestamps')) {
+				showAdvancedMode = 1;
+			}
+		}
+	
+		// find elements with class=timestamp
+		var te = document.getElementsByClassName("timestamp");
+
+		//alert('DEBUG: ShowTimestamps: class=timestamp elements found: ' + te.length);
+		for (var i = 0; i < te.length; i++) {
+			// loop through all the timestamp elements on the page
+			if (!isNaN(te[i].getAttribute('epoch'))) {
+				// element also has an attribute called 'epoch', and it is
+				// a number, which would represent epoch seconds
+				var secs = 0 - (curTime - te[i].getAttribute('epoch')); // number of seconds since epoch begin
+				var longAgo = '';
+				if (!showAdvancedMode) {
+					longAgo = LongAgo(secs); // what the element's displayed value should be
+				} else {
+					longAgo = secs;
+				}
+
+				if (te[i].innerHTML != longAgo) {
+					// element's content does not already equal what it should equal
+					te[i].innerHTML = longAgo;
+					if ((secs * (-1)) < 3600) {
+						// less than an hour ago = bold
+						te[i].style.fontWeight = 'bold';
+					} else {
+						te[i].style.fontWeight = '';
+					}
+					if ((secs * (-1)) < 86400) {
+						// less than a day ago = highlight
+						te[i].style.backgroundColor = '#ffc080';
+					} else {
+						te[i].style.backgroundColor = '';
+					}
+					changeLogged++; // count change logged
+				}
+			}
+		}
+
+		if (window.EventLoop) {
+			// do nothing, EventLoop() will call us when needed
+			return changeLogged;
+		} else {
+			// allow ShowTimestamps() to run decoupled from EventLoop()
+			if (changeLogged) {
+				setTimeout('ShowTimestamps()', 5000);
+			} else {
+				setTimeout('ShowTimestamps()', 15000);
+			}
+			return changeLogged;
+		}
+	}
+} // ShowTimestamps()
+//
+//if (window.EventLoop) {
+//	// do nothing, EventLoop() will take care of us
+//} else {
+//	// if no EventLoop(), we do it ourselves
+//	ShowTimestamps();
+//}
+
+// == end timestamp.js
+
+
+// == begin pingback.js
+function ReportSelfUrl() {
+	var myUrl = window.location;
+//	var myUrl = window.location.hostname + ':' + window.location.port;
+	
+	if (myUrl) {
+//		document.images[0].src = '/favicon.ico?mydomain=' + myUrl;
+	}
+}
+
+setTimeout('ReportSelfUrl()', 5000);
+// == end pingback.js
+
+
 // == begin utils.js
 
 // begin html escape hack (credit stacko)
@@ -2018,170 +2384,240 @@ function CollapseWin (t) { // collapses or expands window based on t's caption
 // == end utils.js
 
 
-// == begin timestamp.js
-
-function LongAgo (seconds) { // returns string with time units
-// takes seconds as parameter
-// returns a string like "3 days ago" or "3 days from now"
-	var flip = 0;
-	if (seconds < 0) {
-		flip = 1;
-		seconds = 0 - seconds;
-	}
-
-	if (seconds < 60) {
-		if (seconds != 1) {
-			seconds = seconds + ' seconds';
-		} else {
-			seconds = seconds + ' second';
-		}
-	} else {
-		seconds = Math.floor(seconds / 60);
-
-		if (seconds < 60) {
-			if (seconds != 1) {
-				seconds = seconds + ' minutes';
-			} else {
-				seconds = seconds + ' minute';
-			}
-		} else {
-			seconds = Math.floor(seconds / 60);
-
-			if (seconds < 24) {
-				if (seconds != 1) {
-					seconds = seconds + ' hours';
-				} else {
-					seconds = seconds + ' hour';
-				}
-			} else {
-				seconds = Math.floor(seconds / 24);
-
-				if (seconds < 7) {
-					if (seconds != 1) {
-						seconds = seconds + ' days';
-					} else {
-						seconds = seconds + ' day';
-					}
-				} else {
-					if (seconds < 30) {
-						seconds = Math.floor(seconds / 7);
-						if (seconds != 1) {
-							seconds = seconds + ' weeks';
-						} else {
-							seconds = seconds + ' week';
-						}
-					} else {
-						if (seconds < 365) {
-							seconds = Math.floor(seconds / 30);
-
-							if (seconds != 1) {
-								seconds = seconds + ' months';
-							} else {
-								seconds = seconds + ' month';
-							}
-						} else {
-							seconds = Math.floor(seconds / 365);
-							if (seconds != 1) {
-								seconds = seconds + ' years';
-							} else {
-								seconds = seconds + ' year';
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-
-	if (flip) {
-		return seconds + ' ago';
-	}
-
-	if (seconds != '0 seconds') {
-		return seconds + ' from now';
-	}
-
-	return 'just now!';
-}
-
-function ShowTimestamps () { // finds any class=timestamp, updates its displayed time as needed
-// currently requires getElementsByClassName()
-// in the future, ie4+, nn4+, and others compat can be improved
-
-	//alert('DEBUG: ShowTimestamps()');
-	if (document.getElementsByClassName) {
-		//alert('DEBUG: ShowTimestamps: document.getElementsByClassName feature check passed');
-		var d = new Date();
-		var curTime = Math.floor(d.getTime() / 1000);
-		var changeLogged = 0;
-		var showAdvancedMode = 0;
-
-		if (window.GetPrefs) {
-			if (GetPrefs('expert_timestamps')) {
-				showAdvancedMode = 1;
-			}
-		}
-	
-		// find elements with class=timestamp
-		var te = document.getElementsByClassName("timestamp");
-
-		//alert('DEBUG: ShowTimestamps: class=timestamp elements found: ' + te.length);
-		for (var i = 0; i < te.length; i++) {
-			// loop through all the timestamp elements on the page
-			if (!isNaN(te[i].getAttribute('epoch'))) {
-				// element also has an attribute called 'epoch', and it is
-				// a number, which would represent epoch seconds
-				var secs = 0 - (curTime - te[i].getAttribute('epoch')); // number of seconds since epoch begin
-				var longAgo = '';
-				if (!showAdvancedMode) {
-					longAgo = LongAgo(secs); // what the element's displayed value should be
-				} else {
-					longAgo = secs;
-				}
-
-				if (te[i].innerHTML != longAgo) {
-					// element's content does not already equal what it should equal
-					te[i].innerHTML = longAgo;
-					if ((secs * (-1)) < 3600) {
-						// less than an hour ago = bold
-						te[i].style.fontWeight = 'bold';
-					} else {
-						te[i].style.fontWeight = '';
-					}
-					if ((secs * (-1)) < 86400) {
-						// less than a day ago = highlight
-						te[i].style.backgroundColor = '#ffc080';
-					} else {
-						te[i].style.backgroundColor = '';
-					}
-					changeLogged++; // count change logged
-				}
-			}
-		}
-
-		if (window.EventLoop) {
-			// do nothing, EventLoop() will call us when needed
-			return changeLogged;
-		} else {
-			// allow ShowTimestamps() to run decoupled from EventLoop()
-			if (changeLogged) {
-				setTimeout('ShowTimestamps()', 5000);
-			} else {
-				setTimeout('ShowTimestamps()', 15000);
-			}
-			return changeLogged;
-		}
-	}
-} // ShowTimestamps()
+// == begin fresh.js
+var freshClient;
 //
-//if (window.EventLoop) {
-//	// do nothing, EventLoop() will take care of us
-//} else {
-//	// if no EventLoop(), we do it ourselves
-//	ShowTimestamps();
+//function ReplacePageWithNewContent () {
+//	window.location.replace(window.newPageLocation);
+//	document.open();
+//	document.write(window.newPageContent);
+//	document.close();
+//
+//	return 0;
+//}
+//
+//function StoreNewPageContent () {
+//	var xmlhttp = window.xmlhttp2;
+//
+//	if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+//		//alert('DEBUG: PingUrlCallbackReplaceCurrentPage() found status 200');
+//		window.newPageContent = xmlhttp.responseText;
+//		window.newPageLocation = xmlhttp.responseURL;
+//
+//		//window.location.replace(xmlhttp.responseURL);
+////		document.open();
+////		document.write(xmlhttp.responseText);
+////		document.close();
+//	}
+//}
+//
+//function FetchNewPageContent (url) {
+//	if (window.XMLHttpRequest) {
+//		//alert('DEBUG: PingUrl: window.XMLHttpRequest was true');
+//
+//		var xmlhttp;
+//		if (window.xmlhttp2) {
+//			xmlhttp = window.xmlhttp2;
+//		} else {
+//			window.xmlhttp2 = new XMLHttpRequest();
+//			xmlhttp = window.xmlhttp2;
+//		}
+//        xmlhttp.onreadystatechange = window.StoreNewPageContent;
+//        xmlhttp.open("GET", url, true);
+//		xmlhttp.setRequestHeader('Cache-Control', 'no-cache');
+//        xmlhttp.send();
+//
+//        return false;
+//	}
 //}
 
-// == end timestamp.js
+
+function freshCallback() { // callback for requesting HEAD for current page
+//alert('DEBUG: freshCallback() this.readyState = ' + this.readyState);
+
+//	if (1 || this.readyState == this.HEADERS_RECEIVED) { // headers received -- what we've been waiting for
+	if (
+		document.getElementById &&
+		this.readyState == this.HEADERS_RECEIVED ||
+		this.status == 200
+	) { // headers received -- what we've been waiting for
+		// document.title = 'DEBUG: callback received 200';
+	    //alert('DEBUG: freshCallback() this.readyState == this.HEADERS_RECEIVED');
+
+		var eTag = freshClient.getResponseHeader("ETag"); // etag header contains page 'fingerprint'
+
+		//alert('DEBUG: eTag = ' + eTag);
+
+		if (eTag) { // if ETag header has a value
+			if (window.myOwnETag) {
+				if (eTag != window.myOwnETag) {
+					if (eTag == window.lastEtag) { // if it's equal to the one we saved last time
+						// no new change change
+					} else {
+						var freshUserWantsReload = 0;  // templated
+						if (freshUserWantsReload) {
+							// user wants reload
+							//alert('DEBUG: user wants automatic page reload');
+							location.reload();
+						} else {
+							// user doesn't want reload, just show notification
+							//alert('DEBUG: user does not want automatic page reload, notify');
+							window.lastEtag = eTag;
+
+							var ariaAlert;
+							ariaAlert = document.getElementById('ariaAlert');
+
+							if (!ariaAlert) {
+								//alert('DEBUG: ariaAlert created successfully');
+								ariaAlert = document.createElement('p');
+								ariaAlert.setAttribute('role', 'alert');
+								ariaAlert.setAttribute('id', 'ariaAlert');
+								ariaAlert.style.zIndex = '1337'; //#todo
+
+								var txtUpdated = document.createTextNode('Page updated ');
+								ariaAlert.appendChild(txtUpdated);
+
+								//document.body.appendChild(ariaAlert);
+								document.body.insertBefore(ariaAlert, document.body.firstChild);
+								//window.newPageContent =
+								//FetchNewPageContent(window.mypath + '?' + new Date().getTime());
+
+								//ariaAlert.innerHTML = ariaAlert.innerHTML + '+';
+								var d = new Date();
+								var n = d.getTime();
+								n = Math.ceil(n / 1000);
+
+								var space = document.createElement('span');
+								space.innerHTML = ' ';
+								ariaAlert.appendChild(space);
+
+								var a = document.createElement('a');
+								a.setAttribute('id', 'freshAria');
+								a.setAttribute('href', '#');
+								a.setAttribute('onclick', 'location.reload()');
+								ariaAlert.appendChild(a);
+
+								var newTs = document.createElement('span');
+								newTs.setAttribute('class', 'timestamp');
+								newTs.setAttribute('epoch', n);
+								newTs.setAttribute('id', 'freshTimestamp');
+								newTs.innerHTML = 'just now!';
+								a.appendChild(newTs);
+							} // !ariaAlert
+
+							if (window.freshTimeoutId) {
+								clearTimeout(window.freshTimeoutId);
+							}
+							//window.eventLoopFresh = 0; // stop checking for updates
+
+							if (document.title.substring(0, 2) != '! ') {
+								document.title = '! ' + document.title;
+							}
+						} // NOT freshUserWantsReload
+					} // lastEtag also didn't match
+				} // eTag != window.myOwnETag
+				else {
+					//document.title = 'freshCallback: x ' + window.myOwnETag + ';' + new Date().getTime();
+					if (window.freshTimeoutId) {
+						clearTimeout(window.freshTimeoutId);
+					}
+					window.freshTimeoutId = setTimeout('CheckIfFresh()', 15000);
+				}
+			} // if (window.myOwnETag)
+			else {
+				window.myOwnETag = eTag;
+			}
+		} // if (eTag) // ETag header has value
+	} // status == 200
+	if (this.status == 404 && document.getElementById) {
+		//alert('DEBUG: page has gone away on server (404)');
+		var ariaAlert;
+		ariaAlert = document.getElementById('ariaAlert');
+		if (!ariaAlert) {
+			ariaAlert = document.createElement('p');
+			ariaAlert.setAttribute('role', 'alert');
+			ariaAlert.setAttribute('id', 'ariaAlert');
+			ariaAlert.style.zIndex = '1337'; //#todo
+			ariaAlert.innerHTML = 'Page deleted';
+
+			//document.body.appendChild(ariaAlert);
+			document.body.insertBefore(ariaAlert, document.body.firstChild);
+		}
+		// window.eventLoopFresh = 0; // stop checking for updates
+	} // status == 404
+
+	return true;
+} //freshCallback()
+
+function CheckIfFresh () {
+	var d = new Date();
+	//alert('debug: CheckIfFresh: ' + d.getTime());
+
+	var freshCheckRecent = window.freshCheckRecent;
+	if (freshCheckRecent) {
+		//alert('debug: CheckIfFresh: freshCheckRecent = ' + freshCheckRecent);
+		var d = new Date();
+		var curTime = d.getTime();
+		if (curTime < freshCheckRecent + 3000) {
+			return true;
+		}
+	}
+	//alert('debug: CheckIfFresh: checkpoint passed');
+
+	var d = new Date();
+	window.freshCheckRecent = d.getTime();
+
+	var xhr = null;
+	if (window.XMLHttpRequest){
+    	xhr = new XMLHttpRequest();
+    }
+    else {
+    	if (window.ActiveXObject) {
+    		xhr = new ActiveXObject("Microsoft.XMLHTTP");
+		}
+    }
+
+	if (xhr) {
+		var mypath = window.mypath;
+
+		if (!mypath) {
+			mypath = window.location;
+			window.mypath = mypath;
+		}
+
+		freshClient = xhr;
+
+		if (0 && mypath.toString().indexOf('?') == -1) {
+			// this ensures no caching, but may cause other problems
+			freshClient.open("HEAD", mypath + '?' + d.getTime(), true);
+		} else {
+			freshClient.open("HEAD", mypath, true);
+		}
+
+    	//freshClient.timeout = 5000; //#xhr.timeout
+		freshClient.setRequestHeader('Cache-Control', 'no-cache');
+		freshClient.onreadystatechange = freshCallback;
+
+		freshClient.send();
+	}
+
+	return true;
+} // CheckIfFresh()
+//
+//if (window.GetPrefs) {
+//	var needNotify = (GetPrefs('notify_on_change') ? 1 : 0);
+//	if (needNotify == 1) { // check value of notify_on_change preference
+//		if (window.EventLoop) {
+//			EventLoop();
+//		} else {
+//			CheckIfFresh();
+//		}
+//	}
+//}
+
+//alert('DEBUG: fresh.js');
+
+// == end fresh.js
 
 
 /* dragging.js */
