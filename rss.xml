@@ -81,10 +81,14 @@
 		<link>http://localhost:2784/d8/a7/d8a7f946.html</link>
 		<description>
 				<![CDATA[
-				Kim Grauer is the Head of Research at Chainalysis, where she examines trends in cryptocurrency economics and crime. She was trained in economics at the London School of Economics and in politics at Oxford University. Previously, she explored technological advancements in developing countries as an academic research associate at the London School of Economics and was an economics researcher at the New York City Economic Development Corporation.<br />
-<br />
--- <br />
-name: Kimberly Grauer<br />
+				Kim Grauer is the Head of Research at Chainalysis, where she examines trends in cryptocurrency economics and crime. She was trained in economics at the London School of Economics and in politics at Oxford University. Previously, she explored technological advancements in developing countries as an academic research associate at the London School of Economics and was an economics researcher at the New York City Economic Development Corporation.
+<br />
+
+<br />
+-- 
+<br />
+name: Kimberly Grauer
+<br />
 title: Head of Research, Chainalysis Inc.<br />
 <br />
 &gt;&gt;31f385b95e4cdd48983dc42d6b51a8b78f865465
@@ -98,10 +102,14 @@ title: Head of Research, Chainalysis Inc.<br />
 		<link>http://localhost:2784/3f/2a/3f2afdee.html</link>
 		<description>
 				<![CDATA[
-				Sacha Ghebali is US Operations and Data Analytics Lead at Kaiko, a digital assets market data provider. He carried out research on the economics of mining bitcoin and more recently on crypto market microstructure. Previously, Sacha was an aerospace engineer and received his PhD in aeronautics from Imperial College London.<br />
-<br />
--- <br />
-name: Sacha Ghebali<br />
+				Sacha Ghebali is US Operations and Data Analytics Lead at Kaiko, a digital assets market data provider. He carried out research on the economics of mining bitcoin and more recently on crypto market microstructure. Previously, Sacha was an aerospace engineer and received his PhD in aeronautics from Imperial College London.
+<br />
+
+<br />
+-- 
+<br />
+name: Sacha Ghebali
+<br />
 title: US Operations &amp; Data Analytics Lead, Kaiko<br />
 <br />
 &gt;&gt;fea8cfa7e6d290f92542d26997b293a5bf51237e
@@ -115,10 +123,14 @@ title: US Operations &amp; Data Analytics Lead, Kaiko<br />
 		<link>http://localhost:2784/04/b2/04b2a1f3.html</link>
 		<description>
 				<![CDATA[
-				Dan is currently Growth lead at Kraken. His former company Interchange, a portfolio reconciliation tool for crypto institutional traders, was acquired by Kraken in 7/2019. Prior to that, he was at Uber on Rider Growth/Global Data. Before Uber, Dan built some of the most popular early crypto products including ChangeTip (acquired by AirBnB), and ZeroBlock (acquired by Blockchain.com in the second ever all Bitcoin acquisition). He was part of the original 2013 crypto meetup group in SF which was comprised with the founders of Kraken, Coinbase, Litecoin, and others.<br />
-<br />
--- <br />
-name: Dan Held<br />
+				Dan is currently Growth lead at Kraken. His former company Interchange, a portfolio reconciliation tool for crypto institutional traders, was acquired by Kraken in 7/2019. Prior to that, he was at Uber on Rider Growth/Global Data. Before Uber, Dan built some of the most popular early crypto products including ChangeTip (acquired by AirBnB), and ZeroBlock (acquired by Blockchain.com in the second ever all Bitcoin acquisition). He was part of the original 2013 crypto meetup group in SF which was comprised with the founders of Kraken, Coinbase, Litecoin, and others.
+<br />
+
+<br />
+-- 
+<br />
+name: Dan Held
+<br />
 title: Growth Lead, Kraken<br />
 <br />
 &gt;&gt;061e4f05e0fdbdf453315ab0b317862add0f3394
@@ -132,10 +144,14 @@ title: Growth Lead, Kraken<br />
 		<link>http://localhost:2784/e4/14/e414217b.html</link>
 		<description>
 				<![CDATA[
-				Max is contributing to several free software projects, building the tools he want to use in order to defend his liberties. As these weapons of cyberspace are fundamentally non-scarce, he shares his work free for anyone to use. His focus is on creating a second realm with a sound monetary economy in which sovereign individuals can pursue their entrepreneurial action.<br />
-<br />
--- <br />
-name: Max Hillebrand<br />
+				Max is contributing to several free software projects, building the tools he want to use in order to defend his liberties. As these weapons of cyberspace are fundamentally non-scarce, he shares his work free for anyone to use. His focus is on creating a second realm with a sound monetary economy in which sovereign individuals can pursue their entrepreneurial action.
+<br />
+
+<br />
+-- 
+<br />
+name: Max Hillebrand
+<br />
 title: Developer<br />
 <br />
 &gt;&gt;3cf883fb321275e21a3636bcc8c3ed24412f0f7b
@@ -145,14 +161,19 @@ title: Developer<br />
 <item rdf:about="http://localhost:2784/f3/60/f36047af.html">
 		<guid>http://localhost:2784/f3/60/f36047af.html</guid>
 		<pubDate>1615852186</pubDate>
-		<title>Founder and developer of Lightning Network.</title>
+		<title>Founder and developer of Lightning Network.
+</title>
 		<link>http://localhost:2784/f3/60/f36047af.html</link>
 		<description>
 				<![CDATA[
-				Founder and developer of Lightning Network.<br />
-<br />
--- <br />
-name: Tadge Dryja<br />
+				Founder and developer of Lightning Network.
+<br />
+
+<br />
+-- 
+<br />
+name: Tadge Dryja
+<br />
 title: Founder &amp; Developer, Lightning Network<br />
 <br />
 &gt;&gt;723de7b9becd8ffff2e045448905e3a7e105443f
@@ -166,12 +187,18 @@ title: Founder &amp; Developer, Lightning Network<br />
 		<link>http://localhost:2784/a1/94/a1940e30.html</link>
 		<description>
 				<![CDATA[
-				Ethan is co-founder and CFO of Luxor Mining, a hashrate based platform, offering hashrate liquidation products to miners. Ethan also co-founded data website Hashrate Index.<br />
-<br />
-Before founding Luxor, Ethan was an investment banker at Goldman Sachs. Ethan advised MNCs on cross-border Asia M&amp;A transactions across the semiconductor, renewable energy, and internet industries.<br />
-<br />
--- <br />
-name: Ethan Vera<br />
+				Ethan is co-founder and CFO of Luxor Mining, a hashrate based platform, offering hashrate liquidation products to miners. Ethan also co-founded data website Hashrate Index.
+<br />
+
+<br />
+Before founding Luxor, Ethan was an investment banker at Goldman Sachs. Ethan advised MNCs on cross-border Asia M&amp;A transactions across the semiconductor, renewable energy, and internet industries.
+<br />
+
+<br />
+-- 
+<br />
+name: Ethan Vera
+<br />
 title: Co-founder &amp; CFO, Luxor Mining<br />
 <br />
 &gt;&gt;bf328036a6a72561e5b5e729602f88ad17917b11
@@ -181,11 +208,13 @@ title: Co-founder &amp; CFO, Luxor Mining<br />
 <item rdf:about="http://localhost:2784/41/62/4162306a.html">
 		<guid>http://localhost:2784/41/62/4162306a.html</guid>
 		<pubDate>1615850968</pubDate>
-		<title>name: Jim Cunha</title>
+		<title>name: Jim Cunha
+</title>
 		<link>http://localhost:2784/41/62/4162306a.html</link>
 		<description>
 				<![CDATA[
-				name: Jim Cunha<br />
+				name: Jim Cunha
+<br />
 title: Senior Vice President, Boston Federal Reserve<br />
 <br />
 &gt;&gt;e37a5cc2203a333acdc8ffaf3c1fc1f172dbdeda
@@ -199,10 +228,14 @@ title: Senior Vice President, Boston Federal Reserve<br />
 		<link>http://localhost:2784/db/a1/dba11e38.html</link>
 		<description>
 				<![CDATA[
-				Bryan Bishop has a background in software engineering, bitcoin, and genetic engineering/biohacking. Bryan Bishop is currently CTO at Avanti Bank &amp; Trust.<br />
-<br />
--- <br />
-name: Bryan Bishop<br />
+				Bryan Bishop has a background in software engineering, bitcoin, and genetic engineering/biohacking. Bryan Bishop is currently CTO at Avanti Bank &amp; Trust.
+<br />
+
+<br />
+-- 
+<br />
+name: Bryan Bishop
+<br />
 title: CTO at Avanti Bank &amp; Trust<br />
 <br />
 &gt;&gt;d70ba2e6a0a32ddd848e03f3d1c611c6f84f04c2
@@ -216,10 +249,14 @@ title: CTO at Avanti Bank &amp; Trust<br />
 		<link>http://localhost:2784/51/1e/511e802c.html</link>
 		<description>
 				<![CDATA[
-				Jameson has been building multisignature Bitcoin wallets for 6 years, first at BitGo for enterprises and now at Casa for individuals. He is the founder of Mensa's Bitcoin Special Interest Group, the Triangle Blockchain &amp; Business meetup, and several open source Bitcoin projects, Throughout this time he has been writing and given presentations about what he has learned the hard way while trying to write robust software that can withstand both adversaries and unsophisticated end users.<br />
-<br />
--- <br />
-name: Jameson Lopp<br />
+				Jameson has been building multisignature Bitcoin wallets for 6 years, first at BitGo for enterprises and now at Casa for individuals. He is the founder of Mensa's Bitcoin Special Interest Group, the Triangle Blockchain &amp; Business meetup, and several open source Bitcoin projects, Throughout this time he has been writing and given presentations about what he has learned the hard way while trying to write robust software that can withstand both adversaries and unsophisticated end users.
+<br />
+
+<br />
+-- 
+<br />
+name: Jameson Lopp
+<br />
 title: Founder, Mensa's Bitcoin Special Interest Group<br />
 <br />
 &gt;&gt;4e18fe3e9e36633e5e7ae437d8bf96704d128a0d
@@ -233,10 +270,14 @@ title: Founder, Mensa's Bitcoin Special Interest Group<br />
 		<link>http://localhost:2784/a9/6a/a96aa2ec.html</link>
 		<description>
 				<![CDATA[
-				Rob Margolis is a Director on the Global Digital Markets desk at BlockFi where he leads the firm's efforts in the crypto native space. Prior to BlockFi, Rob headed institutional sales at LedgerX which was the first CFTC approved exchange and clearinghouse for physically-delivered options on BTC. He began his career at Goldman Sachs in the Investment Management Division, primarily focused on equity derivative sales and fixed income portfolio management.<br />
-<br />
--- <br />
-name: Rob Margolis<br />
+				Rob Margolis is a Director on the Global Digital Markets desk at BlockFi where he leads the firm's efforts in the crypto native space. Prior to BlockFi, Rob headed institutional sales at LedgerX which was the first CFTC approved exchange and clearinghouse for physically-delivered options on BTC. He began his career at Goldman Sachs in the Investment Management Division, primarily focused on equity derivative sales and fixed income portfolio management.
+<br />
+
+<br />
+-- 
+<br />
+name: Rob Margolis
+<br />
 title: Director on the Global Digital Markets desk, BlockFi<br />
 <br />
 &gt;&gt;e4833d926e7a087501ddffbf6b610e7ee1f1ba46
@@ -250,10 +291,14 @@ title: Director on the Global Digital Markets desk, BlockFi<br />
 		<link>http://localhost:2784/5d/f5/5df552da.html</link>
 		<description>
 				<![CDATA[
-				Peter McCormack is a full time journalist/podcaster covering topics such as Freedom, Human Rights, Censorship and Bitcoin. Peter created and hosts the What Bitcoin Did Podcast, a twice-weekly Bitcoin podcast where he interviews experts in the world of Bitcoin development, privacy, investment and adoption. Launched in November of 2017, the podcast has grown to over 300 episodes with a guest list that is a testament to the diversity of knowledge and opinions that represent the broader Bitcoin community. Expanding his growing list of human interest recordings, documentaries and films Peter has recently launched the Defiance podcast, Defiance TV and Never Edit.<br />
-<br />
--- <br />
-name: Peter McCormack<br />
+				Peter McCormack is a full time journalist/podcaster covering topics such as Freedom, Human Rights, Censorship and Bitcoin. Peter created and hosts the What Bitcoin Did Podcast, a twice-weekly Bitcoin podcast where he interviews experts in the world of Bitcoin development, privacy, investment and adoption. Launched in November of 2017, the podcast has grown to over 300 episodes with a guest list that is a testament to the diversity of knowledge and opinions that represent the broader Bitcoin community. Expanding his growing list of human interest recordings, documentaries and films Peter has recently launched the Defiance podcast, Defiance TV and Never Edit.
+<br />
+
+<br />
+-- 
+<br />
+name: Peter McCormack
+<br />
 title: Creator, What Bitcoin Did Podcast<br />
 <br />
 &gt;&gt;ff3fa51e38ab70f08359da32abfb26fba269430b
@@ -267,10 +312,14 @@ title: Creator, What Bitcoin Did Podcast<br />
 		<link>http://localhost:2784/b6/38/b6384d25.html</link>
 		<description>
 				<![CDATA[
-				Neha Narula is the Director of the Digital Currency Initiative at the MIT Media Lab, where her research interests are in cryptocurrencies and distributed systems. She received her PhD in computer science from MIT in 2015, where she published work on fast, scalable databases. Neha has has given a TED talk on the future of money, was named to WIRED's list of 25 leaders shaping the next 25 years of technology, and was listed on Fortune's Ledger 40 under 40. In a previous life, she helped relaunch the news aggregator Digg and was a senior software engineer at Google.<br />
-<br />
--- <br />
-name: Neha Narula<br />
+				Neha Narula is the Director of the Digital Currency Initiative at the MIT Media Lab, where her research interests are in cryptocurrencies and distributed systems. She received her PhD in computer science from MIT in 2015, where she published work on fast, scalable databases. Neha has has given a TED talk on the future of money, was named to WIRED's list of 25 leaders shaping the next 25 years of technology, and was listed on Fortune's Ledger 40 under 40. In a previous life, she helped relaunch the news aggregator Digg and was a senior software engineer at Google.
+<br />
+
+<br />
+-- 
+<br />
+name: Neha Narula
+<br />
 title: DCI researcher, co-inventor of the Lightning Network, Bitcoin developer working on scalability<br />
 <br />
 &gt;&gt;6d33c2d71f2a67f117c162d2e740bbc29788faf8
@@ -284,10 +333,14 @@ title: DCI researcher, co-inventor of the Lightning Network, Bitcoin developer w
 		<link>http://localhost:2784/ce/e5/cee5f833.html</link>
 		<description>
 				<![CDATA[
-				Michael Perklin is a cryptocurrency security expert, having provided over a decade of contributions to the Bitcoin and cryptocurrency industry. He serves as CISO of ShapeShift, President of C4, and is the co-author of the CryptoCurrency Security Standard. Michael loves thinking about the future and figuring out new ways to break things.<br />
-<br />
--- <br />
-name: Michael Perklin<br />
+				Michael Perklin is a cryptocurrency security expert, having provided over a decade of contributions to the Bitcoin and cryptocurrency industry. He serves as CISO of ShapeShift, President of C4, and is the co-author of the CryptoCurrency Security Standard. Michael loves thinking about the future and figuring out new ways to break things.
+<br />
+
+<br />
+-- 
+<br />
+name: Michael Perklin
+<br />
 title: CISO of ShapeShift, President of C4<br />
 <br />
 &gt;&gt;756bb6b6c9067ed0ec3d2c9f86605bf865c9e2d4
@@ -301,10 +354,14 @@ title: CISO of ShapeShift, President of C4<br />
 		<link>http://localhost:2784/3f/a6/3fa6349f.html</link>
 		<description>
 				<![CDATA[
-				Rene is researching on improving the payment reliability on the Lightning Network and is employed at the Norwegian University of Science and Technology. He is a co-author of the book &quot;Mastering the Lighting Network&quot; and an Educator on Youtube and Stack Exchange. In his other life he studied mathematics and offers consulting on statistics and counting things properly - which in modern terms is called data science consulting.<br />
-<br />
--- <br />
-name: Rene Pickhardt<br />
+				Rene is researching on improving the payment reliability on the Lightning Network and is employed at the Norwegian University of Science and Technology. He is a co-author of the book &quot;Mastering the Lighting Network&quot; and an Educator on Youtube and Stack Exchange. In his other life he studied mathematics and offers consulting on statistics and counting things properly - which in modern terms is called data science consulting.
+<br />
+
+<br />
+-- 
+<br />
+name: Rene Pickhardt
+<br />
 title: Researcher at Norwegian University of Science and Technology<br />
 <br />
 &gt;&gt;c33e7120784c999f515ff615c7de8a01a8cf09d0
@@ -318,10 +375,14 @@ title: Researcher at Norwegian University of Science and Technology<br />
 		<link>http://localhost:2784/30/f3/30f383a8.html</link>
 		<description>
 				<![CDATA[
-				Mr. Saylor is a technologist, entrepreneur, business executive, philanthropist, and best-selling author. He currently serves as Chairman of the Board of Directors and Chief Executive Office of MicroStrategy, Inc. (MSTR). Since co-founding the company at the age of 24, Mr. Saylor has built MicroStrategy into a global leader in business intelligence, mobile software, and cloud-based services. In 2012, he authored The Mobile Wave: How Mobile Intelligence Will Change Everything, which earned a spot on The New York Times Best Sellers list. Mr. Saylor attended the Massachusetts Institute of Technology, receiving an S.B. in Aeronautics and Astronautics and an S.B. in Science, Technology, and Society.<br />
-<br />
--- <br />
-name: Michael Saylor<br />
+				Mr. Saylor is a technologist, entrepreneur, business executive, philanthropist, and best-selling author. He currently serves as Chairman of the Board of Directors and Chief Executive Office of MicroStrategy, Inc. (MSTR). Since co-founding the company at the age of 24, Mr. Saylor has built MicroStrategy into a global leader in business intelligence, mobile software, and cloud-based services. In 2012, he authored The Mobile Wave: How Mobile Intelligence Will Change Everything, which earned a spot on The New York Times Best Sellers list. Mr. Saylor attended the Massachusetts Institute of Technology, receiving an S.B. in Aeronautics and Astronautics and an S.B. in Science, Technology, and Society.
+<br />
+
+<br />
+-- 
+<br />
+name: Michael Saylor
+<br />
 title: Chairman of the Board of Directors and Chief Executive Officer of MicroStrategy, Inc.<br />
 <br />
 &gt;&gt;5fe707737fea2cb19c4ecbb6c3cf69f67509e62e
@@ -335,10 +396,14 @@ title: Chairman of the Board of Directors and Chief Executive Officer of MicroSt
 		<link>http://localhost:2784/ad/75/ad751916.html</link>
 		<description>
 				<![CDATA[
-				AJ works on Galaxy Digital’s mining team, where he focuses on developing financial products around bitcoin mining. Prior to joining Galaxy, AJ worked in J.P. Morgan’s technology investment banking practice in New York.<br />
-<br />
--- <br />
-name: AJ Scalia<br />
+				AJ works on Galaxy Digital’s mining team, where he focuses on developing financial products around bitcoin mining. Prior to joining Galaxy, AJ worked in J.P. Morgan’s technology investment banking practice in New York.
+<br />
+
+<br />
+-- 
+<br />
+name: AJ Scalia
+<br />
 title: Mining Team, Galaxy Digital<br />
 <br />
 &gt;&gt;c014e677e54f7a8e88c0c00eaab6c2e0a5657402
@@ -348,12 +413,15 @@ title: Mining Team, Galaxy Digital<br />
 <item rdf:about="http://localhost:2784/54/2d/542d7196.html">
 		<guid>http://localhost:2784/54/2d/542d7196.html</guid>
 		<pubDate>1615850046</pubDate>
-		<title>-- </title>
+		<title>-- 
+</title>
 		<link>http://localhost:2784/54/2d/542d7196.html</link>
 		<description>
 				<![CDATA[
-				-- <br />
-name: Andrej Skraba<br />
+				-- 
+<br />
+name: Andrej Skraba
+<br />
 title: Chief Marketing Officer, NiceHash<br />
 <br />
 &gt;&gt;59d570ad15388b8643f5a5bf6fa45b19d166aee8
@@ -363,11 +431,13 @@ title: Chief Marketing Officer, NiceHash<br />
 <item rdf:about="http://localhost:2784/3f/78/3f78d91e.html">
 		<guid>http://localhost:2784/3f/78/3f78d91e.html</guid>
 		<pubDate>1615849985</pubDate>
-		<title>name: Jimmy Song</title>
+		<title>name: Jimmy Song
+</title>
 		<link>http://localhost:2784/3f/78/3f78d91e.html</link>
 		<description>
 				<![CDATA[
-				name: Jimmy Song<br />
+				name: Jimmy Song
+<br />
 title: Bitcoin Developer<br />
 <br />
 &gt;&gt;00c124781875dc784e317fdba2f5b445469fb5aa
@@ -377,11 +447,13 @@ title: Bitcoin Developer<br />
 <item rdf:about="http://localhost:2784/20/b7/20b7dd47.html">
 		<guid>http://localhost:2784/20/b7/20b7dd47.html</guid>
 		<pubDate>1615849239</pubDate>
-		<title>name: David Vorick</title>
+		<title>name: David Vorick
+</title>
 		<link>http://localhost:2784/20/b7/20b7dd47.html</link>
 		<description>
 				<![CDATA[
-				name: David Vorick<br />
+				name: David Vorick
+<br />
 title: Co-Founder and CEO, Sia<br />
 <br />
 &gt;&gt;5b625e55e2dffc8cb2d89194b3bb560057dbcc66
@@ -395,10 +467,14 @@ title: Co-Founder and CEO, Sia<br />
 		<link>http://localhost:2784/28/fe/28feb4eb.html</link>
 		<description>
 				<![CDATA[
-				I am Director of Bitcoin Mining at Fidelity's Center for Applied Technology. I lead and manage our current mining operation and am currently working on growing Fidelity's mining operations. I'm also interested in research and am currently working on a number of proof-of-concepts and research ideas related to Bitcoin and Bitcoin mining.<br />
-<br />
--- <br />
-name: Brian Wright<br />
+				I am Director of Bitcoin Mining at Fidelity's Center for Applied Technology. I lead and manage our current mining operation and am currently working on growing Fidelity's mining operations. I'm also interested in research and am currently working on a number of proof-of-concepts and research ideas related to Bitcoin and Bitcoin mining.
+<br />
+
+<br />
+-- 
+<br />
+name: Brian Wright
+<br />
 title: Director, Bitcoin Mining at Fidelity Investments<br />
 <br />
 &gt;&gt;557d867024a2b019891e30ad7a7e7d93500e4a5f
@@ -412,10 +488,14 @@ title: Director, Bitcoin Mining at Fidelity Investments<br />
 		<link>http://localhost:2784/e7/6c/e76c162a.html</link>
 		<description>
 				<![CDATA[
-				Pieter discovered Bitcoin in December 2010 and started contributing code to the project in May 2011. Since then, he has written significant parts of the reference client’s code, in particular, to improve performance and code organization. In addition to authoring and co-authoring 16 Bitcoin Improvement Proposals, Pieter contributed to the design of Miniscript, and co-authored papers on MuSig and Bulletproof, and contributed to libraries like libsecp256k1, ctaes, and minisketch. Before Chaincode, Pieter was a co-founder and Core Engineer at Blockstream and worked as a Site Reliability Engineer at Google. Pieter received his Ph.D. in Computer Science at the University of Leuven, where he focused on programming language design.<br />
-<br />
--- <br />
-name: Pieter Wuille<br />
+				Pieter discovered Bitcoin in December 2010 and started contributing code to the project in May 2011. Since then, he has written significant parts of the reference client’s code, in particular, to improve performance and code organization. In addition to authoring and co-authoring 16 Bitcoin Improvement Proposals, Pieter contributed to the design of Miniscript, and co-authored papers on MuSig and Bulletproof, and contributed to libraries like libsecp256k1, ctaes, and minisketch. Before Chaincode, Pieter was a co-founder and Core Engineer at Blockstream and worked as a Site Reliability Engineer at Google. Pieter received his Ph.D. in Computer Science at the University of Leuven, where he focused on programming language design.
+<br />
+
+<br />
+-- 
+<br />
+name: Pieter Wuille
+<br />
 title: Engineer, Chaincode Labs<br />
 <br />
 &gt;&gt;1b1e627b3e2f3f9717ab1b2d0b926f633c3244be
@@ -429,10 +509,14 @@ title: Engineer, Chaincode Labs<br />
 		<link>http://localhost:2784/b9/41/b9415908.html</link>
 		<description>
 				<![CDATA[
-				Gloria is currently working on package validation/relay in Bitcoin Core. She just graduated from UC Berkeley in December and was previously president of Blockchain at Berkeley.<br />
-<br />
--- <br />
-name: Gloria Zhao<br />
+				Gloria is currently working on package validation/relay in Bitcoin Core. She just graduated from UC Berkeley in December and was previously president of Blockchain at Berkeley.
+<br />
+
+<br />
+-- 
+<br />
+name: Gloria Zhao
+<br />
 title: Bitcoin Core Developer<br />
 <br />
 &gt;&gt;d77697609b29232d57fb68e92201a10daf908d4f
@@ -446,12 +530,18 @@ title: Bitcoin Core Developer<br />
 		<link>http://localhost:2784/6c/95/6c954303.html</link>
 		<description>
 				<![CDATA[
-				Robleh Ali is a founder of Wadagso Inc a specialist company offering software engineering and public policy expertise to design, build and performance test central bank digital currency (CBDC) and associated next generation financial market infrastructure.<br />
-<br />
-Before starting Wadagso, Robleh led the CBDC research at the MIT Digital Currency Initiative and prior to that he led the digital currency work for the Bank of England.<br />
-<br />
--- <br />
-name: Robleh Ali<br />
+				Robleh Ali is a founder of Wadagso Inc a specialist company offering software engineering and public policy expertise to design, build and performance test central bank digital currency (CBDC) and associated next generation financial market infrastructure.
+<br />
+
+<br />
+Before starting Wadagso, Robleh led the CBDC research at the MIT Digital Currency Initiative and prior to that he led the digital currency work for the Bank of England.
+<br />
+
+<br />
+-- 
+<br />
+name: Robleh Ali
+<br />
 title: Founder of Wadagso Inc<br />
 <br />
 &gt;&gt;7ce0af9bc3b390015f9b1a467f9f78c25572266d
@@ -465,10 +555,14 @@ title: Founder of Wadagso Inc<br />
 		<link>http://localhost:2784/f6/3f/f63fdde3.html</link>
 		<description>
 				<![CDATA[
-				Previously, Dr. Zou held various positions in China Investment Corporation (CIC) and Nanhu Finance Corporation from 2006 to 2019. Dr. Zou received Ph.D. in Economics from Tsinghua University, Mid-Career MPA from Harvard University, M.A. in economics and B.S. in Statistics from Peking University. In 2015, Dr. Zou was a winner of the 1st Sun Yefang Prize for Financial Innovation (China’s top prize for economists) and the 5th China Soft Science Prize for his research on fintech. In 2013, 2014 and 2017, his books were selected into the lists of “financial books of the year” by China Business Network. In 2019, Dr. Zou was nominated as one of the &quot;top 10 institutional economists of the year&quot; by China Business Network.<br />
-<br />
--- <br />
-name: Chuanwei &quot;David&quot; Zou<br />
+				Previously, Dr. Zou held various positions in China Investment Corporation (CIC) and Nanhu Finance Corporation from 2006 to 2019. Dr. Zou received Ph.D. in Economics from Tsinghua University, Mid-Career MPA from Harvard University, M.A. in economics and B.S. in Statistics from Peking University. In 2015, Dr. Zou was a winner of the 1st Sun Yefang Prize for Financial Innovation (China’s top prize for economists) and the 5th China Soft Science Prize for his research on fintech. In 2013, 2014 and 2017, his books were selected into the lists of “financial books of the year” by China Business Network. In 2019, Dr. Zou was nominated as one of the &quot;top 10 institutional economists of the year&quot; by China Business Network.
+<br />
+
+<br />
+-- 
+<br />
+name: Chuanwei &quot;David&quot; Zou
+<br />
 title: Chief Economist of Wanxiang Blockchain<br />
 <br />
 &gt;&gt;105dd8f5d515f5e5cc7481fbbbd5d299248635a5
@@ -719,9 +813,12 @@ title: Chief Economist of Wanxiang Blockchain<br />
 		<link>http://localhost:2784/78/0e/780e6fa1.html</link>
 		<description>
 				<![CDATA[
-				Robleh Ali is a founder of Wadagso Inc a specialist company offering software engineering and public policy expertise to design, build and performance test central bank digital currency (CBDC) and associated next generation financial market infrastructure.<br />
-<br />
-Before starting Wadagso, Robleh led the CBDC research at the MIT Digital Currency Initiative and prior to that he led the digital currency work for the Bank of England.<br />
+				Robleh Ali is a founder of Wadagso Inc a specialist company offering software engineering and public policy expertise to design, build and performance test central bank digital currency (CBDC) and associated next generation financial market infrastructure.
+<br />
+
+<br />
+Before starting Wadagso, Robleh led the CBDC research at the MIT Digital Currency Initiative and prior to that he led the digital currency work for the Bank of England.
+<br />
 <br />
 <br />
 &gt;&gt;d69315627e3533dc93ad746e459c79cf8311a3f8
@@ -801,7 +898,8 @@ Before starting Wadagso, Robleh led the CBDC research at the MIT Digital Currenc
 		<link>http://localhost:2784/b7/e5/b7e52af2.html</link>
 		<description>
 				<![CDATA[
-				#speaker<br />
+				#speaker
+<br />
 title: Robleh Ali<br />
 <br />
 &gt;&gt;d69315627e3533dc93ad746e459c79cf8311a3f8

@@ -1,0 +1,3 @@
+start with photo from expo2015
+apply -100 saturation and -30 hue -> should be greyscale with slight hue of red
+apply -20 brightness
