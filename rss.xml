@@ -11,7 +11,7 @@
 		<link>
 		http://localhost:2784</link>
 		<description>This is a flexible message board which you can read and write.</description>
-		<pubDate>Tue Mar 16 00:56:19 2021</pubDate>
+		<pubDate>Tue Mar 16 02:08:06 2021</pubDate>
 		<items>
 			<rdf:Seq>
 				<rdf:li rdf:resource="http://localhost:2784/d8/a7/d8a7f946.html" />
@@ -53,7 +53,6 @@
 <rdf:li rdf:resource="http://localhost:2784/33/1c/331c9afd.html" />
 <rdf:li rdf:resource="http://localhost:2784/94/3f/943f9188.html" />
 <rdf:li rdf:resource="http://localhost:2784/f7/a5/f7a516e2.html" />
-<rdf:li rdf:resource="http://localhost:2784/d8/44/d8442c09.html" />
 <rdf:li rdf:resource="http://localhost:2784/6d/33/6d33c2d7.html" />
 <rdf:li rdf:resource="http://localhost:2784/10/5d/105dd8f5.html" />
 <rdf:li rdf:resource="http://localhost:2784/75/6b/756bb6b6.html" />
@@ -644,19 +643,6 @@ title: Chief Economist of Wanxiang Blockchain<br />
 				Jimmy Song is a Bitcoin developer, educator and entrepreneur. He's an open source contributor to many different Bitcoin projects and is the author of Programming Bitcoin from O'Reilly, The Little Bitcoin Book and Thank God for Bitcoin. Jimmy writes a weekly newsletter, Bitcoin Tech Talk and has a podcast Bitcoin Fixes This.<br />
 <br />
 &gt;&gt;00c124781875dc784e317fdba2f5b445469fb5aa
-				]]>
-		</description>
-	</item>
-<item rdf:about="http://localhost:2784/d8/44/d8442c09.html">
-		<guid>http://localhost:2784/d8/44/d8442c09.html</guid>
-		<pubDate>1615840914</pubDate>
-		<title>Michael Perklin is a cryptocurrency security expert, having pro</title>
-		<link>http://localhost:2784/d8/44/d8442c09.html</link>
-		<description>
-				<![CDATA[
-				Michael Perklin is a cryptocurrency security expert, having provided over a decade of contributions to the Bitcoin and cryptocurrency industry. He serves as CISO of ShapeShift, President of C4, and is the co-author of the CryptoCurrency Security Standard. Michael loves thinking about the future and figuring out new ways to break things.<br />
-<br />
-&gt;&gt;756bb6b6c9067ed0ec3d2c9f86605bf865c9e2d4
 				]]>
 		</description>
 	</item>
