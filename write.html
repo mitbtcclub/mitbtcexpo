@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link rel="alternate" title="RSS Feed" href="/rss.xml" type="application/rss+xml">
-<title>Welcome</title>
+<title>Write</title>
 <style type="text/css">
 <!--
 /* begin css/default.css */
@@ -307,14 +307,14 @@ if (document.createElement) {
 <!-- / topmenu2.template -->
 </b>
 <p><MAIN ID=maincontent><A NAME=maincontent></A>
-<!-- window/standard.template -->
+<form action="/post.html" method=GET id=compose class=submit name=compose target=_top><!-- window/standard.template -->
 <font face=arial>
 	<table cellspacing=0 cellpadding=6 border=0 bgcolor="#c0c0c0" class=dialog>
 		<!-- titlebar_with_button.template -->
 <tr bgcolor="#35163A" class=titlebar>
 	<td valign=middle>
 		<img src="/logo.png" height=16 width=16>
-		<font color="#ffffff"><b>Welcome</b></font>
+		<font color="#ffffff"><b>Write</b></font>
 		<br>
 	</td>
 </tr>
@@ -325,22 +325,83 @@ if (document.createElement) {
 
 		
 
-		<tr class=content><td><!-- welcome.template -->
-	<img src=/banner_2x1.jpg alt="
-	MIT Bitcoin Expo 2021
-	The New Normal
-	April 3-4th, 2021" width="99%">
-	<h3><a href="https://tinyurl.com/4ezdhdk">Register</a></h3>
-	<h3><a href="https://forms.gle/JUvaggfVCNS8P54G7">Hackathon</a></h3>
-	<h3><a href="https://eepurl.com/gOVdKb">Join the Mailing List</a></h3>
-<!-- / welcome.template -->
+		<tr class=content><td><!-- write.template -->
+<fieldset>
+	<span id=writeintro></span>
+	<span class=beginner><label for="comment" class=beginner>Share with Everyone:</label><br></span>
+	<textarea onkeyup="if (window.commentOnChange) { return commentOnChange(this, 'compose'); } else { return true; }" onchange="if (window.commentOnChange) { return commentOnChange(this, 'compose'); } else { return true; }" 
+		class=txtarea
+		id=comment
+		title="Enter some text to share."
+		rows=9
+		cols=32
+		name=comment
+		autofocus
+		wrap=soft
+	></textarea><br>
+	<p>
+		<input type=submit onclick="this.value = 'Meditate...'; if (window.writeSubmit) { setTimeout('writeSubmit();', 1); return true; } else { return true; }" value="Send Now" name=addtext id=addtext>
+		<span id=spanSignAs></span>
+		<p id=spanWriteAdvanced class=advanced></p>
+		<span class=advanced>
+			<label for=recfing>
+				<input name=recfing id=recfing type=checkbox>
+				Record anonymous identifier
+			</label>
+		</span>
+	</p>
+</fieldset>
+<!--/ write.template -->
 </td></tr>
 
 		
 	</table>
 </font>
 <!-- / window/standard.template -->
-<a name=8013688d></a></main>
+<a name=24b52b1d></a><span class=advanced><!-- window/standard.template -->
+<font face=arial>
+	<table cellspacing=0 cellpadding=6 border=0 bgcolor="#c0c0c0" class=dialog>
+		<!-- titlebar_with_button.template -->
+<tr bgcolor="#35163A" class=titlebar>
+	<td valign=middle>
+		<img src="/logo.png" height=16 width=16>
+		<font color="#ffffff"><b>Options</b></font>
+		<br>
+	</td>
+</tr>
+<!-- / titlebar_with_button.template -->
+
+
+		
+
+		
+
+		<tr class=content><td><!-- write_js.template ; additional controls for js-enhanced write form -->
+<hr class=advanced>
+<span id=spanInputOptions class=advanced>
+	<p>
+		Input Options: <noscript>(JavaScript enhanced)</noscript><br>
+		<a href="/frame.html" target=_top>Keyboard</a><br>
+		<a href="/frame2.html" target=_top>Android</a><br>
+		<a href="/frame2.html" target=_top>iPhone</a><br>
+		<a href="/frame2.html" target=_top>iPad</a><br>
+		<a href="/frame3.html" target=_top>Netscape</a><br>
+	</p>
+
+	<p>
+		Keyboard Layouts: <noscript>(requires JavaScript)</noscript><br>
+		Russian: Ctrl+R, Alt+R, Meta+R<br>
+		Dvorak: Ctrl+D, Alt+D, Meta+D
+	</p>
+</span>
+<!-- / write_js.template -->
+</td></tr>
+
+		
+	</table>
+</font>
+<!-- / window/standard.template -->
+<a name=529e42c9></a></span></form></main>
 <hr>
 <img src="/p.gif" alt="" height=1 width=1>
 <!-- back_to_top_button.template -->
@@ -361,94 +422,10 @@ if (document.createElement) {
     "
 >^^</span></a>
 <!-- / back_to_top_button.template -->
-<!-- InjectJs: avatar settings profile utils timestamp dragging -->
+<!-- InjectJs: settings avatar write profile utils timestamp puzzle fresh dragging -->
 
 <!-- html/utils/scriptinject.template -->
 <script language=javascript><!--
-// == begin avatar.js
-
-function setAva () { // sets avatar widgets (and italicizes Profile link)
-	//alert('DEBUG: setAva() begins');
-	
-	if (document.getElementById && String.fromCharCode) {
-		var myidBox = document.getElementById('myid'); // displays username (if preference is set)
-		var signinBox = document.getElementById('signin'); // Profile link
-
-		var gt = String.fromCharCode(62);
-
-		if (myidBox && signinBox && window.localStorage) { // check for elements and features
-			var myAvatar = localStorage.getItem('avatar');
-
-			if (!myAvatar) { // less error prone than checking for ==n ull, i think
-				signinBox.innerHTML = '<a href="/profile.html"' + gt + 'Profile</a' + gt + '';
-			} else {
-				signinBox.innerHTML = '';
-				var myFp = localStorage.getItem('fingerprint');
-
-				if (window.location.pathname == '/author/' + myFp + '/' || window.location.pathname == '/author/' + myFp + '/index.html') {
-					var itsYou = document.getElementById('itsyou');
-					itsYou.innerHTML = 'This is your profile!';
-				}
-
-				if (window.GetPrefs) {
-					if (GetPrefs('display_username')) {
-						myidBox.innerHTML = '<a href="/profile.html" class=avatar' + gt + myAvatar + '</a' + gt;
-						signinBox.innerHTML = '';
-					} else {
-						myidBox.innerHTML = '';
-						signinBox.innerHTML = '<a href="/profile.html"' + gt + '<i' + gt + 'Profile</i' + gt + '</a' + gt + '';
-					}
-				} else {
-					myidBox.innerHTML = '';
-					signinBox.innerHTML = '<a href="/profile.html"' + gt + '<i' + gt + 'Profile</i' + gt + '</a' + gt + '';
-				}
-
-				if (!window.openpgp && document.head && document.getElementById && window.localStorage) {
-					//alert('DEBUG: setAva: loading openpgp.js');
-					window.openPgpJsLoadBegin = 1;
-
-					var script = document.createElement('script');
-					script.src = '/openpgp.js';
-					script.async = false; // This is required for synchronous execution
-					document.head.appendChild(script);
-				}
-
-				if (!window.setAvatar && document.head && document.head.appendChild && document.getElementById && window.localStorage) {
-					//alert('DEBUG: setAva: loading crypto2.js');
-
-					var script2 = document.createElement('script');
-					script2.src = '/crypto2.js';
-					script2.async = false; // This is required for synchronous execution
-					document.head.appendChild(script2);
-				}
-			}
-		}
-	}
-
-	return true;
-} // setAva()
-if (window.localStorage && document.getElementById) {
-	setAva();
-}
-
-function getAvatar () { // retrieve previously built avatar from localStorage (already in html form)
-	if (window.localStorage) {
-		var myAvatar = localStorage.getItem("avatar");
-		if (!myAvatar || myAvatar.length == 0) {
-			return '';
-		} else {
-			return myAvatar;
-		}
-	} else {
-		return 'Anonymous*';
-	}
-
-	return false;
-} // getAvatar()
-
-// == end avatar.js
-
-
 // == begin settings.js
 
 var showAdvancedLastAction = '';
@@ -907,6 +884,325 @@ if (window.EventLoop) {
 }
 
 // == end settings.js
+
+
+// == begin avatar.js
+
+function setAva () { // sets avatar widgets (and italicizes Profile link)
+	//alert('DEBUG: setAva() begins');
+	
+	if (document.getElementById && String.fromCharCode) {
+		var myidBox = document.getElementById('myid'); // displays username (if preference is set)
+		var signinBox = document.getElementById('signin'); // Profile link
+
+		var gt = String.fromCharCode(62);
+
+		if (myidBox && signinBox && window.localStorage) { // check for elements and features
+			var myAvatar = localStorage.getItem('avatar');
+
+			if (!myAvatar) { // less error prone than checking for ==n ull, i think
+				signinBox.innerHTML = '<a href="/profile.html"' + gt + 'Profile</a' + gt + '';
+			} else {
+				signinBox.innerHTML = '';
+				var myFp = localStorage.getItem('fingerprint');
+
+				if (window.location.pathname == '/author/' + myFp + '/' || window.location.pathname == '/author/' + myFp + '/index.html') {
+					var itsYou = document.getElementById('itsyou');
+					itsYou.innerHTML = 'This is your profile!';
+				}
+
+				if (window.GetPrefs) {
+					if (GetPrefs('display_username')) {
+						myidBox.innerHTML = '<a href="/profile.html" class=avatar' + gt + myAvatar + '</a' + gt;
+						signinBox.innerHTML = '';
+					} else {
+						myidBox.innerHTML = '';
+						signinBox.innerHTML = '<a href="/profile.html"' + gt + '<i' + gt + 'Profile</i' + gt + '</a' + gt + '';
+					}
+				} else {
+					myidBox.innerHTML = '';
+					signinBox.innerHTML = '<a href="/profile.html"' + gt + '<i' + gt + 'Profile</i' + gt + '</a' + gt + '';
+				}
+
+				if (!window.openpgp && document.head && document.getElementById && window.localStorage) {
+					//alert('DEBUG: setAva: loading openpgp.js');
+					window.openPgpJsLoadBegin = 1;
+
+					var script = document.createElement('script');
+					script.src = '/openpgp.js';
+					script.async = false; // This is required for synchronous execution
+					document.head.appendChild(script);
+				}
+
+				if (!window.setAvatar && document.head && document.head.appendChild && document.getElementById && window.localStorage) {
+					//alert('DEBUG: setAva: loading crypto2.js');
+
+					var script2 = document.createElement('script');
+					script2.src = '/crypto2.js';
+					script2.async = false; // This is required for synchronous execution
+					document.head.appendChild(script2);
+				}
+			}
+		}
+	}
+
+	return true;
+} // setAva()
+if (window.localStorage && document.getElementById) {
+	setAva();
+}
+
+function getAvatar () { // retrieve previously built avatar from localStorage (already in html form)
+	if (window.localStorage) {
+		var myAvatar = localStorage.getItem("avatar");
+		if (!myAvatar || myAvatar.length == 0) {
+			return '';
+		} else {
+			return myAvatar;
+		}
+	} else {
+		return 'Anonymous*';
+	}
+
+	return false;
+} // getAvatar()
+
+// == end avatar.js
+
+
+// == begin write.js
+
+function WriteOnload () { // onload handler for write page
+	//alert('DEBUG: WriteOnload() begin');
+
+	if (document.getElementById) {
+	    //alert('DEBUG: WriteOnload: document.getElementById is true');
+        if (window.GetPrefs) {
+			//alert('DEBUG: window.GetPrefs = TRUE');
+        	if (GetPrefs('write_enhance')) {
+				//alert('DEBUG: write_enhance = TRUE');
+				var comment = document.getElementById('comment');
+				if (comment) {
+					if (window.location.href.indexOf('write') != -1) {
+						CommentMakeWp(comment);
+					} else {
+						comment.setAttribute('onfocus', 'CommentMakeWp(this)');
+					}
+				}
+			} else {
+				//alert('DEBUG: write_enhance = FALSE');
+			}
+		} else {
+			//alert('DEBUG: window.GetPrefs = FALSE');
+		}
+        var pubKey = '';
+        if (window.getPublicKey) {
+        	//alert('DEBUG: window.getPublicKey exists');
+        	pubKey = getPublicKey();
+        }
+        var privKey = '';
+        if (window.getPrivateKey) {
+            //alert('DEBUG: window.getPrivateKey exists');
+            privKey = getPrivateKey();
+        }
+        if (privKey) {
+            //alert('DEBUG: privKey was true, adding options...');
+			if (document.getElementById('spanSignAs')) {
+				var gt = unescape('%3E');
+				if (window.getAvatar) {
+					var spanSignAs = document.getElementById('spanSignAs');
+
+					var lblSignAs = document.createElement('label');
+					lblSignAs.setAttribute('for', 'chkSignAs');
+
+					var chkSignAs = document.createElement('input');
+					chkSignAs.setAttribute('name', 'chkSignAs');
+					chkSignAs.setAttribute('id', 'chkSignAs');
+					chkSignAs.setAttribute('type', 'checkbox');
+					chkSignAs.setAttribute('checked', 1);
+					// implied getElementById already been feature checked here
+					//chkSignAs.setAttribute('onclick', "if (document.getElementById('btnSolvePuzzle')) { document.getElementById('btnSolvePuzzle').setAttribute('disabled', !chkSignAs.checked); }");
+					// this checkbox being checked means signMessage() is called in writeSubmit()
+
+					lblSignAs.innerHTML = 'Sign as ' + getAvatar();
+					lblSignAs.appendChild(chkSignAs);
+					spanSignAs.appendChild(lblSignAs);
+
+					if (window.solvePuzzle) {
+						var spanWriteAdvanced = document.getElementById('spanWriteAdvanced');
+						if (spanWriteAdvanced) {
+							var btnSolvePuzzle = document.createElement('input');
+							btnSolvePuzzle.setAttribute('id', 'btnSolvePuzzle');
+							btnSolvePuzzle.setAttribute('type', 'button');
+							btnSolvePuzzle.setAttribute('value', 'Solve Puzzle');
+							btnSolvePuzzle.setAttribute('onclick',	"if (window.solvePuzzle) { return solvePuzzle(this); } else { return true; }");
+							spanWriteAdvanced.appendChild(btnSolvePuzzle);
+
+							var br = document.createElement('br');
+							spanWriteAdvanced.appendChild(br);
+
+							var lblSolvePuzzle = document.createElement('span');
+							lblSolvePuzzle.setAttribute('class', 'beginner');
+							var gt = unescape('%3E');
+							lblSolvePuzzle.innerHTML = 'Establish trust, takes time, requires signature.';
+							spanWriteAdvanced.appendChild(lblSolvePuzzle);
+						}
+					} // window.solvePuzzle
+				} // window.getAvatar
+			} // document.getElementById('spanSignAs')
+        }
+
+        if (pubKey) {
+            //alert('DEBUG: pubKey was true, calling PubKeyPing()');
+            if (window.PubKeyPing) {
+            	PubKeyPing();
+            }
+        }
+
+        if (window.location.hash) {
+            //alert('DEBUG: window.location.hash = ' + window.location.hash);
+            if (window.location.hash == '#inspubkey') {
+                //alert('DEBUG: #inspubkey found');
+				if (pubKey) {
+					//alert('DEBUG: pubKey is true, inserting it into comment');
+					var comment = document.getElementById('comment');
+					if (comment) {
+						comment.value = pubKey;
+					}
+                } else {
+                    //alert('DEBUG: pubKey was false, this is unexpected. Giving up.');
+                }
+            }
+        }
+    } // document.getElementById
+    else {
+        //alert('DEBUG: WriteOnload: document.getElementById was FALSE');
+    }
+
+    return true;
+} // WriteOnload()
+
+function CommentMakeWp (comment) { // makes editor textarea larger and gives it wp color scheme
+// called when write_enhance is on
+	if (comment) {
+		comment.style.backgroundColor = '#000080';
+		comment.style.color = 'ffffff';
+		comment.style.width = '95%';
+		comment.style.height = '50%';
+		comment.style.padding = '1em';
+		comment.setAttribute('cols', 80);
+		comment.setAttribute('rows', 24);
+	}
+
+	return '';
+} // CommentMakeWp()
+
+function writeSubmit (t) { // called when user submits write form //signMessage (
+	//alert('DEBUG: writeSubmit() begin');
+	if (window.localStorage) {
+		//alert('DEBUG: window.localStorage');
+		if (window.ClearAutoSave) {
+			ClearAutoSave();
+		}
+	} else {
+		//alert('DEBUG: no window.localStorage');
+	}
+
+	if (window.getPrivateKey && window.signMessage) {
+		//alert('DEBUG: window.getPrivateKey && window.signMessage test passed');
+		if (getPrivateKey()) {
+			//alert('DEBUG: getPrivateKey() is true, writeSubmit() Calling signMessage()');
+
+			if (document.getElementById) {
+				var chkSignAs = document.getElementById('chkSignAs');
+				if (!chkSignAs || (chkSignAs && chkSignAs.checked)) {
+					// if there's a "sign as" checkbox, it should be checked
+					if (window.signMessage) {
+						var signMessageResult = signMessage();
+						if (!signMessageResult) {
+							signMessageResult = 0;
+						}
+						// once the message is signed, callback will submit the form
+						return false; // uncomment this for duplicate unsigned messages feature
+					}
+				} else {
+					// user choose not to sign
+					return true;
+				}
+			}
+		} else {
+			// no private key
+			//alert('DEBUG: no private key, basic submit');
+		}
+	} else {
+		//alert('DEBUG: Test Failed: window.getPrivateKey: ' + !!window.getPrivateKey + '; window.signMessage: ' + !!window.signMessage);
+	}
+
+	window.eventLoopFresh = 0; // disables fresh.js. may not be a wise move here.
+
+	return true;
+} // writeSubmit()
+
+function DoAutoSave() {
+	var initDone = window.autoSaveInitDone;
+	if (!initDone) {
+		window.autoSaveInitDone = 1;
+
+		var ls = window.localStorage;
+		if (window.localStorage && ls) {
+			var storedValue = ls.getItem('autosave');
+
+			if (storedValue) {
+				var comment = document.getElementById('comment');
+				if (comment) {
+					comment.value += storedValue;
+				}
+			}
+		}
+
+		return 0;
+	}
+
+	if (document.getElementById) {
+		//alert('DEBUG: DoAutoSave: document.getElementById is true');
+
+		if (window.GetPrefs) {
+			//alert('DEBUG: DoAutoSave: window.GetPrefs = TRUE');
+
+			if (GetPrefs('write_autosave')) { // #todo this can't be right
+				//alert('DEBUG: DoAutoSave: write_autosave = TRUE');
+
+				var comment = document.getElementById('comment');
+				if (comment) {
+					if (window.localStorage) {
+						var ls = window.localStorage;
+						if (window.localStorage && ls) {
+							ls.setItem('autosave', comment.value);
+						}
+					}
+				}
+			} else {
+				//alert('DEBUG: write_autosave = FALSE');
+			}
+		} else {
+			//alert('DEBUG: window.GetPrefs = FALSE');
+		}
+	}
+
+	return '';
+} // DoAutoSave()
+
+function ClearAutoSave () {
+	var ls = window.localStorage;
+	if (window.localStorage && ls) {
+		window.eventLoopDoAutoSave = 0;
+		ls.removeItem('autosave');
+	}
+} // ClearAutoSave()
+
+window.eventLoopDoAutoSave = 1;
+
+// == end write.js
 
 
 // begin profile.js
@@ -2182,6 +2478,347 @@ function ShowTimestamps () { // finds any class=timestamp, updates its displayed
 //}
 
 // == end timestamp.js
+
+
+// puzzle.js
+
+if (document.createElement && document.head) {
+// include sha512.js library instead of embedding it in page
+// because it's big and contains (gt) characters
+// and because it is large
+	var script = document.createElement('script');
+	script.src = '/sha512.js';
+	script.async = false; // This is required for synchronous execution
+	document.head.appendChild(script);
+}
+
+function doSolvePuzzle () { // solves puzzle
+// called from a timeout set by solvePuzzle()
+	var fp = '0000000000000000';
+	if (window.getUserFp) {
+		fp = getUserFp();
+	}
+	// user's fp or default to 000
+
+	var i = 0; // counts iterations
+	var done = 0; // done status
+
+	var d = new Date();
+	var epoch = d.getTime();
+	epoch = Math.ceil(epoch / 1000); // current time in epoch format
+
+	var r = 0 + ''; // stores random number as string
+	var lookingFor = '1337'; // required hash prefix
+	var lookingForLength = lookingFor.length;
+	var cycleLimit = 1000000; // give up after this many tries
+	var puzzle = ''; // finished puzzle
+	var hash = ''; // hash of puzzle
+
+	while(!done) {
+		// look for a puzzle which fits criteria
+		i = i + 1; // counter
+		r = Math.random() + '';
+		puzzle = fp + ' ' + epoch + ' ' + r;
+		hash = hex_sha512(puzzle);
+		if (hash.substring(0, lookingForLength) == lookingFor) {
+			// match found
+			done = 1;
+		}
+		if (cycleLimit < i) {
+			// give up
+			done = 2;
+		}
+	} // while(!done) -- solving puzzle
+
+	// add to compose form, sign, and submit
+	var txtComment = document.compose.comment;
+	if (txtComment && window.solvePuzzle) {
+		var puzzleResult = '';
+		if (done == 1) {
+			puzzleResult = puzzle;
+		} else {
+			puzzleResult = 'puzzle not solved, even after ' + i + ' tries';
+		}
+		if (txtComment.value.substr(txtComment.value.length - 2, 2) == "\n\n") {
+			txtComment.value += puzzleResult;
+		} else {
+			if (txtComment.value.substr(txtComment.value.length - 1, 1) == "\n") {
+				txtComment.value += "\n" + puzzleResult;
+			} else {
+				txtComment.value += "\n\n" + puzzleResult;
+			}
+		}
+	}
+	var btnSolvePuzzle = document.getElementById('btnSolvePuzzle');
+	if (window.signMessage) {
+		if (btnSolvePuzzle) {
+			btnSolvePuzzle.value = 'Signing...';
+		}
+		signMessage();
+	}
+	if (window.writeSubmit) {
+		writeSubmit();
+		if (btnSolvePuzzle) {
+			btnSolvePuzzle.value = 'Sending...';
+		}
+	}
+} // doSolvePuzzle()
+
+function solvePuzzle (t) { // t = button pressed ; begins puzzle solving process and indicates to user
+// done with timeout to give button a chance to change caption before pegging cpu
+
+	if (!window.hex_sha512 || !window.doSolvePuzzle) {
+		// required function is missing
+		return true;
+	}
+	if (t) {
+		// update button caption
+		t.value = 'Solving...';
+	}
+
+	// set timeout to solve puzzle
+	var timeoutSolvePuzzle = setTimeout('doSolvePuzzle()', 500);
+
+	return false; // do not let the calling form submit, doSolvePuzzle() will do it
+} // solvePuzzle()
+
+// / puzzle.js
+
+
+// == begin fresh.js
+var freshClient;
+//
+//function ReplacePageWithNewContent () {
+//	window.location.replace(window.newPageLocation);
+//	document.open();
+//	document.write(window.newPageContent);
+//	document.close();
+//
+//	return 0;
+//}
+//
+//function StoreNewPageContent () {
+//	var xmlhttp = window.xmlhttp2;
+//
+//	if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+//		//alert('DEBUG: PingUrlCallbackReplaceCurrentPage() found status 200');
+//		window.newPageContent = xmlhttp.responseText;
+//		window.newPageLocation = xmlhttp.responseURL;
+//
+//		//window.location.replace(xmlhttp.responseURL);
+////		document.open();
+////		document.write(xmlhttp.responseText);
+////		document.close();
+//	}
+//}
+//
+//function FetchNewPageContent (url) {
+//	if (window.XMLHttpRequest) {
+//		//alert('DEBUG: PingUrl: window.XMLHttpRequest was true');
+//
+//		var xmlhttp;
+//		if (window.xmlhttp2) {
+//			xmlhttp = window.xmlhttp2;
+//		} else {
+//			window.xmlhttp2 = new XMLHttpRequest();
+//			xmlhttp = window.xmlhttp2;
+//		}
+//        xmlhttp.onreadystatechange = window.StoreNewPageContent;
+//        xmlhttp.open("GET", url, true);
+//		xmlhttp.setRequestHeader('Cache-Control', 'no-cache');
+//        xmlhttp.send();
+//
+//        return false;
+//	}
+//}
+
+
+function freshCallback() { // callback for requesting HEAD for current page
+//alert('DEBUG: freshCallback() this.readyState = ' + this.readyState);
+
+//	if (1 || this.readyState == this.HEADERS_RECEIVED) { // headers received -- what we've been waiting for
+	if (
+		document.getElementById &&
+		this.readyState == this.HEADERS_RECEIVED ||
+		this.status == 200
+	) { // headers received -- what we've been waiting for
+		// document.title = 'DEBUG: callback received 200';
+	    //alert('DEBUG: freshCallback() this.readyState == this.HEADERS_RECEIVED');
+
+		var eTag = freshClient.getResponseHeader("ETag"); // etag header contains page 'fingerprint'
+
+		//alert('DEBUG: eTag = ' + eTag);
+
+		if (eTag) { // if ETag header has a value
+			if (window.myOwnETag) {
+				if (eTag != window.myOwnETag) {
+					if (eTag == window.lastEtag) { // if it's equal to the one we saved last time
+						// no new change change
+					} else {
+						var freshUserWantsReload = 0;  // templated
+						if (freshUserWantsReload) {
+							// user wants reload
+							//alert('DEBUG: user wants automatic page reload');
+							location.reload();
+						} else {
+							// user doesn't want reload, just show notification
+							//alert('DEBUG: user does not want automatic page reload, notify');
+							window.lastEtag = eTag;
+
+							var ariaAlert;
+							ariaAlert = document.getElementById('ariaAlert');
+
+							if (!ariaAlert) {
+								//alert('DEBUG: ariaAlert created successfully');
+								ariaAlert = document.createElement('p');
+								ariaAlert.setAttribute('role', 'alert');
+								ariaAlert.setAttribute('id', 'ariaAlert');
+								ariaAlert.style.zIndex = '1337'; //#todo
+
+								var txtUpdated = document.createTextNode('Page updated ');
+								ariaAlert.appendChild(txtUpdated);
+
+								//document.body.appendChild(ariaAlert);
+								document.body.insertBefore(ariaAlert, document.body.firstChild);
+								//window.newPageContent =
+								//FetchNewPageContent(window.mypath + '?' + new Date().getTime());
+
+								//ariaAlert.innerHTML = ariaAlert.innerHTML + '+';
+								var d = new Date();
+								var n = d.getTime();
+								n = Math.ceil(n / 1000);
+
+								var space = document.createElement('span');
+								space.innerHTML = ' ';
+								ariaAlert.appendChild(space);
+
+								var a = document.createElement('a');
+								a.setAttribute('id', 'freshAria');
+								a.setAttribute('href', '#');
+								a.setAttribute('onclick', 'location.reload()');
+								ariaAlert.appendChild(a);
+
+								var newTs = document.createElement('span');
+								newTs.setAttribute('class', 'timestamp');
+								newTs.setAttribute('epoch', n);
+								newTs.setAttribute('id', 'freshTimestamp');
+								newTs.innerHTML = 'just now!';
+								a.appendChild(newTs);
+							} // !ariaAlert
+
+							if (window.freshTimeoutId) {
+								clearTimeout(window.freshTimeoutId);
+							}
+							//window.eventLoopFresh = 0; // stop checking for updates
+
+							if (document.title.substring(0, 2) != '! ') {
+								document.title = '! ' + document.title;
+							}
+						} // NOT freshUserWantsReload
+					} // lastEtag also didn't match
+				} // eTag != window.myOwnETag
+				else {
+					//document.title = 'freshCallback: x ' + window.myOwnETag + ';' + new Date().getTime();
+					if (window.freshTimeoutId) {
+						clearTimeout(window.freshTimeoutId);
+					}
+					window.freshTimeoutId = setTimeout('CheckIfFresh()', 15000);
+				}
+			} // if (window.myOwnETag)
+			else {
+				window.myOwnETag = eTag;
+			}
+		} // if (eTag) // ETag header has value
+	} // status == 200
+	if (this.status == 404 && document.getElementById) {
+		//alert('DEBUG: page has gone away on server (404)');
+		var ariaAlert;
+		ariaAlert = document.getElementById('ariaAlert');
+		if (!ariaAlert) {
+			ariaAlert = document.createElement('p');
+			ariaAlert.setAttribute('role', 'alert');
+			ariaAlert.setAttribute('id', 'ariaAlert');
+			ariaAlert.style.zIndex = '1337'; //#todo
+			ariaAlert.innerHTML = 'Page deleted';
+
+			//document.body.appendChild(ariaAlert);
+			document.body.insertBefore(ariaAlert, document.body.firstChild);
+		}
+		// window.eventLoopFresh = 0; // stop checking for updates
+	} // status == 404
+
+	return true;
+} //freshCallback()
+
+function CheckIfFresh () {
+	var d = new Date();
+	//alert('debug: CheckIfFresh: ' + d.getTime());
+
+	var freshCheckRecent = window.freshCheckRecent;
+	if (freshCheckRecent) {
+		//alert('debug: CheckIfFresh: freshCheckRecent = ' + freshCheckRecent);
+		var d = new Date();
+		var curTime = d.getTime();
+		if (curTime < freshCheckRecent + 3000) {
+			return true;
+		}
+	}
+	//alert('debug: CheckIfFresh: checkpoint passed');
+
+	var d = new Date();
+	window.freshCheckRecent = d.getTime();
+
+	var xhr = null;
+	if (window.XMLHttpRequest){
+    	xhr = new XMLHttpRequest();
+    }
+    else {
+    	if (window.ActiveXObject) {
+    		xhr = new ActiveXObject("Microsoft.XMLHTTP");
+		}
+    }
+
+	if (xhr) {
+		var mypath = window.mypath;
+
+		if (!mypath) {
+			mypath = window.location;
+			window.mypath = mypath;
+		}
+
+		freshClient = xhr;
+
+		if (0 && mypath.toString().indexOf('?') == -1) {
+			// this ensures no caching, but may cause other problems
+			freshClient.open("HEAD", mypath + '?' + d.getTime(), true);
+		} else {
+			freshClient.open("HEAD", mypath, true);
+		}
+
+    	//freshClient.timeout = 5000; //#xhr.timeout
+		freshClient.setRequestHeader('Cache-Control', 'no-cache');
+		freshClient.onreadystatechange = freshCallback;
+
+		freshClient.send();
+	}
+
+	return true;
+} // CheckIfFresh()
+//
+//if (window.GetPrefs) {
+//	var needNotify = (GetPrefs('notify_on_change') ? 1 : 0);
+//	if (needNotify == 1) { // check value of notify_on_change preference
+//		if (window.EventLoop) {
+//			EventLoop();
+//		} else {
+//			CheckIfFresh();
+//		}
+//	}
+//}
+
+//alert('DEBUG: fresh.js');
+
+// == end fresh.js
 
 
 /* dragging.js */
