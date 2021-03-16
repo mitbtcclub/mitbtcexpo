@@ -11,7 +11,7 @@
 		<link>
 		http://localhost:2784</link>
 		<description>This is a flexible message board which you can read and write.</description>
-		<pubDate>Tue Mar 16 02:08:06 2021</pubDate>
+		<pubDate>Tue Mar 16 12:12:39 2021</pubDate>
 		<items>
 			<rdf:Seq>
 				<rdf:li rdf:resource="http://localhost:2784/d8/a7/d8a7f946.html" />
