@@ -1,0 +1,7 @@
+Bryan Bishop has a background in software engineering, bitcoin, and genetic engineering/biohacking. Bryan Bishop is currently CTO at Avanti Bank & Trust.
+
+-- 
+name: Bryan Bishop
+title: CTO at Avanti Bank & Trust
+
+>>d70ba2e6a0a32ddd848e03f3d1c611c6f84f04c2
