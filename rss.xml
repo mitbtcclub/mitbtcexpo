@@ -11,7 +11,7 @@
 		<link>
 		http://localhost:2784</link>
 		<description>This is a flexible message board which you can read and write.</description>
-		<pubDate>Thu Mar 18 04:05:40 2021</pubDate>
+		<pubDate>Thu Mar 18 04:26:42 2021</pubDate>
 		<items>
 			<rdf:Seq>
 				<rdf:li rdf:resource="http://localhost:2784/1e/3a/1e3a903e.html" />
@@ -48,7 +48,6 @@
 <rdf:li rdf:resource="http://localhost:2784/d7/0b/d70ba2e6.html" />
 <rdf:li rdf:resource="http://localhost:2784/4e/18/4e18fe3e.html" />
 <rdf:li rdf:resource="http://localhost:2784/bf/32/bf328036.html" />
-<rdf:li rdf:resource="http://localhost:2784/e3/7a/e37a5cc2.html" />
 <rdf:li rdf:resource="http://localhost:2784/d7/76/d7769760.html" />
 <rdf:li rdf:resource="http://localhost:2784/7c/e0/7ce0af9b.html" />
 <rdf:li rdf:resource="http://localhost:2784/06/1e/061e4f05.html" />
@@ -591,17 +590,6 @@ title: Chief Economist of Wanxiang Blockchain<br />
 		<pubDate>1615841617</pubDate>
 		<title>Co-founder &amp; CFO, Luxor Mining</title>
 		<link>http://localhost:2784/bf/32/bf328036.html</link>
-		<description>
-				<![CDATA[
-				
-				]]>
-		</description>
-	</item>
-<item rdf:about="http://localhost:2784/e3/7a/e37a5cc2.html">
-		<guid>http://localhost:2784/e3/7a/e37a5cc2.html</guid>
-		<pubDate>1615841614</pubDate>
-		<title>Senior Vice President, Boston Federal Reserve</title>
-		<link>http://localhost:2784/e3/7a/e37a5cc2.html</link>
 		<description>
 				<![CDATA[
 				
