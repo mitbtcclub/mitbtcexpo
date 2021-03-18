@@ -1,7 +1,0 @@
-Max is contributing to several free software projects, building the tools he want to use in order to defend his liberties. As these weapons of cyberspace are fundamentally non-scarce, he shares his work free for anyone to use. His focus is on creating a second realm with a sound monetary economy in which sovereign individuals can pursue their entrepreneurial action.
-
--- 
-name: Max Hillebrand
-title: Developer
-
->>3cf883fb321275e21a3636bcc8c3ed24412f0f7b

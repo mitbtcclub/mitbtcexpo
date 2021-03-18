@@ -1,7 +1,0 @@
-Peter McCormack is a full time journalist/podcaster covering topics such as Freedom, Human Rights, Censorship and Bitcoin. Peter created and hosts the What Bitcoin Did Podcast, a twice-weekly Bitcoin podcast where he interviews experts in the world of Bitcoin development, privacy, investment and adoption. Launched in November of 2017, the podcast has grown to over 300 episodes with a guest list that is a testament to the diversity of knowledge and opinions that represent the broader Bitcoin community. Expanding his growing list of human interest recordings, documentaries and films Peter has recently launched the Defiance podcast, Defiance TV and Never Edit.
-
--- 
-name: Peter McCormack
-title: Creator, What Bitcoin Did Podcast
-
->>ff3fa51e38ab70f08359da32abfb26fba269430b
