@@ -1,7 +1,0 @@
-Michael Perklin is a cryptocurrency security expert, having provided over a decade of contributions to the Bitcoin and cryptocurrency industry. He serves as CISO of ShapeShift, President of C4, and is the co-author of the CryptoCurrency Security Standard. Michael loves thinking about the future and figuring out new ways to break things.
-
--- 
-name: Michael Perklin
-title: CISO of ShapeShift, President of C4
-
->>756bb6b6c9067ed0ec3d2c9f86605bf865c9e2d4

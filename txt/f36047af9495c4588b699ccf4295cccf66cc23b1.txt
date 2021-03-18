@@ -1,7 +1,0 @@
-Founder and developer of Lightning Network.
-
--- 
-name: Tadge Dryja
-title: Founder & Developer, Lightning Network
-
->>723de7b9becd8ffff2e045448905e3a7e105443f

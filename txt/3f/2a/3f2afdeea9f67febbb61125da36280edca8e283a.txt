@@ -1,7 +1,0 @@
-Sacha Ghebali is US Operations and Data Analytics Lead at Kaiko, a digital assets market data provider. He carried out research on the economics of mining bitcoin and more recently on crypto market microstructure. Previously, Sacha was an aerospace engineer and received his PhD in aeronautics from Imperial College London.
-
--- 
-name: Sacha Ghebali
-title: US Operations & Data Analytics Lead, Kaiko
-
->>fea8cfa7e6d290f92542d26997b293a5bf51237e

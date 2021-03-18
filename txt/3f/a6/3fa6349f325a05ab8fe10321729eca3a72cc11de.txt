@@ -1,7 +1,0 @@
-Rene is researching on improving the payment reliability on the Lightning Network and is employed at the Norwegian University of Science and Technology. He is a co-author of the book "Mastering the Lighting Network" and an Educator on Youtube and Stack Exchange. In his other life he studied mathematics and offers consulting on statistics and counting things properly - which in modern terms is called data science consulting.
-
--- 
-name: Rene Pickhardt
-title: Researcher at Norwegian University of Science and Technology
-
->>c33e7120784c999f515ff615c7de8a01a8cf09d0
