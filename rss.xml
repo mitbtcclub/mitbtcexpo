@@ -11,10 +11,11 @@
 		<link>
 		http://localhost:2784</link>
 		<description>This is a flexible message board which you can read and write.</description>
-		<pubDate>Thu Mar 18 04:26:42 2021</pubDate>
+		<pubDate>Fri Mar 19 18:20:55 2021</pubDate>
 		<items>
 			<rdf:Seq>
-				<rdf:li rdf:resource="http://localhost:2784/1e/3a/1e3a903e.html" />
+				<rdf:li rdf:resource="http://localhost:2784/e0/64/e064bd6b.html" />
+<rdf:li rdf:resource="http://localhost:2784/1e/3a/1e3a903e.html" />
 <rdf:li rdf:resource="http://localhost:2784/da/39/da39a3ee.html" />
 <rdf:li rdf:resource="http://localhost:2784/29/b6/29b6a094.html" />
 <rdf:li rdf:resource="http://localhost:2784/d8/a7/d8a7f946.html" />
@@ -73,7 +74,25 @@
 
 	</channel>
 
-	<item rdf:about="http://localhost:2784/1e/3a/1e3a903e.html">
+	<item rdf:about="http://localhost:2784/e0/64/e064bd6b.html">
+		<guid>http://localhost:2784/e0/64/e064bd6b.html</guid>
+		<pubDate>1616192438</pubDate>
+		<title>Software Updated to Version b9a90416..</title>
+		<link>http://localhost:2784/e0/64/e064bd6b.html</link>
+		<description>
+				<![CDATA[
+				Software Updated to Version b9a90416..<br />
+<br />
+Installed software version has changed from 5eead3059208af71fea11fb5afccfb6c134aea2b to b9a90416b3d5756efaf6c6fb9f9ce6dfec034c57<br />
+<br />
+b9a90416 remake all pages when doing a rebuild<br />
+247a18f8 improve item page titles<br />
+<br />
+#changelog
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/1e/3a/1e3a903e.html">
 		<guid>http://localhost:2784/1e/3a/1e3a903e.html</guid>
 		<pubDate>1616046446</pubDate>
 		<title>Jimmy Song is a Bitcoin developer, educator and entrepreneur. H</title>
