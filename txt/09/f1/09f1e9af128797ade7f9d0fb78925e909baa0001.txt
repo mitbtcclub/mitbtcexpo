@@ -1,0 +1,14 @@
+Software Updated to Version 52ee7d2f..
+
+Installed software version has changed from b9a90416b3d5756efaf6c6fb9f9ce6dfec034c57 to 52ee7d2f0d719e81bd03b9058454a1c187bc5c32
+
+52ee7d2f add .jpeg extension to those indexed as images
+2b4424b4 add resources for mit theme
+84ef7be5 add mitbtc theme
+fb781d8d add default/admin/token/name = 1
+d41ee6e6 improve tags and votes view queries
+ba317284 improve query for compost page
+f3580fdf strip \r from message before displaying
+1ec1e83e allow more characters in usernames
+
+#changelog

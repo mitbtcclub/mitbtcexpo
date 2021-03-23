@@ -1,0 +1,7 @@
+Rob Margolis is a Director on the Global Digital Markets desk at BlockFi where he leads the firm's efforts in the crypto native space. Prior to BlockFi, Rob headed institutional sales at LedgerX which was the first CFTC approved exchange and clearinghouse for physically-delivered options on BTC. He began his career at Goldman Sachs in the Investment Management Division, primarily focused on equity derivative sales and fixed income portfolio management.
+
+-- 
+name: Rob Margolis
+title: Director on the Global Digital Markets desk, BlockFi
+
+>>e4833d926e7a087501ddffbf6b610e7ee1f1ba46
