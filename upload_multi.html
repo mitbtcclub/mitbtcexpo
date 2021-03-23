@@ -259,7 +259,7 @@ input:focus {
 <tr bgcolor="#35163A" class=titlebar>
 	<td valign=middle>
 		<img src="/logo.png" height=16 width=16>
-		<font color="#ffffff"><b>Upload</b></font>
+		<font color="#ffffff"><b>Upload Multiple Files</b></font>
 		<br>
 	</td>
 </tr>
@@ -270,13 +270,30 @@ input:focus {
 
 		
 
-		<tr class=content><td><p>Upload feature is not available. Apologies.</p></td></tr>
+		<tr class=content><td><!-- form/upload_multi.template ; file multiple upload form -->
+<form enctype="multipart/form-data" action="/upload.php" method="POST" name=upload id=upload>
+	<p>Upload multiple pictures here.</p>
+	<p><input name="uploaded_file[]" type=file id=uploaded_file multiple></p>
+	<p><input name=submit type=submit value=Upload id=submit></p>
+	<span id=spanImagePreview></span>
+	<p>Allowed files: jpg
+jpeg
+gif
+png
+bmp
+svg
+jfif
+webp</p>
+	<p>Only images supported, video support to come.</p>
+</form>
+<!-- / form/upload_multi.template -->
+</td></tr>
 
 		
 	</table>
 </font>
 <!-- / window/standard.template -->
-<a name=95301f99></a></main>
+<a name=92885dcc></a></main>
 <hr>
 <img src="/p.gif" alt="" height=1 width=1>
 <!-- back_to_top_button.template -->
