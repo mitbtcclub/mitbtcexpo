@@ -11,10 +11,87 @@
 		<link>
 		http://localhost:2784</link>
 		<description>This is a flexible message board which you can read and write.</description>
-		<pubDate>Fri Mar 19 18:30:02 2021</pubDate>
+		<pubDate>Tue Mar 23 15:47:40 2021</pubDate>
 		<items>
 			<rdf:Seq>
-				<rdf:li rdf:resource="http://localhost:2784/e0/64/e064bd6b.html" />
+				<rdf:li rdf:resource="http://localhost:2784/57/a6/57a643f7.html" />
+<rdf:li rdf:resource="http://localhost:2784/1e/5f/1e5fd57f.html" />
+<rdf:li rdf:resource="http://localhost:2784/07/0f/070fa7a9.html" />
+<rdf:li rdf:resource="http://localhost:2784/24/30/243095fd.html" />
+<rdf:li rdf:resource="http://localhost:2784/45/f7/45f7006a.html" />
+<rdf:li rdf:resource="http://localhost:2784/41/78/41780411.html" />
+<rdf:li rdf:resource="http://localhost:2784/a2/4c/a24cdd77.html" />
+<rdf:li rdf:resource="http://localhost:2784/3b/23/3b23eadd.html" />
+<rdf:li rdf:resource="http://localhost:2784/ce/d2/ced25ce2.html" />
+<rdf:li rdf:resource="http://localhost:2784/6d/61/6d61e3db.html" />
+<rdf:li rdf:resource="http://localhost:2784/6e/01/6e0185cd.html" />
+<rdf:li rdf:resource="http://localhost:2784/ed/1b/ed1b35b2.html" />
+<rdf:li rdf:resource="http://localhost:2784/53/be/53be7ad1.html" />
+<rdf:li rdf:resource="http://localhost:2784/99/8d/998d1d3a.html" />
+<rdf:li rdf:resource="http://localhost:2784/40/c3/40c34ee8.html" />
+<rdf:li rdf:resource="http://localhost:2784/11/88/1188de4c.html" />
+<rdf:li rdf:resource="http://localhost:2784/7f/a4/7fa40f18.html" />
+<rdf:li rdf:resource="http://localhost:2784/30/d3/30d34ed7.html" />
+<rdf:li rdf:resource="http://localhost:2784/f1/c3/f1c32d4d.html" />
+<rdf:li rdf:resource="http://localhost:2784/de/b7/deb7d40b.html" />
+<rdf:li rdf:resource="http://localhost:2784/13/ab/13ab3832.html" />
+<rdf:li rdf:resource="http://localhost:2784/1a/aa/1aaa0993.html" />
+<rdf:li rdf:resource="http://localhost:2784/e5/68/e568e1bc.html" />
+<rdf:li rdf:resource="http://localhost:2784/c7/a3/c7a3c843.html" />
+<rdf:li rdf:resource="http://localhost:2784/7f/ab/7fab3c81.html" />
+<rdf:li rdf:resource="http://localhost:2784/57/f1/57f1ed14.html" />
+<rdf:li rdf:resource="http://localhost:2784/91/af/91af528b.html" />
+<rdf:li rdf:resource="http://localhost:2784/9c/3e/9c3e6cc0.html" />
+<rdf:li rdf:resource="http://localhost:2784/d3/2c/d32ca8e8.html" />
+<rdf:li rdf:resource="http://localhost:2784/5b/1e/5b1e5549.html" />
+<rdf:li rdf:resource="http://localhost:2784/97/6d/976d0865.html" />
+<rdf:li rdf:resource="http://localhost:2784/48/0d/480dfc92.html" />
+<rdf:li rdf:resource="http://localhost:2784/60/72/60720df2.html" />
+<rdf:li rdf:resource="http://localhost:2784/44/96/44963c1b.html" />
+<rdf:li rdf:resource="http://localhost:2784/a3/52/a352a090.html" />
+<rdf:li rdf:resource="http://localhost:2784/df/89/df89d6b1.html" />
+<rdf:li rdf:resource="http://localhost:2784/f3/36/f3367428.html" />
+<rdf:li rdf:resource="http://localhost:2784/8c/8b/8c8b9b58.html" />
+<rdf:li rdf:resource="http://localhost:2784/cd/ed/cdeddce5.html" />
+<rdf:li rdf:resource="http://localhost:2784/38/c4/38c44fab.html" />
+<rdf:li rdf:resource="http://localhost:2784/4c/b0/4cb0d1ba.html" />
+<rdf:li rdf:resource="http://localhost:2784/80/35/8035d318.html" />
+<rdf:li rdf:resource="http://localhost:2784/7d/57/7d576a2c.html" />
+<rdf:li rdf:resource="http://localhost:2784/c1/61/c161fd77.html" />
+<rdf:li rdf:resource="http://localhost:2784/24/5d/245d4f64.html" />
+<rdf:li rdf:resource="http://localhost:2784/bd/3d/bd3d466e.html" />
+<rdf:li rdf:resource="http://localhost:2784/3a/b2/3ab23a37.html" />
+<rdf:li rdf:resource="http://localhost:2784/29/2d/292df8c7.html" />
+<rdf:li rdf:resource="http://localhost:2784/0a/3b/0a3be147.html" />
+<rdf:li rdf:resource="http://localhost:2784/fb/b0/fbb0d1a0.html" />
+<rdf:li rdf:resource="http://localhost:2784/61/96/61969ee6.html" />
+<rdf:li rdf:resource="http://localhost:2784/cb/db/cbdb1d5a.html" />
+<rdf:li rdf:resource="http://localhost:2784/0b/e3/0be38c7b.html" />
+<rdf:li rdf:resource="http://localhost:2784/22/83/2283ab06.html" />
+<rdf:li rdf:resource="http://localhost:2784/b6/20/b6204021.html" />
+<rdf:li rdf:resource="http://localhost:2784/b6/c9/b6c9d694.html" />
+<rdf:li rdf:resource="http://localhost:2784/23/50/23504983.html" />
+<rdf:li rdf:resource="http://localhost:2784/f0/ef/f0ef3888.html" />
+<rdf:li rdf:resource="http://localhost:2784/19/7d/197d61c0.html" />
+<rdf:li rdf:resource="http://localhost:2784/2f/94/2f943e5a.html" />
+<rdf:li rdf:resource="http://localhost:2784/ff/6d/ff6dbd1c.html" />
+<rdf:li rdf:resource="http://localhost:2784/e2/e4/e2e4a119.html" />
+<rdf:li rdf:resource="http://localhost:2784/a5/c6/a5c6ceb7.html" />
+<rdf:li rdf:resource="http://localhost:2784/1e/e7/1ee7e8bb.html" />
+<rdf:li rdf:resource="http://localhost:2784/9c/8b/9c8ba58d.html" />
+<rdf:li rdf:resource="http://localhost:2784/a4/20/a4201e05.html" />
+<rdf:li rdf:resource="http://localhost:2784/c3/b5/c3b578c1.html" />
+<rdf:li rdf:resource="http://localhost:2784/5a/8d/5a8d7a5e.html" />
+<rdf:li rdf:resource="http://localhost:2784/cf/a8/cfa8b243.html" />
+<rdf:li rdf:resource="http://localhost:2784/99/26/9926d163.html" />
+<rdf:li rdf:resource="http://localhost:2784/82/45/8245ce29.html" />
+<rdf:li rdf:resource="http://localhost:2784/7b/3f/7b3f8618.html" />
+<rdf:li rdf:resource="http://localhost:2784/b2/41/b2413a91.html" />
+<rdf:li rdf:resource="http://localhost:2784/82/84/8284b5c9.html" />
+<rdf:li rdf:resource="http://localhost:2784/fc/4b/fc4bf68e.html" />
+<rdf:li rdf:resource="http://localhost:2784/6b/8e/6b8e7d21.html" />
+<rdf:li rdf:resource="http://localhost:2784/09/f1/09f1e9af.html" />
+<rdf:li rdf:resource="http://localhost:2784/e0/64/e064bd6b.html" />
 <rdf:li rdf:resource="http://localhost:2784/1e/3a/1e3a903e.html" />
 <rdf:li rdf:resource="http://localhost:2784/da/39/da39a3ee.html" />
 <rdf:li rdf:resource="http://localhost:2784/29/b6/29b6a094.html" />
@@ -74,7 +151,987 @@
 
 	</channel>
 
-	<item rdf:about="http://localhost:2784/e0/64/e064bd6b.html">
+	<item rdf:about="http://localhost:2784/57/a6/57a643f7.html">
+		<guid>http://localhost:2784/57/a6/57a643f7.html</guid>
+		<pubDate>1616516237</pubDate>
+		<title>(Untitled)</title>
+		<link>http://localhost:2784/57/a6/57a643f7.html</link>
+		<description>
+				<![CDATA[
+				
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/1e/5f/1e5fd57f.html">
+		<guid>http://localhost:2784/1e/5f/1e5fd57f.html</guid>
+		<pubDate>1616444758</pubDate>
+		<title>(Untitled)</title>
+		<link>http://localhost:2784/1e/5f/1e5fd57f.html</link>
+		<description>
+				<![CDATA[
+				
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/07/0f/070fa7a9.html">
+		<guid>http://localhost:2784/07/0f/070fa7a9.html</guid>
+		<pubDate>1616443984</pubDate>
+		<title>(Untitled)</title>
+		<link>http://localhost:2784/07/0f/070fa7a9.html</link>
+		<description>
+				<![CDATA[
+				
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/24/30/243095fd.html">
+		<guid>http://localhost:2784/24/30/243095fd.html</guid>
+		<pubDate>1616430943</pubDate>
+		<title>Software Updated to Version e6799956..</title>
+		<link>http://localhost:2784/24/30/243095fd.html</link>
+		<description>
+				<![CDATA[
+				Software Updated to Version e6799956..<br />
+<br />
+Installed software version has changed from cd60f1fe032c2b19a3751e1178b173bbfb4a0903 to e6799956415886422dddedd8af9c5dabffc10e5b<br />
+<br />
+e6799956 more expo_site_mode changes (#techdebt)<br />
+fbbaea95 make WriteMenuList() dependent on expo_site_mode parameter<br />
+9559dbe0 change how item name is selected for output<br />
+0be3f117 add run-query shell script for directly running queries from command line<br />
+e0c91177 fix sanity check in DBGetItemAttribute()<br />
+0a19fadd add debug output to SqliteQueryCachedShell()<br />
+a7871ede add comment for code formatting<br />
+<br />
+#changelog
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/45/f7/45f7006a.html">
+		<guid>http://localhost:2784/45/f7/45f7006a.html</guid>
+		<pubDate>1616410625</pubDate>
+		<title>Software Updated to Version cd60f1fe..</title>
+		<link>http://localhost:2784/45/f7/45f7006a.html</link>
+		<description>
+				<![CDATA[
+				Software Updated to Version cd60f1fe..<br />
+<br />
+Installed software version has changed from 34c17167903e0a5f5348618994a44d8e408a0155 to cd60f1fe032c2b19a3751e1178b173bbfb4a0903<br />
+<br />
+cd60f1fe add expo_site_mode config<br />
+<br />
+#changelog
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/41/78/41780411.html">
+		<guid>http://localhost:2784/41/78/41780411.html</guid>
+		<pubDate>1616406199</pubDate>
+		<title>dafdfdfdfd</title>
+		<link>http://localhost:2784/41/78/41780411.html</link>
+		<description>
+				<![CDATA[
+				adsfd fdfd<br />
+adfads<br />
+f<br />
+das sdfdfd<br />
+<br />
+adfadfad<br />
+<br />
+title: dafdfdfdfd
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/a2/4c/a24cdd77.html">
+		<guid>http://localhost:2784/a2/4c/a24cdd77.html</guid>
+		<pubDate>1616406199</pubDate>
+		<title>&gt;&gt;998d1d3a0bd7660c6ca10bdf6aeaa4b246486e7b<br />
+<br />
+#approve</title>
+		<link>http://localhost:2784/a2/4c/a24cdd77.html</link>
+		<description>
+				<![CDATA[
+				&gt;&gt;998d1d3a0bd7660c6ca10bdf6aeaa4b246486e7b<br />
+<br />
+#approve
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/3b/23/3b23eadd.html">
+		<guid>http://localhost:2784/3b/23/3b23eadd.html</guid>
+		<pubDate>1616406198</pubDate>
+		<title>asdfda</title>
+		<link>http://localhost:2784/3b/23/3b23eadd.html</link>
+		<description>
+				<![CDATA[
+				&gt;&gt;7fa40f186ead494feaec98ec1f1e2756b217b136<br />
+<br />
+asdfda
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/ce/d2/ced25ce2.html">
+		<guid>http://localhost:2784/ce/d2/ced25ce2.html</guid>
+		<pubDate>1616406198</pubDate>
+		<title>&gt;&gt;7fa40f186ead494feaec98ec1f1e2756b217b136<br />
+<br />
+#approve</title>
+		<link>http://localhost:2784/ce/d2/ced25ce2.html</link>
+		<description>
+				<![CDATA[
+				&gt;&gt;7fa40f186ead494feaec98ec1f1e2756b217b136<br />
+<br />
+#approve
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/6d/61/6d61e3db.html">
+		<guid>http://localhost:2784/6d/61/6d61e3db.html</guid>
+		<pubDate>1616406198</pubDate>
+		<title>sdfadsf</title>
+		<link>http://localhost:2784/6d/61/6d61e3db.html</link>
+		<description>
+				<![CDATA[
+				&gt;&gt;7fa40f186ead494feaec98ec1f1e2756b217b136<br />
+<br />
+sdfadsf
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/6e/01/6e0185cd.html">
+		<guid>http://localhost:2784/6e/01/6e0185cd.html</guid>
+		<pubDate>1616406197</pubDate>
+		<title>asdfadsf</title>
+		<link>http://localhost:2784/6e/01/6e0185cd.html</link>
+		<description>
+				<![CDATA[
+				&gt;&gt;30d34ed75326305db9ec04ed34f3406a99d236fb<br />
+<br />
+asdfadsf
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/ed/1b/ed1b35b2.html">
+		<guid>http://localhost:2784/ed/1b/ed1b35b2.html</guid>
+		<pubDate>1616406196</pubDate>
+		<title>5a/8d/</title>
+		<link>http://localhost:2784/ed/1b/ed1b35b2.html</link>
+		<description>
+				<![CDATA[
+				5a/8d/
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/53/be/53be7ad1.html">
+		<guid>http://localhost:2784/53/be/53be7ad1.html</guid>
+		<pubDate>1616398060</pubDate>
+		<title>--</title>
+		<link>http://localhost:2784/53/be/53be7ad1.html</link>
+		<description>
+				<![CDATA[
+				#approve<br />
+<br />
+&gt;&gt;998d1d3a0bd7660c6ca10bdf6aeaa4b246486e7b<br />
+-- <br />
+[Cookie]
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/99/8d/998d1d3a.html">
+		<guid>http://localhost:2784/99/8d/998d1d3a.html</guid>
+		<pubDate>1616398028</pubDate>
+		<title>--</title>
+		<link>http://localhost:2784/99/8d/998d1d3a.html</link>
+		<description>
+				<![CDATA[
+				#approve<br />
+<br />
+&gt;&gt;7fa40f186ead494feaec98ec1f1e2756b217b136<br />
+-- <br />
+[Cookie]
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/40/c3/40c34ee8.html">
+		<guid>http://localhost:2784/40/c3/40c34ee8.html</guid>
+		<pubDate>1616397972</pubDate>
+		<title>asdfda</title>
+		<link>http://localhost:2784/40/c3/40c34ee8.html</link>
+		<description>
+				<![CDATA[
+				asdfda<br />
+<br />
+&gt;&gt;7fa40f186ead494feaec98ec1f1e2756b217b136<br />
+-- <br />
+[Cookie]
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/11/88/1188de4c.html">
+		<guid>http://localhost:2784/11/88/1188de4c.html</guid>
+		<pubDate>1616397939</pubDate>
+		<title>sdfadsf</title>
+		<link>http://localhost:2784/11/88/1188de4c.html</link>
+		<description>
+				<![CDATA[
+				sdfadsf<br />
+<br />
+&gt;&gt;7fa40f186ead494feaec98ec1f1e2756b217b136<br />
+-- <br />
+[Cookie]
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/7f/a4/7fa40f18.html">
+		<guid>http://localhost:2784/7f/a4/7fa40f18.html</guid>
+		<pubDate>1616397879</pubDate>
+		<title>asdfadsf</title>
+		<link>http://localhost:2784/7f/a4/7fa40f18.html</link>
+		<description>
+				<![CDATA[
+				asdfadsf<br />
+<br />
+&gt;&gt;30d34ed75326305db9ec04ed34f3406a99d236fb<br />
+-- <br />
+[Cookie]
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/30/d3/30d34ed7.html">
+		<guid>http://localhost:2784/30/d3/30d34ed7.html</guid>
+		<pubDate>1616397871</pubDate>
+		<title>asdfadsfads</title>
+		<link>http://localhost:2784/30/d3/30d34ed7.html</link>
+		<description>
+				<![CDATA[
+				asdfadsfads<br />
+adsfadsfads<br />
+<br />
+<br />
+-- <br />
+[Cookie]
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/f1/c3/f1c32d4d.html">
+		<guid>http://localhost:2784/f1/c3/f1c32d4d.html</guid>
+		<pubDate>1616397759</pubDate>
+		<title>bf/32/triangles.gif</title>
+		<link>http://localhost:2784/f1/c3/f1c32d4d.html</link>
+		<description>
+				<![CDATA[
+				bf/32/triangles.gif
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/de/b7/deb7d40b.html">
+		<guid>http://localhost:2784/de/b7/deb7d40b.html</guid>
+		<pubDate>1616397759</pubDate>
+		<title>10/</title>
+		<link>http://localhost:2784/de/b7/deb7d40b.html</link>
+		<description>
+				<![CDATA[
+				10/
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/13/ab/13ab3832.html">
+		<guid>http://localhost:2784/13/ab/13ab3832.html</guid>
+		<pubDate>1616397758</pubDate>
+		<title>6d/33/triangles.gif</title>
+		<link>http://localhost:2784/13/ab/13ab3832.html</link>
+		<description>
+				<![CDATA[
+				6d/33/triangles.gif
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/1a/aa/1aaa0993.html">
+		<guid>http://localhost:2784/1a/aa/1aaa0993.html</guid>
+		<pubDate>1616397757</pubDate>
+		<title>3c/f8/triangles.gif</title>
+		<link>http://localhost:2784/1a/aa/1aaa0993.html</link>
+		<description>
+				<![CDATA[
+				3c/f8/triangles.gif
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/e5/68/e568e1bc.html">
+		<guid>http://localhost:2784/e5/68/e568e1bc.html</guid>
+		<pubDate>1616397755</pubDate>
+		<title>d8/44/triangles.gif</title>
+		<link>http://localhost:2784/e5/68/e568e1bc.html</link>
+		<description>
+				<![CDATA[
+				d8/44/triangles.gif
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/c7/a3/c7a3c843.html">
+		<guid>http://localhost:2784/c7/a3/c7a3c843.html</guid>
+		<pubDate>1616397754</pubDate>
+		<title>55/7d/triangles.gif</title>
+		<link>http://localhost:2784/c7/a3/c7a3c843.html</link>
+		<description>
+				<![CDATA[
+				55/7d/triangles.gif
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/7f/ab/7fab3c81.html">
+		<guid>http://localhost:2784/7f/ab/7fab3c81.html</guid>
+		<pubDate>1616397754</pubDate>
+		<title>10/5d/</title>
+		<link>http://localhost:2784/7f/ab/7fab3c81.html</link>
+		<description>
+				<![CDATA[
+				10/5d/
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/57/f1/57f1ed14.html">
+		<guid>http://localhost:2784/57/f1/57f1ed14.html</guid>
+		<pubDate>1616397753</pubDate>
+		<title>fe/a8/triangles.gif</title>
+		<link>http://localhost:2784/57/f1/57f1ed14.html</link>
+		<description>
+				<![CDATA[
+				fe/a8/triangles.gif
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/91/af/91af528b.html">
+		<guid>http://localhost:2784/91/af/91af528b.html</guid>
+		<pubDate>1616397753</pubDate>
+		<title>1b/1e/triangles.gif</title>
+		<link>http://localhost:2784/91/af/91af528b.html</link>
+		<description>
+				<![CDATA[
+				1b/1e/triangles.gif
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/9c/3e/9c3e6cc0.html">
+		<guid>http://localhost:2784/9c/3e/9c3e6cc0.html</guid>
+		<pubDate>1616397751</pubDate>
+		<title>d7/76/triangles.gif</title>
+		<link>http://localhost:2784/9c/3e/9c3e6cc0.html</link>
+		<description>
+				<![CDATA[
+				d7/76/triangles.gif
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/d3/2c/d32ca8e8.html">
+		<guid>http://localhost:2784/d3/2c/d32ca8e8.html</guid>
+		<pubDate>1616397751</pubDate>
+		<title>flashback_2020/triangles.gif</title>
+		<link>http://localhost:2784/d3/2c/d32ca8e8.html</link>
+		<description>
+				<![CDATA[
+				flashback_2020/triangles.gif
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/5b/1e/5b1e5549.html">
+		<guid>http://localhost:2784/5b/1e/5b1e5549.html</guid>
+		<pubDate>1616397751</pubDate>
+		<title>e4/83/triangles.gif</title>
+		<link>http://localhost:2784/5b/1e/5b1e5549.html</link>
+		<description>
+				<![CDATA[
+				e4/83/triangles.gif
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/97/6d/976d0865.html">
+		<guid>http://localhost:2784/97/6d/976d0865.html</guid>
+		<pubDate>1616397750</pubDate>
+		<title>4e/18/triangles.gif</title>
+		<link>http://localhost:2784/97/6d/976d0865.html</link>
+		<description>
+				<![CDATA[
+				4e/18/triangles.gif
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/48/0d/480dfc92.html">
+		<guid>http://localhost:2784/48/0d/480dfc92.html</guid>
+		<pubDate>1616397748</pubDate>
+		<title>e3/7a/triangles.gif</title>
+		<link>http://localhost:2784/48/0d/480dfc92.html</link>
+		<description>
+				<![CDATA[
+				e3/7a/triangles.gif
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/60/72/60720df2.html">
+		<guid>http://localhost:2784/60/72/60720df2.html</guid>
+		<pubDate>1616397733</pubDate>
+		<title>asdfadsf </title>
+		<link>http://localhost:2784/60/72/60720df2.html</link>
+		<description>
+				<![CDATA[
+				&gt;&gt;5a8d7a5ed58f06485a8edd91af0cfe410f16758f<br />
+<br />
+asdfadsf <br />
+a<br />
+sdf<br />
+
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/44/96/44963c1b.html">
+		<guid>http://localhost:2784/44/96/44963c1b.html</guid>
+		<pubDate>1616397729</pubDate>
+		<title>asdfdas</title>
+		<link>http://localhost:2784/44/96/44963c1b.html</link>
+		<description>
+				<![CDATA[
+				&gt;&gt;5a8d7a5ed58f06485a8edd91af0cfe410f16758f<br />
+<br />
+asdfdas
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/a3/52/a352a090.html">
+		<guid>http://localhost:2784/a3/52/a352a090.html</guid>
+		<pubDate>1616397729</pubDate>
+		<title>82/45/</title>
+		<link>http://localhost:2784/a3/52/a352a090.html</link>
+		<description>
+				<![CDATA[
+				82/45/
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/df/89/df89d6b1.html">
+		<guid>http://localhost:2784/df/89/df89d6b1.html</guid>
+		<pubDate>1616397728</pubDate>
+		<title>b2/41/b2413a91.html?message=28f3efc4</title>
+		<link>http://localhost:2784/df/89/df89d6b1.html</link>
+		<description>
+				<![CDATA[
+				b2/41/b2413a91.html?message=28f3efc4
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/f3/36/f3367428.html">
+		<guid>http://localhost:2784/f3/36/f3367428.html</guid>
+		<pubDate>1616397728</pubDate>
+		<title>adsfadsfads</title>
+		<link>http://localhost:2784/f3/36/f3367428.html</link>
+		<description>
+				<![CDATA[
+				&gt;&gt;8245ce29c793fc4b88d26e7f13be0c2bf2e226be<br />
+<br />
+adsfadsfads<br />
+
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/8c/8b/8c8b9b58.html">
+		<guid>http://localhost:2784/8c/8b/8c8b9b58.html</guid>
+		<pubDate>1616397727</pubDate>
+		<title>asdfadsfa</title>
+		<link>http://localhost:2784/8c/8b/8c8b9b58.html</link>
+		<description>
+				<![CDATA[
+				&gt;&gt;b2413a91668a022bb3995e2fe5424fbb961f5383<br />
+<br />
+asdfadsfa
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/cd/ed/cdeddce5.html">
+		<guid>http://localhost:2784/cd/ed/cdeddce5.html</guid>
+		<pubDate>1616397727</pubDate>
+		<title>b2/41/b2413a91.html</title>
+		<link>http://localhost:2784/cd/ed/cdeddce5.html</link>
+		<description>
+				<![CDATA[
+				b2/41/b2413a91.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/38/c4/38c44fab.html">
+		<guid>http://localhost:2784/38/c4/38c44fab.html</guid>
+		<pubDate>1616397726</pubDate>
+		<title>82/84/8284b5c9.html?message=0c0b6199</title>
+		<link>http://localhost:2784/38/c4/38c44fab.html</link>
+		<description>
+				<![CDATA[
+				82/84/8284b5c9.html?message=0c0b6199
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/4c/b0/4cb0d1ba.html">
+		<guid>http://localhost:2784/4c/b0/4cb0d1ba.html</guid>
+		<pubDate>1616397726</pubDate>
+		<title>82/84/8284b5c9.html?message=ce4481b6</title>
+		<link>http://localhost:2784/4c/b0/4cb0d1ba.html</link>
+		<description>
+				<![CDATA[
+				82/84/8284b5c9.html?message=ce4481b6
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/80/35/8035d318.html">
+		<guid>http://localhost:2784/80/35/8035d318.html</guid>
+		<pubDate>1616397726</pubDate>
+		<title>i asdfadsfad</title>
+		<link>http://localhost:2784/80/35/8035d318.html</link>
+		<description>
+				<![CDATA[
+				&gt;&gt;8284b5c967de4e5134650c1fcf950c4624fdebbf<br />
+<br />
+i asdfadsfad
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/7d/57/7d576a2c.html">
+		<guid>http://localhost:2784/7d/57/7d576a2c.html</guid>
+		<pubDate>1616397724</pubDate>
+		<title>mediapartners.html</title>
+		<link>http://localhost:2784/7d/57/7d576a2c.html</link>
+		<description>
+				<![CDATA[
+				mediapartners.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/c1/61/c161fd77.html">
+		<guid>http://localhost:2784/c1/61/c161fd77.html</guid>
+		<pubDate>1616397722</pubDate>
+		<title>asdfadsf </title>
+		<link>http://localhost:2784/c1/61/c161fd77.html</link>
+		<description>
+				<![CDATA[
+				asdfadsf <br />
+a<br />
+sdf<br />
+<br />
+<br />
+&gt;&gt;5a8d7a5ed58f06485a8edd91af0cfe410f16758f<br />
+-- <br />
+[Cookie]
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/24/5d/245d4f64.html">
+		<guid>http://localhost:2784/24/5d/245d4f64.html</guid>
+		<pubDate>1616397712</pubDate>
+		<title>mediapartnerships.html</title>
+		<link>http://localhost:2784/24/5d/245d4f64.html</link>
+		<description>
+				<![CDATA[
+				mediapartnerships.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/bd/3d/bd3d466e.html">
+		<guid>http://localhost:2784/bd/3d/bd3d466e.html</guid>
+		<pubDate>1616397705</pubDate>
+		<title>sponsors.html</title>
+		<link>http://localhost:2784/bd/3d/bd3d466e.html</link>
+		<description>
+				<![CDATA[
+				sponsors.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/3a/b2/3ab23a37.html">
+		<guid>http://localhost:2784/3a/b2/3ab23a37.html</guid>
+		<pubDate>1616397700</pubDate>
+		<title>home.html</title>
+		<link>http://localhost:2784/3a/b2/3ab23a37.html</link>
+		<description>
+				<![CDATA[
+				home.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/29/2d/292df8c7.html">
+		<guid>http://localhost:2784/29/2d/292df8c7.html</guid>
+		<pubDate>1616397695</pubDate>
+		<title>d7/0b/triangles.gif</title>
+		<link>http://localhost:2784/29/2d/292df8c7.html</link>
+		<description>
+				<![CDATA[
+				d7/0b/triangles.gif
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/0a/3b/0a3be147.html">
+		<guid>http://localhost:2784/0a/3b/0a3be147.html</guid>
+		<pubDate>1616397691</pubDate>
+		<title>links.html</title>
+		<link>http://localhost:2784/0a/3b/0a3be147.html</link>
+		<description>
+				<![CDATA[
+				links.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/fb/b0/fbb0d1a0.html">
+		<guid>http://localhost:2784/fb/b0/fbb0d1a0.html</guid>
+		<pubDate>1616397690</pubDate>
+		<title>committee.html</title>
+		<link>http://localhost:2784/fb/b0/fbb0d1a0.html</link>
+		<description>
+				<![CDATA[
+				committee.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/61/96/61969ee6.html">
+		<guid>http://localhost:2784/61/96/61969ee6.html</guid>
+		<pubDate>1616397690</pubDate>
+		<title>agenda.html</title>
+		<link>http://localhost:2784/61/96/61969ee6.html</link>
+		<description>
+				<![CDATA[
+				agenda.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/cb/db/cbdb1d5a.html">
+		<guid>http://localhost:2784/cb/db/cbdb1d5a.html</guid>
+		<pubDate>1616397686</pubDate>
+		<title>crypto2.js</title>
+		<link>http://localhost:2784/cb/db/cbdb1d5a.html</link>
+		<description>
+				<![CDATA[
+				crypto2.js
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/0b/e3/0be38c7b.html">
+		<guid>http://localhost:2784/0b/e3/0be38c7b.html</guid>
+		<pubDate>1616397685</pubDate>
+		<title>c3/3e/c33e7120.html</title>
+		<link>http://localhost:2784/0b/e3/0be38c7b.html</link>
+		<description>
+				<![CDATA[
+				c3/3e/c33e7120.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/22/83/2283ab06.html">
+		<guid>http://localhost:2784/22/83/2283ab06.html</guid>
+		<pubDate>1616397684</pubDate>
+		<title>06/1e/061e4f05.html</title>
+		<link>http://localhost:2784/22/83/2283ab06.html</link>
+		<description>
+				<![CDATA[
+				06/1e/061e4f05.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/b6/20/b6204021.html">
+		<guid>http://localhost:2784/b6/20/b6204021.html</guid>
+		<pubDate>1616397684</pubDate>
+		<title>31/f3/31f385b9.html</title>
+		<link>http://localhost:2784/b6/20/b6204021.html</link>
+		<description>
+				<![CDATA[
+				31/f3/31f385b9.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/b6/c9/b6c9d694.html">
+		<guid>http://localhost:2784/b6/c9/b6c9d694.html</guid>
+		<pubDate>1616397684</pubDate>
+		<title>c0/14/c014e677.html</title>
+		<link>http://localhost:2784/b6/c9/b6c9d694.html</link>
+		<description>
+				<![CDATA[
+				c0/14/c014e677.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/23/50/23504983.html">
+		<guid>http://localhost:2784/23/50/23504983.html</guid>
+		<pubDate>1616397684</pubDate>
+		<title>c0/14/triangles.gif</title>
+		<link>http://localhost:2784/23/50/23504983.html</link>
+		<description>
+				<![CDATA[
+				c0/14/triangles.gif
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/f0/ef/f0ef3888.html">
+		<guid>http://localhost:2784/f0/ef/f0ef3888.html</guid>
+		<pubDate>1616397683</pubDate>
+		<title>7c/e0/7ce0af9b.html</title>
+		<link>http://localhost:2784/f0/ef/f0ef3888.html</link>
+		<description>
+				<![CDATA[
+				7c/e0/7ce0af9b.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/19/7d/197d61c0.html">
+		<guid>http://localhost:2784/19/7d/197d61c0.html</guid>
+		<pubDate>1616397682</pubDate>
+		<title>72/3d/723de7b9.html</title>
+		<link>http://localhost:2784/19/7d/197d61c0.html</link>
+		<description>
+				<![CDATA[
+				72/3d/723de7b9.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/2f/94/2f943e5a.html">
+		<guid>http://localhost:2784/2f/94/2f943e5a.html</guid>
+		<pubDate>1616397680</pubDate>
+		<title>ff/3f/ff3fa51e.html</title>
+		<link>http://localhost:2784/2f/94/2f943e5a.html</link>
+		<description>
+				<![CDATA[
+				ff/3f/ff3fa51e.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/ff/6d/ff6dbd1c.html">
+		<guid>http://localhost:2784/ff/6d/ff6dbd1c.html</guid>
+		<pubDate>1616397679</pubDate>
+		<title>59/d5/59d570ad.html</title>
+		<link>http://localhost:2784/ff/6d/ff6dbd1c.html</link>
+		<description>
+				<![CDATA[
+				59/d5/59d570ad.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/e2/e4/e2e4a119.html">
+		<guid>http://localhost:2784/e2/e4/e2e4a119.html</guid>
+		<pubDate>1616397679</pubDate>
+		<title>10/5d/105dd8f5.html</title>
+		<link>http://localhost:2784/e2/e4/e2e4a119.html</link>
+		<description>
+				<![CDATA[
+				10/5d/105dd8f5.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/a5/c6/a5c6ceb7.html">
+		<guid>http://localhost:2784/a5/c6/a5c6ceb7.html</guid>
+		<pubDate>1616397678</pubDate>
+		<title>75/6b/756bb6b6.html</title>
+		<link>http://localhost:2784/a5/c6/a5c6ceb7.html</link>
+		<description>
+				<![CDATA[
+				75/6b/756bb6b6.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/1e/e7/1ee7e8bb.html">
+		<guid>http://localhost:2784/1e/e7/1ee7e8bb.html</guid>
+		<pubDate>1616397678</pubDate>
+		<title>5f/e7/5fe70773.html</title>
+		<link>http://localhost:2784/1e/e7/1ee7e8bb.html</link>
+		<description>
+				<![CDATA[
+				5f/e7/5fe70773.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/9c/8b/9c8ba58d.html">
+		<guid>http://localhost:2784/9c/8b/9c8ba58d.html</guid>
+		<pubDate>1616397678</pubDate>
+		<title>d7/0b/d70ba2e6.html</title>
+		<link>http://localhost:2784/9c/8b/9c8ba58d.html</link>
+		<description>
+				<![CDATA[
+				d7/0b/d70ba2e6.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/a4/20/a4201e05.html">
+		<guid>http://localhost:2784/a4/20/a4201e05.html</guid>
+		<pubDate>1616397677</pubDate>
+		<title>00/c1/00c12478.html</title>
+		<link>http://localhost:2784/a4/20/a4201e05.html</link>
+		<description>
+				<![CDATA[
+				00/c1/00c12478.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/c3/b5/c3b578c1.html">
+		<guid>http://localhost:2784/c3/b5/c3b578c1.html</guid>
+		<pubDate>1616397492</pubDate>
+		<title>asdfdas</title>
+		<link>http://localhost:2784/c3/b5/c3b578c1.html</link>
+		<description>
+				<![CDATA[
+				asdfdas<br />
+<br />
+&gt;&gt;5a8d7a5ed58f06485a8edd91af0cfe410f16758f<br />
+-- <br />
+[Cookie]
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/5a/8d/5a8d7a5e.html">
+		<guid>http://localhost:2784/5a/8d/5a8d7a5e.html</guid>
+		<pubDate>1616397486</pubDate>
+		<title>I was looking for mittens...</title>
+		<link>http://localhost:2784/5a/8d/5a8d7a5e.html</link>
+		<description>
+				<![CDATA[
+				I was looking for mittens...<br />
+-- <br />
+[Cookie]
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/cf/a8/cfa8b243.html">
+		<guid>http://localhost:2784/cf/a8/cfa8b243.html</guid>
+		<pubDate>1616397471</pubDate>
+		<title>p.gif</title>
+		<link>http://localhost:2784/cf/a8/cfa8b243.html</link>
+		<description>
+				<![CDATA[
+				p.gif
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/99/26/9926d163.html">
+		<guid>http://localhost:2784/99/26/9926d163.html</guid>
+		<pubDate>1616397446</pubDate>
+		<title>adsfadsfads</title>
+		<link>http://localhost:2784/99/26/9926d163.html</link>
+		<description>
+				<![CDATA[
+				adsfadsfads<br />
+<br />
+<br />
+&gt;&gt;8245ce29c793fc4b88d26e7f13be0c2bf2e226be<br />
+-- <br />
+[Cookie]
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/82/45/8245ce29.html">
+		<guid>http://localhost:2784/82/45/8245ce29.html</guid>
+		<pubDate>1616397368</pubDate>
+		<title>asdfadsfa</title>
+		<link>http://localhost:2784/82/45/8245ce29.html</link>
+		<description>
+				<![CDATA[
+				asdfadsfa<br />
+<br />
+&gt;&gt;b2413a91668a022bb3995e2fe5424fbb961f5383<br />
+-- <br />
+[Cookie]
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/7b/3f/7b3f8618.html">
+		<guid>http://localhost:2784/7b/3f/7b3f8618.html</guid>
+		<pubDate>1616397171</pubDate>
+		<title>speakers.html</title>
+		<link>http://localhost:2784/7b/3f/7b3f8618.html</link>
+		<description>
+				<![CDATA[
+				speakers.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/b2/41/b2413a91.html">
+		<guid>http://localhost:2784/b2/41/b2413a91.html</guid>
+		<pubDate>1616397162</pubDate>
+		<title>i asdfadsfad</title>
+		<link>http://localhost:2784/b2/41/b2413a91.html</link>
+		<description>
+				<![CDATA[
+				i asdfadsfad<br />
+<br />
+&gt;&gt;8284b5c967de4e5134650c1fcf950c4624fdebbf<br />
+-- <br />
+[Cookie]
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/82/84/8284b5c9.html">
+		<guid>http://localhost:2784/82/84/8284b5c9.html</guid>
+		<pubDate>1616397155</pubDate>
+		<title>especially</title>
+		<link>http://localhost:2784/82/84/8284b5c9.html</link>
+		<description>
+				<![CDATA[
+				especially<br />
+-- <br />
+[Cookie]
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/fc/4b/fc4bf68e.html">
+		<guid>http://localhost:2784/fc/4b/fc4bf68e.html</guid>
+		<pubDate>1616389134</pubDate>
+		<title>Software Updated to Version 34c17167..</title>
+		<link>http://localhost:2784/fc/4b/fc4bf68e.html</link>
+		<description>
+				<![CDATA[
+				Software Updated to Version 34c17167..<br />
+<br />
+Installed software version has changed from 36b0852109c683237bf90205e1cf3d0a3b627395 to 34c17167903e0a5f5348618994a44d8e408a0155<br />
+<br />
+34c17167 Add expo mode tweaks<br />
+9450c2a0 Add image permalink path to image item templates<br />
+<br />
+#changelog
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/6b/8e/6b8e7d21.html">
+		<guid>http://localhost:2784/6b/8e/6b8e7d21.html</guid>
+		<pubDate>1616371175</pubDate>
+		<title>Software Updated to Version 36b08521..</title>
+		<link>http://localhost:2784/6b/8e/6b8e7d21.html</link>
+		<description>
+				<![CDATA[
+				Software Updated to Version 36b08521..<br />
+<br />
+Installed software version has changed from 52ee7d2f0d719e81bd03b9058454a1c187bc5c32 to 36b0852109c683237bf90205e1cf3d0a3b627395<br />
+<br />
+36b08521 Get sanity check warning message to GetItemDetokenedMessage()<br />
+7d998b41 Adjust image template to link to the item's page<br />
+<br />
+#changelog
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/09/f1/09f1e9af.html">
+		<guid>http://localhost:2784/09/f1/09f1e9af.html</guid>
+		<pubDate>1616369104</pubDate>
+		<title>Software Updated to Version 52ee7d2f..</title>
+		<link>http://localhost:2784/09/f1/09f1e9af.html</link>
+		<description>
+				<![CDATA[
+				Software Updated to Version 52ee7d2f..<br />
+<br />
+Installed software version has changed from b9a90416b3d5756efaf6c6fb9f9ce6dfec034c57 to 52ee7d2f0d719e81bd03b9058454a1c187bc5c32<br />
+<br />
+52ee7d2f add .jpeg extension to those indexed as images<br />
+2b4424b4 add resources for mit theme<br />
+84ef7be5 add mitbtc theme<br />
+fb781d8d add default/admin/token/name = 1<br />
+d41ee6e6 improve tags and votes view queries<br />
+ba317284 improve query for compost page<br />
+f3580fdf strip \r from message before displaying<br />
+1ec1e83e allow more characters in usernames<br />
+<br />
+#changelog
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/e0/64/e064bd6b.html">
 		<guid>http://localhost:2784/e0/64/e064bd6b.html</guid>
 		<pubDate>1616192438</pubDate>
 		<title>Software Updated to Version b9a90416..</title>
