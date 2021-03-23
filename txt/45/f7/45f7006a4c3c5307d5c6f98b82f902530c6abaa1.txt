@@ -1,0 +1,7 @@
+Software Updated to Version cd60f1fe..
+
+Installed software version has changed from 34c17167903e0a5f5348618994a44d8e408a0155 to cd60f1fe032c2b19a3751e1178b173bbfb4a0903
+
+cd60f1fe add expo_site_mode config
+
+#changelog
