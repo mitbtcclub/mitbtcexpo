@@ -1,0 +1,9 @@
+Ethan is co-founder and CFO of Luxor Mining, a hashrate based platform, offering hashrate liquidation products to miners. Ethan also co-founded data website Hashrate Index.
+
+Before founding Luxor, Ethan was an investment banker at Goldman Sachs. Ethan advised MNCs on cross-border Asia M&A transactions across the semiconductor, renewable energy, and internet industries.
+
+-- 
+name: Ethan Vera
+title: Co-founder & CFO, Luxor Mining
+
+>>bf328036a6a72561e5b5e729602f88ad17917b11

@@ -1,0 +1,7 @@
+Previously, Dr. Zou held various positions in China Investment Corporation (CIC) and Nanhu Finance Corporation from 2006 to 2019. Dr. Zou received Ph.D. in Economics from Tsinghua University, Mid-Career MPA from Harvard University, M.A. in economics and B.S. in Statistics from Peking University. In 2015, Dr. Zou was a winner of the 1st Sun Yefang Prize for Financial Innovation (China’s top prize for economists) and the 5th China Soft Science Prize for his research on fintech. In 2013, 2014 and 2017, his books were selected into the lists of “financial books of the year” by China Business Network. In 2019, Dr. Zou was nominated as one of the "top 10 institutional economists of the year" by China Business Network.
+
+-- 
+name: Chuanwei "David" Zou
+title: Chief Economist of Wanxiang Blockchain
+
+>>105dd8f5d515f5e5cc7481fbbbd5d299248635a5
