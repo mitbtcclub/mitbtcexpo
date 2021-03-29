@@ -1,0 +1,9 @@
+Software Updated to Version d050cd82..
+
+Installed software version has changed from fe4088e44c363216dfc37d9eeef9fb971e390cbe to d050cd820cb34c509f850c653f978974ba12b6c3
+
+d050cd82 Add jpeg to image extensions
+0bb05a9d Improve menu building (and add expo site mode behaviors)
+bc57328c GetThemeAttribute() add clarity
+
+#changelog

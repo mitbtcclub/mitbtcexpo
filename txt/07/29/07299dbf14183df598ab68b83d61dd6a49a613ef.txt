@@ -1,0 +1,13 @@
+Software Updated to Version 5d274461..
+
+Installed software version has changed from 4e0f5df7b663a6f427d5f5898e6ec75931edf971 to 5d27446183380dfb949d1cfa3b22fb475651f074
+
+5d274461 GetItemAttributesWindow() cleanup and add debug output
+c3436031 add some helpful things for expo edit mode
+dd1eaecf in expo mode, add certain tags to image files based on path
+0a9c397e add DeindexMissingFiles() and call it when indexing files
+9b75225a cleaning up in index.pl
+f11db0cd add optional order token
+b2b579a6 html filename slug support basic
+
+#changelog
