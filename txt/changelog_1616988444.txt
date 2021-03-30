@@ -1,0 +1,14 @@
+Software Updated to Version 4e0f5df7..
+
+Installed software version has changed from 578cc8de07ba5d969fda6fb9d472ed518e3d66d1 to 4e0f5df7b663a6f427d5f5898e6ec75931edf971
+
+4e0f5df7 Improve fallback menu
+d95a7982 Only allow letters as access keys
+0ba18829 remove comment
+73ff9d02 Add debug output to GetSimpleWindow()
+2cdfde26 Remove GetSimplePage()
+247f90c1 Improve MakeSimplePage()
+fc8134a4 Fix menu templating
+0888ebca Move some summary pages to makepage.pl, add expo pages to MakeSummaryPages()
+
+#changelog

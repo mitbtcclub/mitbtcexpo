@@ -1,0 +1,10 @@
+Foundry was created to meet the institutional demand for better capital access, efficiency, and transparency in the digital currency mining and staking industry.
+
+As a Digital Currency Group company, Foundry taps unparalleled institutional expertise, capital, and market intelligence to provide North American bitcoin miners and global manufacturers with the resources to build, maintain, and secure decentralized networks.
+
+Foundry empowers miners with the tools they need to build tomorrowâ€™s decentralized infrastructure. We are protocol-agnostic and seek to support like-minded blockchain entrepreneurs who share our mission to advance the industry.
+
+-- 
+name: Foundry
+title: https://foundrydigital.com/
+>>1e5fd57f68117664a3cdcd51df144f63a40d37e9
