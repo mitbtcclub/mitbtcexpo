@@ -1,0 +1,6 @@
+The What Bitcoin Did Podcast is a twice-weekly Bitcoin podcast where host Peter McCormack interviews experts in the world of Bitcoin development, privacy, investment and adoption. Launched in November of 2017, the podcast has grown to over 100 episodes with a guest list that is a testament to the diversity of knowledge and opinions that represent the broader Bitcoin community.
+
+-- 
+name: What Bitcoin Did
+title: https://www.whatbitcoindid.com/
+>>0697ed4071ce32a2dc06723944287987daaba47f

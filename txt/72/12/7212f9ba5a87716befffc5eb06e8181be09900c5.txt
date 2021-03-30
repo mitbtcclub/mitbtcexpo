@@ -1,0 +1,7 @@
+Software Updated to Version cefdc3be..
+
+Installed software version has changed from b7e4cc6c69bc1637a9a2b9c3fae93427d14fe03c to cefdc3be01c7bde5135cc4f15049d3043f2cab72
+
+cefdc3be add bitcoinjs-lib to contrib
+
+#changelog

@@ -188,7 +188,7 @@ input:focus {
     padding: 5pt;
     spacing: 5pt;
     border: 0;
-	box-shadow: 5pt 5pt 0 #006767;
+	box-shadow: 5pt 5pt 0 rgba(0, 20, 20, 0.5);
 }
 #txtClock {
 	border: 1pt inset #c0c0c0;
@@ -199,13 +199,15 @@ input:focus {
 </style>
 </head>
 <body background="/triangles.gif">
-<b><!-- topmenu2.template -->
+<b><!-- mitbtc/template/topmenu2.template -->
 <table cellspacing=0 cellpadding=3 border=0 bgcolor="#c0c0c0" class=dialog>
 	<tr bgcolor="#35163A">
 		<td colspan=2>
-			<img src="/logo.png" height=16 width=16>
-			<font color="#ffffff"><b>MIT Bitcoin Expo 2021</b></font>
+			<small>
+			<a tabindex=2 href="#maincontent" name=top><font color="#ffffff">Skip to main content</font></a>;
+			<a href="/access.html?light=1" tabindex=3><font color="#ffffff">Accessibility mode</font></a>;
 			<br>
+			</small>
 		</td>
 	</tr>
 	<tr bgcolor="#c0c0c0" class=menubar>
@@ -227,7 +229,10 @@ input:focus {
 <a accesskey="m" href="/mediapartners.html"><u>M</u>edia Partners</a>
 <!-- / menuitem.template -->
  &nbsp; <!-- menuitem.template -->
-<a accesskey="a" href="/agenda.html"><u>A</u>genda</a>
+<a accesskey="a" href="/academicpartners.html"><u>A</u>cademic Partners</a>
+<!-- / menuitem.template -->
+ &nbsp; <!-- menuitem.template -->
+<a accesskey="g" href="/agenda.html">A<u>g</u>enda</a>
 <!-- / menuitem.template -->
  &nbsp; <!-- menuitem.template -->
 <a accesskey="c" href="https://mit-bitcoin-expo-hackathon.devfolio.co/">Ha<u>c</u>kathon</a>
@@ -249,7 +254,7 @@ input:focus {
 		</td>
 	</tr>
 </table>
-<!-- / topmenu2.template -->
+<!-- / mitbtc/template/topmenu2.template -->
 </b>
 <p><MAIN ID=maincontent><A NAME=maincontent></A>
 <form method=post action="/post.html" method=GET id=compose class=submit name=compose target=_top><!-- window/standard.template -->
@@ -258,7 +263,7 @@ input:focus {
 		<!-- titlebar_with_button.template -->
 <tr bgcolor="#35163A" class=titlebar>
 	<td valign=middle>
-		<img src="/logo.png" height=16 width=16>
+		<img src="/logo.gif" height=16 width=16>
 		<font color="#ffffff"><b>Write</b></font>
 		<br>
 	</td>
@@ -310,13 +315,13 @@ input:focus {
 	</table>
 </font>
 <!-- / window/standard.template -->
-<a name=24b52b1d></a><span class=advanced><!-- window/standard.template -->
+<a name=d994989d></a><span class=advanced><!-- window/standard.template -->
 <font face=arial>
 	<table cellspacing=0 cellpadding=6 border=0 bgcolor="#c0c0c0" class=dialog>
 		<!-- titlebar_with_button.template -->
 <tr bgcolor="#35163A" class=titlebar>
 	<td valign=middle>
-		<img src="/logo.png" height=16 width=16>
+		<img src="/logo.gif" height=16 width=16>
 		<font color="#ffffff"><b>Options</b></font>
 		<br>
 	</td>
@@ -353,7 +358,7 @@ input:focus {
 	</table>
 </font>
 <!-- / window/standard.template -->
-<a name=529e42c9></a></span></form></main>
+<a name=93620035></a></span></form></main>
 <hr>
 <img src="/p.gif" alt="" height=1 width=1>
 <!-- back_to_top_button.template -->

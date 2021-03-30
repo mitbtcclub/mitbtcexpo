@@ -1,0 +1,6 @@
+>>42df393972198ce97ad5676115fce342453d048b
+
+-- 
+name: Manish Kumar
+title: Hackathon Co-Chair
+order: 9

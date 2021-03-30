@@ -1,0 +1,10 @@
+Software Updated to Version b7e4cc6c..
+
+Installed software version has changed from ccd898f18436aa7030df4e6db4b1e312568964f4 to b7e4cc6c69bc1637a9a2b9c3fae93427d14fe03c
+
+b7e4cc6c Only use hard-coded 'Bio' title when expo mode
+c08e5945 Add start_server_local.pl (copy of lighttpd.pl)
+f331b14c Replace direct access with GetThemeAttribute() into GetTemplate()
+ef179d67 Move GetThemeAttribute() to utils.pl
+
+#changelog
