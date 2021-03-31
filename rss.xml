@@ -11,11 +11,25 @@
 		<link>
 		http://localhost:2784</link>
 		<description>This is a flexible message board which you can read and write.</description>
-		<pubDate>Mon Mar 29 16:24:00 2021</pubDate>
+		<pubDate>Tue Mar 30 19:25:50 2021</pubDate>
 		<items>
 			<rdf:Seq>
-				<rdf:li rdf:resource="http://localhost:2784/17/76/1776aa25.html" />
-<rdf:li rdf:resource="http://localhost:2784/bf/30/bf308951.html" />
+				<rdf:li rdf:resource="http://localhost:2784/ba/41/ba413058.html" />
+<rdf:li rdf:resource="http://localhost:2784/57/35/573549aa.html" />
+<rdf:li rdf:resource="http://localhost:2784/a1/a5/a1a52b8f.html" />
+<rdf:li rdf:resource="http://localhost:2784/f1/77/f1770b6f.html" />
+<rdf:li rdf:resource="http://localhost:2784/cf/84/cf84fe1a.html" />
+<rdf:li rdf:resource="http://localhost:2784/39/9e/399e4dda.html" />
+<rdf:li rdf:resource="http://localhost:2784/c4/0e/c40edadf.html" />
+<rdf:li rdf:resource="http://localhost:2784/62/e5/62e5263f.html" />
+<rdf:li rdf:resource="http://localhost:2784/cd/f1/cdf1afaf.html" />
+<rdf:li rdf:resource="http://localhost:2784/63/79/6379404a.html" />
+<rdf:li rdf:resource="http://localhost:2784/8b/d0/8bd0b0fe.html" />
+<rdf:li rdf:resource="http://localhost:2784/8f/1c/8f1c74d7.html" />
+<rdf:li rdf:resource="http://localhost:2784/df/3b/df3b11b9.html" />
+<rdf:li rdf:resource="http://localhost:2784/73/73/7373d3a5.html" />
+<rdf:li rdf:resource="http://localhost:2784/ac/15/ac156910.html" />
+<rdf:li rdf:resource="http://localhost:2784/52/85/5285d0de.html" />
 <rdf:li rdf:resource="http://localhost:2784/f9/f3/f9f3bf29.html" />
 <rdf:li rdf:resource="http://localhost:2784/06/97/0697ed40.html" />
 <rdf:li rdf:resource="http://localhost:2784/2d/87/2d8763b3.html" />
@@ -36,21 +50,15 @@
 <rdf:li rdf:resource="http://localhost:2784/46/3e/463ed53e.html" />
 <rdf:li rdf:resource="http://localhost:2784/07/fc/07fc0794.html" />
 <rdf:li rdf:resource="http://localhost:2784/55/ee/55eecde6.html" />
-<rdf:li rdf:resource="http://localhost:2784/7e/e5/7ee5490b.html" />
 <rdf:li rdf:resource="http://localhost:2784/64/ff/64ff630b.html" />
-<rdf:li rdf:resource="http://localhost:2784/24/30/24300ea1.html" />
 <rdf:li rdf:resource="http://localhost:2784/87/b7/87b70f98.html" />
 <rdf:li rdf:resource="http://localhost:2784/1d/dc/1ddc7f3c.html" />
 <rdf:li rdf:resource="http://localhost:2784/1e/14/1e14d4ed.html" />
-<rdf:li rdf:resource="http://localhost:2784/75/10/75103d7b.html" />
 <rdf:li rdf:resource="http://localhost:2784/0d/25/0d257eed.html" />
 <rdf:li rdf:resource="http://localhost:2784/ca/9d/ca9d620a.html" />
-<rdf:li rdf:resource="http://localhost:2784/13/e5/13e5aefb.html" />
-<rdf:li rdf:resource="http://localhost:2784/e9/ea/e9ea459d.html" />
 <rdf:li rdf:resource="http://localhost:2784/90/9f/909f18e0.html" />
 <rdf:li rdf:resource="http://localhost:2784/72/12/7212f9ba.html" />
 <rdf:li rdf:resource="http://localhost:2784/b4/e8/b4e8c710.html" />
-<rdf:li rdf:resource="http://localhost:2784/00/72/00722e06.html" />
 <rdf:li rdf:resource="http://localhost:2784/80/ce/80ce6e59.html" />
 <rdf:li rdf:resource="http://localhost:2784/ef/5f/ef5f020f.html" />
 <rdf:li rdf:resource="http://localhost:2784/26/bb/26bb7027.html" />
@@ -99,11 +107,6 @@
 <rdf:li rdf:resource="http://localhost:2784/ef/20/ef20a90b.html" />
 <rdf:li rdf:resource="http://localhost:2784/79/74/79749f82.html" />
 <rdf:li rdf:resource="http://localhost:2784/35/cd/35cddd60.html" />
-<rdf:li rdf:resource="http://localhost:2784/5c/38/5c383ec8.html" />
-<rdf:li rdf:resource="http://localhost:2784/a0/36/a036ce78.html" />
-<rdf:li rdf:resource="http://localhost:2784/79/67/7967ac8b.html" />
-<rdf:li rdf:resource="http://localhost:2784/9d/f8/9df8fdd7.html" />
-<rdf:li rdf:resource="http://localhost:2784/04/7b/047be370.html" />
 <rdf:li rdf:resource="http://localhost:2784/9e/dc/9edcd06f.html" />
 <rdf:li rdf:resource="http://localhost:2784/1b/d9/1bd9b820.html" />
 <rdf:li rdf:resource="http://localhost:2784/fb/14/fb141be4.html" />
@@ -126,9 +129,7 @@
 <rdf:li rdf:resource="http://localhost:2784/24/30/243095fd.html" />
 <rdf:li rdf:resource="http://localhost:2784/45/f7/45f7006a.html" />
 <rdf:li rdf:resource="http://localhost:2784/41/78/41780411.html" />
-<rdf:li rdf:resource="http://localhost:2784/a2/4c/a24cdd77.html" />
 <rdf:li rdf:resource="http://localhost:2784/3b/23/3b23eadd.html" />
-<rdf:li rdf:resource="http://localhost:2784/ce/d2/ced25ce2.html" />
 <rdf:li rdf:resource="http://localhost:2784/6d/61/6d61e3db.html" />
 <rdf:li rdf:resource="http://localhost:2784/6e/01/6e0185cd.html" />
 <rdf:li rdf:resource="http://localhost:2784/ed/1b/ed1b35b2.html" />
@@ -215,12 +216,10 @@
 <rdf:li rdf:resource="http://localhost:2784/51/1e/511e802c.html" />
 <rdf:li rdf:resource="http://localhost:2784/a9/6a/a96aa2ec.html" />
 <rdf:li rdf:resource="http://localhost:2784/5d/f5/5df552da.html" />
-<rdf:li rdf:resource="http://localhost:2784/b6/38/b6384d25.html" />
 <rdf:li rdf:resource="http://localhost:2784/ce/e5/cee5f833.html" />
 <rdf:li rdf:resource="http://localhost:2784/3f/a6/3fa6349f.html" />
 <rdf:li rdf:resource="http://localhost:2784/30/f3/30f383a8.html" />
 <rdf:li rdf:resource="http://localhost:2784/ad/75/ad751916.html" />
-<rdf:li rdf:resource="http://localhost:2784/54/2d/542d7196.html" />
 <rdf:li rdf:resource="http://localhost:2784/20/b7/20b7dd47.html" />
 <rdf:li rdf:resource="http://localhost:2784/28/fe/28feb4eb.html" />
 <rdf:li rdf:resource="http://localhost:2784/e7/6c/e76c162a.html" />
@@ -260,33 +259,272 @@
 
 	</channel>
 
-	<item rdf:about="http://localhost:2784/17/76/1776aa25.html">
-		<guid>http://localhost:2784/17/76/1776aa25.html</guid>
-		<pubDate>1617048133</pubDate>
-		<title>Founder of Aptava.com - Real Estate Blockchain and AI Project</title>
-		<link>http://localhost:2784/17/76/1776aa25.html</link>
+	<item rdf:about="http://localhost:2784/ba/41/ba413058.html">
+		<guid>http://localhost:2784/ba/41/ba413058.html</guid>
+		<pubDate>1617146064</pubDate>
+		<title>Manish Kumar is the founder of APTAVA.com, a real estate tech l</title>
+		<link>http://localhost:2784/ba/41/ba413058.html</link>
 		<description>
 				<![CDATA[
-				Founder of Aptava.com - Real Estate Blockchain and AI Project<br />
+				Manish Kumar is the founder of APTAVA.com, a real estate tech leveraging blockchain and AI to automate or remove several points of friction from the real estate buying and renting processes.<br />
 <br />
+Manish is also a long term member of the MIT Bitcoin Club family and advisor to students current and past from several institutions of higher learning.<br />
 -- <br />
+title: Founder Aptava.com Real Estate Blockchain and AI Project<br />
 name: Manish Kumar<br />
-title: Hackathon Co-Chair<br />
-order: 9<br />
 &gt;&gt;42df393972198ce97ad5676115fce342453d048b<br />
 #committee
 				]]>
 		</description>
 	</item>
-<item rdf:about="http://localhost:2784/bf/30/bf308951.html">
-		<guid>http://localhost:2784/bf/30/bf308951.html</guid>
-		<pubDate>1617005022</pubDate>
-		<title>Guest has registered</title>
-		<link>http://localhost:2784/bf/30/bf308951.html</link>
+<item rdf:about="http://localhost:2784/57/35/573549aa.html">
+		<guid>http://localhost:2784/57/35/573549aa.html</guid>
+		<pubDate>1617145731</pubDate>
+		<title>Manish Kumar is  the founder of APTAVA.com, a real estate tech </title>
+		<link>http://localhost:2784/57/35/573549aa.html</link>
 		<description>
 				<![CDATA[
-				[Public key for Guest, D2C0252818B3CB6B]<br />
+				Manish Kumar is  the founder of APTAVA.com, a real estate tech leveraging blockchain and AI to automate or remove several points of friction from the real estate buying and renting processes. <br />
+<br />
+Manish is also a long term member of the MIT Bitcoin Club family and advisor to students current and past from several institutions of higher learning.<br />
+<br />
+-- <br />
+name: Manish Kumar<br />
+title: Founder Aptava.com Real Estate Blockchain and AI Project<br />
+order: 9<br />
+&gt;&gt;e3365acef9f55512006eec77a0ab61f35da73ac3<br />
+#committee
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/a1/a5/a1a52b8f.html">
+		<guid>http://localhost:2784/a1/a5/a1a52b8f.html</guid>
+		<pubDate>1617144718</pubDate>
+		<title>Lisa is a maintainer of the c-lightning open source project and</title>
+		<link>http://localhost:2784/a1/a5/a1a52b8f.html</link>
+		<description>
+				<![CDATA[
+				Lisa is a maintainer of the c-lightning open source project and member of the Blockstream lightning team. Most recently, she's been working on the dual-funding spec implementation. She tweets at https://twitter.com/niftynei and is a Recurse Center alum.<br />
+-- <br />
+name: Lisa Neigut<br />
+title: Sr Software Engineer at Blockstream<br />
+&gt;&gt;cf84fe1ad0a9f98a76e8577e4282fe6256d34c91
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/f1/77/f1770b6f.html">
+		<guid>http://localhost:2784/f1/77/f1770b6f.html</guid>
+		<pubDate>1617144702</pubDate>
+		<title>Lisa is a maintainer of the c-lightning open source project and</title>
+		<link>http://localhost:2784/f1/77/f1770b6f.html</link>
+		<description>
+				<![CDATA[
+				Lisa is a maintainer of the c-lightning open source project and member of the Blockstream lightning team. Most recently, she's been working on the dual-funding spec implementation. She tweets at https://twitter.com/niftynei and is a Recurse Center alum.<br />
+<br />
+--<br />
+name: Lisa Neigut<br />
+title: Sr Software Engineer at Blockstream<br />
+&gt;&gt;cf84fe1ad0a9f98a76e8577e4282fe6256d34c91
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/cf/84/cf84fe1a.html">
+		<guid>http://localhost:2784/cf/84/cf84fe1a.html</guid>
+		<pubDate>1617144607</pubDate>
+		<title>Sr Software Engineer at Blockstream</title>
+		<link>http://localhost:2784/cf/84/cf84fe1a.html</link>
+		<description>
+				<![CDATA[
+				
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/39/9e/399e4dda.html">
+		<guid>http://localhost:2784/39/9e/399e4dda.html</guid>
+		<pubDate>1617144209</pubDate>
+		<title>Lisa is a maintainer of the c-lightning open source project and</title>
+		<link>http://localhost:2784/39/9e/399e4dda.html</link>
+		<description>
+				<![CDATA[
+				Lisa is a maintainer of the c-lightning open source project and member of the Blockstream lightning team. Most recently, she's been working on the dual-funding spec implementation. She tweets at https://twitter.com/niftynei and is a Recurse Center alum.<br />
+<br />
+-- <br />
+name: Lisa Neigut<br />
+title: Sr Software Engineer at Blockstream<br />
+&gt;&gt;14bfe8327e1fc1baec40485609778696d8271830
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/c4/0e/c40edadf.html">
+		<guid>http://localhost:2784/c4/0e/c40edadf.html</guid>
+		<pubDate>1617139052</pubDate>
+		<title>Andrej P. Skraba is CMO at NiceHash, the leading cryptocurrency</title>
+		<link>http://localhost:2784/c4/0e/c40edadf.html</link>
+		<description>
+				<![CDATA[
+				Andrej P. Skraba is CMO at NiceHash, the leading cryptocurrency platform for mining and trading with over 1.5M users worldwide. He is devoted to strong leadership principles and marketing nascent cryptocurrency products and services, particularly in the mining section of the industry. With more than a decade long involvement in the high-tech industry he strongly believes Bitcoin is the future of exchanging value between independent and free individuals.<br />
+-- <br />
+name: Andrej Skraba<br />
+title: Chief Marketing Officer, NiceHash<br />
+&gt;&gt;59d570ad15388b8643f5a5bf6fa45b19d166aee8
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/62/e5/62e5263f.html">
+		<guid>http://localhost:2784/62/e5/62e5263f.html</guid>
+		<pubDate>1617131226</pubDate>
+		<title>Lead developer of Skynet, a next generation cloud service for p</title>
+		<link>http://localhost:2784/62/e5/62e5263f.html</link>
+		<description>
+				<![CDATA[
+				Lead developer of Skynet, a next generation cloud service for people who want to control their own data. Bitcoin researcher since 2011 and long time Bitcoin and cryptocurrency advocate.<br />
+-- <br />
+name: David Vorick<br />
+title: Co-Founder and CEO, Sia<br />
+&gt;&gt;5b625e55e2dffc8cb2d89194b3bb560057dbcc66<br />
 
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/cd/f1/cdf1afaf.html">
+		<guid>http://localhost:2784/cd/f1/cdf1afaf.html</guid>
+		<pubDate>1617130954</pubDate>
+		<title>Neha Narula is the Director of the Digital Currency Initiative </title>
+		<link>http://localhost:2784/cd/f1/cdf1afaf.html</link>
+		<description>
+				<![CDATA[
+				Neha Narula is the Director of the Digital Currency Initiative at the MIT Media Lab, where her research interests are in cryptocurrencies and distributed systems. She received her PhD in computer science from MIT in 2015, where she published work on fast, scalable databases. Neha has has given a TED talk on the future of money, was named to WIRED's list of 25 leaders shaping the next 25 years of technology, and was listed on Fortune's Ledger 40 under 40. In a previous life, she helped relaunch the news aggregator Digg and was a senior software engineer at Google.<br />
+<br />
+-- <br />
+name: Neha Narula<br />
+title: Director, Digital Currency Initiative<br />
+&gt;&gt;6d33c2d71f2a67f117c162d2e740bbc29788faf8<br />
+
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/63/79/6379404a.html">
+		<guid>http://localhost:2784/63/79/6379404a.html</guid>
+		<pubDate>1617130953</pubDate>
+		<title>Software Updated to Version c7df3c08..</title>
+		<link>http://localhost:2784/63/79/6379404a.html</link>
+		<description>
+				<![CDATA[
+				Software Updated to Version c7df3c08..<br />
+<br />
+Installed software version has changed from 5d27446183380dfb949d1cfa3b22fb475651f074 to c7df3c08689c8947b20d221fc16d189710787488<br />
+<br />
+c7df3c08 Factor out mittens form<br />
+f5f758d2 add admin/token/signature_divider default<br />
+bb4edf39 Rename dev scripts to reduce accidental activation<br />
+8c9c3af7 Add theme/ dir to clean_template.sh<br />
+957e1570 If expo_site_edit mode, still show permalinks which would normally be hidden (to allow for editing of items)<br />
+fdac5558 Add GetGalleryPage() and factor out<br />
+59fae006 Add media page<br />
+1198d2f4 Remove &lt;br&gt; between elements<br />
+4ad3102b GetMenuFromList() add code for marking external links<br />
+dbcc9e1c Improve GetSystemMenuList()<br />
+4a11c1e9 Don't replace dollar signs in output HTML when in expo mode<br />
+460a8e37 Rename 'Bio' to 'Information'<br />
+df76fb79 Cleanup and clarify<br />
+91752260 add no_permalink option to GetItemTemplate()<br />
+f19a6d76 GetImageContainer: allow images without links to the item<br />
+13864325 Add inline_block_css setting<br />
+d98c84e2 Rename script<br />
+fef34b0d rename 'Bio' to more generic 'Information'<br />
+017d76f3 do not show notext replies if in expo mode<br />
+6ec6dcdd add warning if html page is missing maincontent element<br />
+<br />
+#changelog
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/8b/d0/8bd0b0fe.html">
+		<guid>http://localhost:2784/8b/d0/8bd0b0fe.html</guid>
+		<pubDate>1617128605</pubDate>
+		<title>The Digital Currency Initiative is a group at MIT focusing on c</title>
+		<link>http://localhost:2784/8b/d0/8bd0b0fe.html</link>
+		<description>
+				<![CDATA[
+				The Digital Currency Initiative is a group at MIT focusing on cryptocurrency and its underlying technologies. Cryptocurrencies like Bitcoin enable open, trustless digital payments and contracts. In the spirit of the Internet's wide reach, this technology, and the people behind it, have the potential to impact billions of people and become a crucial part of daily life. We seek to push the envelope on the development of this technology with fundamental research, while shedding light on the associated benefits, risks, and ethical quandaries. Beyond research centered at MIT, we also help support open-source cryptocurrency communities and diversity, and hope to foster a broader academic community in this space.<br />
+<br />
+-- <br />
+name: Digital Currency Initiative<br />
+title: https://dci.mit.edu/<br />
+&gt;&gt;e8948ef73474ad46e7a858d3d155932b55e7243e
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/8f/1c/8f1c74d7.html">
+		<guid>http://localhost:2784/8f/1c/8f1c74d7.html</guid>
+		<pubDate>1617128056</pubDate>
+		<title>--</title>
+		<link>http://localhost:2784/8f/1c/8f1c74d7.html</link>
+		<description>
+				<![CDATA[
+				&gt;&gt;542d719645bc241ac817af68d3e2549fc75dba42<br />
+<br />
+#remove<br />
+-- <br />
+[Cookie]
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/df/3b/df3b11b9.html">
+		<guid>http://localhost:2784/df/3b/df3b11b9.html</guid>
+		<pubDate>1617127696</pubDate>
+		<title>&gt;&gt;20b7dd47d58d424cafde621ea824701a0b402163<br />
+<br />
+#remove<br />
+</title>
+		<link>http://localhost:2784/df/3b/df3b11b9.html</link>
+		<description>
+				<![CDATA[
+				&gt;&gt;20b7dd47d58d424cafde621ea824701a0b402163<br />
+<br />
+#remove<br />
+
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/73/73/7373d3a5.html">
+		<guid>http://localhost:2784/73/73/7373d3a5.html</guid>
+		<pubDate>1617127694</pubDate>
+		<title>--</title>
+		<link>http://localhost:2784/73/73/7373d3a5.html</link>
+		<description>
+				<![CDATA[
+				&gt;&gt;20b7dd47d58d424cafde621ea824701a0b402163<br />
+<br />
+#remove<br />
+-- <br />
+[Cookie]
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/ac/15/ac156910.html">
+		<guid>http://localhost:2784/ac/15/ac156910.html</guid>
+		<pubDate>1617127619</pubDate>
+		<title>Guest has registered</title>
+		<link>http://localhost:2784/ac/15/ac156910.html</link>
+		<description>
+				<![CDATA[
+				[Public key for Guest, 02332D7E190E471C]<br />
+
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/52/85/5285d0de.html">
+		<guid>http://localhost:2784/52/85/5285d0de.html</guid>
+		<pubDate>1617114259</pubDate>
+		<title>-- </title>
+		<link>http://localhost:2784/52/85/5285d0de.html</link>
+		<description>
+				<![CDATA[
+				-- <br />
+name: Blockchain Education Network (ben)<br />
+title: http://ben.com/<br />
+&gt;&gt;4003e8bd6ec8282b559fe835d9d8baf59c80448e
 				]]>
 		</description>
 	</item>
@@ -411,7 +649,7 @@ c1f688ed add order token default<br />
 <item rdf:about="http://localhost:2784/42/df/42df3939.html">
 		<guid>http://localhost:2784/42/df/42df3939.html</guid>
 		<pubDate>1616977586</pubDate>
-		<title>Hackathon Co-Chair</title>
+		<title>Founder Aptava.com Real Estate Blockchain and AI Project</title>
 		<link>http://localhost:2784/42/df/42df3939.html</link>
 		<description>
 				<![CDATA[
@@ -596,24 +834,6 @@ title: https://www.sia.tech/<br />
 				]]>
 		</description>
 	</item>
-<item rdf:about="http://localhost:2784/7e/e5/7ee5490b.html">
-		<guid>http://localhost:2784/7e/e5/7ee5490b.html</guid>
-		<pubDate>1616972657</pubDate>
-		<title>Sia is a decentralized cloud storage platform supported by a gl</title>
-		<link>http://localhost:2784/7e/e5/7ee5490b.html</link>
-		<description>
-				<![CDATA[
-				Sia is a decentralized cloud storage platform supported by a global ecosystem of data storage hosts and renters. The Sia network is maintained by the Sia Foundation, a non-profit entity.<br />
-<br />
-Skynet is an open protocol and toolkit for creating a better web--one built on decentralized storage and applications. Skynet is layer 2, built on top of the Sia network.<br />
-<br />
--- <br />
-name: Sia<br />
-https://www.sia.tech/<br />
-&gt;&gt;57a643f7f780bc47872ee8c8f9fafb0dcebc44e7
-				]]>
-		</description>
-	</item>
 <item rdf:about="http://localhost:2784/64/ff/64ff630b.html">
 		<guid>http://localhost:2784/64/ff/64ff630b.html</guid>
 		<pubDate>1616972526</pubDate>
@@ -631,25 +851,6 @@ Metrika is trusted by protocol teams, private blockchain networks, application d
 name: Metrika<br />
 title: https://www.metrika.co/<br />
 &gt;&gt;070fa7a90f2d01874ccf88ea873a0b3cfd374ac8
-				]]>
-		</description>
-	</item>
-<item rdf:about="http://localhost:2784/24/30/24300ea1.html">
-		<guid>http://localhost:2784/24/30/24300ea1.html</guid>
-		<pubDate>1616972404</pubDate>
-		<title>Metrika delivers reliability and performance of blockchain netw</title>
-		<link>http://localhost:2784/24/30/24300ea1.html</link>
-		<description>
-				<![CDATA[
-				Metrika delivers reliability and performance of blockchain networks with the industryâ€™s most complete blockchain operational monitoring solution. <br />
-Metrikaâ€™s real-time monitoring, analytics, and actionable intelligence provide the tools to keep blockchain networks up and running. <br />
-Metrika is trusted by protocol teams, private blockchain networks, application developers, and CBDC teams globally. Weâ€™re on a mission to build trust in blockchain operations.<br />
-<br />
--- <br />
-name: Metrika<br />
-title: https://www.metrika.co/<br />
-&gt;&gt;070fa7a90f2d01874ccf88ea873a0b3cfd374ac8<br />
-
 				]]>
 		</description>
 	</item>
@@ -703,22 +904,6 @@ title: https://algorand.foundation/<br />
 				]]>
 		</description>
 	</item>
-<item rdf:about="http://localhost:2784/75/10/75103d7b.html">
-		<guid>http://localhost:2784/75/10/75103d7b.html</guid>
-		<pubDate>1616971589</pubDate>
-		<title>The Algorand Foundation is dedicated to fulfilling the global p</title>
-		<link>http://localhost:2784/75/10/75103d7b.html</link>
-		<description>
-				<![CDATA[
-				The Algorand Foundation is dedicated to fulfilling the global promise of blockchain technology by leveraging the Algorand protocol and open source software, designed by Silvio Micali and a team of leading scientists. With core beliefs in the establishment of an open, public and permissionless blockchain, the Algorand Foundation has a vision for an inclusive ecosystem that provides an opportunity for everyone to harness the potential of an equitable and truly borderless economy.&quot;<br />
-<br />
--- <br />
-name: Algorand<br />
-title: https://algorand.foundation/<br />
-&gt;&gt;0d257eedf136f1ee5dc43b31e12b92b7a2398bf7
-				]]>
-		</description>
-	</item>
 <item rdf:about="http://localhost:2784/0d/25/0d257eed.html">
 		<guid>http://localhost:2784/0d/25/0d257eed.html</guid>
 		<pubDate>1616963365</pubDate>
@@ -752,38 +937,6 @@ ade37b64 add item_name_slug default<br />
 a1ca4f20 add speakers query<br />
 <br />
 #changelog
-				]]>
-		</description>
-	</item>
-<item rdf:about="http://localhost:2784/13/e5/13e5aefb.html">
-		<guid>http://localhost:2784/13/e5/13e5aefb.html</guid>
-		<pubDate>1616961214</pubDate>
-		<title>The Digital Currency Initiative is a group at MIT focusing on c</title>
-		<link>http://localhost:2784/13/e5/13e5aefb.html</link>
-		<description>
-				<![CDATA[
-				&gt;&gt;e8948ef73474ad46e7a858d3d155932b55e7243e<br />
-<br />
-The Digital Currency Initiative is a group at MIT focusing on cryptocurrency and its underlying technologies. Cryptocurrencies like Bitcoin enable open, trustless digital payments and contracts. In the spirit of the Internet's wide reach, this technology, and the people behind it, have the potential to impact billions of people and become a crucial part of daily life. We seek to push the envelope on the development of this technology with fundamental research, while shedding light on the associated benefits, risks, and ethical quandaries. Beyond research centered at MIT, we also help support open-source cryptocurrency communities and diversity, and hope to foster a broader academic community in this space.<br />
-<br />
--- <br />
-name: Digital Currency Initiative<br />
-title: https://dci.mit.edu/
-				]]>
-		</description>
-	</item>
-<item rdf:about="http://localhost:2784/e9/ea/e9ea459d.html">
-		<guid>http://localhost:2784/e9/ea/e9ea459d.html</guid>
-		<pubDate>1616961059</pubDate>
-		<title>-- </title>
-		<link>http://localhost:2784/e9/ea/e9ea459d.html</link>
-		<description>
-				<![CDATA[
-				&gt;&gt;e8948ef73474ad46e7a858d3d155932b55e7243e<br />
-<br />
--- <br />
-title: Digital Currency Initiative<br />
-title: https://dci.mit.edu/
 				]]>
 		</description>
 	</item>
@@ -834,17 +987,6 @@ cefdc3be add bitcoinjs-lib to contrib<br />
 				]]>
 		</description>
 	</item>
-<item rdf:about="http://localhost:2784/00/72/00722e06.html">
-		<guid>http://localhost:2784/00/72/00722e06.html</guid>
-		<pubDate>1616879795</pubDate>
-		<title>https://www.stellar.org/</title>
-		<link>http://localhost:2784/00/72/00722e06.html</link>
-		<description>
-				<![CDATA[
-				
-				]]>
-		</description>
-	</item>
 <item rdf:about="http://localhost:2784/80/ce/80ce6e59.html">
 		<guid>http://localhost:2784/80/ce/80ce6e59.html</guid>
 		<pubDate>1616877254</pubDate>
@@ -877,8 +1019,7 @@ name: Luiz Thomaz do Nascimento<br />
 title: Content Chair<br />
 <br />
 &gt;&gt;9f3428147904d9c331e1cb4d23218ac25590bc2b<br />
--- <br />
-[Cookie]
+
 				]]>
 		</description>
 	</item>
@@ -1004,7 +1145,7 @@ title: Sponsorship Co-Chair<br />
 <item rdf:about="http://localhost:2784/40/03/4003e8bd.html">
 		<guid>http://localhost:2784/40/03/4003e8bd.html</guid>
 		<pubDate>1616873607</pubDate>
-		<title>(Untitled)</title>
+		<title>http://ben.com/</title>
 		<link>http://localhost:2784/40/03/4003e8bd.html</link>
 		<description>
 				<![CDATA[
@@ -1564,92 +1705,6 @@ title: Research Scientist, CSAIL and MIT Economics<br />
 				]]>
 		</description>
 	</item>
-<item rdf:about="http://localhost:2784/5c/38/5c383ec8.html">
-		<guid>http://localhost:2784/5c/38/5c383ec8.html</guid>
-		<pubDate>1616534197</pubDate>
-		<title>Michael Flaxman is a software engineer and investor. He fell in</title>
-		<link>http://localhost:2784/5c/38/5c383ec8.html</link>
-		<description>
-				<![CDATA[
-				&gt;&gt;2af2a5567e7a147ec87c2935461df351d7b4a264<br />
-<br />
-Michael Flaxman is a software engineer and investor. He fell in love with Bitcoin in 2013 and is the co-maintainer of buidl (an open-source bitcoin library written in python) and the author of the 10x security guide. Michael has built three venture-funded companies and is an alumnus of Y Combinator.<br />
-<br />
--- <br />
-name: Michael Flaxman<br />
-title: Co-maintainer of buidl python bitcoin library
-				]]>
-		</description>
-	</item>
-<item rdf:about="http://localhost:2784/a0/36/a036ce78.html">
-		<guid>http://localhost:2784/a0/36/a036ce78.html</guid>
-		<pubDate>1616534196</pubDate>
-		<title>Anders Brownworth works in applied research on CBDCs within the</title>
-		<link>http://localhost:2784/a0/36/a036ce78.html</link>
-		<description>
-				<![CDATA[
-				&gt;&gt;6d8be3c701e696c51772eb20a84527e78d661d95<br />
-<br />
-Anders Brownworth works in applied research on CBDCs within the Payments Strategy group at The Federal Reserve Bank of Boston. Previously he worked at Circle involved with designing and launching the USDC stablecoin. He co-taught the first blockchain class at MIT and previously helped create and launch Republic Wireless, a WiFi / cellular hybrid smartphone service. Brownworth holds a number of patents in the telecom space and played a key role in Bandwidth.com's evolution from startup to public company.<br />
-<br />
--- <br />
-name: Anders Brownworth<br />
-title: Principal Architect, Federal Reserve Bank of Boston
-				]]>
-		</description>
-	</item>
-<item rdf:about="http://localhost:2784/79/67/7967ac8b.html">
-		<guid>http://localhost:2784/79/67/7967ac8b.html</guid>
-		<pubDate>1616534196</pubDate>
-		<title>Valerie A. Szczepanik is the Director of the Strategic Hub for </title>
-		<link>http://localhost:2784/79/67/7967ac8b.html</link>
-		<description>
-				<![CDATA[
-				&gt;&gt;64b71a37cbb2cbe17050b20c0d228478cd09f49e<br />
-<br />
-Valerie A. Szczepanik is the Director of the Strategic Hub for Innovation and Financial<br />
-Technology (FinHub) Office at the U.S. Securities and Exchange Commission (SEC). Before<br />
-that, she was the Senior Advisor for Digital Assets and Innovation and an Associate Director in the SEC’s Division of Corporation Finance. She also served as Assistant Director in the SEC Division of Enforcement’s Cyber Unit. Ms. Szczepanik served as a Special Assistant United States Attorney at the United States Attorney’s Office for the Eastern District of New York. She clerked for federal judges on the United States District Court for the District of Columbia and the United States Court of Appeals for the Federal Circuit and, prior to clerking, practiced patent law. Ms. Szczepanik received her Juris Doctor degree from Georgetown University and her Bachelor of Science degree in Engineering from the University of Pennsylvania.<br />
--- <br />
-name: Valerie Szczepanik<br />
-title: Director, US SEC FinHub
-				]]>
-		</description>
-	</item>
-<item rdf:about="http://localhost:2784/9d/f8/9df8fdd7.html">
-		<guid>http://localhost:2784/9d/f8/9df8fdd7.html</guid>
-		<pubDate>1616534195</pubDate>
-		<title>John is the founder and director of Brink, an open source Bitco</title>
-		<link>http://localhost:2784/9d/f8/9df8fdd7.html</link>
-		<description>
-				<![CDATA[
-				&gt;&gt;c6bc06baf46ff4ebf3f33328dd933f3e82ca4190<br />
-<br />
-John is the founder and director of Brink, an open source Bitcoin research and development centre. John has been contributing to Bitcoin Core for 5 years, and worked at Chaincode Labs prior to founding Brink.<br />
-<br />
--- <br />
-name: John Newbery<br />
-title: Director, Brink
-				]]>
-		</description>
-	</item>
-<item rdf:about="http://localhost:2784/04/7b/047be370.html">
-		<guid>http://localhost:2784/04/7b/047be370.html</guid>
-		<pubDate>1616534195</pubDate>
-		<title>Danny does research and development on consensus upgrades at th</title>
-		<link>http://localhost:2784/04/7b/047be370.html</link>
-		<description>
-				<![CDATA[
-				&gt;&gt;6e735d2e881e4d464be8f5a4f49f39dc744ac4e7<br />
-<br />
-Danny does research and development on consensus upgrades at the Ethereum Foundation.<br />
-<br />
--- <br />
-name: Danny Ryan<br />
-title: Research at Ethereum Foundation
-				]]>
-		</description>
-	</item>
 <item rdf:about="http://localhost:2784/9e/dc/9edcd06f.html">
 		<guid>http://localhost:2784/9e/dc/9edcd06f.html</guid>
 		<pubDate>1616534192</pubDate>
@@ -1958,21 +2013,6 @@ title: dafdfdfdfd
 				]]>
 		</description>
 	</item>
-<item rdf:about="http://localhost:2784/a2/4c/a24cdd77.html">
-		<guid>http://localhost:2784/a2/4c/a24cdd77.html</guid>
-		<pubDate>1616406199</pubDate>
-		<title>&gt;&gt;998d1d3a0bd7660c6ca10bdf6aeaa4b246486e7b<br />
-<br />
-#approve</title>
-		<link>http://localhost:2784/a2/4c/a24cdd77.html</link>
-		<description>
-				<![CDATA[
-				&gt;&gt;998d1d3a0bd7660c6ca10bdf6aeaa4b246486e7b<br />
-<br />
-#approve
-				]]>
-		</description>
-	</item>
 <item rdf:about="http://localhost:2784/3b/23/3b23eadd.html">
 		<guid>http://localhost:2784/3b/23/3b23eadd.html</guid>
 		<pubDate>1616406198</pubDate>
@@ -1983,21 +2023,6 @@ title: dafdfdfdfd
 				&gt;&gt;7fa40f186ead494feaec98ec1f1e2756b217b136<br />
 <br />
 asdfda
-				]]>
-		</description>
-	</item>
-<item rdf:about="http://localhost:2784/ce/d2/ced25ce2.html">
-		<guid>http://localhost:2784/ce/d2/ced25ce2.html</guid>
-		<pubDate>1616406198</pubDate>
-		<title>&gt;&gt;7fa40f186ead494feaec98ec1f1e2756b217b136<br />
-<br />
-#approve</title>
-		<link>http://localhost:2784/ce/d2/ced25ce2.html</link>
-		<description>
-				<![CDATA[
-				&gt;&gt;7fa40f186ead494feaec98ec1f1e2756b217b136<br />
-<br />
-#approve
 				]]>
 		</description>
 	</item>
@@ -3132,23 +3157,6 @@ title: Creator, What Bitcoin Did Podcast<br />
 				]]>
 		</description>
 	</item>
-<item rdf:about="http://localhost:2784/b6/38/b6384d25.html">
-		<guid>http://localhost:2784/b6/38/b6384d25.html</guid>
-		<pubDate>1615850500</pubDate>
-		<title>Neha Narula is the Director of the Digital Currency Initiative </title>
-		<link>http://localhost:2784/b6/38/b6384d25.html</link>
-		<description>
-				<![CDATA[
-				Neha Narula is the Director of the Digital Currency Initiative at the MIT Media Lab, where her research interests are in cryptocurrencies and distributed systems. She received her PhD in computer science from MIT in 2015, where she published work on fast, scalable databases. Neha has has given a TED talk on the future of money, was named to WIRED's list of 25 leaders shaping the next 25 years of technology, and was listed on Fortune's Ledger 40 under 40. In a previous life, she helped relaunch the news aggregator Digg and was a senior software engineer at Google.<br />
-<br />
--- <br />
-name: Neha Narula<br />
-title: DCI researcher, co-inventor of the Lightning Network, Bitcoin developer working on scalability<br />
-<br />
-&gt;&gt;6d33c2d71f2a67f117c162d2e740bbc29788faf8
-				]]>
-		</description>
-	</item>
 <item rdf:about="http://localhost:2784/ce/e5/cee5f833.html">
 		<guid>http://localhost:2784/ce/e5/cee5f833.html</guid>
 		<pubDate>1615850382</pubDate>
@@ -3214,21 +3222,6 @@ name: AJ Scalia<br />
 title: Mining Team, Galaxy Digital<br />
 <br />
 &gt;&gt;c014e677e54f7a8e88c0c00eaab6c2e0a5657402
-				]]>
-		</description>
-	</item>
-<item rdf:about="http://localhost:2784/54/2d/542d7196.html">
-		<guid>http://localhost:2784/54/2d/542d7196.html</guid>
-		<pubDate>1615850046</pubDate>
-		<title>-- </title>
-		<link>http://localhost:2784/54/2d/542d7196.html</link>
-		<description>
-				<![CDATA[
-				-- <br />
-name: Andrej Skraba<br />
-title: Chief Marketing Officer, NiceHash<br />
-<br />
-&gt;&gt;59d570ad15388b8643f5a5bf6fa45b19d166aee8
 				]]>
 		</description>
 	</item>
@@ -3470,7 +3463,7 @@ title: Chief Economist of Wanxiang Blockchain<br />
 <item rdf:about="http://localhost:2784/6d/33/6d33c2d7.html">
 		<guid>http://localhost:2784/6d/33/6d33c2d7.html</guid>
 		<pubDate>1615840425</pubDate>
-		<title>DCI researcher, co-inventor of the Lightning Network, Bitcoin developer working on scalability</title>
+		<title>Director, Digital Currency Initiative</title>
 		<link>http://localhost:2784/6d/33/6d33c2d7.html</link>
 		<description>
 				<![CDATA[

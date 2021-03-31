@@ -1,0 +1,6 @@
+Lisa is a maintainer of the c-lightning open source project and member of the Blockstream lightning team. Most recently, she's been working on the dual-funding spec implementation. She tweets at https://twitter.com/niftynei and is a Recurse Center alum.
+
+-- 
+name: Lisa Neigut
+title: Sr Software Engineer at Blockstream
+>>14bfe8327e1fc1baec40485609778696d8271830
