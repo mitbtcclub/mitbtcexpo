@@ -199,13 +199,66 @@ input:focus {
 </style>
 </head>
 <body background="/triangles.gif">
+<!-- InjectJs2: loading_begin -->
+
+<!-- html/utils/scriptinject.template -->
+<script language=javascript><!--
+// begin loading_begin.js
+
+//var loadingIndicatorWaitToShowMin = 1500;
+//var loadingIndicatorWaitToHideMin = 500;
+
+function addLoadingIndicator (strMessage) { // adds loading indicator bar (to top of page, depending on style)
+	//alert('DEBUG: addLoadingIndicator(' + strMessage + ')');
+	if (!strMessage) {
+		//alert('DEBUG: strMessage = ' + strMessage);
+		strMessage = 'Meditate...';
+	}
+	//alert('DEBUG: addLoadingIndicator: strMessage = ' + strMessage);
+
+	if (!document.createElement) {
+		//alert('DEBUG: addLoadingIndicator: warning: no document.createElement');
+		return '';
+		// #todo improve compatibility here
+	}
+
+	//alert('DEBUG: addLoadingIndicator: sanity checks passed!');
+	var spanLoadingIndicator = document.createElement('span');
+	if (spanLoadingIndicator) {
+		spanLoadingIndicator.setAttribute('id', 'loadingIndicator');
+		spanLoadingIndicator.innerHTML = strMessage;
+		spanLoadingIndicator.zIndex = 1337;
+		document.body.appendChild(spanLoadingIndicator);
+	}
+
+	return '';
+
+} // addLoadingIndicator()
+
+if (document.createElement) {
+	//alert('DEBUG: loading_begin.js: createElement feature check PASSED!');
+	var d = new Date();
+	var loadingIndicatorStart = d.getTime() * 1;
+	var gt = unescape('%3E');
+
+	//var loadingIndicatorloadCounter = 0;
+	addLoadingIndicator('Meditate...');
+} else {
+	//alert('DEBUG: loading_begin.js: createElement feature check FAILED!');
+}
+// end loading_begin.js
+
+// -->
+</script>
+<!-- / html/utils/scriptinject.template -->
+
 <b><!-- mitbtc/template/topmenu2.template -->
 <table cellspacing=0 cellpadding=3 border=0 bgcolor="#c0c0c0" class=dialog>
 	<tr bgcolor="#35163A">
 		<td colspan=2>
 			<img alt="MIT Bitcoin Expo" title="MIT Bitcoin Expo" logo src="/logo.gif" height=16 width=16>
 			<font color="#ffffff"><b>MIT Bitcoin Expo 2021</b></font>
-			<a href="/etc.html">.</a>
+			<a href="/etc.html" onclick="if (window.ShowAll) { ShowAll(this); } if (window.DraggingInit) { DraggingInit(0); } return false;" >.</a>
 			<br>
 		</td>
 	</tr>
@@ -318,3 +371,98 @@ input:focus {
     "
 >^^</span></a>
 <!-- / back_to_top_button.template --></body></html>
+<!-- InjectJs2: back_to_top_button -->
+
+<!-- html/utils/scriptinject.template -->
+<script language=javascript><!--
+// begin back_to_top_button.js
+function showBackToTop () { // show or hide "back to top" button depending on vertical scroll state
+    var pageOffset = document.body.scrollTop;
+
+    if (100 < pageOffset) {
+    	if (window.showBackToTopLastAction != 1) {
+//			var colorBody = document.body.style.backgroundColor || document.body.getAttribute('bgcolor'));
+//			var colorButton = document.getElementById('aBackToTop').style.backgroundColor;
+//
+//			setTimeout("document.getElementById('aBackToTop').style.backgroundColor = '#002000'", 250);
+//			setTimeout("document.getElementById('aBackToTop').style.backgroundColor = '#004000'", 500);
+//			setTimeout("document.getElementById('aBackToTop').style.backgroundColor = '#006000'", 750);
+//			setTimeout("document.getElementById('aBackToTop').style.backgroundColor = '#008000'", 1000);
+
+			document.getElementById('aBackToTop').style.visibility = 'visible';
+			window.showBackToTopLastAction = 1;
+		}
+    } else {
+    	if (window.showBackToTopLastAction != 0) {
+        	document.getElementById('aBackToTop').style.visibility = 'hidden';
+        	window.showBackToTopLastAction = 0;
+		}
+    }
+
+    return true;
+} // showBackToTop()
+
+if (document.getElementById) { // enable window.onscroll if getElementById exists
+    window.onscroll = window.showBackToTop;
+    showBackToTop();
+}
+// end back_to_top_button.js
+
+// -->
+</script>
+<!-- / html/utils/scriptinject.template -->
+
+<!-- InjectJs2: loading_end -->
+
+<!-- html/utils/scriptinject.template -->
+<script language=javascript><!--
+// begin loading_end.js
+
+function HideLoadingIndicator () {
+	if (!document.getElementById) {
+		return '';
+	}
+
+	var loadingIndicator = window.loadingIndicator;
+
+	if (!loadingIndicator) {
+		if (document.getElementById) {
+			loadingIndicator = document.getElementById('loadingIndicator');
+		}
+	}
+
+	if (window.loadingIndicatorShowTimeout) {
+		clearTimeout(loadingIndicatorShowTimeout);
+	}
+
+	loadingIndicator.innerHTML = 'Ready.';
+//	loadingIndicator.style.backgroundColor = '$colorHighlightAdvanced';
+
+	window.loadingIndicator = loadingIndicator;
+
+	setTimeout('if (window.loadingIndicator) { window.loadingIndicator.style.display = "none"; }', 3000); //#todo
+	// } else {
+	// 	if (loadingIndicator) { loadingIndicator.style.display = 'none' }
+	// }
+	return '';
+} // HideLoadingIndicator()
+
+function WaitForOpenPgp () {
+	//alert('debug: WaitForOpenPgp()');
+	var d = new Date();
+	if (window.openPgpJsLoadBegin && window.openpgp) {
+		HideLoadingIndicator();
+	} else {
+		setTimeout('if (window.WaitForOpenPgp) { WaitForOpenPgp() }', 500);
+	}
+} // WaitForOpenPgp()
+
+if (!window.OnLoadEverything && window.HideLoadingIndicator) {
+	HideLoadingIndicator();
+}
+
+// end loading_end.js
+
+// -->
+</script>
+<!-- / html/utils/scriptinject.template -->
