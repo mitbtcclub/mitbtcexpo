@@ -1,0 +1,316 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="alternate" title="RSS Feed" href="/rss.xml" type="application/rss+xml">
+<title>Information</title>
+<style type="text/css">
+<!--
+/* begin css/default.css */
+.tag-flag,
+.tag-troll,
+.tag-spam,
+.tag-remove,
+.tag-abuse {
+/* negative (red) tags */
+	color: #c00000;
+}
+
+.tag-remove {
+/* remove tag */
+	font-weight: bold;
+}
+
+.tag-approve,
+.tag-accept,
+.tag-friend,
+.tag-attend {
+/* positive (green) tags */
+	color: #008000;
+}
+
+div.reply {
+/* creates indented effect for sub-replies */
+	margin-left: 2%;
+	padding-left: 3em;
+}
+
+.item-textart {
+/* textart items get monospace font */
+	font-family: monospace;
+	font-size: 12pt;
+}
+
+.tag-aolart {
+/* aol art in 10-point arial font */
+    font-family: Arial;
+    font-size: 10pt;
+}
+
+div.txt {
+	padding-left: 1em;
+}
+
+.byadmin {
+/* text by admin, displayed in red for users' sake */
+	color: red;
+}
+
+.signed {
+/* signed things are displayed in gold */
+    border-color: gold;
+}
+
+
+#eventLocation, #eventBrcLocation {
+/* event form */
+	background-color: #ffffff;
+	padding: 5pt;
+}
+
+#eventDate {
+/* event form */
+	background-color: #e0e0e0;
+	padding: 5pt;
+}
+
+#loadingIndicator, #spanLoadingIndicator, #ariaAlert {
+	color: #000000;
+	background-color: #f0f0d0;
+	padding: 3pt;
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: 0;
+	font-family: tahoma, arial, sans-serif;
+	font-size: smaller;
+	font-weight: bold;
+}
+#loadingIndicator a {
+	/* style for links in loading indicator */
+}
+.notification {
+	color: #000000;
+	background-color: #f0f0d0;
+	padding: 3pt;
+	font-size: smaller;
+	font-weight: bold;
+}
+noscript {
+	color: red;
+}
+.menubar a, .titlebar a {
+	text-decoration: none;
+	color: #000000;
+}
+/* end css/default.css */
+
+/* avatar.css */
+.avatar .icon {
+	font-weight: bold;
+	font-size: smaller;
+}
+/* / avatar.css */
+
+/* dragging.css */
+
+table.dialog {
+	display: inline-block;
+	vertical-align: top;
+}
+form {
+	display: inline;
+}
+
+/* / dragging.css */
+
+/* theme/mitbtc/additional.css */
+/* / theme/mitbtc/additional.css */
+/* theme/chicago/additional.css */
+body {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	background-color: #008080;
+}
+input {
+	border-color: blue;
+}
+input[type=text], input[type=password], select, option, textarea {
+	background-color: #ffffff;
+	color: #000000;
+}
+#txtClock {
+	border: 1pt inset #c0c0c0;
+}
+@media (prefers-color-scheme: dark) {
+
+}
+.beginner {
+    background-color: #f0f0d0;
+}
+.dialog {
+	box-shadow: 3pt 3pt 0 rgba(0, 20, 20, 0.5);
+	border: #c0c0c0 outset 2pt;
+	background-color: #c0c0c0;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+.statusbar td {
+	border: 1pt inset #c0c0c0;
+}
+textarea {
+    font-family: Fixedsys, "Courier New", Courier, monospace;
+    font-size: 12pt;
+}
+
+.txt {
+/* regular text */
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 14pt;
+	background-color: #d0d2d4;
+	border: 1pt #ffffff inset;
+}
+
+a:focus, a:active {
+    color: red !important;
+    background-color: orange !important;
+}
+textarea:focus {
+    background-color: #fff0e0;
+}
+input:focus {
+    background-color: orange;
+}
+#serverResponse {
+/* response messages from the server */
+    background-color: #ffc080;
+    color: #000000;
+    padding: 5pt;
+    spacing: 5pt;
+    border: 0;
+	box-shadow: 5pt 5pt 0 rgba(0, 20, 20, 0.5);
+}
+#txtClock {
+	border: 1pt inset #c0c0c0;
+	background-color: #c0c0c0;
+}
+/* / theme/chicago/additional.css */
+-->
+</style>
+</head>
+<body background="/triangles.gif">
+<b></b>
+<p><!-- mitbtc/template/topmenu2.template -->
+<table cellspacing=0 cellpadding=3 border=0 bgcolor="#c0c0c0" class=dialog>
+	<tr bgcolor="#35163A">
+		<td colspan=2>
+			<img alt="MIT Bitcoin Expo" title="MIT Bitcoin Expo" logo src="/logo.gif" height=16 width=16>
+			<font color="#ffffff"><b>MIT Bitcoin Expo 2021</b></font>
+			<a href="/etc.html">.</a>
+			<br>
+		</td>
+	</tr>
+	<tr bgcolor="#c0c0c0" class=menubar>
+		<td>
+			<big>
+				<big><!-- menuitem.template -->
+<a accesskey="h" href="/"><u>H</u>ome</a>
+<!-- / menuitem.template -->
+ &nbsp; <!-- menuitem.template -->
+<a accesskey="r" href="https://tinyurl.com/4ezdhdk"><u>R</u>egister</a>
+<!-- / menuitem.template -->
+ &nbsp; <!-- menuitem.template -->
+<a accesskey="s" href="/speakers.html"><u>S</u>peakers</a>
+<!-- / menuitem.template -->
+ &nbsp; <!-- menuitem.template -->
+<a accesskey="p" href="/sponsors.html">S<u>p</u>onsors</a>
+<!-- / menuitem.template -->
+ &nbsp; <!-- menuitem.template -->
+<a accesskey="m" href="/media.html"><u>M</u>edia Partners</a>
+<!-- / menuitem.template -->
+ &nbsp; <!-- menuitem.template -->
+<a accesskey="a" href="/academic.html"><u>A</u>cademic Partners</a>
+<!-- / menuitem.template -->
+ &nbsp; <!-- menuitem.template -->
+<a accesskey="g" href="/agenda.html">A<u>g</u>enda</a>
+<!-- / menuitem.template -->
+ &nbsp; <!-- menuitem.template -->
+<a accesskey="c" href="https://mit-bitcoin-expo-hackathon.devfolio.co/">Ha<u>c</u>kathon</a>
+<!-- / menuitem.template -->
+ &nbsp; <!-- menuitem.template -->
+<a accesskey="o" href="/committee.html">C<u>o</u>mmittee</a>
+<!-- / menuitem.template -->
+ &nbsp; <!-- menuitem.template -->
+<a accesskey="l" href="/links.html"><u>L</u>inks</a>
+<!-- / menuitem.template -->
+ &nbsp; <!-- menuitem.template -->
+<a accesskey="i" href="https://eepurl.com/gOVdKb">Ma<u>i</u>ling List</a>
+<!-- / menuitem.template -->
+ &nbsp; <!-- menuitem.template -->
+<a accesskey="e" href="/flashback_2020/">Prior <u>E</u>xpo</a>
+<!-- / menuitem.template -->
+ &nbsp; </big>
+			</big>
+		</td>
+	</tr>
+</table>
+<!-- / mitbtc/template/topmenu2.template -->
+<MAIN ID=maincontent><A NAME=maincontent></A>
+<!-- window/standard.template -->
+<font face=arial>
+	<table cellspacing=0 cellpadding=6 border=0 bgcolor="#c0c0c0" class=dialog>
+		<!-- titlebar_with_button.template -->
+<tr bgcolor="#35163A" class=titlebar>
+	<td valign=middle>
+		<img alt="[-]" title="Window Icon" logo src="/logo.gif" height=16 width=16>
+		<font color="#ffffff"><b>Information</b></font>
+		<br>
+	</td>
+</tr>
+<!-- / titlebar_with_button.template -->
+
+
+		
+
+		
+
+		<tr class=content><td><!-- item/item.template -->
+<p class="txt">8f/1c/8f1c74d7.html<br></p>
+<!-- / item/item.template -->
+</td></tr>
+
+		<!-- window/status.template -->
+<tr class=statusbar>
+	<td>
+		<!-- status_bar.template -->
+<a href="/51/83/51834bfd.html">8f/1c/8f1c74d7.html</a>
+<!-- status_bar.template -->
+
+	</td>
+</tr>
+<!-- / window/status.template -->
+
+	</table>
+</font>
+<!-- / window/standard.template -->
+<a name=75ae3ff5></a><replies></replies></main>
+<hr>
+<img src="/p.gif" alt="" height=1 width=1>
+<!-- back_to_top_button.template -->
+<a
+    href="#"
+    onclick="if (window.scrollTo) { window.scrollTo(0, 0); return false; }"
+    title="Back to top"
+    id=aBackToTop
+    style="
+        position: fixed;
+        right: 5pt;
+        bottom: 5pt;
+        background-color: #f0f0d0;
+        border: 5pt;
+        padding: 5pt;
+        border-radius: 5pt;
+        text-decoration: none;
+    "
+>^^</span></a>
+<!-- / back_to_top_button.template --></body></html>
