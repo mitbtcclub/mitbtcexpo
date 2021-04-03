@@ -1,0 +1,10 @@
+Software Updated to Version a37721e2..
+
+Installed software version has changed from 5ada7f8e89ca8bbcbd4298aaf3b43c6f6ad71cda to a37721e20f5b33542c1b672cd4a070f11b72d967
+
+a37721e2 add sanity check in route.php (don't regrow files more than once per 1 hour)
+da4951dc route.php: clean up and add comments
+b97de663 post.php: put replyto token at the beginning of a new comment instead of at the end
+3ab43535 Add WriteConfigDump() in config.php
+
+#changelog
