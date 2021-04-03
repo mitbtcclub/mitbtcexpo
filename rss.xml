@@ -11,10 +11,124 @@
 		<link>
 		http://localhost:2784</link>
 		<description>This is a flexible message board which you can read and write.</description>
-		<pubDate>Wed Mar 31 13:54:07 2021</pubDate>
+		<pubDate>Fri Apr  2 23:29:26 2021</pubDate>
 		<items>
 			<rdf:Seq>
-				<rdf:li rdf:resource="http://localhost:2784/b9/63/b96356c6.html" />
+				<rdf:li rdf:resource="http://localhost:2784/6b/39/6b395481.html" />
+<rdf:li rdf:resource="http://localhost:2784/f3/0b/f30bff2a.html" />
+<rdf:li rdf:resource="http://localhost:2784/39/7f/397f80d5.html" />
+<rdf:li rdf:resource="http://localhost:2784/71/0f/710f8969.html" />
+<rdf:li rdf:resource="http://localhost:2784/20/6a/206aafa6.html" />
+<rdf:li rdf:resource="http://localhost:2784/d8/f1/d8f1b25d.html" />
+<rdf:li rdf:resource="http://localhost:2784/7f/b3/7fb3d115.html" />
+<rdf:li rdf:resource="http://localhost:2784/76/13/76131653.html" />
+<rdf:li rdf:resource="http://localhost:2784/b2/e9/b2e92a1f.html" />
+<rdf:li rdf:resource="http://localhost:2784/c8/22/c8223a30.html" />
+<rdf:li rdf:resource="http://localhost:2784/42/bd/42bd23dd.html" />
+<rdf:li rdf:resource="http://localhost:2784/db/88/db882099.html" />
+<rdf:li rdf:resource="http://localhost:2784/b1/d1/b1d133c7.html" />
+<rdf:li rdf:resource="http://localhost:2784/7d/29/7d29ace9.html" />
+<rdf:li rdf:resource="http://localhost:2784/10/61/10613567.html" />
+<rdf:li rdf:resource="http://localhost:2784/f6/98/f698b9d1.html" />
+<rdf:li rdf:resource="http://localhost:2784/3e/03/3e035569.html" />
+<rdf:li rdf:resource="http://localhost:2784/40/56/40566748.html" />
+<rdf:li rdf:resource="http://localhost:2784/a9/4c/a94c7951.html" />
+<rdf:li rdf:resource="http://localhost:2784/e7/fb/e7fbdb01.html" />
+<rdf:li rdf:resource="http://localhost:2784/bc/6b/bc6b5cb9.html" />
+<rdf:li rdf:resource="http://localhost:2784/20/76/2076d644.html" />
+<rdf:li rdf:resource="http://localhost:2784/40/b1/40b1ac32.html" />
+<rdf:li rdf:resource="http://localhost:2784/e7/37/e7373311.html" />
+<rdf:li rdf:resource="http://localhost:2784/a4/9f/a49facef.html" />
+<rdf:li rdf:resource="http://localhost:2784/34/82/3482695e.html" />
+<rdf:li rdf:resource="http://localhost:2784/bf/1c/bf1c593c.html" />
+<rdf:li rdf:resource="http://localhost:2784/6c/cc/6cccf17d.html" />
+<rdf:li rdf:resource="http://localhost:2784/7b/24/7b242382.html" />
+<rdf:li rdf:resource="http://localhost:2784/c4/08/c408b76e.html" />
+<rdf:li rdf:resource="http://localhost:2784/e2/cc/e2ccaed0.html" />
+<rdf:li rdf:resource="http://localhost:2784/30/42/30429a17.html" />
+<rdf:li rdf:resource="http://localhost:2784/56/74/5674391b.html" />
+<rdf:li rdf:resource="http://localhost:2784/59/b7/59b730e7.html" />
+<rdf:li rdf:resource="http://localhost:2784/5a/d2/5ad23472.html" />
+<rdf:li rdf:resource="http://localhost:2784/60/f2/60f25a40.html" />
+<rdf:li rdf:resource="http://localhost:2784/2f/14/2f14bb33.html" />
+<rdf:li rdf:resource="http://localhost:2784/d4/f9/d4f922f7.html" />
+<rdf:li rdf:resource="http://localhost:2784/5d/f0/5df02f5b.html" />
+<rdf:li rdf:resource="http://localhost:2784/08/fa/08fa0494.html" />
+<rdf:li rdf:resource="http://localhost:2784/2c/70/2c705430.html" />
+<rdf:li rdf:resource="http://localhost:2784/a7/e3/a7e36bef.html" />
+<rdf:li rdf:resource="http://localhost:2784/0a/03/0a0382cf.html" />
+<rdf:li rdf:resource="http://localhost:2784/4d/88/4d887691.html" />
+<rdf:li rdf:resource="http://localhost:2784/fb/cd/fbcd23bf.html" />
+<rdf:li rdf:resource="http://localhost:2784/2c/0e/2c0e8e58.html" />
+<rdf:li rdf:resource="http://localhost:2784/d7/13/d7139279.html" />
+<rdf:li rdf:resource="http://localhost:2784/13/56/1356eea6.html" />
+<rdf:li rdf:resource="http://localhost:2784/e2/c3/e2c366f8.html" />
+<rdf:li rdf:resource="http://localhost:2784/2a/c4/2ac43f13.html" />
+<rdf:li rdf:resource="http://localhost:2784/c8/dc/c8dcbd59.html" />
+<rdf:li rdf:resource="http://localhost:2784/0e/e3/0ee3bfb8.html" />
+<rdf:li rdf:resource="http://localhost:2784/22/73/22731226.html" />
+<rdf:li rdf:resource="http://localhost:2784/e2/95/e295719c.html" />
+<rdf:li rdf:resource="http://localhost:2784/cd/ff/cdffaa08.html" />
+<rdf:li rdf:resource="http://localhost:2784/f6/98/f698a464.html" />
+<rdf:li rdf:resource="http://localhost:2784/87/07/87075c5e.html" />
+<rdf:li rdf:resource="http://localhost:2784/d6/4d/d64d227c.html" />
+<rdf:li rdf:resource="http://localhost:2784/9e/b3/9eb380f1.html" />
+<rdf:li rdf:resource="http://localhost:2784/70/c7/70c78b8e.html" />
+<rdf:li rdf:resource="http://localhost:2784/71/f9/71f9f817.html" />
+<rdf:li rdf:resource="http://localhost:2784/fc/f2/fcf21944.html" />
+<rdf:li rdf:resource="http://localhost:2784/ed/25/ed252570.html" />
+<rdf:li rdf:resource="http://localhost:2784/a3/58/a3586f87.html" />
+<rdf:li rdf:resource="http://localhost:2784/57/f8/57f82527.html" />
+<rdf:li rdf:resource="http://localhost:2784/39/b7/39b71587.html" />
+<rdf:li rdf:resource="http://localhost:2784/b3/a1/b3a16a78.html" />
+<rdf:li rdf:resource="http://localhost:2784/08/45/08452239.html" />
+<rdf:li rdf:resource="http://localhost:2784/c4/52/c4523011.html" />
+<rdf:li rdf:resource="http://localhost:2784/5c/10/5c10f181.html" />
+<rdf:li rdf:resource="http://localhost:2784/39/cb/39cb542d.html" />
+<rdf:li rdf:resource="http://localhost:2784/ae/81/ae81fb39.html" />
+<rdf:li rdf:resource="http://localhost:2784/c8/34/c8343e2f.html" />
+<rdf:li rdf:resource="http://localhost:2784/d1/4b/d14b1996.html" />
+<rdf:li rdf:resource="http://localhost:2784/5c/3d/5c3d56f7.html" />
+<rdf:li rdf:resource="http://localhost:2784/a4/04/a404ca98.html" />
+<rdf:li rdf:resource="http://localhost:2784/1a/f5/1af56de1.html" />
+<rdf:li rdf:resource="http://localhost:2784/af/f5/aff59026.html" />
+<rdf:li rdf:resource="http://localhost:2784/46/66/46664ab6.html" />
+<rdf:li rdf:resource="http://localhost:2784/3c/41/3c4158d8.html" />
+<rdf:li rdf:resource="http://localhost:2784/4f/22/4f22ae28.html" />
+<rdf:li rdf:resource="http://localhost:2784/41/19/411910ee.html" />
+<rdf:li rdf:resource="http://localhost:2784/a3/be/a3be704f.html" />
+<rdf:li rdf:resource="http://localhost:2784/c2/2f/c22fd391.html" />
+<rdf:li rdf:resource="http://localhost:2784/1d/c4/1dc41a34.html" />
+<rdf:li rdf:resource="http://localhost:2784/50/a0/50a0e202.html" />
+<rdf:li rdf:resource="http://localhost:2784/20/bb/20bb99c1.html" />
+<rdf:li rdf:resource="http://localhost:2784/18/af/18afea53.html" />
+<rdf:li rdf:resource="http://localhost:2784/83/d4/83d4d9de.html" />
+<rdf:li rdf:resource="http://localhost:2784/71/c3/71c34fd8.html" />
+<rdf:li rdf:resource="http://localhost:2784/12/93/1293bff1.html" />
+<rdf:li rdf:resource="http://localhost:2784/4d/86/4d862753.html" />
+<rdf:li rdf:resource="http://localhost:2784/b8/e4/b8e47de0.html" />
+<rdf:li rdf:resource="http://localhost:2784/43/bf/43bfb1db.html" />
+<rdf:li rdf:resource="http://localhost:2784/4c/84/4c8491fd.html" />
+<rdf:li rdf:resource="http://localhost:2784/d2/d3/d2d3eb24.html" />
+<rdf:li rdf:resource="http://localhost:2784/18/e1/18e1b10f.html" />
+<rdf:li rdf:resource="http://localhost:2784/93/fa/93faebfe.html" />
+<rdf:li rdf:resource="http://localhost:2784/19/08/19088993.html" />
+<rdf:li rdf:resource="http://localhost:2784/a2/fb/a2fb2825.html" />
+<rdf:li rdf:resource="http://localhost:2784/b6/04/b604cb43.html" />
+<rdf:li rdf:resource="http://localhost:2784/43/fe/43fe960c.html" />
+<rdf:li rdf:resource="http://localhost:2784/d0/94/d0948d13.html" />
+<rdf:li rdf:resource="http://localhost:2784/aa/90/aa9078d5.html" />
+<rdf:li rdf:resource="http://localhost:2784/85/56/855662a3.html" />
+<rdf:li rdf:resource="http://localhost:2784/32/4b/324b909e.html" />
+<rdf:li rdf:resource="http://localhost:2784/d8/f4/d8f4583d.html" />
+<rdf:li rdf:resource="http://localhost:2784/35/54/355456e7.html" />
+<rdf:li rdf:resource="http://localhost:2784/73/4e/734e6a61.html" />
+<rdf:li rdf:resource="http://localhost:2784/0b/9b/0b9b9b8d.html" />
+<rdf:li rdf:resource="http://localhost:2784/bc/0c/bc0c9d8a.html" />
+<rdf:li rdf:resource="http://localhost:2784/b0/4d/b04dc3f8.html" />
+<rdf:li rdf:resource="http://localhost:2784/5e/23/5e23e13c.html" />
+<rdf:li rdf:resource="http://localhost:2784/36/ab/36abf0a7.html" />
+<rdf:li rdf:resource="http://localhost:2784/b9/63/b96356c6.html" />
 <rdf:li rdf:resource="http://localhost:2784/ad/2f/ad2f1926.html" />
 <rdf:li rdf:resource="http://localhost:2784/db/9e/db9eca5b.html" />
 <rdf:li rdf:resource="http://localhost:2784/ca/95/ca95274a.html" />
@@ -175,10 +289,8 @@
 <rdf:li rdf:resource="http://localhost:2784/d2/c6/d2c69d45.html" />
 <rdf:li rdf:resource="http://localhost:2784/30/94/30943bcd.html" />
 <rdf:li rdf:resource="http://localhost:2784/15/db/15dbbc54.html" />
-<rdf:li rdf:resource="http://localhost:2784/98/e7/98e7bb4c.html" />
 <rdf:li rdf:resource="http://localhost:2784/c9/51/c9519a18.html" />
 <rdf:li rdf:resource="http://localhost:2784/4f/e6/4fe68080.html" />
-<rdf:li rdf:resource="http://localhost:2784/2b/bb/2bbbd820.html" />
 <rdf:li rdf:resource="http://localhost:2784/6d/15/6d15d698.html" />
 <rdf:li rdf:resource="http://localhost:2784/b3/07/b30773be.html" />
 <rdf:li rdf:resource="http://localhost:2784/f6/01/f6013a00.html" />
@@ -246,7 +358,6 @@
 <rdf:li rdf:resource="http://localhost:2784/08/57/08572773.html" />
 <rdf:li rdf:resource="http://localhost:2784/55/ee/55eecde6.html" />
 <rdf:li rdf:resource="http://localhost:2784/64/ff/64ff630b.html" />
-<rdf:li rdf:resource="http://localhost:2784/87/b7/87b70f98.html" />
 <rdf:li rdf:resource="http://localhost:2784/1e/14/1e14d4ed.html" />
 <rdf:li rdf:resource="http://localhost:2784/0d/25/0d257eed.html" />
 <rdf:li rdf:resource="http://localhost:2784/ca/9d/ca9d620a.html" />
@@ -276,7 +387,6 @@
 <rdf:li rdf:resource="http://localhost:2784/5c/29/5c29cc7e.html" />
 <rdf:li rdf:resource="http://localhost:2784/38/7e/387ee13e.html" />
 <rdf:li rdf:resource="http://localhost:2784/9b/eb/9bebf217.html" />
-<rdf:li rdf:resource="http://localhost:2784/f3/ec/f3ec4b99.html" />
 <rdf:li rdf:resource="http://localhost:2784/2a/da/2ada9978.html" />
 <rdf:li rdf:resource="http://localhost:2784/e4/4a/e44a5d45.html" />
 <rdf:li rdf:resource="http://localhost:2784/27/fd/27fd08e6.html" />
@@ -345,7 +455,6 @@
 <rdf:li rdf:resource="http://localhost:2784/0a/99/0a9906c1.html" />
 <rdf:li rdf:resource="http://localhost:2784/3a/b2/3ab23a37.html" />
 <rdf:li rdf:resource="http://localhost:2784/29/2d/292df8c7.html" />
-<rdf:li rdf:resource="http://localhost:2784/0a/3b/0a3be147.html" />
 <rdf:li rdf:resource="http://localhost:2784/fb/b0/fbb0d1a0.html" />
 <rdf:li rdf:resource="http://localhost:2784/61/96/61969ee6.html" />
 <rdf:li rdf:resource="http://localhost:2784/cb/db/cbdb1d5a.html" />
@@ -353,6 +462,7 @@
 <rdf:li rdf:resource="http://localhost:2784/0b/e3/0be38c7b.html" />
 <rdf:li rdf:resource="http://localhost:2784/b6/20/b6204021.html" />
 <rdf:li rdf:resource="http://localhost:2784/23/50/23504983.html" />
+<rdf:li rdf:resource="http://localhost:2784/f0/ef/f0ef3888.html" />
 <rdf:li rdf:resource="http://localhost:2784/f1/16/f1169459.html" />
 <rdf:li rdf:resource="http://localhost:2784/40/4c/404c4cca.html" />
 <rdf:li rdf:resource="http://localhost:2784/2f/94/2f943e5a.html" />
@@ -364,7 +474,6 @@
 <rdf:li rdf:resource="http://localhost:2784/1e/e7/1ee7e8bb.html" />
 <rdf:li rdf:resource="http://localhost:2784/e7/fc/e7fc2c61.html" />
 <rdf:li rdf:resource="http://localhost:2784/c3/b5/c3b578c1.html" />
-<rdf:li rdf:resource="http://localhost:2784/cf/a8/cfa8b243.html" />
 <rdf:li rdf:resource="http://localhost:2784/99/26/9926d163.html" />
 <rdf:li rdf:resource="http://localhost:2784/7b/3f/7b3f8618.html" />
 <rdf:li rdf:resource="http://localhost:2784/b2/41/b2413a91.html" />
@@ -423,13 +532,4405 @@
 <rdf:li rdf:resource="http://localhost:2784/5f/e7/5fe70773.html" />
 <rdf:li rdf:resource="http://localhost:2784/b7/e5/b7e52af2.html" />
 <rdf:li rdf:resource="http://localhost:2784/3b/7e/3b7e87b2.html" />
+<rdf:li rdf:resource="http://localhost:2784/57/00/57000fa8.html" />
+<rdf:li rdf:resource="http://localhost:2784/0f/93/0f933a24.html" />
+<rdf:li rdf:resource="http://localhost:2784/95/ff/95ff437b.html" />
+<rdf:li rdf:resource="http://localhost:2784/cc/ce/ccceb38a.html" />
+<rdf:li rdf:resource="http://localhost:2784/28/9f/289f4f54.html" />
+<rdf:li rdf:resource="http://localhost:2784/06/0b/060b6cff.html" />
+<rdf:li rdf:resource="http://localhost:2784/af/9d/af9da4dc.html" />
+<rdf:li rdf:resource="http://localhost:2784/05/0e/050e21de.html" />
+<rdf:li rdf:resource="http://localhost:2784/5a/5a/5a5a569e.html" />
+<rdf:li rdf:resource="http://localhost:2784/8b/8a/8b8a5b04.html" />
+<rdf:li rdf:resource="http://localhost:2784/8b/d3/8bd3ab4d.html" />
+<rdf:li rdf:resource="http://localhost:2784/8e/3f/8e3fb163.html" />
+<rdf:li rdf:resource="http://localhost:2784/7f/95/7f95fa6c.html" />
+<rdf:li rdf:resource="http://localhost:2784/eb/c9/ebc9a407.html" />
+<rdf:li rdf:resource="http://localhost:2784/bc/60/bc606656.html" />
+<rdf:li rdf:resource="http://localhost:2784/11/90/1190b710.html" />
+<rdf:li rdf:resource="http://localhost:2784/2d/5f/2d5fad36.html" />
+<rdf:li rdf:resource="http://localhost:2784/b4/ab/b4abca1f.html" />
+<rdf:li rdf:resource="http://localhost:2784/b4/d7/b4d7e75b.html" />
+<rdf:li rdf:resource="http://localhost:2784/59/1c/591cc960.html" />
+<rdf:li rdf:resource="http://localhost:2784/1e/84/1e840a10.html" />
+<rdf:li rdf:resource="http://localhost:2784/9c/ce/9cceb1bd.html" />
+<rdf:li rdf:resource="http://localhost:2784/3c/b5/3cb57596.html" />
+<rdf:li rdf:resource="http://localhost:2784/9e/2d/9e2d2da8.html" />
 
 			</rdf:Seq>
 		</items>
 
 	</channel>
 
-	<item rdf:about="http://localhost:2784/b9/63/b96356c6.html">
+	<item rdf:about="http://localhost:2784/6b/39/6b395481.html">
+		<guid>http://localhost:2784/6b/39/6b395481.html</guid>
+		<pubDate>1617379695</pubDate>
+		<title>(Untitled)</title>
+		<link>http://localhost:2784/6b/39/6b395481.html</link>
+		<description>
+				<![CDATA[
+				
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/f3/0b/f30bff2a.html">
+		<guid>http://localhost:2784/f3/0b/f30bff2a.html</guid>
+		<pubDate>1617379690</pubDate>
+		<title>(Untitled)</title>
+		<link>http://localhost:2784/f3/0b/f30bff2a.html</link>
+		<description>
+				<![CDATA[
+				
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/39/7f/397f80d5.html">
+		<guid>http://localhost:2784/39/7f/397f80d5.html</guid>
+		<pubDate>1617379688</pubDate>
+		<title>(Untitled)</title>
+		<link>http://localhost:2784/39/7f/397f80d5.html</link>
+		<description>
+				<![CDATA[
+				
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/71/0f/710f8969.html">
+		<guid>http://localhost:2784/71/0f/710f8969.html</guid>
+		<pubDate>1617379683</pubDate>
+		<title>(Untitled)</title>
+		<link>http://localhost:2784/71/0f/710f8969.html</link>
+		<description>
+				<![CDATA[
+				
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/20/6a/206aafa6.html">
+		<guid>http://localhost:2784/20/6a/206aafa6.html</guid>
+		<pubDate>1617379470</pubDate>
+		<title>profile.html?message=9ff210e4</title>
+		<link>http://localhost:2784/20/6a/206aafa6.html</link>
+		<description>
+				<![CDATA[
+				profile.html?message=9ff210e4
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/d8/f1/d8f1b25d.html">
+		<guid>http://localhost:2784/d8/f1/d8f1b25d.html</guid>
+		<pubDate>1617379465</pubDate>
+		<title>bf/ae/bfae7f28.html</title>
+		<link>http://localhost:2784/d8/f1/d8f1b25d.html</link>
+		<description>
+				<![CDATA[
+				bf/ae/bfae7f28.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/7f/b3/7fb3d115.html">
+		<guid>http://localhost:2784/7f/b3/7fb3d115.html</guid>
+		<pubDate>1617379462</pubDate>
+		<title>a4/9f/a49facef.html?message=8d36563a</title>
+		<link>http://localhost:2784/7f/b3/7fb3d115.html</link>
+		<description>
+				<![CDATA[
+				a4/9f/a49facef.html?message=8d36563a
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/76/13/76131653.html">
+		<guid>http://localhost:2784/76/13/76131653.html</guid>
+		<pubDate>1617379461</pubDate>
+		<title>34/82/3482695e.html</title>
+		<link>http://localhost:2784/76/13/76131653.html</link>
+		<description>
+				<![CDATA[
+				34/82/3482695e.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/b2/e9/b2e92a1f.html">
+		<guid>http://localhost:2784/b2/e9/b2e92a1f.html</guid>
+		<pubDate>1617379460</pubDate>
+		<title>a4/9f/a49facef.html</title>
+		<link>http://localhost:2784/b2/e9/b2e92a1f.html</link>
+		<description>
+				<![CDATA[
+				a4/9f/a49facef.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/c8/22/c8223a30.html">
+		<guid>http://localhost:2784/c8/22/c8223a30.html</guid>
+		<pubDate>1617379459</pubDate>
+		<title>d4/f9/d4f922f7.html</title>
+		<link>http://localhost:2784/c8/22/c8223a30.html</link>
+		<description>
+				<![CDATA[
+				d4/f9/d4f922f7.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/42/bd/42bd23dd.html">
+		<guid>http://localhost:2784/42/bd/42bd23dd.html</guid>
+		<pubDate>1617379458</pubDate>
+		<title>d8/f4/d8f4583d.html</title>
+		<link>http://localhost:2784/42/bd/42bd23dd.html</link>
+		<description>
+				<![CDATA[
+				d8/f4/d8f4583d.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/db/88/db882099.html">
+		<guid>http://localhost:2784/db/88/db882099.html</guid>
+		<pubDate>1617379456</pubDate>
+		<title>51/14/5114397e.html</title>
+		<link>http://localhost:2784/db/88/db882099.html</link>
+		<description>
+				<![CDATA[
+				51/14/5114397e.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/b1/d1/b1d133c7.html">
+		<guid>http://localhost:2784/b1/d1/b1d133c7.html</guid>
+		<pubDate>1617379456</pubDate>
+		<title>bf/1c/bf1c593c.html?message=8a8c2fca</title>
+		<link>http://localhost:2784/b1/d1/b1d133c7.html</link>
+		<description>
+				<![CDATA[
+				bf/1c/bf1c593c.html?message=8a8c2fca
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/7d/29/7d29ace9.html">
+		<guid>http://localhost:2784/7d/29/7d29ace9.html</guid>
+		<pubDate>1617379455</pubDate>
+		<title>txtasdffdsfadsf/</title>
+		<link>http://localhost:2784/7d/29/7d29ace9.html</link>
+		<description>
+				<![CDATA[
+				txtasdffdsfadsf/
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/10/61/10613567.html">
+		<guid>http://localhost:2784/10/61/10613567.html</guid>
+		<pubDate>1617379454</pubDate>
+		<title>e2/cc/e2ccaed0.html?message=362a7f1a</title>
+		<link>http://localhost:2784/10/61/10613567.html</link>
+		<description>
+				<![CDATA[
+				e2/cc/e2ccaed0.html?message=362a7f1a
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/f6/98/f698b9d1.html">
+		<guid>http://localhost:2784/f6/98/f698b9d1.html</guid>
+		<pubDate>1617379454</pubDate>
+		<title>6c/cc/6cccf17d.html</title>
+		<link>http://localhost:2784/f6/98/f698b9d1.html</link>
+		<description>
+				<![CDATA[
+				6c/cc/6cccf17d.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/3e/03/3e035569.html">
+		<guid>http://localhost:2784/3e/03/3e035569.html</guid>
+		<pubDate>1617379453</pubDate>
+		<title>30/42/30429a17.html?message=87f71ab8</title>
+		<link>http://localhost:2784/3e/03/3e035569.html</link>
+		<description>
+				<![CDATA[
+				30/42/30429a17.html?message=87f71ab8
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/40/56/40566748.html">
+		<guid>http://localhost:2784/40/56/40566748.html</guid>
+		<pubDate>1617379453</pubDate>
+		<title>e2/cc/e2ccaed0.html</title>
+		<link>http://localhost:2784/40/56/40566748.html</link>
+		<description>
+				<![CDATA[
+				e2/cc/e2ccaed0.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/a9/4c/a94c7951.html">
+		<guid>http://localhost:2784/a9/4c/a94c7951.html</guid>
+		<pubDate>1617379452</pubDate>
+		<title>30/42/30429a17.html?message=2e12f6a2</title>
+		<link>http://localhost:2784/a9/4c/a94c7951.html</link>
+		<description>
+				<![CDATA[
+				30/42/30429a17.html?message=2e12f6a2
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/e7/fb/e7fbdb01.html">
+		<guid>http://localhost:2784/e7/fb/e7fbdb01.html</guid>
+		<pubDate>1617379452</pubDate>
+		<title>42/c6/42c64d82.html</title>
+		<link>http://localhost:2784/e7/fb/e7fbdb01.html</link>
+		<description>
+				<![CDATA[
+				42/c6/42c64d82.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/bc/6b/bc6b5cb9.html">
+		<guid>http://localhost:2784/bc/6b/bc6b5cb9.html</guid>
+		<pubDate>1617379452</pubDate>
+		<title>42/c6/42c64d82.html?message=410f407e</title>
+		<link>http://localhost:2784/bc/6b/bc6b5cb9.html</link>
+		<description>
+				<![CDATA[
+				42/c6/42c64d82.html?message=410f407e
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/20/76/2076d644.html">
+		<guid>http://localhost:2784/20/76/2076d644.html</guid>
+		<pubDate>1617379451</pubDate>
+		<title>22/65/226596b6.html?message=b70d3055</title>
+		<link>http://localhost:2784/20/76/2076d644.html</link>
+		<description>
+				<![CDATA[
+				22/65/226596b6.html?message=b70d3055
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/40/b1/40b1ac32.html">
+		<guid>http://localhost:2784/40/b1/40b1ac32.html</guid>
+		<pubDate>1617379450</pubDate>
+		<title>txt/f3/ec/f3ec4b99605fa118d1be3197d63e7fc1aac763a8.txt</title>
+		<link>http://localhost:2784/40/b1/40b1ac32.html</link>
+		<description>
+				<![CDATA[
+				txt/f3/ec/f3ec4b99605fa118d1be3197d63e7fc1aac763a8.txt
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/e7/37/e7373311.html">
+		<guid>http://localhost:2784/e7/37/e7373311.html</guid>
+		<pubDate>1617379430</pubDate>
+		<title>1617379426  </title>
+		<link>http://localhost:2784/e7/37/e7373311.html</link>
+		<description>
+				<![CDATA[
+				1617379426 #config #example<br />
+<br />
+config/logo_text=&lt;big&gt;&amp;pi;&lt;/big&gt;<br />
+config/html/item_name_slug=1<br />
+config/html/window_titlebar_buttons=1<br />
+config/html/theme=mitbtc<br />
+chicago<br />
+config/html/inline_block_css=1<br />
+config/template/php/route.php=&lt;?php<br />
+<br />
+// declare(strict_types = 1); #todo<br />
+<br />
+// this fixes a crash bug in mosaic. it should not cause a problem anywhere else<br />
+// &lt;_&lt;     &gt;_&gt;      o_O      -_-     ^_^<br />
+header('Content-Type: text/html');<br />
+include_once('utils.php');<br />
+<br />
+WriteLog('route.php begins');<br />
+<br />
+//<br />
+//if (1/0) {<br />
+//    // disabled<br />
+//}<br />
+<br />
+if (GetConfig('admin/php/route_random_update') &amp;&amp; rand(1, 17) == 1) {<br />
+# randomly call DoUpdate() on page load<br />
+# may slow down user's experience, but site is more likely to be up to date<br />
+	if (function_exists('DoUpdate')) {<br />
+	    DoUpdate();<br />
+    }<br />
+}<br />
+<br />
+function SetHtmlClock ($html) { // sets html clock on page if present<br />
+	WriteLog('SetHtmlClock()');<br />
+	$html = preg_replace('/id=txtClock value=\&quot;.+\&quot;/', 'id=txtClock value=&quot;' . GetClockFormattedTime() . '&quot;', $html);<br />
+    return $html;<br />
+}<br />
+<br />
+function TrimPath ($string) { // Trims the directories AND THE FILE EXTENSION from a file path<br />
+# Should really be called GetFileNameWithoutPathAndExtension()<br />
+	while (index($string, &quot;/&quot;) &gt;= 0) {<br />
+		$string = substr($string, index($string, &quot;/&quot;) + 1);<br />
+	}<br />
+<br />
+	if (index($string, '.') &gt;= 0) {<br />
+		$string = substr($string, 0, index($string, &quot;.&quot;) + 0);<br />
+	}<br />
+<br />
+	return $string;<br />
+} # TrimPath()<br />
+<br />
+function TranslateEmoji ($html) { // replaces emoji with respective text<br />
+	WriteLog('TranslateEmoji()');<br />
+<br />
+	// this could be optimized a lot. A LOT.<br />
+<br />
+	$scriptDir = GetScriptDir();<br />
+	if ($scriptDir) {<br />
+		$emojiList = explode(&quot;\n&quot;, `find $scriptDir/config/string/emoji`);<br />
+		foreach ($emojiList as $emojiFile) {<br />
+			$emojiName = TrimPath($emojiFile);<br />
+			$emojiEmoji = GetFile($emojiFile);<br />
+			$html = str_replace($emojiEmoji, '[' . $emojiName . ']', $html);<br />
+		}<br />
+	}<br />
+<br />
+//	$html = preg_replace('/id=txtClock value=\&quot;.+\&quot;/', 'id=txtClock value=&quot;' . GetClockFormattedTime() . '&quot;', $html);<br />
+<br />
+    return $html;<br />
+}<br />
+<br />
+function StripHeavyTags ($html) { // strips heavy tags from page replaces with basic ones<br />
+	WriteLog('StripHeavyTags()');<br />
+<br />
+	$tags = array(<br />
+		'table', 'tr', 'td', 'th', 'span', 'fieldset', 'legend', 'font',<br />
+		'script', 'style', 'big'<br />
+	);<br />
+<br />
+	{<br />
+		// this would be necessary if the br tags were not already there<br />
+		// may be useful in the future to do automated fixing-up of existing templates<br />
+		// then we can remove all those &lt;br&gt; tags from the templates and make them look neater<br />
+<br />
+		// the substitutions below provide some reasonable replacements for the tags<br />
+		// each replacement, for debugging purposes, has an extra attribute like id1 or id5<br />
+		// these can be removed later once debugging is mostly finished<br />
+<br />
+		$html = preg_replace('/\&lt;\/a\&gt;\&lt;b\&gt;/', '&lt;/a&gt;; &lt;b id1&gt;', $html);<br />
+		$html = preg_replace('/\&lt;\/b\&gt;\&lt;a\ /', '&lt;/b&gt;; &lt;a id2 ', $html);<br />
+<br />
+		$html = preg_replace('/\&lt;\/th\&gt;/', '; ', $html);<br />
+		$html = preg_replace('/\&lt;br\&gt;\&lt;\/td\&gt;/', '; ', $html);<br />
+		$html = preg_replace('/\&lt;\/td\&gt;\&lt;\/tr\&gt;/', '&lt;br&gt;', $html);<br />
+		$html = preg_replace('/:\&lt;\/td\&gt;\&lt;td\&gt;/', ': ', $html);<br />
+		$html = preg_replace('/\&lt;\/td\&gt;/', '; ', $html);<br />
+		$html = preg_replace('/\&lt;\/tr\&gt;\&lt;\/table\&gt;/', '&lt;br&gt;&lt;hr&gt;', $html);<br />
+		$html = preg_replace('/\&lt;\/table\&gt;/', '&lt;br&gt;&lt;hr&gt;', $html);<br />
+		$html = preg_replace('/\&lt;\/tr\&gt;/', '&lt;br&gt;', $html);<br />
+		$html = preg_replace('/\&lt;\/fieldset\&gt;\&lt;\/td\&gt;/', '&lt;br&gt;', $html);<br />
+		$html = preg_replace('/\&lt;\/fieldset\&gt;/', '&lt;br&gt;', $html);<br />
+		$html = preg_replace('/\&lt;\/legend\&gt;/', '&lt;br&gt;', $html);<br />
+		$html = preg_replace('/\&lt;\/a\&gt;\&lt;a/', '&lt;/a&gt;; &lt;a', $html);<br />
+		$html = preg_replace('/; ;/', '; ', $html);<br />
+	}<br />
+<br />
+	foreach ($tags as $tag) {<br />
+		$html = preg_replace('/\&lt;'.$tag.'[^&gt;]+\&gt;/', '', $html);<br />
+		//$html = preg_replace('/\&lt;\/'.$tag.'\&gt;/', '', $html);<br />
+		$html = str_replace('&lt;'.$tag.'&gt;', '', $html);<br />
+		$html = str_replace('&lt;/'.$tag.'&gt;', '', $html);<br />
+	}<br />
+<br />
+	return $html;<br />
+}<br />
+<br />
+function StripComments ($html) { // strips html comments from html<br />
+	$html = preg_replace('/\&lt;\!--[^&gt;]+\&gt;/', '', $html);<br />
+<br />
+	return $html;<br />
+}<br />
+<br />
+function CleanBodyTag ($html) { // removes all attributes from body tag in given html<br />
+	$html = preg_replace('/\&lt;body[^&gt;]+\&gt;/', '&lt;body&gt;', $html);<br />
+<br />
+	return $html;<br />
+}<br />
+<br />
+function StripWhitespace ($html) { // strips extra whitespace from given html<br />
+//	while (preg_match('/[\t\n ]{2}'<br />
+	$html = str_replace(&quot;\t&quot;, ' ', $html);<br />
+<br />
+	$html = str_replace(&quot;\n &quot;, &quot;\n&quot;, $html);<br />
+	$html = str_replace(&quot;\n &quot;, &quot;\n&quot;, $html);<br />
+	$html = str_replace(&quot;\n &quot;, &quot;\n&quot;, $html);<br />
+	$html = str_replace(&quot;\n &quot;, &quot;\n&quot;, $html);<br />
+	$html = str_replace(&quot;\n &quot;, &quot;\n&quot;, $html);<br />
+	$html = str_replace(&quot;\n &quot;, &quot;\n&quot;, $html);<br />
+	$html = str_replace(&quot;\n &quot;, &quot;\n&quot;, $html);<br />
+	$html = str_replace(&quot;\n &quot;, &quot;\n&quot;, $html);<br />
+	$html = str_replace(&quot;\n &quot;, &quot;\n&quot;, $html);<br />
+	$html = str_replace(&quot;\n &quot;, &quot;\n&quot;, $html);<br />
+<br />
+//<br />
+	$html = str_replace(&quot;\n&quot;, ' ', $html);<br />
+<br />
+	$html = str_replace('  ', ' ', $html);<br />
+	$html = str_replace('  ', ' ', $html);<br />
+	$html = str_replace('  ', ' ', $html);<br />
+	$html = str_replace('  ', ' ', $html);<br />
+	$html = str_replace('  ', ' ', $html);<br />
+//<br />
+//	while (! (strpos($html, '  ') === false)) {<br />
+//		$html = str_replace('  ', ' ', $html);<br />
+//	}<br />
+//<br />
+	$html = str_replace('&gt; &lt;', '&gt;&lt;', $html);<br />
+////	$html = str_replace('&gt; ', '&gt;', $html);<br />
+////	$html = str_replace(' &lt;', '&lt;', $html);<br />
+//	$html = str_replace('&lt;br&gt;&lt;br&gt;', '&lt;br&gt;', $html);<br />
+//	$html = str_replace('&lt;br&gt; &lt;br&gt;', '&lt;br&gt;', $html);<br />
+<br />
+	return $html;<br />
+}<br />
+<br />
+function InjectJs ($html, $scriptNames, $injectMode = 'before', $htmlTag = '&lt;/body&gt;') { // inject js template(s) into html<br />
+// $injectMode: before, after, append (to end of html)<br />
+// $htmlTag: e.g. &lt;/body&gt;, only used with before/after<br />
+// if $htmlTag is not found, does fall back to append<br />
+<br />
+	WriteLog('InjectJs() begin...');<br />
+<br />
+	if (!GetConfig('admin/js/enable')) {<br />
+		return $html;<br />
+	}<br />
+<br />
+	$scriptsText = '';  // will contain all the js we want to inject<br />
+	$scriptsComma = ''; // separator between scripts, will be set to \n\n after first script<br />
+<br />
+	$scriptsDone = array();  // array to keep track of scripts we've already injected, to avoid duplicates<br />
+<br />
+//	if (GetConfig('html/clock')) {<br />
+//		// if clock is enabled, automatically add its js<br />
+//		$scriptNames[] = 'clock';<br />
+//	}<br />
+//<br />
+//	if (GetConfig('admin/js/enable') &amp;&amp; GetConfig('admin/js/fresh')) {<br />
+//		// if clock is enabled, automatically add it<br />
+//		$scriptNames[] = 'fresh';<br />
+//	}<br />
+//<br />
+	//output list of all the scripts we're about to include<br />
+	$scriptNamesList = implode(' ', $scriptNames);<br />
+<br />
+	// loop through all the scripts<br />
+	foreach ($scriptNames as $script) {<br />
+		// only inject each script once, otherwise move on<br />
+		if (isset($scriptsDone[$script])) {<br />
+			next;<br />
+		} else {<br />
+			$scriptsDone[$script] = 1;<br />
+		}<br />
+<br />
+		// separate each script with \n\n<br />
+		if (!$scriptsComma) {<br />
+			$scriptsComma = &quot;\n\n&quot;;<br />
+		} else {<br />
+			$scriptsText .= $scriptsComma;<br />
+		}<br />
+<br />
+		$scriptTemplate = GetTemplate(&quot;js/$script.js&quot;);<br />
+<br />
+		if (!$scriptTemplate) {<br />
+			WriteLog(&quot;InjectJs: warning: Missing script contents for $script&quot;);<br />
+ 			if (GetConfig('admin/debug')) {<br />
+// 				die('InjectJs: Missing script contents');<br />
+				$scriptTemplate = &quot;alert('InjectJs: warning: Missing template $script.js');&quot;;<br />
+ 			}<br />
+		}<br />
+<br />
+		if ($script == 'voting') {<br />
+			// for voting.js we need to fill in some theme colors<br />
+			$colorSuccessVoteUnsigned = GetThemeColor('success_vote_unsigned');<br />
+			$colorSuccessVoteSigned = GetThemeColor('success_vote_signed');<br />
+<br />
+			$scriptTemplate = str_replace('$colorSuccessVoteUnsigned', $colorSuccessVoteUnsigned, $scriptTemplate);<br />
+			$scriptTemplate = str_replace('$colorSuccessVoteSigned', $colorSuccessVoteSigned, $scriptTemplate);<br />
+		}<br />
+		// #todo finish porting this when GetRootAdminKey() is available in php<br />
+		//		if ($script == 'profile') {<br />
+		//			# for profile.js we need to fill in current admin id<br />
+		//			my $currentAdminId = GetRootAdminKey() || '-';<br />
+		//<br />
+		//			$scriptTemplate =~ s/\$currentAdminId/$currentAdminId/g;<br />
+		//		}<br />
+<br />
+		if ($script == 'settings') {<br />
+			// for settings.js we also need to fill in some theme colors<br />
+			$colorHighlightAdvanced = GetThemeColor('highlight_advanced');<br />
+			$colorHighlightBeginner = GetThemeColor('highlight_beginner');<br />
+<br />
+			$scriptTemplate = str_replace('$colorHighlightAdvanced', $colorHighlightAdvanced, $scriptTemplate);<br />
+			$scriptTemplate = str_replace('$colorHighlightBeginner', $colorHighlightBeginner, $scriptTemplate);<br />
+		}<br />
+<br />
+		if (index($scriptTemplate, '&gt;') &gt; -1) {<br />
+			# warning here if script content contains &gt; character, which is incompatible with mosaic's html comment syntax<br />
+			WriteLog('InjectJs: warning: Inject script &quot;' . $script . '&quot; contains &gt; character');<br />
+		}<br />
+<br />
+		static $debugType;<br />
+		if (!isset($debugType)) {<br />
+			$debugType = GetConfig('admin/js/debug');<br />
+			$debugType = trim($debugType);<br />
+		}<br />
+<br />
+		if ($debugType) {<br />
+			#uncomment all javascript debug alert statements<br />
+			#and replace them with confirm()'s which stop on no/cancel<br />
+			#<br />
+			if ($debugType == 'console.log') {<br />
+				$scriptTemplate = str_replace(&quot;//alert('DEBUG:&quot;, &quot;console.log('&quot;, $scriptTemplate);<br />
+			} elseif ($debugType == 'document.title') {<br />
+				$scriptTemplate = str_replace(&quot;//alert('DEBUG:&quot;, &quot;document.title = ('&quot;, $scriptTemplate);<br />
+			} else {<br />
+				$scriptTemplate = str_replace(&quot;//alert('DEBUG:&quot;, &quot;if(!window.dbgoff)dbgoff=!confirm('DEBUG:&quot;, $scriptTemplate);<br />
+			}<br />
+		}<br />
+<br />
+		// add to the snowball of javascript<br />
+		$scriptsText .= $scriptTemplate;<br />
+	}<br />
+<br />
+	// get the wrapper, i.e. &lt;script&gt;$javascript&lt;/script&gt;<br />
+	$scriptInject = GetTemplate('html/utils/scriptinject.template');<br />
+<br />
+<br />
+	// fill in the wrapper with our scripts from above<br />
+	$scriptInject = str_replace('$javascript', $scriptsText, $scriptInject);<br />
+<br />
+	$scriptInject = '&lt;!-- InjectJs: ' . $scriptNamesList . ' --&gt;' . &quot;\n\n&quot; . $scriptInject;<br />
+<br />
+	if ($injectMode != 'append' &amp;&amp; index($html, $htmlTag) &gt; -1) {<br />
+		// replace it into html, right before the closing &lt;/body&gt; tag<br />
+		if ($injectMode == 'before') {<br />
+			$html = str_replace($htmlTag, $scriptInject . $htmlTag, $html);<br />
+		} else {<br />
+			$html = str_replace($htmlTag, $htmlTag . $scriptInject, $html);<br />
+		}<br />
+	} else {<br />
+		if ($injectMode != 'append') {<br />
+			WriteLog('InjectJs: warning: $html does not contain $htmlTag, falling back to append mode');<br />
+		}<br />
+		$html .= &quot;\n&quot; . $scriptInject;<br />
+	}<br />
+<br />
+	return $html;<br />
+} # InjectJs()<br />
+<br />
+function HandleNotFound ($path, $pathRel) { // handles 404 error by regrowing the missing page<br />
+// Handle404 (  #todo #DRY<br />
+	WriteLog(&quot;HandleNotFound($path, $pathRel)&quot;);<br />
+<br />
+	if (GetConfig('admin/php/regrow_404_pages')) {<br />
+		WriteLog('HandleNotFound: admin/php/regrow_404_pages was true');<br />
+		$SCRIPTDIR = GetScriptDir();<br />
+		WriteLog('HandleNotFound: $SCRIPTDIR = ' . $SCRIPTDIR);<br />
+<br />
+		if (preg_match('/^\/[a-f0-9]{2}\/[a-f0-9]{2}\/([a-f0-9]{8})/', $path, $itemHashMatch)) {<br />
+			# Item URL in the form: /ab/01/ab01cd23.html<br />
+			WriteLog('HandleNotFound: found item hash');<br />
+			$itemHash = $itemHashMatch[1];<br />
+			$pagesPlArgument = $itemHash;<br />
+		}<br />
+		if (preg_match('/^\/author\/([A-F0-9]{16})/', $path, $itemHashMatch)) {<br />
+			WriteLog('HandleNotFound: found author fingerprint');<br />
+			$authorFingerprint = $itemHashMatch[1];<br />
+			$pagesPlArgument = $authorFingerprint;<br />
+		}<br />
+		if (preg_match('/^\/top\/([a-zA-Z0-9]+)\.html/', $path, $hashTagMatch)) {<br />
+			WriteLog('HandleNotFound: found hashtag');<br />
+			$hashTag = $hashTagMatch[1];<br />
+			$pagesPlArgument = '\#' . $hashTag;<br />
+		}<br />
+#todo<br />
+#		if (<br />
+#			preg_match('/^\/goto\/([a-zA-Z0-9]+)/', $path, $hashTagMatch)<br />
+#		) {<br />
+#			WriteLog('HandleNotFound: found goto');<br />
+#			$gotoArgument = $hashTagMatch[1];<br />
+#			$pagesPlArgument = 'goto/' . $gotoArgument;<br />
+#		}<br />
+		if (<br />
+			$path == '/' ||<br />
+			$path == '/index.html' ||<br />
+			$path == '/upload.html' ||<br />
+			$path == '/upload_multi.html' ||<br />
+			$path == '/etc.html' ||<br />
+			$path == '/events.html' ||<br />
+			$path == '/settings.html' ||<br />
+			$path == '/help.html' ||<br />
+			$path == '/search.html' ||<br />
+			$path == '/manual.html' ||<br />
+			$path == '/manual_advanced.html' ||<br />
+			$path == '/stats.html' ||<br />
+			$path == '/frame.html' ||<br />
+			$path == '/frame2.html' ||<br />
+			$path == '/frame3.html' ||<br />
+			$path == '/sha512.js' ||<br />
+			$path == '/crypto.js' ||<br />
+			$path == '/crypto2.js' ||<br />
+			$path == '/media.html' ||<br />
+			$path == '/openpgp.js'<br />
+		) {<br />
+			WriteLog('HandleNotFound: found a summary page');<br />
+			$pagesPlArgument = '--summary';<br />
+		}<br />
+		if ($path == '/desktop.html') {<br />
+			WriteLog('HandleNotFound: found desktop page');<br />
+			$pagesPlArgument = '--desktop';<br />
+		}<br />
+<br />
+		if (<br />
+			$path == '/authors.html'<br />
+		) {<br />
+			WriteLog('HandleNotFound: found authors page');<br />
+			$pagesPlArgument = '-M authors';<br />
+		}<br />
+<br />
+		if (<br />
+			$path == '/sponsors.html'<br />
+		) {<br />
+			WriteLog('HandleNotFound: found sponsors page');<br />
+			$pagesPlArgument = '-M sponsors';<br />
+		}<br />
+<br />
+		if (<br />
+			$path == '/committee.html'<br />
+		) {<br />
+			WriteLog('HandleNotFound: found committee page');<br />
+			$pagesPlArgument = '-M committee';<br />
+		}<br />
+<br />
+		if (<br />
+			$path == '/speakers.html'<br />
+		) {<br />
+			WriteLog('HandleNotFound: found speakers page');<br />
+			$pagesPlArgument = '-M speakers';<br />
+		}<br />
+<br />
+		if (<br />
+			$path == '/academic.html'<br />
+		) {<br />
+			WriteLog('HandleNotFound: found academic page');<br />
+			$pagesPlArgument = '-M academic';<br />
+		}<br />
+<br />
+		if (<br />
+			$path == '/read.html'<br />
+		) {<br />
+			WriteLog('HandleNotFound: found read page');<br />
+			$pagesPlArgument = '-M read';<br />
+		}<br />
+<br />
+		if (<br />
+			$path == '/profile.html'<br />
+		) {<br />
+			WriteLog('HandleNotFound: found profile page');<br />
+			$pagesPlArgument = '-M profile';<br />
+		}<br />
+<br />
+		if (<br />
+			$path == '/index0.html'<br />
+		) {<br />
+			WriteLog('HandleNotFound: found index page');<br />
+			$pagesPlArgument = '--index';<br />
+		}<br />
+<br />
+		if (<br />
+			$path == '/compost.html'<br />
+		) {<br />
+			WriteLog('HandleNotFound: found compost page');<br />
+			$pagesPlArgument = '--compost';<br />
+		}<br />
+<br />
+		if (<br />
+			$path == '/deleted.html'<br />
+		) {<br />
+			WriteLog('HandleNotFound: found deleted page');<br />
+			$pagesPlArgument = '--deleted';<br />
+		}<br />
+<br />
+		if (<br />
+			$path == '/agenda.html'<br />
+		) {<br />
+			WriteLog('HandleNotFound: found agenda page');<br />
+			$pagesPlArgument = '--agenda';<br />
+		}<br />
+<br />
+		if (<br />
+			$path == '/settings.html'<br />
+		) {<br />
+			WriteLog('HandleNotFound: found settings page');<br />
+			$pagesPlArgument = '--settings';<br />
+		}<br />
+<br />
+		if (<br />
+			$path == '/data.html' ||<br />
+			$path == '/txt.zip' ||<br />
+			$path == '/index.sqlite3.zip'<br />
+		) {<br />
+			WriteLog('HandleNotFound: found data page');<br />
+			$pagesPlArgument = '--data';<br />
+		}<br />
+<br />
+		if (<br />
+			$path == '/write.html' ||<br />
+			$path == '/write_post.html'<br />
+		) {<br />
+			WriteLog('HandleNotFound: found write page');<br />
+			$pagesPlArgument = '--write';<br />
+		}<br />
+<br />
+		if (<br />
+			$path == '/tags.html' ||<br />
+			$path == '/votes.html'<br />
+		) {<br />
+			WriteLog('HandleNotFound: found tags page');<br />
+			$pagesPlArgument = '--tags';<br />
+		}<br />
+<br />
+		if (isset($pagesPlArgument) &amp;&amp; $pagesPlArgument) {<br />
+			# here we will issue a pages.pl call but first<br />
+			# we will check if it's been done in last 60s because<br />
+			# we want to keep from calling it too often, for example<br />
+			# in a case when the call does not result in<br />
+			# the page being built for whatever reason<br />
+<br />
+			$mostRecentCacheName = 'pages/' . md5($pagesPlArgument);<br />
+			$mostRecentCall = intval(GetConfig($mostRecentCacheName));<br />
+<br />
+			if (time() - $mostRecentCall &gt; 60) {<br />
+				WriteLog('HandleNotFound: pages.pl was called more than 60 seconds ago, trying to grow page');<br />
+				# call pages.pl to generate the page<br />
+				$pwd = getcwd();<br />
+				WriteLog('$pwd = ' . $pwd);<br />
+<br />
+				WriteLog(&quot;HandleNotFound: cd $SCRIPTDIR ; ./pages.pl $pagesPlArgument&quot;);<br />
+				WriteLog(`cd $SCRIPTDIR ; ./pages.pl $pagesPlArgument`);<br />
+<br />
+				WriteLog(&quot;HandleNotFound: cd $pwd&quot;);<br />
+				WriteLog(`cd $pwd`);<br />
+<br />
+				PutCache($mostRecentCacheName, time());<br />
+			} else {<br />
+				WriteLog('HandleNotFound: warning: pages.pl was called LESS THAN 60 seconds ago, NOT trying to grow page');<br />
+			}<br />
+		}<br />
+<br />
+		$pathRel = '.' . $path; // relative path of $path (to current directory, which should be html/)<br />
+<br />
+		if ($pathRel &amp;&amp; file_exists($pathRel)) {<br />
+			WriteLog('HandleNotFound: $pathRel exist: ' . $pathRel);<br />
+			$html = file_get_contents($pathRel);<br />
+		}<br />
+	} # if (GetConfig('admin/php/regrow_404_pages'))<br />
+<br />
+	if (!isset($html) || !$html) {<br />
+		// don't know how to handle this request, default to 404<br />
+		WriteLog('HandleNotFound: no $html');<br />
+		if (file_exists('404.html')) {<br />
+			$html = file_get_contents('404.html');<br />
+			header(&quot;HTTP/1.0 404 Not Found&quot;);<br />
+		}<br />
+	}<br />
+<br />
+	if (!isset($html) || !$html) {<br />
+		// something strange happened, and $html is still blank<br />
+		// evidently, 404.html didn't work, just use some hard-coded html<br />
+		WriteLog('HandleNotFound: warning: 404.html missing, fallback');<br />
+		$html = '&lt;html&gt;'.<br />
+			'&lt;head&gt;&lt;title&gt;404&lt;/title&gt;&lt;/head&gt;'.<br />
+			'&lt;body&gt;&lt;h1&gt;404 Message Received&lt;/h1&gt;&lt;p&gt;Something went wrong, please try again later. Thank you.&lt;/body&gt;'.<br />
+			'&lt;/html&gt;';<br />
+	}<br />
+<br />
+	return $html;<br />
+} # HandleNotFound()<br />
+<br />
+if (GetConfig('admin/php/route_enable')) {<br />
+// admin/php/route_enable is true<br />
+	$redirectUrl = '';<br />
+	if ($_GET) {<br />
+		// there is a get request<br />
+		WriteLog('route.php: $_GET = ' . print_r($_GET, 1));<br />
+<br />
+		if (isset($_GET['path'])) {<br />
+			$serverResponse = '';<br />
+<br />
+			// get request includes path argument<br />
+			$path = $_GET['path'];<br />
+<br />
+			if (index($path, '?') != -1) {<br />
+				WriteLog('route.php: found qm in $path');<br />
+<br />
+				# weird php bug, i think... or is it my lighttpd config?<br />
+				$pathWithoutArg = substr($path, 0, index($path, '?'));<br />
+				$pathFirstArg = substr($path, index($path, '?') + 1);<br />
+<br />
+				{<br />
+					WriteLog('route.php: $pathFirstArg = ' . $pathFirstArg);<br />
+					#todo sanity check<br />
+					if (index($pathFirstArg, '=') != -1) {<br />
+						#todo sanity check<br />
+						list($pathFirstArgKey, $pathFirstArgValue) = explode(&quot;=&quot;, $pathFirstArg, 2);<br />
+						$_GET[$pathFirstArgKey] = $pathFirstArgValue;<br />
+					}<br />
+					$_GET['path'] = $pathWithoutArg;<br />
+					$path = $pathWithoutArg;<br />
+					WriteLog('route.php: $_GET = ' . print_r($_GET, 1));<br />
+				}<br />
+			} else {<br />
+				WriteLog('route.php: did NOT find qm in $path');<br />
+			}<br />
+<br />
+			WriteLog('$path = ' . $path);<br />
+			$pathFull = realpath('.'.$path);<br />
+<br />
+			WriteLog('route.php: $pathFull = ' . $pathFull);<br />
+<br />
+			if (GetConfig('admin/force_profile')) {<br />
+				// if registration is required, redirect user to profile.html<br />
+				if ($path == '/profile.html') {<br />
+					// if profile, leave it alone<br />
+					// otherwise, below is for forcing login<br />
+				} else {<br />
+					// redirect<br />
+<br />
+					$clientHasCookie = 0;<br />
+					if (isset($_COOKIE)) {<br />
+						if (isset($_COOKIE['cookie'])) {<br />
+							$clientHasCookie = 1;<br />
+						}<br />
+					}<br />
+<br />
+					if (!$clientHasCookie) {<br />
+						RedirectWithResponse('/profile.html', 'Please create profile to continue.');<br />
+						if (! GetConfig('admin/force_profile_fallthrough')) {<br />
+							exit;<br />
+						}<br />
+					}<br />
+				}<br />
+			}<br />
+<br />
+			$pathSelf = $_SERVER['PHP_SELF'];<br />
+			$pathSelfReal = realpath('.'.$pathSelf);<br />
+			$pathValidRoot = substr($pathSelfReal, 0, strlen($pathSelfReal) - strlen($pathSelf));<br />
+<br />
+			WriteLog('$pathValidRoot = ' . $pathValidRoot);<br />
+			WriteLog('$pathFull = ' . $pathFull . ';');<br />
+			WriteLog('substr($pathFull, 0, strlen($pathValidRoot)) = ' . substr($pathFull, 0, strlen($pathValidRoot)) . ';');<br />
+<br />
+			if ($path == '/404.html' || ($pathFull &amp;&amp; substr($pathFull, 0, strlen($pathValidRoot)) == $pathValidRoot)) {<br />
+				// mitigate directory traversal?<br />
+<br />
+				WriteLog('route.php: root sanity check passed for $path = &quot;' . $path . '&quot;');<br />
+				if ($path) {<br />
+					// there's a $path<br />
+					$pathRel = '.' . $path; // relative path of $path (to current directory, which should be html/)<br />
+<br />
+					$cacheLimit = 3600; // seconds page cache is good for<br />
+<br />
+					$fileRegrowInterval = GetConfig('admin/php/regrow_keep_fresh_interval');<br />
+<br />
+					if (<br />
+						$path != '/404.html' &amp;&amp;<br />
+						file_exists($pathRel)<br />
+					) {<br />
+						// file exists and is new enough<br />
+						WriteLog(&quot;file_exists($pathRel) was true&quot;);<br />
+<br />
+						if (isset($_GET['txtClock'])) {<br />
+							# this is part of easter egg<br />
+							$_GET['message'] = 'test';<br />
+							WriteLog('setting message = test');<br />
+						}<br />
+<br />
+						if (isset($_GET['message'])) {<br />
+							WriteLog('$_GET[message] exists');<br />
+							$messageId = $_GET['message'];<br />
+<br />
+							if ($messageId == 'test') {<br />
+								$testMessage = '<br />
+									Over the firewall,<br />
+									out the antenna,<br />
+									into the router,<br />
+									shot to the modem,<br />
+									out the transponder,<br />
+									bounce into space,<br />
+									off the satellite,<br />
+									over their firewall,<br />
+									into the forums ....<br />
+									nothing but NET<br />
+								';<br />
+<br />
+								RedirectWithResponse($path, $testMessage);<br />
+							}<br />
+<br />
+							if (preg_match('/^[a-f0-9]{8}$/', $messageId)) {<br />
+								WriteLog('route.php: Found $messageId which is [a-f0-9]{8}');<br />
+<br />
+								$serverResponse = RetrieveServerResponse($messageId);<br />
+								$serverResponse = trim($serverResponse);<br />
+							} else {<br />
+								WriteLog('route.php: NOT Found $messageId which is [a-f0-9]{8}');<br />
+							}<br />
+<br />
+							if (!$serverResponse &amp;&amp; !$redirectUrl) {<br />
+								$redirectUrl = $path;<br />
+							}<br />
+						} # isset($_GET['message'])<br />
+						else {<br />
+							WriteLog('$_GET[message] NOT set');<br />
+						}<br />
+<br />
+						//						if (!isset($_SERVER['PHP_AUTH_USER'])) {<br />
+						////							header('WWW-Authenticate: Basic realm=&quot;My Realm&quot;');<br />
+						////							header('HTTP/1.0 401 Unauthorized');<br />
+						//							echo 'Text to send if user hits Cancel button';<br />
+						//							exit;<br />
+						//						} else {<br />
+						//							echo &quot;&lt;p&gt;Hello {$_SERVER['PHP_AUTH_USER']}.&lt;/p&gt;&quot;;<br />
+						//							echo &quot;&lt;p&gt;You entered {$_SERVER['PHP_AUTH_PW']} as your password.&lt;/p&gt;&quot;;<br />
+						//						}<br />
+<br />
+						if (<br />
+							isset($_GET['chkUpgrade']) &amp;&amp;<br />
+							isset($_GET['btnUpgrade'])<br />
+						) {<br />
+							WriteLog('Upgrade requested');<br />
+							//#todo check cookie for admin?<br />
+							DoUpgrade();<br />
+							RedirectWithResponse('/stats.html', 'Upgrade complete. Press Update to re-import content.');<br />
+						}<br />
+<br />
+						if (<br />
+							isset($_GET['chkUpdate']) &amp;&amp;<br />
+							isset($_GET['btnUpdate'])<br />
+						) {<br />
+							$updateStartTime = time();<br />
+							DoUpdate();<br />
+							$fileUrlPath = '';<br />
+							$updateFinishTime = time();<br />
+							$updateDuration = $updateFinishTime - $updateStartTime;<br />
+<br />
+							RedirectWithResponse('/stats.html', &quot;Update finished! &lt;small&gt;in $updateDuration&quot;.&quot;s&lt;/small&gt;&quot;);<br />
+						}<br />
+<br />
+						if (<br />
+							isset($_GET['chkConfigDump']) &amp;&amp;<br />
+							isset($_GET['btnConfigDump'])<br />
+						) {<br />
+							$updateStartTime = time();<br />
+							$configDumpPath = DoConfigDump();<br />
+							$fileUrlPath = ''; #todo why?<br />
+							$updateFinishTime = time();<br />
+							$updateDuration = $updateFinishTime - $updateStartTime;<br />
+<br />
+							WriteLog('$configDumpPath = ' . $configDumpPath);<br />
+<br />
+							IndexTextFile(&quot;./html/&quot; . substr($configDumpPath, 1)); #todo get output and redirect to correct page<br />
+<br />
+							RedirectWithResponse('/stats.html', &quot;Config dump finished! &lt;small&gt;in $updateDuration&quot;.&quot;s&lt;/small&gt;&quot;);<br />
+						}<br />
+<br />
+						if (<br />
+							isset($_GET['chkFlush']) &amp;&amp;<br />
+							isset($_GET['btnFlush'])<br />
+						) {<br />
+							WriteLog('Flush requested');<br />
+							DoFlush();<br />
+							DoUpdate();<br />
+							RedirectWithResponse('/settings.html', 'Previous content has been archived.');<br />
+						}<br />
+<br />
+						if (substr($pathRel, -1) == '/') {<br />
+							$pathRel .= 'index.html';<br />
+						}<br />
+<br />
+						// user asked for a particular file, and that's what we'll give them<br />
+						if (file_exists($pathRel) &amp;&amp; is_file($pathRel)) {<br />
+							WriteLog('$html = file_get_contents($pathRel)');<br />
+							$html = file_get_contents($pathRel);<br />
+						} else {<br />
+							WriteLog('file_exists($pathRel) was false, trying alternative');<br />
+							$html = 'hi';<br />
+						}<br />
+<br />
+						if (index($html, 'This page looks plain because formatter is still catching up.') != -1) {<br />
+						// this special string appears in placeholder file generated by post.php<br />
+						// if string is found, try to call pages.pl to generate file again<br />
+						// the file is removed first... this is sub-optimal, but works for now<br />
+							WriteLog('route.php: found placeholder page, trying to replace it. $path = .' . $path);<br />
+							#unlink('.' . $path);<br />
+							$newHtml = HandleNotFound($path, $pathRel); // could be better done by rebuilding the page directly?<br />
+							if ($newHtml) {<br />
+								$html = $newHtml;<br />
+							}<br />
+						}<br />
+<br />
+						if (GetConfig('admin/js/enable') &amp;&amp; GetConfig('admin/js/fresh')) {<br />
+							// because javascript cannot access the page's headers<br />
+							// we will put the ETag value at the end of the page<br />
+							// as window.myOwnETag<br />
+							// this allows the script to compare it to the ETag value<br />
+							// returned by the server when requesting HEAD for current page<br />
+							// fresh_js fresh.js<br />
+							if (index($html, 'CheckIfFresh()') &gt; -1) {<br />
+								// only need to do it if the script is included in page<br />
+								$md5 = md5_file($pathRel);<br />
+								header('ETag: ' . $md5);<br />
+								$html .= &quot;&lt;script&gt;&lt;!-- window.myOwnETag = '$md5'; // --&gt;&lt;/script&gt;&quot;;<br />
+								// #todo this should probably be templated and added using InjectJs()<br />
+							}<br />
+						} # GetConfig('admin/js/enable') &amp;&amp; GetConfig('admin/js/fresh')<br />
+<br />
+						//if ($path == '/settings.html') {<br />
+							$timestampFormElement = '&lt;input type=hidden name=timestamp value=' . time() . '&gt;';<br />
+							$html = str_ireplace('&lt;/form&gt;', $timestampFormElement . '&lt;/form&gt;' , $html);<br />
+<br />
+							$originPathFormElement = '&lt;input type=hidden name=origin value=&quot;' . htmlspecialchars($path) . '&quot;&gt;';<br />
+							$html = str_ireplace('&lt;/form&gt;', $originPathFormElement . '&lt;/form&gt;' , $html);<br />
+						//}<br />
+<br />
+						if ($path == '/write.html') {<br />
+							if (file_exists('write.php')) {<br />
+								include('write.php');<br />
+<br />
+								if (isset($_GET['name']) &amp;&amp; $_GET['name']) {<br />
+									WriteLog('name request found');<br />
+<br />
+									$nameValue = $_GET['name'];<br />
+<br />
+									WriteLog('$nameValue = ' . $nameValue);<br />
+<br />
+									// #todo validate $vouchValue<br />
+									$nameToken =<br />
+										'my name is ' . htmlspecialchars($nameValue) .<br />
+										&quot;\n&quot; .<br />
+										&quot;\n&quot; .<br />
+										&quot;I like to ...\n\n&quot;<br />
+									;<br />
+<br />
+									WriteLog('$nameToken = ' . $nameToken);<br />
+<br />
+									$html = str_ireplace('&lt;/textarea&gt;', $nameToken . '&lt;/textarea&gt;' , $html);<br />
+								} else {<br />
+									WriteLog('my name is request not found');<br />
+								}<br />
+							}<br />
+						}<br />
+					} # $path != '/404.html' &amp;&amp; file_exists($pathRel)<br />
+					else {<br />
+						WriteLog('$path not found, using HandleNotFound(' . $path . ',' . $pathRel . ')');<br />
+						$html = HandleNotFound($path, $pathRel);<br />
+					}<br />
+				} # $path<br />
+				else {<br />
+					// no $path<br />
+					WriteLog('$path not specified, using HandleNotFound()');<br />
+					$html = HandleNotFound($path, '');<br />
+				}<br />
+			// if ($path == '/404.html' || $pathFull &amp;&amp; substr($pathFull, 0, strlen($pathValidRoot)) == $pathValidRoot)<br />
+			} else {<br />
+				// #todo when does this actually happen?<br />
+				// smarter 404 handler<br />
+				WriteLog('smarter 404 handler... activate!');<br />
+				WriteLog('$path not found, using HandleNotFound()');<br />
+				$html = HandleNotFound($path, '');<br />
+			}<br />
+		} else {<br />
+			WriteLog('no $path specified in GET');<br />
+			$html = HandleNotFound($path, $pathRel);<br />
+		}<br />
+<br />
+		if (GetConfig('html/clock')) {<br />
+			WriteLog('calling SetHtmlClock()');<br />
+			$html = SetHtmlClock($html);<br />
+		}<br />
+<br />
+		if ($path == '/jstest1.html' &amp;&amp; GetConfig('admin/js/enable')) {<br />
+			WriteLog('inject $userAgentValue into /jstest1.html');<br />
+			$userAgentValue = $_SERVER['HTTP_USER_AGENT'];<br />
+			$userAgentValue = htmlspecialchars($userAgentValue);<br />
+			$html = AddAttributeToTag($html, 'input name=txtNetworkUserAgent', 'value', $userAgentValue);<br />
+		} else {<br />
+			WriteLog('xxx $path = ' . $path . '; admin/js/enable = ' . GetConfig('admin/js/enable'));<br />
+		}<br />
+<br />
+		if (isset($_GET['mode'])) {<br />
+			if ($_GET['mode'] == 'light') {<br />
+				$_GET['light'] = 1;<br />
+			}<br />
+		}<br />
+<br />
+		$lightMode = 0;<br />
+		if (isset($_GET['light'])) {<br />
+			$lightMode = $_GET['light'] ? 1 : 0;<br />
+		}<br />
+		if (isset($_GET['btnLightOn'])) {<br />
+			$lightMode = 1;<br />
+		}<br />
+		if (isset($_GET['btnLightOff'])) {<br />
+			$lightMode = 0;<br />
+		}<br />
+<br />
+		if (isset($_COOKIE['light'])) {<br />
+			// if there is a cookie, change its value if it's necessary<br />
+<br />
+			if ($_COOKIE['light'] != $lightMode) {<br />
+				setcookie2('light', $lightMode);<br />
+<br />
+				//$lightModeSetMessage = StoreServerResponse('Light mode has been set to ' . $lightMode);<br />
+				//$redirectUrl = '';<br />
+			}<br />
+		} else {<br />
+			// if there is no cookie set, set it<br />
+<br />
+			setcookie2('light', $lightMode);<br />
+		}<br />
+<br />
+		if (GetConfig('admin/php/light_mode_always_on')) {<br />
+			$lightMode = 1;<br />
+		}<br />
+<br />
+		if ($_GET &amp;&amp; isset($_GET['theme'])) {<br />
+			$themeMode = $_GET['theme']; // normalize the request<br />
+			if ($themeMode != 'chicago') {<br />
+				$themeMode = '';<br />
+			}<br />
+			if (isset($_COOKIE['theme'])) {<br />
+				// if there is a cookie, change its value if it's necessary<br />
+				if ($_COOKIE['theme'] != $themeMode) {<br />
+					setcookie2('theme', $themeMode);<br />
+					//$lightModeSetMessage = StoreServerResponse('Light mode has been set to ' . $lightMode);<br />
+					//$redirectUrl = '';<br />
+				}<br />
+			} else {<br />
+				// if there is no cookie set, set it<br />
+				setcookie2('theme', $themeMode);<br />
+			}<br />
+		}<br />
+<br />
+		if ($serverResponse) {<br />
+			WriteLog('$serverResponse set');<br />
+		}<br />
+<br />
+		if ($serverResponse) {<br />
+			// inject server message into html<br />
+<br />
+			// base template for server message, not including js<br />
+			$serverResponseTemplate = GetTemplate('html/server_response.template');<br />
+<br />
+			if (GetConfig('admin/js/enable')) {<br />
+				// add javascript call to close server response message<br />
+				// for the entire server response message table<br />
+				$serverResponseTemplate = AddAttributeToTag(<br />
+					$serverResponseTemplate,<br />
+					'table',<br />
+					'onclick',<br />
+					&quot;if (window.serverResponseOk) { return serverResponseOk(this); }&quot;<br />
+				);<br />
+			}<br />
+<br />
+			// fill in the theme color for $colorHighlightAlert<br />
+			$colorHighlightAlert = GetThemeColor('highlight_alert');<br />
+			$serverResponseTemplate = str_replace('$colorHighlightAlert', $colorHighlightAlert, $serverResponseTemplate);<br />
+<br />
+			// inject the message text itself.<br />
+			// no escaping, because it can contain html formatting<br />
+			$serverResponseTemplate = str_replace('$serverResponse', $serverResponse, $serverResponseTemplate);<br />
+<br />
+			$messageInjected = 0;<br />
+<br />
+			if (isset($_GET['anchorto']) &amp;&amp; $_GET['anchorto']) {<br />
+				// anchorto means we can add a # to the &quot;Thanks&quot; link which goes straight to the relevant item<br />
+<br />
+				$anchorTo = $_GET['anchorto'];<br />
+<br />
+				if (index($html, &quot;&lt;a name=$anchorTo&gt;&quot;) &gt; -1) {<br />
+					// same as below, same message applies<br />
+<br />
+					if (GetConfig('admin/js/enable')) {<br />
+						// add javascript call to close server response message for the 'thanks' link<br />
+						$serverResponseTemplate = AddAttributeToTag(<br />
+							$serverResponseTemplate,<br />
+							'a href=#maincontent',<br />
+							'onclick',<br />
+							&quot;if (window.serverResponseOk) { return serverResponseOk(this); } else { return true; }&quot;<br />
+						);<br />
+					}<br />
+<br />
+					$serverResponseTemplate = str_replace(<br />
+						'&lt;a href=#maincontent',<br />
+						'&lt;a href=&quot;' . $path . '#' . $anchorTo . '&quot;',<br />
+						$serverResponseTemplate<br />
+					);<br />
+<br />
+					if (!$lightMode &amp;&amp; GetConfig('admin/php/server_response_attach_to_anchor')) {<br />
+						WriteLog('server_response_attach_to_anchor');<br />
+						// if server_response_attach_to_anchor, we will put the server message next to the anchor<br />
+						// unless we are in light mode, because then we want the message at the top of the page<br />
+<br />
+						$replaceWhat = &quot;&lt;a name=$anchorTo&gt;&quot;;<br />
+						$replaceWith = &quot;&lt;a name=$anchorTo&gt;&quot; . $serverResponseTemplate;<br />
+						$html = str_replace($replaceWhat, $replaceWith, $html);<br />
+<br />
+						$messageInjected = 1;<br />
+					}<br />
+				}<br />
+			}<br />
+<br />
+			if (!$messageInjected) {<br />
+				// put the current file's path in the &quot;OK&quot; link for nojs browsers<br />
+				// this is a compromise, because it causes a page reload, which may be slow<br />
+				// the other option is to leave it as is, but the message will remain on<br />
+				// the page instead of disappearing, which doesn't look nearly as cool<br />
+				// perhaps to be conditional under html/cool_effects?<br />
+				$serverResponseTemplate = str_replace('&lt;a href=#maincontent', '&lt;a href=&quot;' . $path . '&quot;', $serverResponseTemplate);<br />
+<br />
+				// inject server message right after the body tag<br />
+				$replaceWhat = '(&lt;body\s[^&gt;]*&gt;|&lt;body&gt;)'; // both with attributes or without<br />
+				$replaceWith = '$0' . $serverResponseTemplate; // the $0 is the original body tag, which we want to retain<br />
+				$html = preg_replace($replaceWhat, $replaceWith, $html);<br />
+<br />
+				$messageInjected = 1;<br />
+			}<br />
+<br />
+			if (GetConfig('admin/js/enable')) {<br />
+				//javascript stuff, if javascript is enabled<br />
+<br />
+				// inject server_response.js for hiding the server message popup<br />
+				$html = InjectJs($html, array('server_response'), 'before', '&lt;/head&gt;');<br />
+<br />
+				// add onkeydown event to body tag, which responds to escape key<br />
+				// known issue: if there's non-32 whitespace, this may not work right<br />
+				$replaceWith = '&lt;body onkeydown=&quot;if (event.keyCode &amp;&amp; event.keyCode == 27) { if (window.bodyEscPress) { return bodyEscPress(); } }&quot;';<br />
+<br />
+				$replaceWhat = '&lt;body ';<br />
+				$html = str_replace($replaceWhat, $replaceWith . ' ', $html);<br />
+				$replaceWhat = '&lt;body&gt;';<br />
+				$html = str_replace($replaceWhat, $replaceWith . '&gt;', $html);<br />
+			}<br />
+<br />
+			if ($messageInjected) {<br />
+				// ask browser to not cache page if it contains server response<br />
+				header('Pragma: no-cache');<br />
+			}<br />
+		}<br />
+<br />
+		if ($redirectUrl) {<br />
+			// if we've come up with a place to redirect to, do it now<br />
+<br />
+			// header('Location: ' . $redirectUrl);<br />
+		}<br />
+<br />
+		if ($path == '/profile.html') {<br />
+			// special handling for /profile.html<br />
+			WriteLog('route.php: /profile.html');<br />
+<br />
+			// we need cookies<br />
+			include_once('cookie.php');<br />
+<br />
+			$handle = ''; // will store our handle<br />
+			$fingerprint = ''; // will store our fingerprint<br />
+<br />
+			if (isset($cookie) &amp;&amp; $cookie) {<br />
+				$fingerprint = $cookie;<br />
+<br />
+				if (!$handle &amp;&amp; GetConfig('admin/php/alias_lookup')) {<br />
+					$handle = GetAlias($fingerprint);<br />
+				} else {<br />
+					$handle = 'Guest';<br />
+				}<br />
+<br />
+				// $html = str_replace('&lt;span id=spanSignedInStatus&gt;&lt;/span&gt;', '&lt;span id=spanSignedInStatus class=beginner&gt;&lt;p&gt;&lt;b&gt;Status: You are signed in&lt;/b&gt;&lt;/p&gt;&lt;/span&gt;', $html);<br />
+				// #todo get this from template<br />
+				// #todo add the same logic to javascript frontend<br />
+			} else {<br />
+				$fingerprint = '(not signed in)';<br />
+				$handle = '(not signed in)';<br />
+			}<br />
+<br />
+			$html = str_replace('&lt;span id=lblHandle&gt;&lt;/span&gt;', &quot;&lt;span id=lblHandle&gt;$handle&lt;/span&gt;&quot;, $html);<br />
+			$html = str_replace('&lt;span id=lblFingerprint&gt;&lt;/span&gt;', &quot;&lt;span id=lblFingerprint&gt;$fingerprint&lt;/span&gt;&quot;, $html);<br />
+<br />
+			if (isset($cookie) &amp;&amp; $cookie) {<br />
+				if (GetConfig('admin/js/enable')) {<br />
+					$html = str_replace('&lt;span id=spanProfileLink&gt;&lt;/span&gt;', '&lt;span id=spanProfileLink&gt;&lt;p&gt;&lt;a href=&quot;/author/' . $cookie . '/index.html&quot; onclick=&quot;if (window.sharePubKey) { return sharePubKey(this); }&quot;&gt;Go to profile&lt;/a&gt;&lt;/p&gt;&lt;/span&gt;', $html);<br />
+				} else {<br />
+					$html = str_replace('&lt;span id=spanProfileLink&gt;&lt;/span&gt;', '&lt;span id=spanProfileLink&gt;&lt;p&gt;&lt;a href=&quot;/author/' . $cookie . '/index.html&quot;&gt;Go to profile&lt;/a&gt;&lt;/p&gt;&lt;/span&gt;', $html);<br />
+				}<br />
+			}<br />
+		} # /profile.html<br />
+<br />
+		if ($path == '/bookmark.html') { #bookmarklets replace server name with host name<br />
+			$hostName = 'localhost:2784';<br />
+			if (isset($_SERVER['HTTP_HOST'])) {<br />
+				if ($_SERVER['HTTP_HOST']) {<br />
+					$hostName = $_SERVER['HTTP_HOST'];<br />
+<br />
+					//if (isset($_SERVER['SERVER_PORT']) &amp;&amp; $_SERVER['SERVER_PORT']) {<br />
+					//	$hostName .= ':' . $_SERVER['SERVER_PORT'];<br />
+					//}<br />
+<br />
+					#todo sanity check here<br />
+<br />
+					$html = str_replace('localhost:2784', $hostName, $html);<br />
+				} else {<br />
+					WriteLog('route.php: warning: serving bookmarklets page without host'); #todo lookup in config<br />
+				}<br />
+			} else {<br />
+				WriteLog('route.php: warning: serving bookmarklets page without host'); #todo lookup in config<br />
+			}<br />
+		}<br />
+<br />
+		if (function_exists('WriteLog') &amp;&amp; GetConfig('admin/php/debug')) {<br />
+			$html = str_replace('&lt;/body&gt;', '&lt;p class=advanced&gt;' . WriteLog(0) . '&lt;/p&gt;&lt;/body&gt;', $html);<br />
+		}<br />
+<br />
+		if (GetConfig('html/clock')) {<br />
+			//$html = preg_replace('/id=txtClock value=\&quot;.+\&quot;/', 'id=txtClock value=&quot;' . GetClockFormattedTime() . '&quot;', $html);<br />
+			$html = SetHtmlClock($html);<br />
+		}<br />
+<br />
+		if (GetConfig('admin/php/footer_stats') &amp;&amp; file_exists('stats-footer.html')) {<br />
+			# footer stats<br />
+			if ($path == '/keyboard.html' || $path == '/keyboard_netscape.html' || $path == '/keyboard_android.html') {<br />
+				# no footer for the keyboard pages, because they are displayed in a thin frame at bottom of page<br />
+			} else {<br />
+				// footer stats<br />
+				$html = str_replace(<br />
+					'&lt;/body&gt;',<br />
+					'&lt;br&gt;' . file_get_contents('stats-footer.html') . '&lt;/body&gt;',<br />
+					$html<br />
+				);<br />
+			}<br />
+<br />
+		} // footer stats<br />
+<br />
+		if ($lightMode) {<br />
+			// light mode<br />
+			WriteLog('route.php: $lightMode is true!');<br />
+<br />
+			$html = StripComments($html);<br />
+			$html = StripWhitespace($html);<br />
+			$html = CleanBodyTag($html);<br />
+			$html = StripHeavyTags($html);<br />
+			$html = TranslateEmoji($html);<br />
+<br />
+			if (function_exists('mb_convert_encoding')) {<br />
+				$html = mb_convert_encoding($html, 'UTF-8', 'US-ASCII');<br />
+			} else {<br />
+				WriteLog('route.php: warning: mb_convert_encoding was missing');<br />
+			}<br />
+<br />
+			$pathSelf = $_SERVER['REQUEST_URI'];<br />
+			if (! (strpos($pathSelf, '?') === false)) {<br />
+				$pathSelf = substr($pathSelf, 0, strpos($pathSelf, '?'));<br />
+			}<br />
+<br />
+			//			$html = str_replace(<br />
+			//				'&lt;/body&gt;',<br />
+			//				'&lt;p&gt;(Using site in lightweight mode. If you want, &lt;a href=&quot;' . $pathSelf . '?light=0&quot;&gt;switch to full mode&lt;/a&gt;.)&lt;/p&gt;&lt;/body&gt;',<br />
+			//				$html<br />
+			//			);<br />
+			$html = str_replace(<br />
+				'&gt;Accessibility mode&lt;',<br />
+				'&gt;&lt;font color=orange&gt;Light Mode is ON&lt;/font&gt;&lt;',<br />
+				$html<br />
+			);<br />
+			$html = str_replace(<br />
+				'&gt;Turn On&lt;',<br />
+				'&gt;Is ON&lt;',<br />
+				$html<br />
+			);<br />
+			//<br />
+			//	$html = str_replace(<br />
+			//		'&lt;main id=maincontent&gt;',<br />
+			//		'&lt;p&gt;(Using site in lightweight mode. If you want, &lt;a href=&quot;' . $pathSelf . '?light=0&quot;&gt;switch to full mode&lt;/a&gt;.)&lt;/p&gt;&lt;main id=maincontent&gt;',<br />
+			//		$html<br />
+			//	);<br />
+<br />
+			//#todo perhaps strip onclick, onkeypress, etc., and style<br />
+		} else {<br />
+			$html = str_replace(<br />
+				'&gt;Turn Off&lt;',<br />
+				'&gt;Is OFF&lt;',<br />
+				$html<br />
+			);<br />
+		} // light mode<br />
+<br />
+		if (GetConfig('admin/php/assist_show_advanced')) {<br />
+			WriteLog('admin/php/assist_show_advanced is true');<br />
+			if (isset($_COOKIE['show_advanced']) &amp;&amp;	$_COOKIE['show_advanced'] == '0') {<br />
+				// insert additional style rule at &lt;/head&gt;<br />
+				// which sets class=advanced elements to display:none<br />
+				// if user has respective cookie set<br />
+				// to prevent jumpies when page loads<br />
+<br />
+				WriteLog('route.php: ShowAdvanced() assist activated');<br />
+				WriteLog('route.php: $_COOKIE[show_advanced] = ' . $_COOKIE['show_advanced']);<br />
+<br />
+				$html = str_replace(<br />
+					'&lt;/head&gt;',<br />
+					&quot;&lt;!-- php/assist_show_advanced --&gt;\n&quot;.<br />
+						&quot;&lt;style&gt;&lt;!--&quot; .<br />
+						&quot;\n&quot; .<br />
+						&quot;.advanced, .admin{ display:none }&quot; .<br />
+						&quot;/* assist ShowAdvanced() in pre-hiding elements with class=advanced */&quot; .<br />
+						&quot;\n&quot; .<br />
+						&quot;--&gt;&lt;/style&gt;&quot; .<br />
+						&quot;&lt;/head&gt;&quot;,<br />
+					$html<br />
+				);<br />
+				// #todo templatify<br />
+			}<br />
+		}<br />
+<br />
+<br />
+		////////////////////////////<br />
+		print $html; // final output<br />
+		////////////////////////////<br />
+	}<br />
+} # route_enable = true<br />
+else {<br />
+	WriteLog('config/admin/php/route_enable = false');<br />
+<br />
+	// this is a fallback, and shouldn't really be here<br />
+	// but it helps compensate for another bug<br />
+<br />
+	//print &quot;oh no! route_enable is false, but route.php was called!&quot;;<br />
+	if ($_GET['path']) {<br />
+		if (file_exists($path)) {<br />
+			$html = get_file_contents($path);<br />
+		}<br />
+		else if (file_exists($path . '.html')) {<br />
+			$html = get_file_contents($path . '.html');<br />
+		}<br />
+<br />
+		if ($html) {<br />
+			print($html);<br />
+		} else {<br />
+			print('Technical issue encountered. Please contact maintainer.');<br />
+		}<br />
+	}<br />
+}<br />
+config/admin/static_only_mode=1<br />
+config/admin/image/enable=1<br />
+config/admin/signed_can_config=1<br />
+config/admin/js/translit=0<br />
+config/admin/js/enable=0<br />
+config/admin/js/loading=1<br />
+config/admin/token/sql=1<br />
+config/admin/token/order=1<br />
+config/admin/token/signature_divider=1<br />
+config/admin/token/begin=1<br />
+config/admin/token/remove=1<br />
+config/admin/token/meta=1<br />
+config/admin/accept_404_url_text_reduce_spam=0<br />
+config/admin/lighttpd/enable=1<br />
+config/admin/index/stat_file=1<br />
+config/admin/http_auth/enable=0<br />
+config/admin/expo_site_edit=1<br />
+config/admin/upload/enable=1<br />
+config/admin/anyone_can_config=1<br />
+config/admin/allow_admin_permissions_tag_lookup=1<br />
+config/admin/pages/lazy_page_generation=0<br />
+config/admin/expo_site_mode=1<br />
+config/admin/php/assist_show_advanced=0<br />
+config/admin/dev/meta_process=1<br />
+config/admin/dev/index_doc=1<br />
+config/admin/logging/record_remove_action=0<br />
+config/admin/logging/record_cookie=0<br />
+config/query/agenda=select<br />
+	file_hash,<br />
+	item_title<br />
+from item_flat<br />
+	where tags_list like '%agenda%';<br />
+
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/a4/9f/a49facef.html">
+		<guid>http://localhost:2784/a4/9f/a49facef.html</guid>
+		<pubDate>1617373823</pubDate>
+		<title>Commissioner at the U.S. Securities and Exchange Commission (SEC)</title>
+		<link>http://localhost:2784/a4/9f/a49facef.html</link>
+		<description>
+				<![CDATA[
+				
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/34/82/3482695e.html">
+		<guid>http://localhost:2784/34/82/3482695e.html</guid>
+		<pubDate>1617334658</pubDate>
+		<title>Jay is the Director of Research at Foundry where he focuses on </title>
+		<link>http://localhost:2784/34/82/3482695e.html</link>
+		<description>
+				<![CDATA[
+				Jay is the Director of Research at Foundry where he focuses on increasing infrastructure decentralization, combating energy misinformation, and building a North American based bitcoin mining pool.<br />
+-- <br />
+name: Jay Beddict<br />
+title: Director of Research, Foundry<br />
+&gt;&gt;bf1c593cef3de88045c105809c9ace6af8721a53<br />
+
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/bf/1c/bf1c593c.html">
+		<guid>http://localhost:2784/bf/1c/bf1c593c.html</guid>
+		<pubDate>1617334371</pubDate>
+		<title>Director of Research, Foundry</title>
+		<link>http://localhost:2784/bf/1c/bf1c593c.html</link>
+		<description>
+				<![CDATA[
+				
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/6c/cc/6cccf17d.html">
+		<guid>http://localhost:2784/6c/cc/6cccf17d.html</guid>
+		<pubDate>1617315629</pubDate>
+		<title>&gt;&gt;e2ccaed0ea2159ead41c4d7dbcd2a4275c0e2853<br />
+<br />
+#remove<br />
+</title>
+		<link>http://localhost:2784/6c/cc/6cccf17d.html</link>
+		<description>
+				<![CDATA[
+				&gt;&gt;e2ccaed0ea2159ead41c4d7dbcd2a4275c0e2853<br />
+<br />
+#remove<br />
+
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/7b/24/7b242382.html">
+		<guid>http://localhost:2784/7b/24/7b242382.html</guid>
+		<pubDate>1617315627</pubDate>
+		<title>&gt;&gt;e2ccaed0ea2159ead41c4d7dbcd2a4275c0e2853<br />
+<br />
+#remove</title>
+		<link>http://localhost:2784/7b/24/7b242382.html</link>
+		<description>
+				<![CDATA[
+				&gt;&gt;e2ccaed0ea2159ead41c4d7dbcd2a4275c0e2853<br />
+<br />
+#remove
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/c4/08/c408b76e.html">
+		<guid>http://localhost:2784/c4/08/c408b76e.html</guid>
+		<pubDate>1617315614</pubDate>
+		<title>dfadf</title>
+		<link>http://localhost:2784/c4/08/c408b76e.html</link>
+		<description>
+				<![CDATA[
+				&gt;&gt;30429a1753583e3c325f96789a70a19464cfeb7a<br />
+<br />
+dfadf<br />
+
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/e2/cc/e2ccaed0.html">
+		<guid>http://localhost:2784/e2/cc/e2ccaed0.html</guid>
+		<pubDate>1617315613</pubDate>
+		<title>dfadf</title>
+		<link>http://localhost:2784/e2/cc/e2ccaed0.html</link>
+		<description>
+				<![CDATA[
+				&gt;&gt;30429a1753583e3c325f96789a70a19464cfeb7a<br />
+<br />
+dfadf
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/30/42/30429a17.html">
+		<guid>http://localhost:2784/30/42/30429a17.html</guid>
+		<pubDate>1617315578</pubDate>
+		<title>&gt;&gt;42c64d82127399e119c0793f5033cacc8d530d58<br />
+<br />
+#remove<br />
+</title>
+		<link>http://localhost:2784/30/42/30429a17.html</link>
+		<description>
+				<![CDATA[
+				&gt;&gt;42c64d82127399e119c0793f5033cacc8d530d58<br />
+<br />
+#remove<br />
+
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/56/74/5674391b.html">
+		<guid>http://localhost:2784/56/74/5674391b.html</guid>
+		<pubDate>1617315576</pubDate>
+		<title>&gt;&gt;42c64d82127399e119c0793f5033cacc8d530d58<br />
+<br />
+#remove</title>
+		<link>http://localhost:2784/56/74/5674391b.html</link>
+		<description>
+				<![CDATA[
+				&gt;&gt;42c64d82127399e119c0793f5033cacc8d530d58<br />
+<br />
+#remove
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/59/b7/59b730e7.html">
+		<guid>http://localhost:2784/59/b7/59b730e7.html</guid>
+		<pubDate>1617315521</pubDate>
+		<title>&gt;&gt;226596b6f04610cc966a7575a17b5de0a193b866<br />
+<br />
+#remove<br />
+</title>
+		<link>http://localhost:2784/59/b7/59b730e7.html</link>
+		<description>
+				<![CDATA[
+				&gt;&gt;226596b6f04610cc966a7575a17b5de0a193b866<br />
+<br />
+#remove<br />
+
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/5a/d2/5ad23472.html">
+		<guid>http://localhost:2784/5a/d2/5ad23472.html</guid>
+		<pubDate>1617315519</pubDate>
+		<title>&gt;&gt;226596b6f04610cc966a7575a17b5de0a193b866<br />
+<br />
+#remove</title>
+		<link>http://localhost:2784/5a/d2/5ad23472.html</link>
+		<description>
+				<![CDATA[
+				&gt;&gt;226596b6f04610cc966a7575a17b5de0a193b866<br />
+<br />
+#remove
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/60/f2/60f25a40.html">
+		<guid>http://localhost:2784/60/f2/60f25a40.html</guid>
+		<pubDate>1617315506</pubDate>
+		<title>asdfdfd</title>
+		<link>http://localhost:2784/60/f2/60f25a40.html</link>
+		<description>
+				<![CDATA[
+				asdfdfd
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/2f/14/2f14bb33.html">
+		<guid>http://localhost:2784/2f/14/2f14bb33.html</guid>
+		<pubDate>1617315225</pubDate>
+		<title>Vedantha-Venkatapathy.html</title>
+		<link>http://localhost:2784/2f/14/2f14bb33.html</link>
+		<description>
+				<![CDATA[
+				Vedantha-Venkatapathy.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/d4/f9/d4f922f7.html">
+		<guid>http://localhost:2784/d4/f9/d4f922f7.html</guid>
+		<pubDate>1617315222</pubDate>
+		<title>top/academic.html</title>
+		<link>http://localhost:2784/d4/f9/d4f922f7.html</link>
+		<description>
+				<![CDATA[
+				top/academic.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/5d/f0/5df02f5b.html">
+		<guid>http://localhost:2784/5d/f0/5df02f5b.html</guid>
+		<pubDate>1617315222</pubDate>
+		<title>top/sponsor.html</title>
+		<link>http://localhost:2784/5d/f0/5df02f5b.html</link>
+		<description>
+				<![CDATA[
+				top/sponsor.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/08/fa/08fa0494.html">
+		<guid>http://localhost:2784/08/fa/08fa0494.html</guid>
+		<pubDate>1617315222</pubDate>
+		<title>top/silver.html</title>
+		<link>http://localhost:2784/08/fa/08fa0494.html</link>
+		<description>
+				<![CDATA[
+				top/silver.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/2c/70/2c705430.html">
+		<guid>http://localhost:2784/2c/70/2c705430.html</guid>
+		<pubDate>1617315221</pubDate>
+		<title>top/speaker.html</title>
+		<link>http://localhost:2784/2c/70/2c705430.html</link>
+		<description>
+				<![CDATA[
+				top/speaker.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/a7/e3/a7e36bef.html">
+		<guid>http://localhost:2784/a7/e3/a7e36bef.html</guid>
+		<pubDate>1617315221</pubDate>
+		<title>top/committee.html</title>
+		<link>http://localhost:2784/a7/e3/a7e36bef.html</link>
+		<description>
+				<![CDATA[
+				top/committee.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/0a/03/0a0382cf.html">
+		<guid>http://localhost:2784/0a/03/0a0382cf.html</guid>
+		<pubDate>1617315220</pubDate>
+		<title>1a/f5/1af56de1.html</title>
+		<link>http://localhost:2784/0a/03/0a0382cf.html</link>
+		<description>
+				<![CDATA[
+				1a/f5/1af56de1.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/4d/88/4d887691.html">
+		<guid>http://localhost:2784/4d/88/4d887691.html</guid>
+		<pubDate>1617315218</pubDate>
+		<title>d8/f4/d8f4583d.html?message=bb2af677</title>
+		<link>http://localhost:2784/4d/88/4d887691.html</link>
+		<description>
+				<![CDATA[
+				d8/f4/d8f4583d.html?message=bb2af677
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/fb/cd/fbcd23bf.html">
+		<guid>http://localhost:2784/fb/cd/fbcd23bf.html</guid>
+		<pubDate>1617315218</pubDate>
+		<title>d8/f4/d8f4583d.html?message=9128ea8d</title>
+		<link>http://localhost:2784/fb/cd/fbcd23bf.html</link>
+		<description>
+				<![CDATA[
+				d8/f4/d8f4583d.html?message=9128ea8d
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/2c/0e/2c0e8e58.html">
+		<guid>http://localhost:2784/2c/0e/2c0e8e58.html</guid>
+		<pubDate>1617315217</pubDate>
+		<title>d8/f4/d8f4583d.html?message=cd358869</title>
+		<link>http://localhost:2784/2c/0e/2c0e8e58.html</link>
+		<description>
+				<![CDATA[
+				d8/f4/d8f4583d.html?message=cd358869
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/d7/13/d7139279.html">
+		<guid>http://localhost:2784/d7/13/d7139279.html</guid>
+		<pubDate>1617315217</pubDate>
+		<title>d8/f4/d8f4583d.html?message=2b6cfd4c</title>
+		<link>http://localhost:2784/d7/13/d7139279.html</link>
+		<description>
+				<![CDATA[
+				d8/f4/d8f4583d.html?message=2b6cfd4c
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/13/56/1356eea6.html">
+		<guid>http://localhost:2784/13/56/1356eea6.html</guid>
+		<pubDate>1617315215</pubDate>
+		<title>a3/be/a3be704f.html</title>
+		<link>http://localhost:2784/13/56/1356eea6.html</link>
+		<description>
+				<![CDATA[
+				a3/be/a3be704f.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/e2/c3/e2c366f8.html">
+		<guid>http://localhost:2784/e2/c3/e2c366f8.html</guid>
+		<pubDate>1617315214</pubDate>
+		<title>51/14/5114397e.html?message=972a4827</title>
+		<link>http://localhost:2784/e2/c3/e2c366f8.html</link>
+		<description>
+				<![CDATA[
+				51/14/5114397e.html?message=972a4827
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/2a/c4/2ac43f13.html">
+		<guid>http://localhost:2784/2a/c4/2ac43f13.html</guid>
+		<pubDate>1617315213</pubDate>
+		<title>51/14/5114397e.html?message=9d9d9c51</title>
+		<link>http://localhost:2784/2a/c4/2ac43f13.html</link>
+		<description>
+				<![CDATA[
+				51/14/5114397e.html?message=9d9d9c51
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/c8/dc/c8dcbd59.html">
+		<guid>http://localhost:2784/c8/dc/c8dcbd59.html</guid>
+		<pubDate>1617315212</pubDate>
+		<title>stats.html?message=eefc7b40</title>
+		<link>http://localhost:2784/c8/dc/c8dcbd59.html</link>
+		<description>
+				<![CDATA[
+				stats.html?message=eefc7b40
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/0e/e3/0ee3bfb8.html">
+		<guid>http://localhost:2784/0e/e3/0ee3bfb8.html</guid>
+		<pubDate>1617315212</pubDate>
+		<title>19/08/19088993.html</title>
+		<link>http://localhost:2784/0e/e3/0ee3bfb8.html</link>
+		<description>
+				<![CDATA[
+				19/08/19088993.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/22/73/22731226.html">
+		<guid>http://localhost:2784/22/73/22731226.html</guid>
+		<pubDate>1617315211</pubDate>
+		<title>stats.html?message=e3a67caa</title>
+		<link>http://localhost:2784/22/73/22731226.html</link>
+		<description>
+				<![CDATA[
+				stats.html?message=e3a67caa
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/e2/95/e295719c.html">
+		<guid>http://localhost:2784/e2/95/e295719c.html</guid>
+		<pubDate>1617315211</pubDate>
+		<title>settings.html?btnConfigDump=ConfigExport</title>
+		<link>http://localhost:2784/e2/95/e295719c.html</link>
+		<description>
+				<![CDATA[
+				settings.html?btnConfigDump=ConfigExport
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/cd/ff/cdffaa08.html">
+		<guid>http://localhost:2784/cd/ff/cdffaa08.html</guid>
+		<pubDate>1617315210</pubDate>
+		<title>stats.html?message=5f6e7420</title>
+		<link>http://localhost:2784/cd/ff/cdffaa08.html</link>
+		<description>
+				<![CDATA[
+				stats.html?message=5f6e7420
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/f6/98/f698a464.html">
+		<guid>http://localhost:2784/f6/98/f698a464.html</guid>
+		<pubDate>1617315209</pubDate>
+		<title>settings.html?chkConfigDump=on</title>
+		<link>http://localhost:2784/f6/98/f698a464.html</link>
+		<description>
+				<![CDATA[
+				settings.html?chkConfigDump=on
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/87/07/87075c5e.html">
+		<guid>http://localhost:2784/87/07/87075c5e.html</guid>
+		<pubDate>1617315209</pubDate>
+		<title>post.html?event_location=location</title>
+		<link>http://localhost:2784/87/07/87075c5e.html</link>
+		<description>
+				<![CDATA[
+				post.html?event_location=location
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/d6/4d/d64d227c.html">
+		<guid>http://localhost:2784/d6/4d/d64d227c.html</guid>
+		<pubDate>1617315207</pubDate>
+		<title>events.html</title>
+		<link>http://localhost:2784/d6/4d/d64d227c.html</link>
+		<description>
+				<![CDATA[
+				events.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/9e/b3/9eb380f1.html">
+		<guid>http://localhost:2784/9e/b3/9eb380f1.html</guid>
+		<pubDate>1617315207</pubDate>
+		<title>event.html</title>
+		<link>http://localhost:2784/9e/b3/9eb380f1.html</link>
+		<description>
+				<![CDATA[
+				event.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/70/c7/70c78b8e.html">
+		<guid>http://localhost:2784/70/c7/70c78b8e.html</guid>
+		<pubDate>1617315206</pubDate>
+		<title>upload.html</title>
+		<link>http://localhost:2784/70/c7/70c78b8e.html</link>
+		<description>
+				<![CDATA[
+				upload.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/71/f9/71f9f817.html">
+		<guid>http://localhost:2784/71/f9/71f9f817.html</guid>
+		<pubDate>1617315205</pubDate>
+		<title>d0/94/d0948d13.html</title>
+		<link>http://localhost:2784/71/f9/71f9f817.html</link>
+		<description>
+				<![CDATA[
+				d0/94/d0948d13.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/fc/f2/fcf21944.html">
+		<guid>http://localhost:2784/fc/f2/fcf21944.html</guid>
+		<pubDate>1617315204</pubDate>
+		<title>32/4b/324b909e.html</title>
+		<link>http://localhost:2784/fc/f2/fcf21944.html</link>
+		<description>
+				<![CDATA[
+				32/4b/324b909e.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/ed/25/ed252570.html">
+		<guid>http://localhost:2784/ed/25/ed252570.html</guid>
+		<pubDate>1617315204</pubDate>
+		<title>85/56/855662a3.html</title>
+		<link>http://localhost:2784/ed/25/ed252570.html</link>
+		<description>
+				<![CDATA[
+				85/56/855662a3.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/a3/58/a3586f87.html">
+		<guid>http://localhost:2784/a3/58/a3586f87.html</guid>
+		<pubDate>1617315204</pubDate>
+		<title>32/4b/324b909e.html?message=8ef8dcf7</title>
+		<link>http://localhost:2784/a3/58/a3586f87.html</link>
+		<description>
+				<![CDATA[
+				32/4b/324b909e.html?message=8ef8dcf7
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/57/f8/57f82527.html">
+		<guid>http://localhost:2784/57/f8/57f82527.html</guid>
+		<pubDate>1617315203</pubDate>
+		<title>32/4b/324b909e.html?message=d8c0e75d</title>
+		<link>http://localhost:2784/57/f8/57f82527.html</link>
+		<description>
+				<![CDATA[
+				32/4b/324b909e.html?message=d8c0e75d
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/39/b7/39b71587.html">
+		<guid>http://localhost:2784/39/b7/39b71587.html</guid>
+		<pubDate>1617315203</pubDate>
+		<title>author/9DF906EDE6F8B638/index.html</title>
+		<link>http://localhost:2784/39/b7/39b71587.html</link>
+		<description>
+				<![CDATA[
+				author/9DF906EDE6F8B638/index.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/b3/a1/b3a16a78.html">
+		<guid>http://localhost:2784/b3/a1/b3a16a78.html</guid>
+		<pubDate>1617315202</pubDate>
+		<title>profile.html?message=6d41a531</title>
+		<link>http://localhost:2784/b3/a1/b3a16a78.html</link>
+		<description>
+				<![CDATA[
+				profile.html?message=6d41a531
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/08/45/08452239.html">
+		<guid>http://localhost:2784/08/45/08452239.html</guid>
+		<pubDate>1617315202</pubDate>
+		<title>d8/f4/d8f4583d.html?message=7912b843</title>
+		<link>http://localhost:2784/08/45/08452239.html</link>
+		<description>
+				<![CDATA[
+				d8/f4/d8f4583d.html?message=7912b843
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/c4/52/c4523011.html">
+		<guid>http://localhost:2784/c4/52/c4523011.html</guid>
+		<pubDate>1617315201</pubDate>
+		<title>profile.html?message=e638d177</title>
+		<link>http://localhost:2784/c4/52/c4523011.html</link>
+		<description>
+				<![CDATA[
+				profile.html?message=e638d177
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/5c/10/5c10f181.html">
+		<guid>http://localhost:2784/5c/10/5c10f181.html</guid>
+		<pubDate>1617315201</pubDate>
+		<title>profile.html?btnRegister=Meditate...</title>
+		<link>http://localhost:2784/5c/10/5c10f181.html</link>
+		<description>
+				<![CDATA[
+				profile.html?btnRegister=Meditate...
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/39/cb/39cb542d.html">
+		<guid>http://localhost:2784/39/cb/39cb542d.html</guid>
+		<pubDate>1617315201</pubDate>
+		<title>profile.html?9DF906EDE6F8B638</title>
+		<link>http://localhost:2784/39/cb/39cb542d.html</link>
+		<description>
+				<![CDATA[
+				profile.html?9DF906EDE6F8B638
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/ae/81/ae81fb39.html">
+		<guid>http://localhost:2784/ae/81/ae81fb39.html</guid>
+		<pubDate>1617315200</pubDate>
+		<title>7c/3c/7c3c6254.html?message=a14352f7</title>
+		<link>http://localhost:2784/ae/81/ae81fb39.html</link>
+		<description>
+				<![CDATA[
+				7c/3c/7c3c6254.html?message=a14352f7
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/c8/34/c8343e2f.html">
+		<guid>http://localhost:2784/c8/34/c8343e2f.html</guid>
+		<pubDate>1617315200</pubDate>
+		<title>7c/3c/7c3c6254.html</title>
+		<link>http://localhost:2784/c8/34/c8343e2f.html</link>
+		<description>
+				<![CDATA[
+				7c/3c/7c3c6254.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/d1/4b/d14b1996.html">
+		<guid>http://localhost:2784/d1/4b/d14b1996.html</guid>
+		<pubDate>1617315200</pubDate>
+		<title>profile.html?message=a073e84f</title>
+		<link>http://localhost:2784/d1/4b/d14b1996.html</link>
+		<description>
+				<![CDATA[
+				profile.html?message=a073e84f
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/5c/3d/5c3d56f7.html">
+		<guid>http://localhost:2784/5c/3d/5c3d56f7.html</guid>
+		<pubDate>1617315199</pubDate>
+		<title>Allen-Anjos.html</title>
+		<link>http://localhost:2784/5c/3d/5c3d56f7.html</link>
+		<description>
+				<![CDATA[
+				Allen-Anjos.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/a4/04/a404ca98.html">
+		<guid>http://localhost:2784/a4/04/a404ca98.html</guid>
+		<pubDate>1617315198</pubDate>
+		<title>27/a7/27a7cf1c.html</title>
+		<link>http://localhost:2784/a4/04/a404ca98.html</link>
+		<description>
+				<![CDATA[
+				27/a7/27a7cf1c.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/1a/f5/1af56de1.html">
+		<guid>http://localhost:2784/1a/f5/1af56de1.html</guid>
+		<pubDate>1617314200</pubDate>
+		<title>&gt;&gt;d8f4583dbd44c1c230934b5da98e919f6ebd42aa<br />
+<br />
+#good</title>
+		<link>http://localhost:2784/1a/f5/1af56de1.html</link>
+		<description>
+				<![CDATA[
+				&gt;&gt;d8f4583dbd44c1c230934b5da98e919f6ebd42aa<br />
+<br />
+#good
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/af/f5/aff59026.html">
+		<guid>http://localhost:2784/af/f5/aff59026.html</guid>
+		<pubDate>1617314191</pubDate>
+		<title>&gt;&gt;d8f4583dbd44c1c230934b5da98e919f6ebd42aa<br />
+<br />
+#like #like #like #like #like #like #like #like #like #like #like #like #like #like #like #like #like #like #like #like #like #like #like #like #like #like #like #like #like </title>
+		<link>http://localhost:2784/af/f5/aff59026.html</link>
+		<description>
+				<![CDATA[
+				&gt;&gt;d8f4583dbd44c1c230934b5da98e919f6ebd42aa<br />
+<br />
+#like #like #like #like #like #like #like #like #like #like #like #like #like #like #like #like #like #like #like #like #like #like #like #like #like #like #like #like #like 
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/46/66/46664ab6.html">
+		<guid>http://localhost:2784/46/66/46664ab6.html</guid>
+		<pubDate>1617314173</pubDate>
+		<title>&gt;&gt;d8f4583dbd44c1c230934b5da98e919f6ebd42aa<br />
+<br />
+#like</title>
+		<link>http://localhost:2784/46/66/46664ab6.html</link>
+		<description>
+				<![CDATA[
+				&gt;&gt;d8f4583dbd44c1c230934b5da98e919f6ebd42aa<br />
+<br />
+#like
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/3c/41/3c4158d8.html">
+		<guid>http://localhost:2784/3c/41/3c4158d8.html</guid>
+		<pubDate>1617314166</pubDate>
+		<title>&gt;&gt;d8f4583dbd44c1c230934b5da98e919f6ebd42aa<br />
+<br />
+#approve</title>
+		<link>http://localhost:2784/3c/41/3c4158d8.html</link>
+		<description>
+				<![CDATA[
+				&gt;&gt;d8f4583dbd44c1c230934b5da98e919f6ebd42aa<br />
+<br />
+#approve
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/4f/22/4f22ae28.html">
+		<guid>http://localhost:2784/4f/22/4f22ae28.html</guid>
+		<pubDate>1617314157</pubDate>
+		<title>&gt;&gt;d8f4583dbd44c1c230934b5da98e919f6ebd42aa<br />
+<br />
+#flag</title>
+		<link>http://localhost:2784/4f/22/4f22ae28.html</link>
+		<description>
+				<![CDATA[
+				&gt;&gt;d8f4583dbd44c1c230934b5da98e919f6ebd42aa<br />
+<br />
+#flag
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/41/19/411910ee.html">
+		<guid>http://localhost:2784/41/19/411910ee.html</guid>
+		<pubDate>1617314038</pubDate>
+		<title>&gt;&gt;d8f4583dbd44c1c230934b5da98e919f6ebd42aa<br />
+#flag<br />
+</title>
+		<link>http://localhost:2784/41/19/411910ee.html</link>
+		<description>
+				<![CDATA[
+				&gt;&gt;d8f4583dbd44c1c230934b5da98e919f6ebd42aa<br />
+#flag<br />
+
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/a3/be/a3be704f.html">
+		<guid>http://localhost:2784/a3/be/a3be704f.html</guid>
+		<pubDate>1617313470</pubDate>
+		<title>begin: test1</title>
+		<link>http://localhost:2784/a3/be/a3be704f.html</link>
+		<description>
+				<![CDATA[
+				&gt;&gt;5114397edec9475151ca4ba773a599dfce3c4005<br />
+<br />
+<br />
+begin: test1<br />
+duration: test3<br />
+track: test2<br />
+
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/c2/2f/c22fd391.html">
+		<guid>http://localhost:2784/c2/2f/c22fd391.html</guid>
+		<pubDate>1617313468</pubDate>
+		<title>begin: test1</title>
+		<link>http://localhost:2784/c2/2f/c22fd391.html</link>
+		<description>
+				<![CDATA[
+				&gt;&gt;5114397edec9475151ca4ba773a599dfce3c4005<br />
+<br />
+<br />
+begin: test1<br />
+duration: test3<br />
+track: test2
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/1d/c4/1dc41a34.html">
+		<guid>http://localhost:2784/1d/c4/1dc41a34.html</guid>
+		<pubDate>1617313420</pubDate>
+		<title>1617311979  </title>
+		<link>http://localhost:2784/1d/c4/1dc41a34.html</link>
+		<description>
+				<![CDATA[
+				1617311979 #config #example<br />
+<br />
+config/logo_text=&lt;big&gt;&amp;pi;&lt;/big&gt;<br />
+config/html/item_name_slug=1<br />
+config/html/window_titlebar_buttons=1<br />
+config/html/theme=mitbtc<br />
+chicago<br />
+config/html/inline_block_css=1<br />
+config/template/php/route.php=&lt;?php<br />
+<br />
+// declare(strict_types = 1); #todo<br />
+<br />
+// this fixes a crash bug in mosaic. it should not cause a problem anywhere else<br />
+// &lt;_&lt;     &gt;_&gt;      o_O      -_-     ^_^<br />
+header('Content-Type: text/html');<br />
+include_once('utils.php');<br />
+<br />
+WriteLog('route.php begins');<br />
+<br />
+//<br />
+//if (1/0) {<br />
+//    // disabled<br />
+//}<br />
+<br />
+if (GetConfig('admin/php/route_random_update') &amp;&amp; rand(1, 17) == 1) {<br />
+# randomly call DoUpdate() on page load<br />
+# may slow down user's experience, but site is more likely to be up to date<br />
+	if (function_exists('DoUpdate')) {<br />
+	    DoUpdate();<br />
+    }<br />
+}<br />
+<br />
+function SetHtmlClock ($html) { // sets html clock on page if present<br />
+	WriteLog('SetHtmlClock()');<br />
+	$html = preg_replace('/id=txtClock value=\&quot;.+\&quot;/', 'id=txtClock value=&quot;' . GetClockFormattedTime() . '&quot;', $html);<br />
+    return $html;<br />
+}<br />
+<br />
+function TrimPath ($string) { // Trims the directories AND THE FILE EXTENSION from a file path<br />
+# Should really be called GetFileNameWithoutPathAndExtension()<br />
+	while (index($string, &quot;/&quot;) &gt;= 0) {<br />
+		$string = substr($string, index($string, &quot;/&quot;) + 1);<br />
+	}<br />
+<br />
+	if (index($string, '.') &gt;= 0) {<br />
+		$string = substr($string, 0, index($string, &quot;.&quot;) + 0);<br />
+	}<br />
+<br />
+	return $string;<br />
+} # TrimPath()<br />
+<br />
+function TranslateEmoji ($html) { // replaces emoji with respective text<br />
+	WriteLog('TranslateEmoji()');<br />
+<br />
+	// this could be optimized a lot. A LOT.<br />
+<br />
+	$scriptDir = GetScriptDir();<br />
+	if ($scriptDir) {<br />
+		$emojiList = explode(&quot;\n&quot;, `find $scriptDir/config/string/emoji`);<br />
+		foreach ($emojiList as $emojiFile) {<br />
+			$emojiName = TrimPath($emojiFile);<br />
+			$emojiEmoji = GetFile($emojiFile);<br />
+			$html = str_replace($emojiEmoji, '[' . $emojiName . ']', $html);<br />
+		}<br />
+	}<br />
+<br />
+//	$html = preg_replace('/id=txtClock value=\&quot;.+\&quot;/', 'id=txtClock value=&quot;' . GetClockFormattedTime() . '&quot;', $html);<br />
+<br />
+    return $html;<br />
+}<br />
+<br />
+function StripHeavyTags ($html) { // strips heavy tags from page replaces with basic ones<br />
+	WriteLog('StripHeavyTags()');<br />
+<br />
+	$tags = array(<br />
+		'table', 'tr', 'td', 'th', 'span', 'fieldset', 'legend', 'font',<br />
+		'script', 'style', 'big'<br />
+	);<br />
+<br />
+	{<br />
+		// this would be necessary if the br tags were not already there<br />
+		// may be useful in the future to do automated fixing-up of existing templates<br />
+		// then we can remove all those &lt;br&gt; tags from the templates and make them look neater<br />
+<br />
+		// the substitutions below provide some reasonable replacements for the tags<br />
+		// each replacement, for debugging purposes, has an extra attribute like id1 or id5<br />
+		// these can be removed later once debugging is mostly finished<br />
+<br />
+		$html = preg_replace('/\&lt;\/a\&gt;\&lt;b\&gt;/', '&lt;/a&gt;; &lt;b id1&gt;', $html);<br />
+		$html = preg_replace('/\&lt;\/b\&gt;\&lt;a\ /', '&lt;/b&gt;; &lt;a id2 ', $html);<br />
+<br />
+		$html = preg_replace('/\&lt;\/th\&gt;/', '; ', $html);<br />
+		$html = preg_replace('/\&lt;br\&gt;\&lt;\/td\&gt;/', '; ', $html);<br />
+		$html = preg_replace('/\&lt;\/td\&gt;\&lt;\/tr\&gt;/', '&lt;br&gt;', $html);<br />
+		$html = preg_replace('/:\&lt;\/td\&gt;\&lt;td\&gt;/', ': ', $html);<br />
+		$html = preg_replace('/\&lt;\/td\&gt;/', '; ', $html);<br />
+		$html = preg_replace('/\&lt;\/tr\&gt;\&lt;\/table\&gt;/', '&lt;br&gt;&lt;hr&gt;', $html);<br />
+		$html = preg_replace('/\&lt;\/table\&gt;/', '&lt;br&gt;&lt;hr&gt;', $html);<br />
+		$html = preg_replace('/\&lt;\/tr\&gt;/', '&lt;br&gt;', $html);<br />
+		$html = preg_replace('/\&lt;\/fieldset\&gt;\&lt;\/td\&gt;/', '&lt;br&gt;', $html);<br />
+		$html = preg_replace('/\&lt;\/fieldset\&gt;/', '&lt;br&gt;', $html);<br />
+		$html = preg_replace('/\&lt;\/legend\&gt;/', '&lt;br&gt;', $html);<br />
+		$html = preg_replace('/\&lt;\/a\&gt;\&lt;a/', '&lt;/a&gt;; &lt;a', $html);<br />
+		$html = preg_replace('/; ;/', '; ', $html);<br />
+	}<br />
+<br />
+	foreach ($tags as $tag) {<br />
+		$html = preg_replace('/\&lt;'.$tag.'[^&gt;]+\&gt;/', '', $html);<br />
+		//$html = preg_replace('/\&lt;\/'.$tag.'\&gt;/', '', $html);<br />
+		$html = str_replace('&lt;'.$tag.'&gt;', '', $html);<br />
+		$html = str_replace('&lt;/'.$tag.'&gt;', '', $html);<br />
+	}<br />
+<br />
+	return $html;<br />
+}<br />
+<br />
+function StripComments ($html) { // strips html comments from html<br />
+	$html = preg_replace('/\&lt;\!--[^&gt;]+\&gt;/', '', $html);<br />
+<br />
+	return $html;<br />
+}<br />
+<br />
+function CleanBodyTag ($html) { // removes all attributes from body tag in given html<br />
+	$html = preg_replace('/\&lt;body[^&gt;]+\&gt;/', '&lt;body&gt;', $html);<br />
+<br />
+	return $html;<br />
+}<br />
+<br />
+function StripWhitespace ($html) { // strips extra whitespace from given html<br />
+//	while (preg_match('/[\t\n ]{2}'<br />
+	$html = str_replace(&quot;\t&quot;, ' ', $html);<br />
+<br />
+	$html = str_replace(&quot;\n &quot;, &quot;\n&quot;, $html);<br />
+	$html = str_replace(&quot;\n &quot;, &quot;\n&quot;, $html);<br />
+	$html = str_replace(&quot;\n &quot;, &quot;\n&quot;, $html);<br />
+	$html = str_replace(&quot;\n &quot;, &quot;\n&quot;, $html);<br />
+	$html = str_replace(&quot;\n &quot;, &quot;\n&quot;, $html);<br />
+	$html = str_replace(&quot;\n &quot;, &quot;\n&quot;, $html);<br />
+	$html = str_replace(&quot;\n &quot;, &quot;\n&quot;, $html);<br />
+	$html = str_replace(&quot;\n &quot;, &quot;\n&quot;, $html);<br />
+	$html = str_replace(&quot;\n &quot;, &quot;\n&quot;, $html);<br />
+	$html = str_replace(&quot;\n &quot;, &quot;\n&quot;, $html);<br />
+<br />
+//<br />
+	$html = str_replace(&quot;\n&quot;, ' ', $html);<br />
+<br />
+	$html = str_replace('  ', ' ', $html);<br />
+	$html = str_replace('  ', ' ', $html);<br />
+	$html = str_replace('  ', ' ', $html);<br />
+	$html = str_replace('  ', ' ', $html);<br />
+	$html = str_replace('  ', ' ', $html);<br />
+//<br />
+//	while (! (strpos($html, '  ') === false)) {<br />
+//		$html = str_replace('  ', ' ', $html);<br />
+//	}<br />
+//<br />
+	$html = str_replace('&gt; &lt;', '&gt;&lt;', $html);<br />
+////	$html = str_replace('&gt; ', '&gt;', $html);<br />
+////	$html = str_replace(' &lt;', '&lt;', $html);<br />
+//	$html = str_replace('&lt;br&gt;&lt;br&gt;', '&lt;br&gt;', $html);<br />
+//	$html = str_replace('&lt;br&gt; &lt;br&gt;', '&lt;br&gt;', $html);<br />
+<br />
+	return $html;<br />
+}<br />
+<br />
+function InjectJs ($html, $scriptNames, $injectMode = 'before', $htmlTag = '&lt;/body&gt;') { // inject js template(s) into html<br />
+// $injectMode: before, after, append (to end of html)<br />
+// $htmlTag: e.g. &lt;/body&gt;, only used with before/after<br />
+// if $htmlTag is not found, does fall back to append<br />
+<br />
+	WriteLog('InjectJs() begin...');<br />
+<br />
+	if (!GetConfig('admin/js/enable')) {<br />
+		return $html;<br />
+	}<br />
+<br />
+	$scriptsText = '';  // will contain all the js we want to inject<br />
+	$scriptsComma = ''; // separator between scripts, will be set to \n\n after first script<br />
+<br />
+	$scriptsDone = array();  // array to keep track of scripts we've already injected, to avoid duplicates<br />
+<br />
+//	if (GetConfig('html/clock')) {<br />
+//		// if clock is enabled, automatically add its js<br />
+//		$scriptNames[] = 'clock';<br />
+//	}<br />
+//<br />
+//	if (GetConfig('admin/js/enable') &amp;&amp; GetConfig('admin/js/fresh')) {<br />
+//		// if clock is enabled, automatically add it<br />
+//		$scriptNames[] = 'fresh';<br />
+//	}<br />
+//<br />
+	//output list of all the scripts we're about to include<br />
+	$scriptNamesList = implode(' ', $scriptNames);<br />
+<br />
+	// loop through all the scripts<br />
+	foreach ($scriptNames as $script) {<br />
+		// only inject each script once, otherwise move on<br />
+		if (isset($scriptsDone[$script])) {<br />
+			next;<br />
+		} else {<br />
+			$scriptsDone[$script] = 1;<br />
+		}<br />
+<br />
+		// separate each script with \n\n<br />
+		if (!$scriptsComma) {<br />
+			$scriptsComma = &quot;\n\n&quot;;<br />
+		} else {<br />
+			$scriptsText .= $scriptsComma;<br />
+		}<br />
+<br />
+		$scriptTemplate = GetTemplate(&quot;js/$script.js&quot;);<br />
+<br />
+		if (!$scriptTemplate) {<br />
+			WriteLog(&quot;InjectJs: warning: Missing script contents for $script&quot;);<br />
+ 			if (GetConfig('admin/debug')) {<br />
+// 				die('InjectJs: Missing script contents');<br />
+				$scriptTemplate = &quot;alert('InjectJs: warning: Missing template $script.js');&quot;;<br />
+ 			}<br />
+		}<br />
+<br />
+		if ($script == 'voting') {<br />
+			// for voting.js we need to fill in some theme colors<br />
+			$colorSuccessVoteUnsigned = GetThemeColor('success_vote_unsigned');<br />
+			$colorSuccessVoteSigned = GetThemeColor('success_vote_signed');<br />
+<br />
+			$scriptTemplate = str_replace('$colorSuccessVoteUnsigned', $colorSuccessVoteUnsigned, $scriptTemplate);<br />
+			$scriptTemplate = str_replace('$colorSuccessVoteSigned', $colorSuccessVoteSigned, $scriptTemplate);<br />
+		}<br />
+		// #todo finish porting this when GetRootAdminKey() is available in php<br />
+		//		if ($script == 'profile') {<br />
+		//			# for profile.js we need to fill in current admin id<br />
+		//			my $currentAdminId = GetRootAdminKey() || '-';<br />
+		//<br />
+		//			$scriptTemplate =~ s/\$currentAdminId/$currentAdminId/g;<br />
+		//		}<br />
+<br />
+		if ($script == 'settings') {<br />
+			// for settings.js we also need to fill in some theme colors<br />
+			$colorHighlightAdvanced = GetThemeColor('highlight_advanced');<br />
+			$colorHighlightBeginner = GetThemeColor('highlight_beginner');<br />
+<br />
+			$scriptTemplate = str_replace('$colorHighlightAdvanced', $colorHighlightAdvanced, $scriptTemplate);<br />
+			$scriptTemplate = str_replace('$colorHighlightBeginner', $colorHighlightBeginner, $scriptTemplate);<br />
+		}<br />
+<br />
+		if (index($scriptTemplate, '&gt;') &gt; -1) {<br />
+			# warning here if script content contains &gt; character, which is incompatible with mosaic's html comment syntax<br />
+			WriteLog('InjectJs: warning: Inject script &quot;' . $script . '&quot; contains &gt; character');<br />
+		}<br />
+<br />
+		static $debugType;<br />
+		if (!isset($debugType)) {<br />
+			$debugType = GetConfig('admin/js/debug');<br />
+			$debugType = trim($debugType);<br />
+		}<br />
+<br />
+		if ($debugType) {<br />
+			#uncomment all javascript debug alert statements<br />
+			#and replace them with confirm()'s which stop on no/cancel<br />
+			#<br />
+			if ($debugType == 'console.log') {<br />
+				$scriptTemplate = str_replace(&quot;//alert('DEBUG:&quot;, &quot;console.log('&quot;, $scriptTemplate);<br />
+			} elseif ($debugType == 'document.title') {<br />
+				$scriptTemplate = str_replace(&quot;//alert('DEBUG:&quot;, &quot;document.title = ('&quot;, $scriptTemplate);<br />
+			} else {<br />
+				$scriptTemplate = str_replace(&quot;//alert('DEBUG:&quot;, &quot;if(!window.dbgoff)dbgoff=!confirm('DEBUG:&quot;, $scriptTemplate);<br />
+			}<br />
+		}<br />
+<br />
+		// add to the snowball of javascript<br />
+		$scriptsText .= $scriptTemplate;<br />
+	}<br />
+<br />
+	// get the wrapper, i.e. &lt;script&gt;$javascript&lt;/script&gt;<br />
+	$scriptInject = GetTemplate('html/utils/scriptinject.template');<br />
+<br />
+<br />
+	// fill in the wrapper with our scripts from above<br />
+	$scriptInject = str_replace('$javascript', $scriptsText, $scriptInject);<br />
+<br />
+	$scriptInject = '&lt;!-- InjectJs: ' . $scriptNamesList . ' --&gt;' . &quot;\n\n&quot; . $scriptInject;<br />
+<br />
+	if ($injectMode != 'append' &amp;&amp; index($html, $htmlTag) &gt; -1) {<br />
+		// replace it into html, right before the closing &lt;/body&gt; tag<br />
+		if ($injectMode == 'before') {<br />
+			$html = str_replace($htmlTag, $scriptInject . $htmlTag, $html);<br />
+		} else {<br />
+			$html = str_replace($htmlTag, $htmlTag . $scriptInject, $html);<br />
+		}<br />
+	} else {<br />
+		if ($injectMode != 'append') {<br />
+			WriteLog('InjectJs: warning: $html does not contain $htmlTag, falling back to append mode');<br />
+		}<br />
+		$html .= &quot;\n&quot; . $scriptInject;<br />
+	}<br />
+<br />
+	return $html;<br />
+} # InjectJs()<br />
+<br />
+function HandleNotFound ($path, $pathRel) { // handles 404 error by regrowing the missing page<br />
+// Handle404 (  #todo #DRY<br />
+	WriteLog(&quot;HandleNotFound($path, $pathRel)&quot;);<br />
+<br />
+	if (GetConfig('admin/php/regrow_404_pages')) {<br />
+		WriteLog('HandleNotFound: admin/php/regrow_404_pages was true');<br />
+		$SCRIPTDIR = GetScriptDir();<br />
+		WriteLog('HandleNotFound: $SCRIPTDIR = ' . $SCRIPTDIR);<br />
+<br />
+		if (preg_match('/^\/[a-f0-9]{2}\/[a-f0-9]{2}\/([a-f0-9]{8})/', $path, $itemHashMatch)) {<br />
+			# Item URL in the form: /ab/01/ab01cd23.html<br />
+			WriteLog('HandleNotFound: found item hash');<br />
+			$itemHash = $itemHashMatch[1];<br />
+			$pagesPlArgument = $itemHash;<br />
+		}<br />
+		if (preg_match('/^\/author\/([A-F0-9]{16})/', $path, $itemHashMatch)) {<br />
+			WriteLog('HandleNotFound: found author fingerprint');<br />
+			$authorFingerprint = $itemHashMatch[1];<br />
+			$pagesPlArgument = $authorFingerprint;<br />
+		}<br />
+		if (preg_match('/^\/top\/([a-zA-Z0-9]+)\.html/', $path, $hashTagMatch)) {<br />
+			WriteLog('HandleNotFound: found hashtag');<br />
+			$hashTag = $hashTagMatch[1];<br />
+			$pagesPlArgument = '\#' . $hashTag;<br />
+		}<br />
+#todo<br />
+#		if (<br />
+#			preg_match('/^\/goto\/([a-zA-Z0-9]+)/', $path, $hashTagMatch)<br />
+#		) {<br />
+#			WriteLog('HandleNotFound: found goto');<br />
+#			$gotoArgument = $hashTagMatch[1];<br />
+#			$pagesPlArgument = 'goto/' . $gotoArgument;<br />
+#		}<br />
+		if (<br />
+			$path == '/' ||<br />
+			$path == '/index.html' ||<br />
+			$path == '/upload.html' ||<br />
+			$path == '/upload_multi.html' ||<br />
+			$path == '/etc.html' ||<br />
+			$path == '/events.html' ||<br />
+			$path == '/settings.html' ||<br />
+			$path == '/help.html' ||<br />
+			$path == '/search.html' ||<br />
+			$path == '/manual.html' ||<br />
+			$path == '/manual_advanced.html' ||<br />
+			$path == '/stats.html' ||<br />
+			$path == '/frame.html' ||<br />
+			$path == '/frame2.html' ||<br />
+			$path == '/frame3.html' ||<br />
+			$path == '/sha512.js' ||<br />
+			$path == '/crypto.js' ||<br />
+			$path == '/crypto2.js' ||<br />
+			$path == '/media.html' ||<br />
+			$path == '/openpgp.js'<br />
+		) {<br />
+			WriteLog('HandleNotFound: found a summary page');<br />
+			$pagesPlArgument = '--summary';<br />
+		}<br />
+		if ($path == '/desktop.html') {<br />
+			WriteLog('HandleNotFound: found desktop page');<br />
+			$pagesPlArgument = '--desktop';<br />
+		}<br />
+<br />
+		if (<br />
+			$path == '/authors.html'<br />
+		) {<br />
+			WriteLog('HandleNotFound: found authors page');<br />
+			$pagesPlArgument = '-M authors';<br />
+		}<br />
+<br />
+		if (<br />
+			$path == '/sponsors.html'<br />
+		) {<br />
+			WriteLog('HandleNotFound: found sponsors page');<br />
+			$pagesPlArgument = '-M sponsors';<br />
+		}<br />
+<br />
+		if (<br />
+			$path == '/committee.html'<br />
+		) {<br />
+			WriteLog('HandleNotFound: found committee page');<br />
+			$pagesPlArgument = '-M committee';<br />
+		}<br />
+<br />
+		if (<br />
+			$path == '/speakers.html'<br />
+		) {<br />
+			WriteLog('HandleNotFound: found speakers page');<br />
+			$pagesPlArgument = '-M speakers';<br />
+		}<br />
+<br />
+		if (<br />
+			$path == '/academic.html'<br />
+		) {<br />
+			WriteLog('HandleNotFound: found academic page');<br />
+			$pagesPlArgument = '-M academic';<br />
+		}<br />
+<br />
+		if (<br />
+			$path == '/read.html'<br />
+		) {<br />
+			WriteLog('HandleNotFound: found read page');<br />
+			$pagesPlArgument = '-M read';<br />
+		}<br />
+<br />
+		if (<br />
+			$path == '/profile.html'<br />
+		) {<br />
+			WriteLog('HandleNotFound: found profile page');<br />
+			$pagesPlArgument = '-M profile';<br />
+		}<br />
+<br />
+		if (<br />
+			$path == '/index0.html'<br />
+		) {<br />
+			WriteLog('HandleNotFound: found index page');<br />
+			$pagesPlArgument = '--index';<br />
+		}<br />
+<br />
+		if (<br />
+			$path == '/compost.html'<br />
+		) {<br />
+			WriteLog('HandleNotFound: found compost page');<br />
+			$pagesPlArgument = '--compost';<br />
+		}<br />
+<br />
+		if (<br />
+			$path == '/settings.html'<br />
+		) {<br />
+			WriteLog('HandleNotFound: found settings page');<br />
+			$pagesPlArgument = '--settings';<br />
+		}<br />
+<br />
+		if (<br />
+			$path == '/data.html' ||<br />
+			$path == '/txt.zip' ||<br />
+			$path == '/index.sqlite3.zip'<br />
+		) {<br />
+			WriteLog('HandleNotFound: found data page');<br />
+			$pagesPlArgument = '--data';<br />
+		}<br />
+<br />
+		if (<br />
+			$path == '/write.html' ||<br />
+			$path == '/write_post.html'<br />
+		) {<br />
+			WriteLog('HandleNotFound: found write page');<br />
+			$pagesPlArgument = '--write';<br />
+		}<br />
+<br />
+		if (<br />
+			$path == '/tags.html' ||<br />
+			$path == '/votes.html'<br />
+		) {<br />
+			WriteLog('HandleNotFound: found tags page');<br />
+			$pagesPlArgument = '--tags';<br />
+		}<br />
+<br />
+		if (isset($pagesPlArgument) &amp;&amp; $pagesPlArgument) {<br />
+			# here we will issue a pages.pl call but first<br />
+			# we will check if it's been done in last 60s because<br />
+			# we want to keep from calling it too often, for example<br />
+			# in a case when the call does not result in<br />
+			# the page being built for whatever reason<br />
+<br />
+			$mostRecentCacheName = 'pages/' . md5($pagesPlArgument);<br />
+			$mostRecentCall = intval(GetConfig($mostRecentCacheName));<br />
+<br />
+			if (time() - $mostRecentCall &gt; 60) {<br />
+				WriteLog('HandleNotFound: pages.pl was called more than 60 seconds ago, trying to grow page');<br />
+				# call pages.pl to generate the page<br />
+				$pwd = getcwd();<br />
+				WriteLog('$pwd = ' . $pwd);<br />
+<br />
+				WriteLog(&quot;HandleNotFound: cd $SCRIPTDIR ; ./pages.pl $pagesPlArgument&quot;);<br />
+				WriteLog(`cd $SCRIPTDIR ; ./pages.pl $pagesPlArgument`);<br />
+<br />
+				WriteLog(&quot;HandleNotFound: cd $pwd&quot;);<br />
+				WriteLog(`cd $pwd`);<br />
+<br />
+				PutCache($mostRecentCacheName, time());<br />
+			} else {<br />
+				WriteLog('HandleNotFound: warning: pages.pl was called LESS THAN 60 seconds ago, NOT trying to grow page');<br />
+			}<br />
+		}<br />
+<br />
+		$pathRel = '.' . $path; // relative path of $path (to current directory, which should be html/)<br />
+<br />
+		if ($pathRel &amp;&amp; file_exists($pathRel)) {<br />
+			WriteLog('HandleNotFound: $pathRel exist: ' . $pathRel);<br />
+			$html = file_get_contents($pathRel);<br />
+		}<br />
+	} # if (GetConfig('admin/php/regrow_404_pages'))<br />
+<br />
+	if (!isset($html) || !$html) {<br />
+		// don't know how to handle this request, default to 404<br />
+		WriteLog('HandleNotFound: no $html');<br />
+		if (file_exists('404.html')) {<br />
+			$html = file_get_contents('404.html');<br />
+			header(&quot;HTTP/1.0 404 Not Found&quot;);<br />
+		}<br />
+	}<br />
+<br />
+	if (!isset($html) || !$html) {<br />
+		// something strange happened, and $html is still blank<br />
+		// evidently, 404.html didn't work, just use some hard-coded html<br />
+		WriteLog('HandleNotFound: warning: 404.html missing, fallback');<br />
+		$html = '&lt;html&gt;'.<br />
+			'&lt;head&gt;&lt;title&gt;404&lt;/title&gt;&lt;/head&gt;'.<br />
+			'&lt;body&gt;&lt;h1&gt;404 Message Received&lt;/h1&gt;&lt;p&gt;Something went wrong, please try again later. Thank you.&lt;/body&gt;'.<br />
+			'&lt;/html&gt;';<br />
+	}<br />
+<br />
+	return $html;<br />
+} # HandleNotFound()<br />
+<br />
+if (GetConfig('admin/php/route_enable')) {<br />
+// admin/php/route_enable is true<br />
+	$redirectUrl = '';<br />
+	if ($_GET) {<br />
+		// there is a get request<br />
+		WriteLog('route.php: $_GET = ' . print_r($_GET, 1));<br />
+<br />
+		if (isset($_GET['path'])) {<br />
+			$serverResponse = '';<br />
+<br />
+			// get request includes path argument<br />
+			$path = $_GET['path'];<br />
+<br />
+			if (index($path, '?') != -1) {<br />
+				WriteLog('route.php: found qm in $path');<br />
+<br />
+				# weird php bug, i think... or is it my lighttpd config?<br />
+				$pathWithoutArg = substr($path, 0, index($path, '?'));<br />
+				$pathFirstArg = substr($path, index($path, '?') + 1);<br />
+<br />
+				{<br />
+					WriteLog('route.php: $pathFirstArg = ' . $pathFirstArg);<br />
+					#todo sanity check<br />
+					if (index($pathFirstArg, '=') != -1) {<br />
+						#todo sanity check<br />
+						list($pathFirstArgKey, $pathFirstArgValue) = explode(&quot;=&quot;, $pathFirstArg, 2);<br />
+						$_GET[$pathFirstArgKey] = $pathFirstArgValue;<br />
+					}<br />
+					$_GET['path'] = $pathWithoutArg;<br />
+					$path = $pathWithoutArg;<br />
+					WriteLog('route.php: $_GET = ' . print_r($_GET, 1));<br />
+				}<br />
+			} else {<br />
+				WriteLog('route.php: did NOT find qm in $path');<br />
+			}<br />
+<br />
+			WriteLog('$path = ' . $path);<br />
+			$pathFull = realpath('.'.$path);<br />
+<br />
+			WriteLog('route.php: $pathFull = ' . $pathFull);<br />
+<br />
+			if (GetConfig('admin/force_profile')) {<br />
+				// if registration is required, redirect user to profile.html<br />
+				if ($path == '/profile.html') {<br />
+					// if profile, leave it alone<br />
+					// otherwise, below is for forcing login<br />
+				} else {<br />
+					// redirect<br />
+<br />
+					$clientHasCookie = 0;<br />
+					if (isset($_COOKIE)) {<br />
+						if (isset($_COOKIE['cookie'])) {<br />
+							$clientHasCookie = 1;<br />
+						}<br />
+					}<br />
+<br />
+					if (!$clientHasCookie) {<br />
+						RedirectWithResponse('/profile.html', 'Please create profile to continue.');<br />
+						if (! GetConfig('admin/force_profile_fallthrough')) {<br />
+							exit;<br />
+						}<br />
+					}<br />
+				}<br />
+			}<br />
+<br />
+			$pathSelf = $_SERVER['PHP_SELF'];<br />
+			$pathSelfReal = realpath('.'.$pathSelf);<br />
+			$pathValidRoot = substr($pathSelfReal, 0, strlen($pathSelfReal) - strlen($pathSelf));<br />
+<br />
+			WriteLog('$pathValidRoot = ' . $pathValidRoot);<br />
+			WriteLog('$pathFull = ' . $pathFull . ';');<br />
+			WriteLog('substr($pathFull, 0, strlen($pathValidRoot)) = ' . substr($pathFull, 0, strlen($pathValidRoot)) . ';');<br />
+<br />
+			if ($path == '/404.html' || ($pathFull &amp;&amp; substr($pathFull, 0, strlen($pathValidRoot)) == $pathValidRoot)) {<br />
+				// mitigate directory traversal?<br />
+<br />
+				WriteLog('route.php: root sanity check passed for $path = &quot;' . $path . '&quot;');<br />
+				if ($path) {<br />
+					// there's a $path<br />
+					$pathRel = '.' . $path; // relative path of $path (to current directory, which should be html/)<br />
+<br />
+					$cacheLimit = 3600; // seconds page cache is good for<br />
+<br />
+					$fileRegrowInterval = GetConfig('admin/php/regrow_keep_fresh_interval');<br />
+<br />
+					if (<br />
+						$path != '/404.html' &amp;&amp;<br />
+						file_exists($pathRel)<br />
+					) {<br />
+						// file exists and is new enough<br />
+						WriteLog(&quot;file_exists($pathRel) was true&quot;);<br />
+<br />
+						if (isset($_GET['txtClock'])) {<br />
+							# this is part of easter egg<br />
+							$_GET['message'] = 'test';<br />
+							WriteLog('setting message = test');<br />
+						}<br />
+<br />
+						if (isset($_GET['message'])) {<br />
+							WriteLog('$_GET[message] exists');<br />
+							$messageId = $_GET['message'];<br />
+<br />
+							if ($messageId == 'test') {<br />
+								$testMessage = '<br />
+									Over the firewall,<br />
+									out the antenna,<br />
+									into the router,<br />
+									shot to the modem,<br />
+									out the transponder,<br />
+									bounce into space,<br />
+									off the satellite,<br />
+									over their firewall,<br />
+									into the forums ....<br />
+									nothing but NET<br />
+								';<br />
+<br />
+								RedirectWithResponse($path, $testMessage);<br />
+							}<br />
+<br />
+							if (preg_match('/^[a-f0-9]{8}$/', $messageId)) {<br />
+								WriteLog('route.php: Found $messageId which is [a-f0-9]{8}');<br />
+<br />
+								$serverResponse = RetrieveServerResponse($messageId);<br />
+								$serverResponse = trim($serverResponse);<br />
+							} else {<br />
+								WriteLog('route.php: NOT Found $messageId which is [a-f0-9]{8}');<br />
+							}<br />
+<br />
+							if (!$serverResponse &amp;&amp; !$redirectUrl) {<br />
+								$redirectUrl = $path;<br />
+							}<br />
+						} # isset($_GET['message'])<br />
+						else {<br />
+							WriteLog('$_GET[message] NOT set');<br />
+						}<br />
+<br />
+						//						if (!isset($_SERVER['PHP_AUTH_USER'])) {<br />
+						////							header('WWW-Authenticate: Basic realm=&quot;My Realm&quot;');<br />
+						////							header('HTTP/1.0 401 Unauthorized');<br />
+						//							echo 'Text to send if user hits Cancel button';<br />
+						//							exit;<br />
+						//						} else {<br />
+						//							echo &quot;&lt;p&gt;Hello {$_SERVER['PHP_AUTH_USER']}.&lt;/p&gt;&quot;;<br />
+						//							echo &quot;&lt;p&gt;You entered {$_SERVER['PHP_AUTH_PW']} as your password.&lt;/p&gt;&quot;;<br />
+						//						}<br />
+<br />
+						if (<br />
+							isset($_GET['chkUpgrade']) &amp;&amp;<br />
+							isset($_GET['btnUpgrade'])<br />
+						) {<br />
+							WriteLog('Upgrade requested');<br />
+							//#todo check cookie for admin?<br />
+							DoUpgrade();<br />
+							RedirectWithResponse('/stats.html', 'Upgrade complete. Press Update to re-import content.');<br />
+						}<br />
+<br />
+						if (<br />
+							isset($_GET['chkUpdate']) &amp;&amp;<br />
+							isset($_GET['btnUpdate'])<br />
+						) {<br />
+							$updateStartTime = time();<br />
+							DoUpdate();<br />
+							$fileUrlPath = '';<br />
+							$updateFinishTime = time();<br />
+							$updateDuration = $updateFinishTime - $updateStartTime;<br />
+<br />
+							RedirectWithResponse('/stats.html', &quot;Update finished! &lt;small&gt;in $updateDuration&quot;.&quot;s&lt;/small&gt;&quot;);<br />
+						}<br />
+<br />
+						if (<br />
+							isset($_GET['chkConfigDump']) &amp;&amp;<br />
+							isset($_GET['btnConfigDump'])<br />
+						) {<br />
+							$updateStartTime = time();<br />
+							$configDumpPath = DoConfigDump();<br />
+							$fileUrlPath = ''; #todo why?<br />
+							$updateFinishTime = time();<br />
+							$updateDuration = $updateFinishTime - $updateStartTime;<br />
+<br />
+							WriteLog('$configDumpPath = ' . $configDumpPath);<br />
+<br />
+							IndexTextFile($configDumpPath); #todo get output and redirect to correct page<br />
+<br />
+							RedirectWithResponse('/stats.html', &quot;Config dump finished! &lt;small&gt;in $updateDuration&quot;.&quot;s&lt;/small&gt;&quot;);<br />
+						}<br />
+<br />
+						if (<br />
+							isset($_GET['chkFlush']) &amp;&amp;<br />
+							isset($_GET['btnFlush'])<br />
+						) {<br />
+							WriteLog('Flush requested');<br />
+							DoFlush();<br />
+							DoUpdate();<br />
+							RedirectWithResponse('/settings.html', 'Previous content has been archived.');<br />
+						}<br />
+<br />
+						if (substr($pathRel, -1) == '/') {<br />
+							$pathRel .= 'index.html';<br />
+						}<br />
+<br />
+						// user asked for a particular file, and that's what we'll give them<br />
+						if (file_exists($pathRel) &amp;&amp; is_file($pathRel)) {<br />
+							WriteLog('$html = file_get_contents($pathRel)');<br />
+							$html = file_get_contents($pathRel);<br />
+						} else {<br />
+							WriteLog('file_exists($pathRel) was false, trying alternative');<br />
+							$html = 'hi';<br />
+						}<br />
+<br />
+						if (index($html, 'This page looks plain because formatter is still catching up.') != -1) {<br />
+						// this special string appears in placeholder file generated by post.php<br />
+						// if string is found, try to call pages.pl to generate file again<br />
+						// the file is removed first... this is sub-optimal, but works for now<br />
+							WriteLog('route.php: found placeholder page, trying to replace it. $path = .' . $path);<br />
+							#unlink('.' . $path);<br />
+							$newHtml = HandleNotFound($path, $pathRel); // could be better done by rebuilding the page directly?<br />
+							if ($newHtml) {<br />
+								$html = $newHtml;<br />
+							}<br />
+						}<br />
+<br />
+						if (GetConfig('admin/js/enable') &amp;&amp; GetConfig('admin/js/fresh')) {<br />
+							// because javascript cannot access the page's headers<br />
+							// we will put the ETag value at the end of the page<br />
+							// as window.myOwnETag<br />
+							// this allows the script to compare it to the ETag value<br />
+							// returned by the server when requesting HEAD for current page<br />
+							// fresh_js fresh.js<br />
+							if (index($html, 'CheckIfFresh()') &gt; -1) {<br />
+								// only need to do it if the script is included in page<br />
+								$md5 = md5_file($pathRel);<br />
+								header('ETag: ' . $md5);<br />
+								$html .= &quot;&lt;script&gt;&lt;!-- window.myOwnETag = '$md5'; // --&gt;&lt;/script&gt;&quot;;<br />
+								// #todo this should probably be templated and added using InjectJs()<br />
+							}<br />
+						} # GetConfig('admin/js/enable') &amp;&amp; GetConfig('admin/js/fresh')<br />
+<br />
+						//if ($path == '/settings.html') {<br />
+							$timestampFormElement = '&lt;input type=hidden name=timestamp value=' . time() . '&gt;';<br />
+							$html = str_ireplace('&lt;/form&gt;', $timestampFormElement . '&lt;/form&gt;' , $html);<br />
+<br />
+							$originPathFormElement = '&lt;input type=hidden name=origin value=&quot;' . htmlspecialchars($path) . '&quot;&gt;';<br />
+							$html = str_ireplace('&lt;/form&gt;', $originPathFormElement . '&lt;/form&gt;' , $html);<br />
+						//}<br />
+<br />
+						if ($path == '/write.html') {<br />
+							if (file_exists('write.php')) {<br />
+								include('write.php');<br />
+<br />
+								if (isset($_GET['name']) &amp;&amp; $_GET['name']) {<br />
+									WriteLog('name request found');<br />
+<br />
+									$nameValue = $_GET['name'];<br />
+<br />
+									WriteLog('$nameValue = ' . $nameValue);<br />
+<br />
+									// #todo validate $vouchValue<br />
+									$nameToken =<br />
+										'my name is ' . htmlspecialchars($nameValue) .<br />
+										&quot;\n&quot; .<br />
+										&quot;\n&quot; .<br />
+										&quot;I like to ...\n\n&quot;<br />
+									;<br />
+<br />
+									WriteLog('$nameToken = ' . $nameToken);<br />
+<br />
+									$html = str_ireplace('&lt;/textarea&gt;', $nameToken . '&lt;/textarea&gt;' , $html);<br />
+								} else {<br />
+									WriteLog('my name is request not found');<br />
+								}<br />
+							}<br />
+						}<br />
+					} # $path != '/404.html' &amp;&amp; file_exists($pathRel)<br />
+					else {<br />
+						WriteLog('$path not found, using HandleNotFound(' . $path . ',' . $pathRel . ')');<br />
+						$html = HandleNotFound($path, $pathRel);<br />
+					}<br />
+				} # $path<br />
+				else {<br />
+					// no $path<br />
+					WriteLog('$path not specified, using HandleNotFound()');<br />
+					$html = HandleNotFound($path, '');<br />
+				}<br />
+			// if ($path == '/404.html' || $pathFull &amp;&amp; substr($pathFull, 0, strlen($pathValidRoot)) == $pathValidRoot)<br />
+			} else {<br />
+				// #todo when does this actually happen?<br />
+				// smarter 404 handler<br />
+				WriteLog('smarter 404 handler... activate!');<br />
+				WriteLog('$path not found, using HandleNotFound()');<br />
+				$html = HandleNotFound($path, '');<br />
+			}<br />
+		} else {<br />
+			WriteLog('no $path specified in GET');<br />
+			$html = HandleNotFound($path, $pathRel);<br />
+		}<br />
+<br />
+		if (GetConfig('html/clock')) {<br />
+			WriteLog('calling SetHtmlClock()');<br />
+			$html = SetHtmlClock($html);<br />
+		}<br />
+<br />
+		if ($path == '/jstest1.html' &amp;&amp; GetConfig('admin/js/enable')) {<br />
+			WriteLog('inject $userAgentValue into /jstest1.html');<br />
+			$userAgentValue = $_SERVER['HTTP_USER_AGENT'];<br />
+			$userAgentValue = htmlspecialchars($userAgentValue);<br />
+			$html = AddAttributeToTag($html, 'input name=txtNetworkUserAgent', 'value', $userAgentValue);<br />
+		} else {<br />
+			WriteLog('xxx $path = ' . $path . '; admin/js/enable = ' . GetConfig('admin/js/enable'));<br />
+		}<br />
+<br />
+		if (isset($_GET['mode'])) {<br />
+			if ($_GET['mode'] == 'light') {<br />
+				$_GET['light'] = 1;<br />
+			}<br />
+		}<br />
+<br />
+		$lightMode = 0;<br />
+		if (isset($_GET['light'])) {<br />
+			$lightMode = $_GET['light'] ? 1 : 0;<br />
+		}<br />
+		if (isset($_GET['btnLightOn'])) {<br />
+			$lightMode = 1;<br />
+		}<br />
+		if (isset($_GET['btnLightOff'])) {<br />
+			$lightMode = 0;<br />
+		}<br />
+<br />
+		if (isset($_COOKIE['light'])) {<br />
+			// if there is a cookie, change its value if it's necessary<br />
+<br />
+			if ($_COOKIE['light'] != $lightMode) {<br />
+				setcookie2('light', $lightMode);<br />
+<br />
+				//$lightModeSetMessage = StoreServerResponse('Light mode has been set to ' . $lightMode);<br />
+				//$redirectUrl = '';<br />
+			}<br />
+		} else {<br />
+			// if there is no cookie set, set it<br />
+<br />
+			setcookie2('light', $lightMode);<br />
+		}<br />
+<br />
+		if (GetConfig('admin/php/light_mode_always_on')) {<br />
+			$lightMode = 1;<br />
+		}<br />
+<br />
+		if ($_GET &amp;&amp; isset($_GET['theme'])) {<br />
+			$themeMode = $_GET['theme']; // normalize the request<br />
+			if ($themeMode != 'chicago') {<br />
+				$themeMode = '';<br />
+			}<br />
+			if (isset($_COOKIE['theme'])) {<br />
+				// if there is a cookie, change its value if it's necessary<br />
+				if ($_COOKIE['theme'] != $themeMode) {<br />
+					setcookie2('theme', $themeMode);<br />
+					//$lightModeSetMessage = StoreServerResponse('Light mode has been set to ' . $lightMode);<br />
+					//$redirectUrl = '';<br />
+				}<br />
+			} else {<br />
+				// if there is no cookie set, set it<br />
+				setcookie2('theme', $themeMode);<br />
+			}<br />
+		}<br />
+<br />
+		if ($serverResponse) {<br />
+			WriteLog('$serverResponse set');<br />
+		}<br />
+<br />
+		if ($serverResponse) {<br />
+			// inject server message into html<br />
+<br />
+			// base template for server message, not including js<br />
+			$serverResponseTemplate = GetTemplate('html/server_response.template');<br />
+<br />
+			if (GetConfig('admin/js/enable')) {<br />
+				// add javascript call to close server response message<br />
+				// for the entire server response message table<br />
+				$serverResponseTemplate = AddAttributeToTag(<br />
+					$serverResponseTemplate,<br />
+					'table',<br />
+					'onclick',<br />
+					&quot;if (window.serverResponseOk) { return serverResponseOk(this); }&quot;<br />
+				);<br />
+			}<br />
+<br />
+			// fill in the theme color for $colorHighlightAlert<br />
+			$colorHighlightAlert = GetThemeColor('highlight_alert');<br />
+			$serverResponseTemplate = str_replace('$colorHighlightAlert', $colorHighlightAlert, $serverResponseTemplate);<br />
+<br />
+			// inject the message text itself.<br />
+			// no escaping, because it can contain html formatting<br />
+			$serverResponseTemplate = str_replace('$serverResponse', $serverResponse, $serverResponseTemplate);<br />
+<br />
+			$messageInjected = 0;<br />
+<br />
+			if (isset($_GET['anchorto']) &amp;&amp; $_GET['anchorto']) {<br />
+				// anchorto means we can add a # to the &quot;Thanks&quot; link which goes straight to the relevant item<br />
+<br />
+				$anchorTo = $_GET['anchorto'];<br />
+<br />
+				if (index($html, &quot;&lt;a name=$anchorTo&gt;&quot;) &gt; -1) {<br />
+					// same as below, same message applies<br />
+<br />
+					if (GetConfig('admin/js/enable')) {<br />
+						// add javascript call to close server response message for the 'thanks' link<br />
+						$serverResponseTemplate = AddAttributeToTag(<br />
+							$serverResponseTemplate,<br />
+							'a href=#maincontent',<br />
+							'onclick',<br />
+							&quot;if (window.serverResponseOk) { return serverResponseOk(this); } else { return true; }&quot;<br />
+						);<br />
+					}<br />
+<br />
+					$serverResponseTemplate = str_replace(<br />
+						'&lt;a href=#maincontent',<br />
+						'&lt;a href=&quot;' . $path . '#' . $anchorTo . '&quot;',<br />
+						$serverResponseTemplate<br />
+					);<br />
+<br />
+					if (!$lightMode &amp;&amp; GetConfig('admin/php/server_response_attach_to_anchor')) {<br />
+						WriteLog('server_response_attach_to_anchor');<br />
+						// if server_response_attach_to_anchor, we will put the server message next to the anchor<br />
+						// unless we are in light mode, because then we want the message at the top of the page<br />
+<br />
+						$replaceWhat = &quot;&lt;a name=$anchorTo&gt;&quot;;<br />
+						$replaceWith = &quot;&lt;a name=$anchorTo&gt;&quot; . $serverResponseTemplate;<br />
+						$html = str_replace($replaceWhat, $replaceWith, $html);<br />
+<br />
+						$messageInjected = 1;<br />
+					}<br />
+				}<br />
+			}<br />
+<br />
+			if (!$messageInjected) {<br />
+				// put the current file's path in the &quot;OK&quot; link for nojs browsers<br />
+				// this is a compromise, because it causes a page reload, which may be slow<br />
+				// the other option is to leave it as is, but the message will remain on<br />
+				// the page instead of disappearing, which doesn't look nearly as cool<br />
+				// perhaps to be conditional under html/cool_effects?<br />
+				$serverResponseTemplate = str_replace('&lt;a href=#maincontent', '&lt;a href=&quot;' . $path . '&quot;', $serverResponseTemplate);<br />
+<br />
+				// inject server message right after the body tag<br />
+				$replaceWhat = '(&lt;body\s[^&gt;]*&gt;|&lt;body&gt;)'; // both with attributes or without<br />
+				$replaceWith = '$0' . $serverResponseTemplate; // the $0 is the original body tag, which we want to retain<br />
+				$html = preg_replace($replaceWhat, $replaceWith, $html);<br />
+<br />
+				$messageInjected = 1;<br />
+			}<br />
+<br />
+			if (GetConfig('admin/js/enable')) {<br />
+				//javascript stuff, if javascript is enabled<br />
+<br />
+				// inject server_response.js for hiding the server message popup<br />
+				$html = InjectJs($html, array('server_response'), 'before', '&lt;/head&gt;');<br />
+<br />
+				// add onkeydown event to body tag, which responds to escape key<br />
+				// known issue: if there's non-32 whitespace, this may not work right<br />
+				$replaceWith = '&lt;body onkeydown=&quot;if (event.keyCode &amp;&amp; event.keyCode == 27) { if (window.bodyEscPress) { return bodyEscPress(); } }&quot;';<br />
+<br />
+				$replaceWhat = '&lt;body ';<br />
+				$html = str_replace($replaceWhat, $replaceWith . ' ', $html);<br />
+				$replaceWhat = '&lt;body&gt;';<br />
+				$html = str_replace($replaceWhat, $replaceWith . '&gt;', $html);<br />
+			}<br />
+<br />
+			if ($messageInjected) {<br />
+				// ask browser to not cache page if it contains server response<br />
+				header('Pragma: no-cache');<br />
+			}<br />
+		}<br />
+<br />
+		if ($redirectUrl) {<br />
+			// if we've come up with a place to redirect to, do it now<br />
+<br />
+			// header('Location: ' . $redirectUrl);<br />
+		}<br />
+<br />
+		if ($path == '/profile.html') {<br />
+			// special handling for /profile.html<br />
+			WriteLog('route.php: /profile.html');<br />
+<br />
+			// we need cookies<br />
+			include_once('cookie.php');<br />
+<br />
+			$handle = ''; // will store our handle<br />
+			$fingerprint = ''; // will store our fingerprint<br />
+<br />
+			if (isset($cookie) &amp;&amp; $cookie) {<br />
+				$fingerprint = $cookie;<br />
+<br />
+				if (!$handle &amp;&amp; GetConfig('admin/php/alias_lookup')) {<br />
+					$handle = GetAlias($fingerprint);<br />
+				} else {<br />
+					$handle = 'Guest';<br />
+				}<br />
+<br />
+				// $html = str_replace('&lt;span id=spanSignedInStatus&gt;&lt;/span&gt;', '&lt;span id=spanSignedInStatus class=beginner&gt;&lt;p&gt;&lt;b&gt;Status: You are signed in&lt;/b&gt;&lt;/p&gt;&lt;/span&gt;', $html);<br />
+				// #todo get this from template<br />
+				// #todo add the same logic to javascript frontend<br />
+			} else {<br />
+				$fingerprint = '(not signed in)';<br />
+				$handle = '(not signed in)';<br />
+			}<br />
+<br />
+			$html = str_replace('&lt;span id=lblHandle&gt;&lt;/span&gt;', &quot;&lt;span id=lblHandle&gt;$handle&lt;/span&gt;&quot;, $html);<br />
+			$html = str_replace('&lt;span id=lblFingerprint&gt;&lt;/span&gt;', &quot;&lt;span id=lblFingerprint&gt;$fingerprint&lt;/span&gt;&quot;, $html);<br />
+<br />
+			if (isset($cookie) &amp;&amp; $cookie) {<br />
+				if (GetConfig('admin/js/enable')) {<br />
+					$html = str_replace('&lt;span id=spanProfileLink&gt;&lt;/span&gt;', '&lt;span id=spanProfileLink&gt;&lt;p&gt;&lt;a href=&quot;/author/' . $cookie . '/index.html&quot; onclick=&quot;if (window.sharePubKey) { return sharePubKey(this); }&quot;&gt;Go to profile&lt;/a&gt;&lt;/p&gt;&lt;/span&gt;', $html);<br />
+				} else {<br />
+					$html = str_replace('&lt;span id=spanProfileLink&gt;&lt;/span&gt;', '&lt;span id=spanProfileLink&gt;&lt;p&gt;&lt;a href=&quot;/author/' . $cookie . '/index.html&quot;&gt;Go to profile&lt;/a&gt;&lt;/p&gt;&lt;/span&gt;', $html);<br />
+				}<br />
+			}<br />
+		} # /profile.html<br />
+<br />
+		if ($path == '/bookmark.html') { #bookmarklets replace server name with host name<br />
+			$hostName = 'localhost:2784';<br />
+			if (isset($_SERVER['HTTP_HOST'])) {<br />
+				if ($_SERVER['HTTP_HOST']) {<br />
+					$hostName = $_SERVER['HTTP_HOST'];<br />
+<br />
+					//if (isset($_SERVER['SERVER_PORT']) &amp;&amp; $_SERVER['SERVER_PORT']) {<br />
+					//	$hostName .= ':' . $_SERVER['SERVER_PORT'];<br />
+					//}<br />
+<br />
+					#todo sanity check here<br />
+<br />
+					$html = str_replace('localhost:2784', $hostName, $html);<br />
+				} else {<br />
+					WriteLog('route.php: warning: serving bookmarklets page without host'); #todo lookup in config<br />
+				}<br />
+			} else {<br />
+				WriteLog('route.php: warning: serving bookmarklets page without host'); #todo lookup in config<br />
+			}<br />
+		}<br />
+<br />
+		if (function_exists('WriteLog') &amp;&amp; GetConfig('admin/php/debug')) {<br />
+			$html = str_replace('&lt;/body&gt;', '&lt;p class=advanced&gt;' . WriteLog(0) . '&lt;/p&gt;&lt;/body&gt;', $html);<br />
+		}<br />
+<br />
+		if (GetConfig('html/clock')) {<br />
+			//$html = preg_replace('/id=txtClock value=\&quot;.+\&quot;/', 'id=txtClock value=&quot;' . GetClockFormattedTime() . '&quot;', $html);<br />
+			$html = SetHtmlClock($html);<br />
+		}<br />
+<br />
+		if (GetConfig('admin/php/footer_stats') &amp;&amp; file_exists('stats-footer.html')) {<br />
+			# footer stats<br />
+			if ($path == '/keyboard.html' || $path == '/keyboard_netscape.html' || $path == '/keyboard_android.html') {<br />
+				# no footer for the keyboard pages, because they are displayed in a thin frame at bottom of page<br />
+			} else {<br />
+				// footer stats<br />
+				$html = str_replace(<br />
+					'&lt;/body&gt;',<br />
+					'&lt;br&gt;' . file_get_contents('stats-footer.html') . '&lt;/body&gt;',<br />
+					$html<br />
+				);<br />
+			}<br />
+<br />
+		} // footer stats<br />
+<br />
+		if ($lightMode) {<br />
+			// light mode<br />
+			WriteLog('route.php: $lightMode is true!');<br />
+<br />
+			$html = StripComments($html);<br />
+			$html = StripWhitespace($html);<br />
+			$html = CleanBodyTag($html);<br />
+			$html = StripHeavyTags($html);<br />
+			$html = TranslateEmoji($html);<br />
+<br />
+			if (function_exists('mb_convert_encoding')) {<br />
+				$html = mb_convert_encoding($html, 'UTF-8', 'US-ASCII');<br />
+			} else {<br />
+				WriteLog('route.php: warning: mb_convert_encoding was missing');<br />
+			}<br />
+<br />
+			$pathSelf = $_SERVER['REQUEST_URI'];<br />
+			if (! (strpos($pathSelf, '?') === false)) {<br />
+				$pathSelf = substr($pathSelf, 0, strpos($pathSelf, '?'));<br />
+			}<br />
+<br />
+			//			$html = str_replace(<br />
+			//				'&lt;/body&gt;',<br />
+			//				'&lt;p&gt;(Using site in lightweight mode. If you want, &lt;a href=&quot;' . $pathSelf . '?light=0&quot;&gt;switch to full mode&lt;/a&gt;.)&lt;/p&gt;&lt;/body&gt;',<br />
+			//				$html<br />
+			//			);<br />
+			$html = str_replace(<br />
+				'&gt;Accessibility mode&lt;',<br />
+				'&gt;&lt;font color=orange&gt;Light Mode is ON&lt;/font&gt;&lt;',<br />
+				$html<br />
+			);<br />
+			$html = str_replace(<br />
+				'&gt;Turn On&lt;',<br />
+				'&gt;Is ON&lt;',<br />
+				$html<br />
+			);<br />
+			//<br />
+			//	$html = str_replace(<br />
+			//		'&lt;main id=maincontent&gt;',<br />
+			//		'&lt;p&gt;(Using site in lightweight mode. If you want, &lt;a href=&quot;' . $pathSelf . '?light=0&quot;&gt;switch to full mode&lt;/a&gt;.)&lt;/p&gt;&lt;main id=maincontent&gt;',<br />
+			//		$html<br />
+			//	);<br />
+<br />
+			//#todo perhaps strip onclick, onkeypress, etc., and style<br />
+		} else {<br />
+			$html = str_replace(<br />
+				'&gt;Turn Off&lt;',<br />
+				'&gt;Is OFF&lt;',<br />
+				$html<br />
+			);<br />
+		} // light mode<br />
+<br />
+		if (GetConfig('admin/php/assist_show_advanced')) {<br />
+			WriteLog('admin/php/assist_show_advanced is true');<br />
+			if (isset($_COOKIE['show_advanced']) &amp;&amp;	$_COOKIE['show_advanced'] == '0') {<br />
+				// insert additional style rule at &lt;/head&gt;<br />
+				// which sets class=advanced elements to display:none<br />
+				// if user has respective cookie set<br />
+				// to prevent jumpies when page loads<br />
+<br />
+				WriteLog('route.php: ShowAdvanced() assist activated');<br />
+				WriteLog('route.php: $_COOKIE[show_advanced] = ' . $_COOKIE['show_advanced']);<br />
+<br />
+				$html = str_replace(<br />
+					'&lt;/head&gt;',<br />
+					&quot;&lt;!-- php/assist_show_advanced --&gt;\n&quot;.<br />
+						&quot;&lt;style&gt;&lt;!--&quot; .<br />
+						&quot;\n&quot; .<br />
+						&quot;.advanced, .admin{ display:none }&quot; .<br />
+						&quot;/* assist ShowAdvanced() in pre-hiding elements with class=advanced */&quot; .<br />
+						&quot;\n&quot; .<br />
+						&quot;--&gt;&lt;/style&gt;&quot; .<br />
+						&quot;&lt;/head&gt;&quot;,<br />
+					$html<br />
+				);<br />
+				// #todo templatify<br />
+			}<br />
+		}<br />
+<br />
+<br />
+		////////////////////////////<br />
+		print $html; // final output<br />
+		////////////////////////////<br />
+	}<br />
+} # route_enable = true<br />
+else {<br />
+	WriteLog('config/admin/php/route_enable = false');<br />
+<br />
+	// this is a fallback, and shouldn't really be here<br />
+	// but it helps compensate for another bug<br />
+<br />
+	//print &quot;oh no! route_enable is false, but route.php was called!&quot;;<br />
+	if ($_GET['path']) {<br />
+		if (file_exists($path)) {<br />
+			$html = get_file_contents($path);<br />
+		}<br />
+		else if (file_exists($path . '.html')) {<br />
+			$html = get_file_contents($path . '.html');<br />
+		}<br />
+<br />
+		if ($html) {<br />
+			print($html);<br />
+		} else {<br />
+			print('Technical issue encountered. Please contact maintainer.');<br />
+		}<br />
+	}<br />
+}<br />
+config/admin/static_only_mode=1<br />
+config/admin/image/enable=1<br />
+config/admin/signed_can_config=1<br />
+config/admin/js/translit=0<br />
+config/admin/js/dragging=1<br />
+config/admin/js/loading=1<br />
+config/admin/token/sql=1<br />
+config/admin/token/order=1<br />
+config/admin/token/signature_divider=1<br />
+config/admin/token/meta=1<br />
+config/admin/accept_404_url_text_reduce_spam=0<br />
+config/admin/lighttpd/enable=1<br />
+config/admin/index/stat_file=1<br />
+config/admin/http_auth/enable=0<br />
+config/admin/expo_site_edit=1<br />
+config/admin/upload/enable=1<br />
+config/admin/anyone_can_config=1<br />
+config/admin/allow_admin_permissions_tag_lookup=1<br />
+config/admin/expo_site_mode=1<br />
+config/admin/php/debug=1<br />
+config/admin/php/assist_show_advanced=0<br />
+config/admin/dev/meta_process=1<br />
+config/admin/dev/index_doc=1<br />
+config/admin/logging/record_cookie=0<br />
+
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/50/a0/50a0e202.html">
+		<guid>http://localhost:2784/50/a0/50a0e202.html</guid>
+		<pubDate>1617313419</pubDate>
+		<title>1617311394  </title>
+		<link>http://localhost:2784/50/a0/50a0e202.html</link>
+		<description>
+				<![CDATA[
+				1617311394 #config #example<br />
+<br />
+config/logo_text=&lt;big&gt;&amp;pi;&lt;/big&gt;<br />
+config/html/item_name_slug=1<br />
+config/html/window_titlebar_buttons=1<br />
+config/html/theme=mitbtc<br />
+chicago<br />
+config/html/inline_block_css=1<br />
+config/admin/static_only_mode=1<br />
+config/admin/image/enable=1<br />
+config/admin/signed_can_config=1<br />
+config/admin/js/translit=0<br />
+config/admin/js/dragging=1<br />
+config/admin/js/loading=1<br />
+config/admin/token/sql=1<br />
+config/admin/token/order=1<br />
+config/admin/token/signature_divider=1<br />
+config/admin/token/meta=1<br />
+config/admin/accept_404_url_text_reduce_spam=0<br />
+config/admin/lighttpd/enable=1<br />
+config/admin/index/stat_file=1<br />
+config/admin/http_auth/enable=0<br />
+config/admin/expo_site_edit=1<br />
+config/admin/upload/enable=1<br />
+config/admin/anyone_can_config=1<br />
+config/admin/allow_admin_permissions_tag_lookup=1<br />
+config/admin/expo_site_mode=1<br />
+config/admin/php/debug=1<br />
+config/admin/php/assist_show_advanced=0<br />
+config/admin/dev/meta_process=1<br />
+config/admin/dev/index_doc=1<br />
+config/admin/logging/record_cookie=0<br />
+
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/20/bb/20bb99c1.html">
+		<guid>http://localhost:2784/20/bb/20bb99c1.html</guid>
+		<pubDate>1617313417</pubDate>
+		<title>1617311939  </title>
+		<link>http://localhost:2784/20/bb/20bb99c1.html</link>
+		<description>
+				<![CDATA[
+				1617311939 #config #example<br />
+<br />
+config/logo_text=&lt;big&gt;&amp;pi;&lt;/big&gt;<br />
+config/html/item_name_slug=1<br />
+config/html/window_titlebar_buttons=1<br />
+config/html/theme=mitbtc<br />
+chicago<br />
+config/html/inline_block_css=1<br />
+config/admin/static_only_mode=1<br />
+config/admin/image/enable=1<br />
+config/admin/signed_can_config=1<br />
+config/admin/js/translit=0<br />
+config/admin/js/dragging=1<br />
+config/admin/js/loading=1<br />
+config/admin/token/sql=1<br />
+config/admin/token/order=1<br />
+config/admin/token/signature_divider=1<br />
+config/admin/token/meta=1<br />
+config/admin/accept_404_url_text_reduce_spam=0<br />
+config/admin/lighttpd/enable=1<br />
+config/admin/index/stat_file=1<br />
+config/admin/http_auth/enable=0<br />
+config/admin/expo_site_edit=1<br />
+config/admin/upload/enable=1<br />
+config/admin/anyone_can_config=1<br />
+config/admin/allow_admin_permissions_tag_lookup=1<br />
+config/admin/expo_site_mode=1<br />
+config/admin/php/debug=1<br />
+config/admin/php/assist_show_advanced=0<br />
+config/admin/dev/meta_process=1<br />
+config/admin/dev/index_doc=1<br />
+config/admin/logging/record_cookie=0<br />
+
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/18/af/18afea53.html">
+		<guid>http://localhost:2784/18/af/18afea53.html</guid>
+		<pubDate>1617313416</pubDate>
+		<title>1617311959  </title>
+		<link>http://localhost:2784/18/af/18afea53.html</link>
+		<description>
+				<![CDATA[
+				1617311959 #config #example<br />
+<br />
+config/logo_text=&lt;big&gt;&amp;pi;&lt;/big&gt;<br />
+config/html/item_name_slug=1<br />
+config/html/window_titlebar_buttons=1<br />
+config/html/theme=mitbtc<br />
+chicago<br />
+config/html/inline_block_css=1<br />
+config/admin/static_only_mode=1<br />
+config/admin/image/enable=1<br />
+config/admin/signed_can_config=1<br />
+config/admin/js/translit=0<br />
+config/admin/js/dragging=1<br />
+config/admin/js/loading=1<br />
+config/admin/token/sql=1<br />
+config/admin/token/order=1<br />
+config/admin/token/signature_divider=1<br />
+config/admin/token/meta=1<br />
+config/admin/accept_404_url_text_reduce_spam=0<br />
+config/admin/lighttpd/enable=1<br />
+config/admin/index/stat_file=1<br />
+config/admin/http_auth/enable=0<br />
+config/admin/expo_site_edit=1<br />
+config/admin/upload/enable=1<br />
+config/admin/anyone_can_config=1<br />
+config/admin/allow_admin_permissions_tag_lookup=1<br />
+config/admin/expo_site_mode=1<br />
+config/admin/php/debug=1<br />
+config/admin/php/assist_show_advanced=0<br />
+config/admin/dev/meta_process=1<br />
+config/admin/dev/index_doc=1<br />
+config/admin/logging/record_cookie=0<br />
+
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/83/d4/83d4d9de.html">
+		<guid>http://localhost:2784/83/d4/83d4d9de.html</guid>
+		<pubDate>1617313411</pubDate>
+		<title>1617311919  </title>
+		<link>http://localhost:2784/83/d4/83d4d9de.html</link>
+		<description>
+				<![CDATA[
+				1617311919 #config #example<br />
+<br />
+config/logo_text=&lt;big&gt;&amp;pi;&lt;/big&gt;<br />
+config/html/item_name_slug=1<br />
+config/html/window_titlebar_buttons=1<br />
+config/html/theme=mitbtc<br />
+chicago<br />
+config/html/inline_block_css=1<br />
+config/admin/static_only_mode=1<br />
+config/admin/image/enable=1<br />
+config/admin/signed_can_config=1<br />
+config/admin/js/translit=0<br />
+config/admin/js/dragging=1<br />
+config/admin/js/loading=1<br />
+config/admin/token/sql=1<br />
+config/admin/token/order=1<br />
+config/admin/token/signature_divider=1<br />
+config/admin/token/meta=1<br />
+config/admin/accept_404_url_text_reduce_spam=0<br />
+config/admin/lighttpd/enable=1<br />
+config/admin/index/stat_file=1<br />
+config/admin/http_auth/enable=0<br />
+config/admin/expo_site_edit=1<br />
+config/admin/upload/enable=1<br />
+config/admin/anyone_can_config=1<br />
+config/admin/allow_admin_permissions_tag_lookup=1<br />
+config/admin/expo_site_mode=1<br />
+config/admin/php/debug=1<br />
+config/admin/php/assist_show_advanced=0<br />
+config/admin/dev/meta_process=1<br />
+config/admin/dev/index_doc=1<br />
+config/admin/logging/record_cookie=0<br />
+
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/71/c3/71c34fd8.html">
+		<guid>http://localhost:2784/71/c3/71c34fd8.html</guid>
+		<pubDate>1617313410</pubDate>
+		<title>1617311909  </title>
+		<link>http://localhost:2784/71/c3/71c34fd8.html</link>
+		<description>
+				<![CDATA[
+				1617311909 #config #example<br />
+<br />
+config/logo_text=&lt;big&gt;&amp;pi;&lt;/big&gt;<br />
+config/html/item_name_slug=1<br />
+config/html/window_titlebar_buttons=1<br />
+config/html/theme=mitbtc<br />
+chicago<br />
+config/html/inline_block_css=1<br />
+config/admin/static_only_mode=1<br />
+config/admin/image/enable=1<br />
+config/admin/signed_can_config=1<br />
+config/admin/js/translit=0<br />
+config/admin/js/dragging=1<br />
+config/admin/js/loading=1<br />
+config/admin/token/sql=1<br />
+config/admin/token/order=1<br />
+config/admin/token/signature_divider=1<br />
+config/admin/token/meta=1<br />
+config/admin/accept_404_url_text_reduce_spam=0<br />
+config/admin/lighttpd/enable=1<br />
+config/admin/index/stat_file=1<br />
+config/admin/http_auth/enable=0<br />
+config/admin/expo_site_edit=1<br />
+config/admin/upload/enable=1<br />
+config/admin/anyone_can_config=1<br />
+config/admin/allow_admin_permissions_tag_lookup=1<br />
+config/admin/expo_site_mode=1<br />
+config/admin/php/debug=1<br />
+config/admin/php/assist_show_advanced=0<br />
+config/admin/dev/meta_process=1<br />
+config/admin/dev/index_doc=1<br />
+config/admin/logging/record_cookie=0<br />
+
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/12/93/1293bff1.html">
+		<guid>http://localhost:2784/12/93/1293bff1.html</guid>
+		<pubDate>1617313408</pubDate>
+		<title>1617311391  </title>
+		<link>http://localhost:2784/12/93/1293bff1.html</link>
+		<description>
+				<![CDATA[
+				1617311391 #config #example<br />
+<br />
+config/logo_text=&lt;big&gt;&amp;pi;&lt;/big&gt;<br />
+config/html/item_name_slug=1<br />
+config/html/window_titlebar_buttons=1<br />
+config/html/theme=mitbtc<br />
+chicago<br />
+config/html/inline_block_css=1<br />
+config/admin/static_only_mode=1<br />
+config/admin/image/enable=1<br />
+config/admin/signed_can_config=1<br />
+config/admin/js/translit=0<br />
+config/admin/js/dragging=1<br />
+config/admin/js/loading=1<br />
+config/admin/token/sql=1<br />
+config/admin/token/order=1<br />
+config/admin/token/signature_divider=1<br />
+config/admin/token/meta=1<br />
+config/admin/accept_404_url_text_reduce_spam=0<br />
+config/admin/lighttpd/enable=1<br />
+config/admin/index/stat_file=1<br />
+config/admin/http_auth/enable=0<br />
+config/admin/expo_site_edit=1<br />
+config/admin/upload/enable=1<br />
+config/admin/anyone_can_config=1<br />
+config/admin/allow_admin_permissions_tag_lookup=1<br />
+config/admin/expo_site_mode=1<br />
+config/admin/php/debug=1<br />
+config/admin/php/assist_show_advanced=0<br />
+config/admin/dev/meta_process=1<br />
+config/admin/dev/index_doc=1<br />
+config/admin/logging/record_cookie=0<br />
+
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/4d/86/4d862753.html">
+		<guid>http://localhost:2784/4d/86/4d862753.html</guid>
+		<pubDate>1617313404</pubDate>
+		<title>1617311899  </title>
+		<link>http://localhost:2784/4d/86/4d862753.html</link>
+		<description>
+				<![CDATA[
+				1617311899 #config #example<br />
+<br />
+config/logo_text=&lt;big&gt;&amp;pi;&lt;/big&gt;<br />
+config/html/item_name_slug=1<br />
+config/html/window_titlebar_buttons=1<br />
+config/html/theme=mitbtc<br />
+chicago<br />
+config/html/inline_block_css=1<br />
+config/admin/static_only_mode=1<br />
+config/admin/image/enable=1<br />
+config/admin/signed_can_config=1<br />
+config/admin/js/translit=0<br />
+config/admin/js/dragging=1<br />
+config/admin/js/loading=1<br />
+config/admin/token/sql=1<br />
+config/admin/token/order=1<br />
+config/admin/token/signature_divider=1<br />
+config/admin/token/meta=1<br />
+config/admin/accept_404_url_text_reduce_spam=0<br />
+config/admin/lighttpd/enable=1<br />
+config/admin/index/stat_file=1<br />
+config/admin/http_auth/enable=0<br />
+config/admin/expo_site_edit=1<br />
+config/admin/upload/enable=1<br />
+config/admin/anyone_can_config=1<br />
+config/admin/allow_admin_permissions_tag_lookup=1<br />
+config/admin/expo_site_mode=1<br />
+config/admin/php/debug=1<br />
+config/admin/php/assist_show_advanced=0<br />
+config/admin/dev/meta_process=1<br />
+config/admin/dev/index_doc=1<br />
+config/admin/logging/record_cookie=0<br />
+
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/b8/e4/b8e47de0.html">
+		<guid>http://localhost:2784/b8/e4/b8e47de0.html</guid>
+		<pubDate>1617313378</pubDate>
+		<title>1617311949  </title>
+		<link>http://localhost:2784/b8/e4/b8e47de0.html</link>
+		<description>
+				<![CDATA[
+				1617311949 #config #example<br />
+<br />
+config/logo_text=&lt;big&gt;&amp;pi;&lt;/big&gt;<br />
+config/html/item_name_slug=1<br />
+config/html/window_titlebar_buttons=1<br />
+config/html/theme=mitbtc<br />
+chicago<br />
+config/html/inline_block_css=1<br />
+config/admin/static_only_mode=1<br />
+config/admin/image/enable=1<br />
+config/admin/signed_can_config=1<br />
+config/admin/js/translit=0<br />
+config/admin/js/dragging=1<br />
+config/admin/js/loading=1<br />
+config/admin/token/sql=1<br />
+config/admin/token/order=1<br />
+config/admin/token/signature_divider=1<br />
+config/admin/token/meta=1<br />
+config/admin/accept_404_url_text_reduce_spam=0<br />
+config/admin/lighttpd/enable=1<br />
+config/admin/index/stat_file=1<br />
+config/admin/http_auth/enable=0<br />
+config/admin/expo_site_edit=1<br />
+config/admin/upload/enable=1<br />
+config/admin/anyone_can_config=1<br />
+config/admin/allow_admin_permissions_tag_lookup=1<br />
+config/admin/expo_site_mode=1<br />
+config/admin/php/debug=1<br />
+config/admin/php/assist_show_advanced=0<br />
+config/admin/dev/meta_process=1<br />
+config/admin/dev/index_doc=1<br />
+config/admin/logging/record_cookie=0<br />
+
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/43/bf/43bfb1db.html">
+		<guid>http://localhost:2784/43/bf/43bfb1db.html</guid>
+		<pubDate>1617313378</pubDate>
+		<title>1617311929  </title>
+		<link>http://localhost:2784/43/bf/43bfb1db.html</link>
+		<description>
+				<![CDATA[
+				1617311929 #config #example<br />
+<br />
+config/logo_text=&lt;big&gt;&amp;pi;&lt;/big&gt;<br />
+config/html/item_name_slug=1<br />
+config/html/window_titlebar_buttons=1<br />
+config/html/theme=mitbtc<br />
+chicago<br />
+config/html/inline_block_css=1<br />
+config/admin/static_only_mode=1<br />
+config/admin/image/enable=1<br />
+config/admin/signed_can_config=1<br />
+config/admin/js/translit=0<br />
+config/admin/js/dragging=1<br />
+config/admin/js/loading=1<br />
+config/admin/token/sql=1<br />
+config/admin/token/order=1<br />
+config/admin/token/signature_divider=1<br />
+config/admin/token/meta=1<br />
+config/admin/accept_404_url_text_reduce_spam=0<br />
+config/admin/lighttpd/enable=1<br />
+config/admin/index/stat_file=1<br />
+config/admin/http_auth/enable=0<br />
+config/admin/expo_site_edit=1<br />
+config/admin/upload/enable=1<br />
+config/admin/anyone_can_config=1<br />
+config/admin/allow_admin_permissions_tag_lookup=1<br />
+config/admin/expo_site_mode=1<br />
+config/admin/php/debug=1<br />
+config/admin/php/assist_show_advanced=0<br />
+config/admin/dev/meta_process=1<br />
+config/admin/dev/index_doc=1<br />
+config/admin/logging/record_cookie=0<br />
+
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/4c/84/4c8491fd.html">
+		<guid>http://localhost:2784/4c/84/4c8491fd.html</guid>
+		<pubDate>1617313375</pubDate>
+		<title>1617311892  </title>
+		<link>http://localhost:2784/4c/84/4c8491fd.html</link>
+		<description>
+				<![CDATA[
+				1617311892 #config #example<br />
+<br />
+config/logo_text=&lt;big&gt;&amp;pi;&lt;/big&gt;<br />
+config/html/item_name_slug=1<br />
+config/html/window_titlebar_buttons=1<br />
+config/html/theme=mitbtc<br />
+chicago<br />
+config/html/inline_block_css=1<br />
+config/admin/static_only_mode=1<br />
+config/admin/image/enable=1<br />
+config/admin/signed_can_config=1<br />
+config/admin/js/translit=0<br />
+config/admin/js/dragging=1<br />
+config/admin/js/loading=1<br />
+config/admin/token/sql=1<br />
+config/admin/token/order=1<br />
+config/admin/token/signature_divider=1<br />
+config/admin/token/meta=1<br />
+config/admin/accept_404_url_text_reduce_spam=0<br />
+config/admin/lighttpd/enable=1<br />
+config/admin/index/stat_file=1<br />
+config/admin/http_auth/enable=0<br />
+config/admin/expo_site_edit=1<br />
+config/admin/upload/enable=1<br />
+config/admin/anyone_can_config=1<br />
+config/admin/allow_admin_permissions_tag_lookup=1<br />
+config/admin/expo_site_mode=1<br />
+config/admin/php/debug=1<br />
+config/admin/php/assist_show_advanced=0<br />
+config/admin/dev/meta_process=1<br />
+config/admin/dev/index_doc=1<br />
+config/admin/logging/record_cookie=0<br />
+
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/d2/d3/d2d3eb24.html">
+		<guid>http://localhost:2784/d2/d3/d2d3eb24.html</guid>
+		<pubDate>1617313374</pubDate>
+		<title>1617311969  </title>
+		<link>http://localhost:2784/d2/d3/d2d3eb24.html</link>
+		<description>
+				<![CDATA[
+				1617311969 #config #example<br />
+<br />
+config/logo_text=&lt;big&gt;&amp;pi;&lt;/big&gt;<br />
+config/html/item_name_slug=1<br />
+config/html/window_titlebar_buttons=1<br />
+config/html/theme=mitbtc<br />
+chicago<br />
+config/html/inline_block_css=1<br />
+config/admin/static_only_mode=1<br />
+config/admin/image/enable=1<br />
+config/admin/signed_can_config=1<br />
+config/admin/js/translit=0<br />
+config/admin/js/dragging=1<br />
+config/admin/js/loading=1<br />
+config/admin/token/sql=1<br />
+config/admin/token/order=1<br />
+config/admin/token/signature_divider=1<br />
+config/admin/token/meta=1<br />
+config/admin/accept_404_url_text_reduce_spam=0<br />
+config/admin/lighttpd/enable=1<br />
+config/admin/index/stat_file=1<br />
+config/admin/http_auth/enable=0<br />
+config/admin/expo_site_edit=1<br />
+config/admin/upload/enable=1<br />
+config/admin/anyone_can_config=1<br />
+config/admin/allow_admin_permissions_tag_lookup=1<br />
+config/admin/expo_site_mode=1<br />
+config/admin/php/debug=1<br />
+config/admin/php/assist_show_advanced=0<br />
+config/admin/dev/meta_process=1<br />
+config/admin/dev/index_doc=1<br />
+config/admin/logging/record_cookie=0<br />
+
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/18/e1/18e1b10f.html">
+		<guid>http://localhost:2784/18/e1/18e1b10f.html</guid>
+		<pubDate>1617312022</pubDate>
+		<title>1617312021  </title>
+		<link>http://localhost:2784/18/e1/18e1b10f.html</link>
+		<description>
+				<![CDATA[
+				1617312021 #config #example<br />
+<br />
+config/logo_text=&lt;big&gt;&amp;pi;&lt;/big&gt;<br />
+config/html/item_name_slug=1<br />
+config/html/window_titlebar_buttons=1<br />
+config/html/theme=mitbtc<br />
+chicago<br />
+config/html/inline_block_css=1<br />
+config/admin/static_only_mode=1<br />
+config/admin/image/enable=1<br />
+config/admin/signed_can_config=1<br />
+config/admin/js/translit=0<br />
+config/admin/js/dragging=1<br />
+config/admin/js/loading=1<br />
+config/admin/token/sql=1<br />
+config/admin/token/order=1<br />
+config/admin/token/signature_divider=1<br />
+config/admin/token/meta=1<br />
+config/admin/accept_404_url_text_reduce_spam=0<br />
+config/admin/lighttpd/enable=1<br />
+config/admin/index/stat_file=1<br />
+config/admin/http_auth/enable=0<br />
+config/admin/expo_site_edit=1<br />
+config/admin/upload/enable=1<br />
+config/admin/anyone_can_config=1<br />
+config/admin/allow_admin_permissions_tag_lookup=1<br />
+config/admin/expo_site_mode=1<br />
+config/admin/php/debug=1<br />
+config/admin/php/assist_show_advanced=0<br />
+config/admin/dev/meta_process=1<br />
+config/admin/dev/index_doc=1<br />
+config/admin/logging/record_cookie=0<br />
+
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/93/fa/93faebfe.html">
+		<guid>http://localhost:2784/93/fa/93faebfe.html</guid>
+		<pubDate>1617312020</pubDate>
+		<title>1617312020  </title>
+		<link>http://localhost:2784/93/fa/93faebfe.html</link>
+		<description>
+				<![CDATA[
+				1617312020 #config #example<br />
+<br />
+config/logo_text=&lt;big&gt;&amp;pi;&lt;/big&gt;<br />
+config/html/item_name_slug=1<br />
+config/html/window_titlebar_buttons=1<br />
+config/html/theme=mitbtc<br />
+chicago<br />
+config/html/inline_block_css=1<br />
+config/admin/static_only_mode=1<br />
+config/admin/image/enable=1<br />
+config/admin/signed_can_config=1<br />
+config/admin/js/translit=0<br />
+config/admin/js/dragging=1<br />
+config/admin/js/loading=1<br />
+config/admin/token/sql=1<br />
+config/admin/token/order=1<br />
+config/admin/token/signature_divider=1<br />
+config/admin/token/meta=1<br />
+config/admin/accept_404_url_text_reduce_spam=0<br />
+config/admin/lighttpd/enable=1<br />
+config/admin/index/stat_file=1<br />
+config/admin/http_auth/enable=0<br />
+config/admin/expo_site_edit=1<br />
+config/admin/upload/enable=1<br />
+config/admin/anyone_can_config=1<br />
+config/admin/allow_admin_permissions_tag_lookup=1<br />
+config/admin/expo_site_mode=1<br />
+config/admin/php/debug=1<br />
+config/admin/php/assist_show_advanced=0<br />
+config/admin/dev/meta_process=1<br />
+config/admin/dev/index_doc=1<br />
+config/admin/logging/record_cookie=0<br />
+
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/19/08/19088993.html">
+		<guid>http://localhost:2784/19/08/19088993.html</guid>
+		<pubDate>1617312011</pubDate>
+		<title>1617312010  </title>
+		<link>http://localhost:2784/19/08/19088993.html</link>
+		<description>
+				<![CDATA[
+				1617312010 #config #example<br />
+<br />
+config/logo_text=&lt;big&gt;&amp;pi;&lt;/big&gt;<br />
+config/html/item_name_slug=1<br />
+config/html/window_titlebar_buttons=1<br />
+config/html/theme=mitbtc<br />
+chicago<br />
+config/html/inline_block_css=1<br />
+config/admin/static_only_mode=1<br />
+config/admin/image/enable=1<br />
+config/admin/signed_can_config=1<br />
+config/admin/js/translit=0<br />
+config/admin/js/dragging=1<br />
+config/admin/js/loading=1<br />
+config/admin/token/sql=1<br />
+config/admin/token/order=1<br />
+config/admin/token/signature_divider=1<br />
+config/admin/token/meta=1<br />
+config/admin/accept_404_url_text_reduce_spam=0<br />
+config/admin/lighttpd/enable=1<br />
+config/admin/index/stat_file=1<br />
+config/admin/http_auth/enable=0<br />
+config/admin/expo_site_edit=1<br />
+config/admin/upload/enable=1<br />
+config/admin/anyone_can_config=1<br />
+config/admin/allow_admin_permissions_tag_lookup=1<br />
+config/admin/expo_site_mode=1<br />
+config/admin/php/debug=1<br />
+config/admin/php/assist_show_advanced=0<br />
+config/admin/dev/meta_process=1<br />
+config/admin/dev/index_doc=1<br />
+config/admin/logging/record_cookie=0<br />
+
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/a2/fb/a2fb2825.html">
+		<guid>http://localhost:2784/a2/fb/a2fb2825.html</guid>
+		<pubDate>1617312001</pubDate>
+		<title>1617312000  </title>
+		<link>http://localhost:2784/a2/fb/a2fb2825.html</link>
+		<description>
+				<![CDATA[
+				1617312000 #config #example<br />
+<br />
+config/logo_text=&lt;big&gt;&amp;pi;&lt;/big&gt;<br />
+config/html/item_name_slug=1<br />
+config/html/window_titlebar_buttons=1<br />
+config/html/theme=mitbtc<br />
+chicago<br />
+config/html/inline_block_css=1<br />
+config/admin/static_only_mode=1<br />
+config/admin/image/enable=1<br />
+config/admin/signed_can_config=1<br />
+config/admin/js/translit=0<br />
+config/admin/js/dragging=1<br />
+config/admin/js/loading=1<br />
+config/admin/token/sql=1<br />
+config/admin/token/order=1<br />
+config/admin/token/signature_divider=1<br />
+config/admin/token/meta=1<br />
+config/admin/accept_404_url_text_reduce_spam=0<br />
+config/admin/lighttpd/enable=1<br />
+config/admin/index/stat_file=1<br />
+config/admin/http_auth/enable=0<br />
+config/admin/expo_site_edit=1<br />
+config/admin/upload/enable=1<br />
+config/admin/anyone_can_config=1<br />
+config/admin/allow_admin_permissions_tag_lookup=1<br />
+config/admin/expo_site_mode=1<br />
+config/admin/php/debug=1<br />
+config/admin/php/assist_show_advanced=0<br />
+config/admin/dev/meta_process=1<br />
+config/admin/dev/index_doc=1<br />
+config/admin/logging/record_cookie=0<br />
+
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/b6/04/b604cb43.html">
+		<guid>http://localhost:2784/b6/04/b604cb43.html</guid>
+		<pubDate>1617311999</pubDate>
+		<title>1617311999  </title>
+		<link>http://localhost:2784/b6/04/b604cb43.html</link>
+		<description>
+				<![CDATA[
+				1617311999 #config #example<br />
+<br />
+config/logo_text=&lt;big&gt;&amp;pi;&lt;/big&gt;<br />
+config/html/item_name_slug=1<br />
+config/html/window_titlebar_buttons=1<br />
+config/html/theme=mitbtc<br />
+chicago<br />
+config/html/inline_block_css=1<br />
+config/admin/static_only_mode=1<br />
+config/admin/image/enable=1<br />
+config/admin/signed_can_config=1<br />
+config/admin/js/translit=0<br />
+config/admin/js/dragging=1<br />
+config/admin/js/loading=1<br />
+config/admin/token/sql=1<br />
+config/admin/token/order=1<br />
+config/admin/token/signature_divider=1<br />
+config/admin/token/meta=1<br />
+config/admin/accept_404_url_text_reduce_spam=0<br />
+config/admin/lighttpd/enable=1<br />
+config/admin/index/stat_file=1<br />
+config/admin/http_auth/enable=0<br />
+config/admin/expo_site_edit=1<br />
+config/admin/upload/enable=1<br />
+config/admin/anyone_can_config=1<br />
+config/admin/allow_admin_permissions_tag_lookup=1<br />
+config/admin/expo_site_mode=1<br />
+config/admin/php/debug=1<br />
+config/admin/php/assist_show_advanced=0<br />
+config/admin/dev/meta_process=1<br />
+config/admin/dev/index_doc=1<br />
+config/admin/logging/record_cookie=0<br />
+
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/43/fe/43fe960c.html">
+		<guid>http://localhost:2784/43/fe/43fe960c.html</guid>
+		<pubDate>1617311992</pubDate>
+		<title>1617311991  </title>
+		<link>http://localhost:2784/43/fe/43fe960c.html</link>
+		<description>
+				<![CDATA[
+				1617311991 #config #example<br />
+<br />
+config/logo_text=&lt;big&gt;&amp;pi;&lt;/big&gt;<br />
+config/html/item_name_slug=1<br />
+config/html/window_titlebar_buttons=1<br />
+config/html/theme=mitbtc<br />
+chicago<br />
+config/html/inline_block_css=1<br />
+config/admin/static_only_mode=1<br />
+config/admin/image/enable=1<br />
+config/admin/signed_can_config=1<br />
+config/admin/js/translit=0<br />
+config/admin/js/dragging=1<br />
+config/admin/js/loading=1<br />
+config/admin/token/sql=1<br />
+config/admin/token/order=1<br />
+config/admin/token/signature_divider=1<br />
+config/admin/token/meta=1<br />
+config/admin/accept_404_url_text_reduce_spam=0<br />
+config/admin/lighttpd/enable=1<br />
+config/admin/index/stat_file=1<br />
+config/admin/http_auth/enable=0<br />
+config/admin/expo_site_edit=1<br />
+config/admin/upload/enable=1<br />
+config/admin/anyone_can_config=1<br />
+config/admin/allow_admin_permissions_tag_lookup=1<br />
+config/admin/expo_site_mode=1<br />
+config/admin/php/debug=1<br />
+config/admin/php/assist_show_advanced=0<br />
+config/admin/dev/meta_process=1<br />
+config/admin/dev/index_doc=1<br />
+config/admin/logging/record_cookie=0<br />
+
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/d0/94/d0948d13.html">
+		<guid>http://localhost:2784/d0/94/d0948d13.html</guid>
+		<pubDate>1617309077</pubDate>
+		<title>thanks</title>
+		<link>http://localhost:2784/d0/94/d0948d13.html</link>
+		<description>
+				<![CDATA[
+				&gt;&gt;0697ed4071ce32a2dc06723944287987daaba47f<br />
+<br />
+thanks
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/aa/90/aa9078d5.html">
+		<guid>http://localhost:2784/aa/90/aa9078d5.html</guid>
+		<pubDate>1617308931</pubDate>
+		<title>test</title>
+		<link>http://localhost:2784/aa/90/aa9078d5.html</link>
+		<description>
+				<![CDATA[
+				&gt;&gt;324b909e14a60cfcb49380d05f0edc1a4ab76f73<br />
+<br />
+test<br />
+
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/85/56/855662a3.html">
+		<guid>http://localhost:2784/85/56/855662a3.html</guid>
+		<pubDate>1617308929</pubDate>
+		<title>test</title>
+		<link>http://localhost:2784/85/56/855662a3.html</link>
+		<description>
+				<![CDATA[
+				&gt;&gt;324b909e14a60cfcb49380d05f0edc1a4ab76f73<br />
+<br />
+test
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/32/4b/324b909e.html">
+		<guid>http://localhost:2784/32/4b/324b909e.html</guid>
+		<pubDate>1617308895</pubDate>
+		<title>Guest has registered</title>
+		<link>http://localhost:2784/32/4b/324b909e.html</link>
+		<description>
+				<![CDATA[
+				[Public key for Guest, 9DF906EDE6F8B638]<br />
+
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/d8/f4/d8f4583d.html">
+		<guid>http://localhost:2784/d8/f4/d8f4583d.html</guid>
+		<pubDate>1617308598</pubDate>
+		<title>hello, it is me, troll user</title>
+		<link>http://localhost:2784/d8/f4/d8f4583d.html</link>
+		<description>
+				<![CDATA[
+				hello, it is me, troll user
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/35/54/355456e7.html">
+		<guid>http://localhost:2784/35/54/355456e7.html</guid>
+		<pubDate>1617307982</pubDate>
+		<title>36/ab/36abf0a7.html</title>
+		<link>http://localhost:2784/35/54/355456e7.html</link>
+		<description>
+				<![CDATA[
+				36/ab/36abf0a7.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/73/4e/734e6a61.html">
+		<guid>http://localhost:2784/73/4e/734e6a61.html</guid>
+		<pubDate>1617307981</pubDate>
+		<title>bc/0c/bc0c9d8a.html</title>
+		<link>http://localhost:2784/73/4e/734e6a61.html</link>
+		<description>
+				<![CDATA[
+				bc/0c/bc0c9d8a.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/0b/9b/0b9b9b8d.html">
+		<guid>http://localhost:2784/0b/9b/0b9b9b8d.html</guid>
+		<pubDate>1617307072</pubDate>
+		<title>author/2F352249B718ED85/</title>
+		<link>http://localhost:2784/0b/9b/0b9b9b8d.html</link>
+		<description>
+				<![CDATA[
+				author/2F352249B718ED85/
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/bc/0c/bc0c9d8a.html">
+		<guid>http://localhost:2784/bc/0c/bc0c9d8a.html</guid>
+		<pubDate>1617306693</pubDate>
+		<title>Software Updated to Version a37721e2..</title>
+		<link>http://localhost:2784/bc/0c/bc0c9d8a.html</link>
+		<description>
+				<![CDATA[
+				Software Updated to Version a37721e2..<br />
+<br />
+Installed software version has changed from 5ada7f8e89ca8bbcbd4298aaf3b43c6f6ad71cda to a37721e20f5b33542c1b672cd4a070f11b72d967<br />
+<br />
+a37721e2 add sanity check in route.php (don't regrow files more than once per 1 hour)<br />
+da4951dc route.php: clean up and add comments<br />
+b97de663 post.php: put replyto token at the beginning of a new comment instead of at the end<br />
+3ab43535 Add WriteConfigDump() in config.php<br />
+<br />
+#changelog
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/b0/4d/b04dc3f8.html">
+		<guid>http://localhost:2784/b0/4d/b04dc3f8.html</guid>
+		<pubDate>1617306657</pubDate>
+		<title>this is test</title>
+		<link>http://localhost:2784/b0/4d/b04dc3f8.html</link>
+		<description>
+				<![CDATA[
+				this is test<br />
+<br />
+[1337]<br />
+
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/5e/23/5e23e13c.html">
+		<guid>http://localhost:2784/5e/23/5e23e13c.html</guid>
+		<pubDate>1617302007</pubDate>
+		<title>1617301070 </title>
+		<link>http://localhost:2784/5e/23/5e23e13c.html</link>
+		<description>
+				<![CDATA[
+				1617301070 Config Dump<br />
+<br />
+[Not Accepted: logo_text=&lt;big&gt;&amp;pi;&lt;]<br />
+[Config: html/window_titlebar_buttons = 1]<br />
+[Config: html/theme = mitbtc]<br />
+chicago<br />
+[Config: html/inline_block_css = 1]<br />
+[Config: admin/static_only_mode = 1]<br />
+[Config: admin/image/enable = 1]<br />
+[Config: admin/signed_can_config = 1]<br />
+[Config: admin/js/translit = 0]<br />
+[Config: admin/js/enable = 0]<br />
+[Config: admin/js/dragging = 1]<br />
+[Config: admin/js/loading = 1]<br />
+[Config: admin/token/sql = 1]<br />
+[Config: admin/token/order = 1]<br />
+[Config: admin/token/signature_divider = 1]<br />
+[Config: admin/token/meta = 1]<br />
+[Config: admin/accept_404_url_text_reduce_spam = 0]<br />
+[Config: admin = lig]httpd/enable=1<br />
+[Config: admin/index/stat_file = 1]<br />
+config/admin/http_auth/enable=0<br />
+[Config: admin/expo_site_edit = 1]<br />
+[Config: admin/upload/enable = 1]<br />
+[Config: admin/anyone_can_config = 1]<br />
+[Config: admin/allow_admin_permissions_tag_lookup = 1]<br />
+[Config: admin/expo_site_mode = 1]<br />
+[Config: admin/php/debug = 1]<br />
+[Config: admin/php/assist_show_advanced = 0]<br />
+[Config: admin/dev/meta_process = 1]<br />
+[Config: admin/dev/index_doc = 1]<br />
+[Config: admin/logging/record_cookie = 0]<br />
+
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/36/ab/36abf0a7.html">
+		<guid>http://localhost:2784/36/ab/36abf0a7.html</guid>
+		<pubDate>1617301961</pubDate>
+		<title>Software Updated to Version 5ada7f8e..</title>
+		<link>http://localhost:2784/36/ab/36abf0a7.html</link>
+		<description>
+				<![CDATA[
+				Software Updated to Version 5ada7f8e..<br />
+<br />
+Installed software version has changed from 95a6fd6302d8fd64b4a64f7663a6e7fd74b5ae95 to 5ada7f8e89ca8bbcbd4298aaf3b43c6f6ad71cda<br />
+<br />
+5ada7f8e add list defaults<br />
+8b38107e improve debug output<br />
+<br />
+#changelog
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/b9/63/b96356c6.html">
 		<guid>http://localhost:2784/b9/63/b96356c6.html</guid>
 		<pubDate>1617212438</pubDate>
 		<title>-- </title>
@@ -2306,17 +6807,6 @@ Installed software version has changed from c7df3c08689c8947b20d221fc16d18971078
 				]]>
 		</description>
 	</item>
-<item rdf:about="http://localhost:2784/98/e7/98e7bb4c.html">
-		<guid>http://localhost:2784/98/e7/98e7bb4c.html</guid>
-		<pubDate>1617147814</pubDate>
-		<title>9b/40/9b4030e0.html</title>
-		<link>http://localhost:2784/98/e7/98e7bb4c.html</link>
-		<description>
-				<![CDATA[
-				9b/40/9b4030e0.html
-				]]>
-		</description>
-	</item>
 <item rdf:about="http://localhost:2784/c9/51/c9519a18.html">
 		<guid>http://localhost:2784/c9/51/c9519a18.html</guid>
 		<pubDate>1617147814</pubDate>
@@ -2336,17 +6826,6 @@ Installed software version has changed from c7df3c08689c8947b20d221fc16d18971078
 		<description>
 				<![CDATA[
 				c6/dc/c6dc8742.html
-				]]>
-		</description>
-	</item>
-<item rdf:about="http://localhost:2784/2b/bb/2bbbd820.html">
-		<guid>http://localhost:2784/2b/bb/2bbbd820.html</guid>
-		<pubDate>1617147810</pubDate>
-		<title>help.html</title>
-		<link>http://localhost:2784/2b/bb/2bbbd820.html</link>
-		<description>
-				<![CDATA[
-				help.html
 				]]>
 		</description>
 	</item>
@@ -3288,22 +7767,6 @@ title: https://www.metrika.co/<br />
 				]]>
 		</description>
 	</item>
-<item rdf:about="http://localhost:2784/87/b7/87b70f98.html">
-		<guid>http://localhost:2784/87/b7/87b70f98.html</guid>
-		<pubDate>1616972302</pubDate>
-		<title>We're building a virtual universe which fundamentally improves </title>
-		<link>http://localhost:2784/87/b7/87b70f98.html</link>
-		<description>
-				<![CDATA[
-				We're building a virtual universe which fundamentally improves how people interact online.<br />
-<br />
--- <br />
-name: Gather<br />
-title: https://www.gather.network/<br />
-&gt;&gt;b4e8c71083e2daba82fedc573dc969bbe75eee63
-				]]>
-		</description>
-	</item>
 <item rdf:about="http://localhost:2784/1e/14/1e14d4ed.html">
 		<guid>http://localhost:2784/1e/14/1e14d4ed.html</guid>
 		<pubDate>1616971615</pubDate>
@@ -3376,7 +7839,7 @@ cefdc3be add bitcoinjs-lib to contrib<br />
 <item rdf:about="http://localhost:2784/b4/e8/b4e8c710.html">
 		<guid>http://localhost:2784/b4/e8/b4e8c710.html</guid>
 		<pubDate>1616879797</pubDate>
-		<title>https://www.gather.network/</title>
+		<title>https://www.gather.town/</title>
 		<link>http://localhost:2784/b4/e8/b4e8c710.html</link>
 		<description>
 				<![CDATA[
@@ -3738,21 +8201,6 @@ Installed software version has changed from e6799956415886422dddedd8af9c5dabffc1
 1d36d37e Add indexing of name: token-header<br />
 <br />
 #changelog
-				]]>
-		</description>
-	</item>
-<item rdf:about="http://localhost:2784/f3/ec/f3ec4b99.html">
-		<guid>http://localhost:2784/f3/ec/f3ec4b99.html</guid>
-		<pubDate>1616572542</pubDate>
-		<title>-- </title>
-		<link>http://localhost:2784/f3/ec/f3ec4b99.html</link>
-		<description>
-				<![CDATA[
-				-- <br />
-name: Vedantha Venkatapathy<br />
-title: Content and Logistics<br />
-<br />
-&gt;&gt;b92fa5dfbde0e589ed1e3270356fdbae46e28389
 				]]>
 		</description>
 	</item>
@@ -4636,17 +9084,6 @@ asdfadsfa
 				]]>
 		</description>
 	</item>
-<item rdf:about="http://localhost:2784/0a/3b/0a3be147.html">
-		<guid>http://localhost:2784/0a/3b/0a3be147.html</guid>
-		<pubDate>1616397691</pubDate>
-		<title>links.html</title>
-		<link>http://localhost:2784/0a/3b/0a3be147.html</link>
-		<description>
-				<![CDATA[
-				links.html
-				]]>
-		</description>
-	</item>
 <item rdf:about="http://localhost:2784/fb/b0/fbb0d1a0.html">
 		<guid>http://localhost:2784/fb/b0/fbb0d1a0.html</guid>
 		<pubDate>1616397690</pubDate>
@@ -4721,6 +9158,17 @@ asdfadsfa
 		<description>
 				<![CDATA[
 				c0/14/triangles.gif
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/f0/ef/f0ef3888.html">
+		<guid>http://localhost:2784/f0/ef/f0ef3888.html</guid>
+		<pubDate>1616397683</pubDate>
+		<title>7c/e0/7ce0af9b.html</title>
+		<link>http://localhost:2784/f0/ef/f0ef3888.html</link>
+		<description>
+				<![CDATA[
+				7c/e0/7ce0af9b.html
 				]]>
 		</description>
 	</item>
@@ -4846,17 +9294,6 @@ asdfadsfa
 &gt;&gt;5a8d7a5ed58f06485a8edd91af0cfe410f16758f<br />
 -- <br />
 [Cookie]
-				]]>
-		</description>
-	</item>
-<item rdf:about="http://localhost:2784/cf/a8/cfa8b243.html">
-		<guid>http://localhost:2784/cf/a8/cfa8b243.html</guid>
-		<pubDate>1616397471</pubDate>
-		<title>p.gif</title>
-		<link>http://localhost:2784/cf/a8/cfa8b243.html</link>
-		<description>
-				<![CDATA[
-				p.gif
 				]]>
 		</description>
 	</item>
@@ -5686,6 +10123,304 @@ title: Robleh Ali<br />
 		<description>
 				<![CDATA[
 				sha512.js
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/57/00/57000fa8.html">
+		<guid>http://localhost:2784/57/00/57000fa8.html</guid>
+		<pubDate>1617420571</pubDate>
+		<title>Reuben Youngblom is Managing Editor of the Cryptoeconomic Syste</title>
+		<link>http://localhost:2784/57/00/57000fa8.html</link>
+		<description>
+				<![CDATA[
+				Reuben Youngblom is Managing Editor of the Cryptoeconomic Systems Journal and Conference Series, an interdisciplinary effort between the DCI and MIT Press. He is a Fellow at Stanford Law School’s CodeX Center for Legal Informatics, where he runs the Blockchain Education Initiative, serves as a Coordinator for the RegTrax Blockchain Regulatory Tracking Initiative, and co-hosts the Our Data podcast. He also releases an annual ranking of universities for CoinDesk, evaluating the institutions’ impact in the blockchain space.<br />
+Reuben holds bachelor’s degrees in computer science, philosophy, and psychology; a master’s degree in philosophy; and a JD with an emphasis in intellectual property law. He regularly consults for blockchain startups, advising on technical and legal issues; contributes to the Ethereum ecosystem; and spends most of his free time in the ocean.<br />
+-- <br />
+name: Reuben Youngblom<br />
+title: Managing Editor of the Cryptoeconomic Systems Journal and Conference Series at MIT DCI<br />
+&gt;&gt;84b219d646dfdb7112b82ec6f8eaea4882a315fa
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/0f/93/0f933a24.html">
+		<guid>http://localhost:2784/0f/93/0f933a24.html</guid>
+		<pubDate>1617420571</pubDate>
+		<title>txt/52/23/5223bff13957cf34b5f42214ad3b8a54e16a5369.txt</title>
+		<link>http://localhost:2784/0f/93/0f933a24.html</link>
+		<description>
+				<![CDATA[
+				txt/52/23/5223bff13957cf34b5f42214ad3b8a54e16a5369.txt
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/95/ff/95ff437b.html">
+		<guid>http://localhost:2784/95/ff/95ff437b.html</guid>
+		<pubDate>1617420571</pubDate>
+		<title>agenda_saturday.html</title>
+		<link>http://localhost:2784/95/ff/95ff437b.html</link>
+		<description>
+				<![CDATA[
+				agenda_saturday.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/cc/ce/ccceb38a.html">
+		<guid>http://localhost:2784/cc/ce/ccceb38a.html</guid>
+		<pubDate>1617420571</pubDate>
+		<title>10/5d/105dd8f5.html?message=388f934c</title>
+		<link>http://localhost:2784/cc/ce/ccceb38a.html</link>
+		<description>
+				<![CDATA[
+				10/5d/105dd8f5.html?message=388f934c
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/28/9f/289f4f54.html">
+		<guid>http://localhost:2784/28/9f/289f4f54.html</guid>
+		<pubDate>1617420571</pubDate>
+		<title>image/agenda/image-2021-04-02-11-22-19.jpg</title>
+		<link>http://localhost:2784/28/9f/289f4f54.html</link>
+		<description>
+				<![CDATA[
+				image/agenda/image-2021-04-02-11-22-19.jpg
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/06/0b/060b6cff.html">
+		<guid>http://localhost:2784/06/0b/060b6cff.html</guid>
+		<pubDate>1617420571</pubDate>
+		<title>thumb/thumb_800_5114397edec9475151ca4ba773a599dfce3c4005.gif</title>
+		<link>http://localhost:2784/06/0b/060b6cff.html</link>
+		<description>
+				<![CDATA[
+				thumb/thumb_800_5114397edec9475151ca4ba773a599dfce3c4005.gif
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/af/9d/af9da4dc.html">
+		<guid>http://localhost:2784/af/9d/af9da4dc.html</guid>
+		<pubDate>1617420571</pubDate>
+		<title>Cryptographer, Bitcoin contributor since 2011, co-maintainer of</title>
+		<link>http://localhost:2784/af/9d/af9da4dc.html</link>
+		<description>
+				<![CDATA[
+				Cryptographer, Bitcoin contributor since 2011, co-maintainer of libsecp256k1<br />
+-- <br />
+name: Andrew Poelstra<br />
+title: Research Director, Blockstream<br />
+&gt;&gt;9e2d2da85dd4b90f8dd2d26e2b437b99418e7445
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/05/0e/050e21de.html">
+		<guid>http://localhost:2784/05/0e/050e21de.html</guid>
+		<pubDate>1617420571</pubDate>
+		<title>Sia is a decentralized cloud storage platform supported by a gl</title>
+		<link>http://localhost:2784/05/0e/050e21de.html</link>
+		<description>
+				<![CDATA[
+				Sia is a decentralized cloud storage platform supported by a global ecosystem of data storage hosts and renters. Unlike traditional cloud storage providers, data uploaders on Sia can expect full privacy, unmatched affordability, and high redundancy. The Sia network is maintained by the Sia Foundation, a non-profit entity. Learn more at Sia.tech.<br />
+<br />
+Skynet is an open protocol and toolkit for creating a better web—one built on decentralized storage and applications. Built on top of the Sia network, Skynet apps transform what’s possible on the web. Key features of decentralization such as user-owned personal data, persistent identity across apps, and censorship-resistance will be the new standards of the digital world. Join the dweb revolution at siasky.net.<br />
+-- <br />
+name: Sia<br />
+title: https://www.sia.tech/<br />
+&gt;&gt;57a643f7f780bc47872ee8c8f9fafb0dcebc44e7
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/5a/5a/5a5a569e.html">
+		<guid>http://localhost:2784/5a/5a/5a5a569e.html</guid>
+		<pubDate>1617420571</pubDate>
+		<title>84/b2/84b219d6.html</title>
+		<link>http://localhost:2784/5a/5a/5a5a569e.html</link>
+		<description>
+				<![CDATA[
+				84/b2/84b219d6.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/8b/8a/8b8a5b04.html">
+		<guid>http://localhost:2784/8b/8a/8b8a5b04.html</guid>
+		<pubDate>1617420571</pubDate>
+		<title>39/7f/397f80d5.html</title>
+		<link>http://localhost:2784/8b/8a/8b8a5b04.html</link>
+		<description>
+				<![CDATA[
+				39/7f/397f80d5.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/8b/d3/8bd3ab4d.html">
+		<guid>http://localhost:2784/8b/d3/8bd3ab4d.html</guid>
+		<pubDate>1617420571</pubDate>
+		<title>Reuben Youngblom is Managing Editor of the Cryptoeconomic Syste</title>
+		<link>http://localhost:2784/8b/d3/8bd3ab4d.html</link>
+		<description>
+				<![CDATA[
+				Reuben Youngblom is Managing Editor of the Cryptoeconomic Systems Journal and Conference Series, an interdisciplinary effort between the DCI and MIT Press. He is a Fellow at Stanford Law School’s CodeX Center for Legal Informatics, where he runs the Blockchain Education Initiative, serves as a Coordinator for the RegTrax Blockchain Regulatory Tracking Initiative, and co-hosts the Our Data podcast. He also releases an annual ranking of universities for CoinDesk, evaluating the institutions’ impact in the blockchain space.<br />
+Reuben holds bachelor’s degrees in computer science, philosophy, and psychology; a master’s degree in philosophy; and a JD with an emphasis in intellectual property law. He regularly consults for blockchain startups, advising on technical and legal issues; contributes to the Ethereum ecosystem; and spends most of his free time in the ocean.<br />
+-- <br />
+name: Reuben Youngblom<br />
+title: Managing Editor of the Cryptoeconomic Systems Journal and Conference Series at MIT DCI<br />
+&gt;&gt;3cb57596b2b6a7d87db40a20199885ddaa5f176e
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/8e/3f/8e3fb163.html">
+		<guid>http://localhost:2784/8e/3f/8e3fb163.html</guid>
+		<pubDate>1617420571</pubDate>
+		<title>a7/2f/a72f7f89.html</title>
+		<link>http://localhost:2784/8e/3f/8e3fb163.html</link>
+		<description>
+				<![CDATA[
+				a7/2f/a72f7f89.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/7f/95/7f95fa6c.html">
+		<guid>http://localhost:2784/7f/95/7f95fa6c.html</guid>
+		<pubDate>1617420571</pubDate>
+		<title>84/b2/84b219d6.html?message=0146ab92</title>
+		<link>http://localhost:2784/7f/95/7f95fa6c.html</link>
+		<description>
+				<![CDATA[
+				84/b2/84b219d6.html?message=0146ab92
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/eb/c9/ebc9a407.html">
+		<guid>http://localhost:2784/eb/c9/ebc9a407.html</guid>
+		<pubDate>1617420571</pubDate>
+		<title>welcome.html</title>
+		<link>http://localhost:2784/eb/c9/ebc9a407.html</link>
+		<description>
+				<![CDATA[
+				welcome.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/bc/60/bc606656.html">
+		<guid>http://localhost:2784/bc/60/bc606656.html</guid>
+		<pubDate>1617420571</pubDate>
+		<title>Hester M. Peirce was appointed by President Donald J. Trump to </title>
+		<link>http://localhost:2784/bc/60/bc606656.html</link>
+		<description>
+				<![CDATA[
+				Hester M. Peirce was appointed by President Donald J. Trump to the U.S. Securities and Exchange Commission and was sworn in on January 11, 2018.<br />
+<br />
+Prior to joining the SEC, Commissioner Peirce conducted research on the regulation of financial markets at the Mercatus Center at George Mason University.  She was a Senior Counsel on the U.S. Senate Committee on Banking, Housing, and Urban Affairs, where she advised Ranking Member Richard Shelby and other members of the Committee on securities issues.  Commissioner Peirce served as counsel to SEC Commissioner Paul S. Atkins.  She also worked as a Staff Attorney in the SEC’s Division of Investment Management. Commissioner Peirce was an associate at Wilmer, Cutler &amp; Pickering (now WilmerHale) and clerked for Judge Roger Andewelt on the Court of Federal Claims.<br />
+<br />
+Commissioner Peirce earned her bachelor’s degree in Economics from Case Western Reserve University and her JD from Yale Law School.<br />
+-- <br />
+name: Hester Peirce<br />
+title: Commissioner at the U.S. Securities and Exchange Commission (SEC)<br />
+&gt;&gt;a49facef97c7b4b8be5405e0f43fe2a88b2230fe
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/11/90/1190b710.html">
+		<guid>http://localhost:2784/11/90/1190b710.html</guid>
+		<pubDate>1617420571</pubDate>
+		<title>image/agenda/image-2021-04-02-11-22-07.jpg</title>
+		<link>http://localhost:2784/11/90/1190b710.html</link>
+		<description>
+				<![CDATA[
+				image/agenda/image-2021-04-02-11-22-07.jpg
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/2d/5f/2d5fad36.html">
+		<guid>http://localhost:2784/2d/5f/2d5fad36.html</guid>
+		<pubDate>1617420571</pubDate>
+		<title>6b/39/6b395481.html</title>
+		<link>http://localhost:2784/2d/5f/2d5fad36.html</link>
+		<description>
+				<![CDATA[
+				6b/39/6b395481.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/b4/ab/b4abca1f.html">
+		<guid>http://localhost:2784/b4/ab/b4abca1f.html</guid>
+		<pubDate>1617420571</pubDate>
+		<title>We are building a virtual universe which fundamentally improves</title>
+		<link>http://localhost:2784/b4/ab/b4abca1f.html</link>
+		<description>
+				<![CDATA[
+				We are building a virtual universe which fundamentally improves how people interact online.<br />
+<br />
+Today, that means a powerful remote-social platform which removes the geographical (and biological) constraints on peoples' lives. We already have people working out of our office spaces, attending our virtual conferences, or going to school on our campus spaces. We have folks hosting everything from magic conventions to artist EP launches to thanksgiving dinners, and even a few weddings.<br />
+-- <br />
+name: Gather<br />
+title: https://www.gather.town/<br />
+&gt;&gt;b4e8c71083e2daba82fedc573dc969bbe75eee63
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/b4/d7/b4d7e75b.html">
+		<guid>http://localhost:2784/b4/d7/b4d7e75b.html</guid>
+		<pubDate>1617420571</pubDate>
+		<title>agenda-sunday.html</title>
+		<link>http://localhost:2784/b4/d7/b4d7e75b.html</link>
+		<description>
+				<![CDATA[
+				agenda-sunday.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/59/1c/591cc960.html">
+		<guid>http://localhost:2784/59/1c/591cc960.html</guid>
+		<pubDate>1617420571</pubDate>
+		<title>image-2021-04-02-11-22-19.jpg</title>
+		<link>http://localhost:2784/59/1c/591cc960.html</link>
+		<description>
+				<![CDATA[
+				image-2021-04-02-11-22-19.jpg
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/1e/84/1e840a10.html">
+		<guid>http://localhost:2784/1e/84/1e840a10.html</guid>
+		<pubDate>1617420571</pubDate>
+		<title>agenda2.html</title>
+		<link>http://localhost:2784/1e/84/1e840a10.html</link>
+		<description>
+				<![CDATA[
+				agenda2.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/9c/ce/9cceb1bd.html">
+		<guid>http://localhost:2784/9c/ce/9cceb1bd.html</guid>
+		<pubDate>1617420571</pubDate>
+		<title>52/23/5223bff1.html</title>
+		<link>http://localhost:2784/9c/ce/9cceb1bd.html</link>
+		<description>
+				<![CDATA[
+				52/23/5223bff1.html
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/3c/b5/3cb57596.html">
+		<guid>http://localhost:2784/3c/b5/3cb57596.html</guid>
+		<pubDate>1617420571</pubDate>
+		<title>Managing Editor of the Cryptoeconomic Systems Journal and Conference Series at MIT DCI</title>
+		<link>http://localhost:2784/3c/b5/3cb57596.html</link>
+		<description>
+				<![CDATA[
+				
+				]]>
+		</description>
+	</item>
+<item rdf:about="http://localhost:2784/9e/2d/9e2d2da8.html">
+		<guid>http://localhost:2784/9e/2d/9e2d2da8.html</guid>
+		<pubDate>1617420571</pubDate>
+		<title>Research Director, Blockstream</title>
+		<link>http://localhost:2784/9e/2d/9e2d2da8.html</link>
+		<description>
+				<![CDATA[
+				
 				]]>
 		</description>
 	</item>
