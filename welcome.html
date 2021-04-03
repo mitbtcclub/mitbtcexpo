@@ -198,14 +198,67 @@ input:focus {
 -->
 </style>
 </head>
-<body background="/triangles.gif">
+<body background="/triangles.gif" onbeforeunload="if (window.ShowPreNavigateNotification){ ShowPreNavigateNotification();}" onclick="if (event.target && (event.target.tagName == 'A') && !(event.target.onclick)) { ShowPreNavigateNotification(); }" onload="if (window.OnLoadEverything) { OnLoadEverything(); }" >
+<!-- InjectJs2: loading_begin -->
+
+<!-- html/utils/scriptinject.template -->
+<script language=javascript><!--
+// begin loading_begin.js
+
+//var loadingIndicatorWaitToShowMin = 1500;
+//var loadingIndicatorWaitToHideMin = 500;
+
+function addLoadingIndicator (strMessage) { // adds loading indicator bar (to top of page, depending on style)
+	//alert('DEBUG: addLoadingIndicator(' + strMessage + ')');
+	if (!strMessage) {
+		//alert('DEBUG: strMessage = ' + strMessage);
+		strMessage = 'Meditate...';
+	}
+	//alert('DEBUG: addLoadingIndicator: strMessage = ' + strMessage);
+
+	if (!document.createElement) {
+		//alert('DEBUG: addLoadingIndicator: warning: no document.createElement');
+		return '';
+		// #todo improve compatibility here
+	}
+
+	//alert('DEBUG: addLoadingIndicator: sanity checks passed!');
+	var spanLoadingIndicator = document.createElement('span');
+	if (spanLoadingIndicator) {
+		spanLoadingIndicator.setAttribute('id', 'loadingIndicator');
+		spanLoadingIndicator.innerHTML = strMessage;
+		spanLoadingIndicator.zIndex = 1337;
+		document.body.appendChild(spanLoadingIndicator);
+	}
+
+	return '';
+
+} // addLoadingIndicator()
+
+if (document.createElement) {
+	//alert('DEBUG: loading_begin.js: createElement feature check PASSED!');
+	var d = new Date();
+	var loadingIndicatorStart = d.getTime() * 1;
+	var gt = unescape('%3E');
+
+	//var loadingIndicatorloadCounter = 0;
+	addLoadingIndicator('Meditate...');
+} else {
+	//alert('DEBUG: loading_begin.js: createElement feature check FAILED!');
+}
+// end loading_begin.js
+
+// -->
+</script>
+<!-- / html/utils/scriptinject.template -->
+
 <b><!-- mitbtc/template/topmenu2.template -->
 <table cellspacing=0 cellpadding=3 border=0 bgcolor="#c0c0c0" class=dialog>
 	<tr bgcolor="#35163A">
 		<td colspan=2>
 			<img alt="MIT Bitcoin Expo" title="MIT Bitcoin Expo" logo src="/logo.gif" height=16 width=16>
 			<font color="#ffffff"><b>MIT Bitcoin Expo 2021</b></font>
-			<a href="/etc.html">.</a>
+			<a href="/etc.html" onclick="if (window.ShowAll) { ShowAll(this); } if (window.DraggingInit) { DraggingInit(0); } return false;" >.</a>
 			<br>
 		</td>
 	</tr>
@@ -275,18 +328,13 @@ input:focus {
 		
 
 		<tr class=content><td><!-- welcome.template -->
-<img src=/banner_2x1.jpg alt="
-MIT Bitcoin Expo 2021
-The New Normal
-April 3-4th, 2021
-Free & Online
-Presented by:
-The MIT Bitcoin Club
-mitbitcoinexpo.org
-" width="99%">
-<h3><a href="https://tinyurl.com/4ezdhdk">Register</a></h3>
-<h3><a href="https://forms.gle/JUvaggfVCNS8P54G7">Hackathon</a></h3>
-<h3><a href="https://eepurl.com/gOVdKb">Join the Mailing List</a></h3>
+<iframe id="ls_embed_1616756933" src="https://livestream.com/accounts/2261474/events/9595043/player?width=960&height=540&enableInfoAndActivity=true&defaultDrawer=feed&autoPlay=true&mute=false" width="960" height="540" frameborder="0" scrolling="no" allowfullscreen> </iframe><script type="text/javascript" data-embed_id="ls_embed_1616756933" src="https://livestream.com/assets/plugins/referrer_tracking.js"></script>
+<p>
+<iframe src="https://app.sli.do/event/jwds57y7" width="960" height="560" frameBorder="0" style="min-height: 560px;" title="Slido"></iframe>
+<hr>
+<h3><a href="https://mit-bitcoin-club.myshopify.com/collections/all">Swag Shop</a></h3>
+<h3><a href="https://discord.com/invite/Uj9rT96za9">Discord</a></h3>
+<h3><a href="https://gather.town/app/rTCC2qDquw582Apg/mitbtcexpov1/">Gather.town</a></h3>
 <!-- / welcome.template -->
 </td></tr>
 
@@ -294,7 +342,7 @@ mitbitcoinexpo.org
 	</table>
 </font>
 <!-- / window/standard.template -->
-<a name=94a81079></a></main>
+<a name=2bf249c5></a></main>
 <hr>
 <img src="/p.gif" alt="" height=1 width=1>
 <!-- back_to_top_button.template -->
