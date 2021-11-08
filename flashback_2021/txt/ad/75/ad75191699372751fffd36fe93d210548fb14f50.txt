@@ -1,0 +1,7 @@
+AJ works on Galaxy Digital’s mining team, where he focuses on developing financial products around bitcoin mining. Prior to joining Galaxy, AJ worked in J.P. Morgan’s technology investment banking practice in New York.
+
+-- 
+name: AJ Scalia
+title: Mining Team, Galaxy Digital
+
+>>c014e677e54f7a8e88c0c00eaab6c2e0a5657402

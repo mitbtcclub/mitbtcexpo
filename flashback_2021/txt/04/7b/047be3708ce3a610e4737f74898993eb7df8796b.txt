@@ -1,0 +1,7 @@
+>>6e735d2e881e4d464be8f5a4f49f39dc744ac4e7
+
+Danny does research and development on consensus upgrades at the Ethereum Foundation.
+
+-- 
+name: Danny Ryan
+title: Research at Ethereum Foundation

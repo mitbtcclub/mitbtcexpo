@@ -1,0 +1,6 @@
+Neha Narula is the Director of the Digital Currency Initiative at the MIT Media Lab, where her research interests are in cryptocurrencies and distributed systems. She received her PhD in computer science from MIT in 2015, where she published work on fast, scalable databases. Neha has has given a TED talk on the future of money, was named to WIRED's list of 25 leaders shaping the next 25 years of technology, and was listed on Fortune's Ledger 40 under 40. In a previous life, she helped relaunch the news aggregator Digg and was a senior software engineer at Google.
+
+-- 
+name: Neha Narula
+title: Director, Digital Currency Initiative
+>>6d33c2d71f2a67f117c162d2e740bbc29788faf8

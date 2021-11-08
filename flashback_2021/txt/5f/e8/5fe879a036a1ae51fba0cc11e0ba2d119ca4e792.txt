@@ -1,0 +1,9 @@
+>>57a643f7f780bc47872ee8c8f9fafb0dcebc44e7
+
+Sia is a decentralized cloud storage platform supported by a global ecosystem of data storage hosts and renters. The Sia network is maintained by the Sia Foundation, a non-profit entity.
+
+Skynet is an open protocol and toolkit for creating a better web—one built on decentralized storage and applications. Skynet is layer 2, built on top of the Sia network.
+
+-- 
+name: Sia
+https://www.sia.tech/

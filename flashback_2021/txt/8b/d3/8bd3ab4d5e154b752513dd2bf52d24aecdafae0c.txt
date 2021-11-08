@@ -1,0 +1,6 @@
+Reuben Youngblom is Managing Editor of the Cryptoeconomic Systems Journal and Conference Series, an interdisciplinary effort between the DCI and MIT Press. He is a Fellow at Stanford Law School’s CodeX Center for Legal Informatics, where he runs the Blockchain Education Initiative, serves as a Coordinator for the RegTrax Blockchain Regulatory Tracking Initiative, and co-hosts the Our Data podcast. He also releases an annual ranking of universities for CoinDesk, evaluating the institutions’ impact in the blockchain space.
+Reuben holds bachelor’s degrees in computer science, philosophy, and psychology; a master’s degree in philosophy; and a JD with an emphasis in intellectual property law. He regularly consults for blockchain startups, advising on technical and legal issues; contributes to the Ethereum ecosystem; and spends most of his free time in the ocean.
+-- 
+name: Reuben Youngblom
+title: Managing Editor of the Cryptoeconomic Systems Journal and Conference Series at MIT DCI
+>>3cb57596b2b6a7d87db40a20199885ddaa5f176e

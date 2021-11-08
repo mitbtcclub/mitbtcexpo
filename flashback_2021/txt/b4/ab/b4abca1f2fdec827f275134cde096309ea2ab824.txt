@@ -1,0 +1,7 @@
+We are building a virtual universe which fundamentally improves how people interact online.
+
+Today, that means a powerful remote-social platform which removes the geographical (and biological) constraints on peoples' lives. We already have people working out of our office spaces, attending our virtual conferences, or going to school on our campus spaces. We have folks hosting everything from magic conventions to artist EP launches to thanksgiving dinners, and even a few weddings.
+-- 
+name: Gather
+title: https://www.gather.town/
+>>b4e8c71083e2daba82fedc573dc969bbe75eee63

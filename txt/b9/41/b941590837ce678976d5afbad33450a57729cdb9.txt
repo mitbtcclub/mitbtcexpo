@@ -1,7 +1,0 @@
-Gloria is currently working on package validation/relay in Bitcoin Core. She just graduated from UC Berkeley in December and was previously president of Blockchain at Berkeley.
-
--- 
-name: Gloria Zhao
-title: Bitcoin Core Developer
-
->>d77697609b29232d57fb68e92201a10daf908d4f
