@@ -1,11 +1,36 @@
-[Live Site](http://mitbitcoinexpo.org)
+# MIT Bitcoin Expo 2022 Site
 
-2018 site is in the commit history
+This project is the MIT Bitcoin Expo site ([Live Site](http://mitbitcoinexpo.org))
 
-2017 site is in the commit history
 
-2016 site is in the commit history
+## To run this project on a local machine (developer mode): 
+* Clone the repository. 
 
-2015 site is in the commit history
+* Run 
 
---flag:isthisevenpartofthectf
+```
+php -S localhost:8080
+```
+
+* Open your broswer on to http://localhost:8080/ 
+
+<br>
+<br>
+
+## Access older version of the site:
+ * 2021 
+```
+/flashback_2021
+```
+ * 2020
+```
+/flashback_2020
+```
+ * 2019
+```
+/flashback_2019
+```
+ * 2015-2018 versions can be found in the commit history.
+
+
+
