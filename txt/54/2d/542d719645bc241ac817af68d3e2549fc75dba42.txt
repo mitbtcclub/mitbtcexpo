@@ -1,5 +1,0 @@
--- 
-name: Andrej Skraba
-title: Chief Marketing Officer, NiceHash
-
->>59d570ad15388b8643f5a5bf6fa45b19d166aee8

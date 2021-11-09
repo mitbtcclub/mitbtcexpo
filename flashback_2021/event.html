@@ -1,0 +1,485 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="alternate" title="RSS Feed" href="/rss.xml" type="application/rss+xml">
+<title>Add Event</title>
+<style type="text/css">
+<!--
+/* begin css/default.css */
+.tag-flag,
+.tag-troll,
+.tag-spam,
+.tag-remove,
+.tag-abuse {
+/* negative (red) tags */
+	color: #c00000;
+}
+
+.tag-remove {
+/* remove tag */
+	font-weight: bold;
+}
+
+.tag-approve,
+.tag-accept,
+.tag-friend,
+.tag-attend {
+/* positive (green) tags */
+	color: #008000;
+}
+
+div.reply {
+/* creates indented effect for sub-replies */
+	margin-left: 2%;
+	padding-left: 3em;
+}
+
+.item-textart {
+/* textart items get monospace font */
+	font-family: monospace;
+	font-size: 12pt;
+}
+
+.tag-aolart {
+/* aol art in 10-point arial font */
+    font-family: Arial;
+    font-size: 10pt;
+}
+
+div.txt {
+	padding-left: 1em;
+}
+
+.byadmin {
+/* text by admin, displayed in red for users' sake */
+	color: red;
+}
+
+.signed {
+/* signed things are displayed in gold */
+    border-color: gold;
+}
+
+
+#eventLocation, #eventBrcLocation {
+/* event form */
+	background-color: #ffffff;
+	padding: 5pt;
+}
+
+#eventDate {
+/* event form */
+	background-color: #e0e0e0;
+	padding: 5pt;
+}
+
+#loadingIndicator, #spanLoadingIndicator, #ariaAlert {
+	color: #000000;
+	background-color: #f0f0d0;
+	padding: 3pt;
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: 0;
+	font-family: tahoma, arial, sans-serif;
+	font-size: smaller;
+	font-weight: bold;
+}
+#loadingIndicator a {
+	/* style for links in loading indicator */
+}
+.notification {
+	color: #000000;
+	background-color: #f0f0d0;
+	padding: 3pt;
+	font-size: smaller;
+	font-weight: bold;
+}
+noscript {
+	color: red;
+}
+.menubar a, .titlebar a {
+	text-decoration: none;
+	color: #000000;
+}
+/* end css/default.css */
+
+/* avatar.css */
+.avatar .icon {
+	font-weight: bold;
+	font-size: smaller;
+}
+/* / avatar.css */
+
+/* dragging.css */
+
+table.dialog {
+	display: inline-block;
+	vertical-align: top;
+}
+form {
+	display: inline;
+}
+
+/* / dragging.css */
+
+/* theme/mitbtc/additional.css */
+/* / theme/mitbtc/additional.css */
+/* theme/chicago/additional.css */
+body {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	background-color: #008080;
+}
+input {
+	border-color: blue;
+}
+input[type=text], input[type=password], select, option, textarea {
+	background-color: #ffffff;
+	color: #000000;
+}
+#txtClock {
+	border: 1pt inset #c0c0c0;
+}
+@media (prefers-color-scheme: dark) {
+
+}
+.beginner {
+    background-color: #f0f0d0;
+}
+.dialog {
+	box-shadow: 3pt 3pt 0 rgba(0, 20, 20, 0.5);
+	border: #c0c0c0 outset 2pt;
+	background-color: #c0c0c0;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+.statusbar td {
+	border: 1pt inset #c0c0c0;
+}
+textarea {
+    font-family: Fixedsys, "Courier New", Courier, monospace;
+    font-size: 12pt;
+}
+
+.txt {
+/* regular text */
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 14pt;
+	background-color: #d0d2d4;
+	border: 1pt #ffffff inset;
+}
+
+a:focus, a:active {
+    color: red !important;
+    background-color: orange !important;
+}
+textarea:focus {
+    background-color: #fff0e0;
+}
+input:focus {
+    background-color: orange;
+}
+#serverResponse {
+/* response messages from the server */
+    background-color: #ffc080;
+    color: #000000;
+    padding: 5pt;
+    spacing: 5pt;
+    border: 0;
+	box-shadow: 5pt 5pt 0 rgba(0, 20, 20, 0.5);
+}
+#txtClock {
+	border: 1pt inset #c0c0c0;
+	background-color: #c0c0c0;
+}
+/* / theme/chicago/additional.css */
+-->
+</style>
+</head>
+<body background="/triangles.gif">
+<b><!-- mitbtc/template/topmenu2.template -->
+<table cellspacing=0 cellpadding=3 border=0 bgcolor="#c0c0c0" class=dialog>
+	<tr bgcolor="#35163A">
+		<td colspan=2>
+			<img alt="MIT Bitcoin Expo" title="MIT Bitcoin Expo" logo src="/logo.gif" height=16 width=16>
+			<font color="#ffffff"><b>MIT Bitcoin Expo 2021</b></font>
+			<a href="/etc.html">.</a>
+			<br>
+		</td>
+	</tr>
+	<tr bgcolor="#c0c0c0" class=menubar>
+		<td>
+			<big>
+				<big><!-- menuitem.template -->
+<a accesskey="h" href="/"><u>H</u>ome</a>
+<!-- / menuitem.template -->
+ &nbsp; <!-- menuitem.template -->
+<a accesskey="r" href="https://tinyurl.com/4ezdhdk"><u>R</u>egister</a>
+<!-- / menuitem.template -->
+ &nbsp; <!-- menuitem.template -->
+<a accesskey="s" href="/speakers.html"><u>S</u>peakers</a>
+<!-- / menuitem.template -->
+ &nbsp; <!-- menuitem.template -->
+<a accesskey="p" href="/sponsors.html">S<u>p</u>onsors</a>
+<!-- / menuitem.template -->
+ &nbsp; <!-- menuitem.template -->
+<a accesskey="m" href="/media.html"><u>M</u>edia Partners</a>
+<!-- / menuitem.template -->
+ &nbsp; <!-- menuitem.template -->
+<a accesskey="a" href="/academic.html"><u>A</u>cademic Partners</a>
+<!-- / menuitem.template -->
+ &nbsp; <!-- menuitem.template -->
+<a accesskey="g" href="/agenda.html">A<u>g</u>enda</a>
+<!-- / menuitem.template -->
+ &nbsp; <!-- menuitem.template -->
+<a accesskey="c" href="https://mit-bitcoin-expo-hackathon.devfolio.co/">Ha<u>c</u>kathon</a>
+<!-- / menuitem.template -->
+ &nbsp; <!-- menuitem.template -->
+<a accesskey="o" href="/committee.html">C<u>o</u>mmittee</a>
+<!-- / menuitem.template -->
+ &nbsp; <!-- menuitem.template -->
+<a accesskey="l" href="/links.html"><u>L</u>inks</a>
+<!-- / menuitem.template -->
+ &nbsp; <!-- menuitem.template -->
+<a accesskey="i" href="https://eepurl.com/gOVdKb">Ma<u>i</u>ling List</a>
+<!-- / menuitem.template -->
+ &nbsp; <!-- menuitem.template -->
+<a accesskey="e" href="/flashback_2020/">Prior <u>E</u>xpo</a>
+<!-- / menuitem.template -->
+ &nbsp; </big>
+			</big>
+		</td>
+	</tr>
+</table>
+<!-- / mitbtc/template/topmenu2.template -->
+</b>
+<p><MAIN ID=maincontent><A NAME=maincontent></A>
+<!-- event_add.template -->
+<form method="GET" name=addevent action="https://www.opxenioctibtim.org/post.html">
+	<font face=arial>
+		<table cellspacing=0 cellpadding=6 border=0 bgcolor="#c0c0c0" class=dialog>
+			<tr bgcolor="#35163A" class=titlebar>
+				<td>
+					<font color="#ffffff"><b>Add Event</b></font>
+				</td>
+			</tr>
+
+			<tr class=menubar>
+				<td>
+					<p>
+				</td>
+			</tr>
+
+			<tr class=body>
+				<td class=content>
+					<p class=beginner>Fill out form to create event.</p>
+				</td>
+			</tr>
+
+			<tr class=location>
+				<td class=content bgcolor="#ffffff">
+					<p id=eventLocation>
+						<label for=event_location>
+							<b>Location:</b>
+						</label>
+
+						<br>
+
+						<input name="event_location" id="event_location" type="text">
+
+						<br>
+
+						<span class=beginner>
+							Tip: Describe how to find in detail.
+						</span>
+
+						<br><br>
+					</p>
+				</td>
+			</tr>
+
+			<tr class=date>
+				<td class=content bgcolor="#e0e0e0">
+					<p id=eventDate>
+						<b>Date</b><br>
+
+						<select name="month" onchange="if (window.UpdateTimeString) { UpdateTimeString() }">
+							<option value="1">January</option>
+							<option value="2">February</option>
+							<option value="3">March</option>
+							<option value="4">April</option>
+							<option value="5">May</option>
+							<option value="6">June</option>
+							<option value="7">July</option>
+							<option value="8">August</option>
+							<option value="9">September</option>
+							<option value="10">October</option>
+							<option value="11">November</option>
+							<option value="12">December</option>
+						</select>
+
+						<select name="day" onchange="if (window.UpdateTimeString) { UpdateTimeString() }">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+							<option value="13">13</option>
+							<option value="14">14</option>
+							<option value="15">15</option>
+							<option value="16">16</option>
+							<option value="17">17</option>
+							<option value="18">18</option>
+							<option value="19">19</option>
+							<option value="20">20</option>
+							<option value="21">21</option>
+							<option value="22">22</option>
+							<option value="23">23</option>
+							<option value="24">24</option>
+							<option value="25">25</option>
+							<option value="26">26</option>
+							<option value="27">27</option>
+							<option value="28">28</option>
+							<option value="29">29</option>
+							<option value="30">30</option>
+							<option value="31">31</option>
+						</select>
+
+						<select name="year" onchange="if (window.UpdateTimeString) { UpdateTimeString() }">
+							<option value="2017">2017</option>
+							<option value="2018">2018</option>
+							<option value="2019">2019</option>
+							<option value="2020">2020</option>
+							<option value="2021">2021</option>
+							<option value="2022">2022</option>
+							<option value="2023">2023</option>
+							<option value="2024">2024</option>
+							<option value="2025">2025</option>
+							<option value="2026">2026</option>
+							<option value="2027">2027</option>
+							<option value="2028">2028</option>
+							<option value="2029">2029</option>
+						</select>
+
+						<br>
+
+						<b>Time</b><br>
+
+						<select name="hour" onchange="if (window.UpdateTimeString) { UpdateTimeString() }">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+						</select>
+
+						<select name="minute" onchange="if (window.UpdateTimeString) { UpdateTimeString() }">
+							<option value="0">00</option>
+							<option value="5">05</option>
+							<option value="10">10</option>
+							<option value="15">15</option>
+							<option value="20">20</option>
+							<option value="25">25</option>
+							<option value="30">30</option>
+							<option value="35">35</option>
+							<option value="40">40</option>
+							<option value="45">45</option>
+							<option value="50">50</option>
+							<option value="55">55</option>
+						</select>
+
+						<select name="am_pm" onchange="if (window.UpdateTimeString) { UpdateTimeString() }">
+							<option value="0">AM</option>
+							<option value="1">PM</option>
+						</select>
+
+						<span class=advanced>
+							<br><br>
+							<label for=date_yyyy><b>Time as Text</b><br>
+							<input type=text name=date_yyyy id=date_yyyy size=20></label>
+
+							<br><br>
+
+							<label for=date_epoch><b>Epoch Seconds</b><br>
+							<input type=text name=date_epoch id=date_epoch size=20></label>
+						</span>
+					</p>
+				</td>
+			</tr>
+
+			<tr class=details bgcolor="#ffffff">
+				<td>
+					<p>
+						<label for=event_details>
+							<b>Description</b><br>
+							<textarea wrap=wrap name="event_details" id="event_details" rows="5" cols=40></textarea>
+						</label>
+					</p>
+
+				</td>
+			</tr>
+
+			<tr class=details bgcolor="#e0e0e0">
+				<td>
+					<p>
+						<label for=event_name><b>Event Name</b><br>
+							<input name=event_name id=event_name type=text>
+						</label>
+					</p>
+
+				</td>
+			</tr>
+
+			<tr class=details bgcolor="#c0c0c0">
+				<td>
+					<p id=eventCreate>
+						<input value="Create Event" type="submit" style="cursor: click;" id=eventCreateButton>
+						<span class=beginner><-- Press button to create event!</span>
+					</p>
+
+					<p>
+						<a href="/">Cancel</a>
+					</p>
+				</td>
+			</tr>
+		</table>
+	</font>
+</form>
+<!-- / event_add.template -->
+</main>
+<hr>
+<img src="/p.gif" alt="" height=1 width=1>
+<!-- back_to_top_button.template -->
+<a
+    href="#"
+    onclick="if (window.scrollTo) { window.scrollTo(0, 0); return false; }"
+    title="Back to top"
+    id=aBackToTop
+    style="
+        position: fixed;
+        right: 5pt;
+        bottom: 5pt;
+        background-color: #f0f0d0;
+        border: 5pt;
+        padding: 5pt;
+        border-radius: 5pt;
+        text-decoration: none;
+    "
+>^^</span></a>
+<!-- / back_to_top_button.template --></body></html>

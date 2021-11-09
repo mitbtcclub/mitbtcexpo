@@ -1,4 +1,0 @@
-name: David Vorick
-title: Co-Founder and CEO, Sia
-
->>5b625e55e2dffc8cb2d89194b3bb560057dbcc66

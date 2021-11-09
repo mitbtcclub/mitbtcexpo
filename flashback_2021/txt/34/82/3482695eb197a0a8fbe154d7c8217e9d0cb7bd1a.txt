@@ -1,0 +1,5 @@
+Jay is the Director of Research at Foundry where he focuses on increasing infrastructure decentralization, combating energy misinformation, and building a North American based bitcoin mining pool.
+-- 
+name: Jay Beddict
+title: Director of Research, Foundry
+>>bf1c593cef3de88045c105809c9ace6af8721a53

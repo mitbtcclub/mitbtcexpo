@@ -1,0 +1,13 @@
+Software Updated to Version e6799956..
+
+Installed software version has changed from cd60f1fe032c2b19a3751e1178b173bbfb4a0903 to e6799956415886422dddedd8af9c5dabffc10e5b
+
+e6799956 more expo_site_mode changes (#techdebt)
+fbbaea95 make WriteMenuList() dependent on expo_site_mode parameter
+9559dbe0 change how item name is selected for output
+0be3f117 add run-query shell script for directly running queries from command line
+e0c91177 fix sanity check in DBGetItemAttribute()
+0a19fadd add debug output to SqliteQueryCachedShell()
+a7871ede add comment for code formatting
+
+#changelog

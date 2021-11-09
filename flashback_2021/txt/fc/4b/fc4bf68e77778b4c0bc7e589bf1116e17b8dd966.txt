@@ -1,0 +1,8 @@
+Software Updated to Version 34c17167..
+
+Installed software version has changed from 36b0852109c683237bf90205e1cf3d0a3b627395 to 34c17167903e0a5f5348618994a44d8e408a0155
+
+34c17167 Add expo mode tweaks
+9450c2a0 Add image permalink path to image item templates
+
+#changelog

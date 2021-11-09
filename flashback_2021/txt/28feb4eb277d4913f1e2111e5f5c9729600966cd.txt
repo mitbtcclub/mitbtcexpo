@@ -1,0 +1,7 @@
+I am Director of Bitcoin Mining at Fidelity's Center for Applied Technology. I lead and manage our current mining operation and am currently working on growing Fidelity's mining operations. I'm also interested in research and am currently working on a number of proof-of-concepts and research ideas related to Bitcoin and Bitcoin mining.
+
+-- 
+name: Brian Wright
+title: Director, Bitcoin Mining at Fidelity Investments
+
+>>557d867024a2b019891e30ad7a7e7d93500e4a5f

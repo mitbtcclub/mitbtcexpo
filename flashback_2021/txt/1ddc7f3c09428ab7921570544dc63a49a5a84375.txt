@@ -1,0 +1,8 @@
+Stellar is a decentralized, fast, scalable, and uniquely sustainable network for financial products and services. It is both a cross-currency transaction system and a platform for digital asset issuance, designed to connect the worldâ€™s financial infrastructure. Dozens of financial institutions worldwide issue assets and settle payments on the Stellar network, which has grown to over 4.8 million accounts.
+
+The Stellar Development Foundation (SDF) is a non-profit organization that supports the development and growth of Stellar, an open-source network that connects the worldâ€™s financial infrastructure. Founded in 2014, the Foundation helps maintain Stellarâ€™s codebase, supports the technical and business communities building on the network, and serves as a voice to regulators and institutions. The Foundation seeks to create equitable access to the global financial system, using the Stellar network to unlock the worldâ€™s economic potential through blockchain technology.
+
+-- 
+name: Stellar Development Foundation
+title: https://www.stellar.org/
+>>00722e067b530770899a17c31d8259368ed889f0

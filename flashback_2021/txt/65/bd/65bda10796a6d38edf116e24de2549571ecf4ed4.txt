@@ -1,0 +1,9 @@
+Michael Flaxman is a software engineer and investor. He fell in love with Bitcoin in 2013 and is the co-maintainer of buidl (an open-source bitcoin library written in python) and the author of the 10x security guide. Michael has built three venture-funded companies and is an alumnus of Y Combinator.
+
+-- 
+name: Michael Flaxman
+title: Co-maintainer of buidl python bitcoin library
+
+>>2af2a5567e7a147ec87c2935461df351d7b4a264
+-- 
+Cookie: 19123B3A015E781F

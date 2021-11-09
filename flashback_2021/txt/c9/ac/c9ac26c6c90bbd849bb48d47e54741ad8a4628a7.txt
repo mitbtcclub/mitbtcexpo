@@ -1,0 +1,9 @@
+Software Updated to Version ccd898f1..
+
+Installed software version has changed from 8efdfb469d49afc3f588fad877dcd74e0c076244 to ccd898f18436aa7030df4e6db4b1e312568964f4
+
+ccd898f1 Add expo_site_edit default
+799f41eb GetReadPage() add sanity check
+c5b84e4c Add sanity check in WriteMenuList()
+
+#changelog

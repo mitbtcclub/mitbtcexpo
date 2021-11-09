@@ -1,1 +1,0 @@
-post.html?event_location=location

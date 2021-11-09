@@ -1,7 +1,0 @@
-Jimmy Song is a Bitcoin developer, educator and entrepreneur. He's an open source contributor to many different Bitcoin projects and is the author of Programming Bitcoin from O'Reilly, The Little Bitcoin Book and Thank God for Bitcoin. Jimmy writes a weekly newsletter, Bitcoin Tech Talk and has a podcast Bitcoin Fixes This.
-
--- 
-name: Jimmy Song
-title: Bitcoin Developer
-
->>00c124781875dc784e317fdba2f5b445469fb5aa

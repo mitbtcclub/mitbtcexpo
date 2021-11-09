@@ -1,0 +1,26 @@
+Software Updated to Version c7df3c08..
+
+Installed software version has changed from 5d27446183380dfb949d1cfa3b22fb475651f074 to c7df3c08689c8947b20d221fc16d189710787488
+
+c7df3c08 Factor out mittens form
+f5f758d2 add admin/token/signature_divider default
+bb4edf39 Rename dev scripts to reduce accidental activation
+8c9c3af7 Add theme/ dir to clean_template.sh
+957e1570 If expo_site_edit mode, still show permalinks which would normally be hidden (to allow for editing of items)
+fdac5558 Add GetGalleryPage() and factor out
+59fae006 Add media page
+1198d2f4 Remove <br> between elements
+4ad3102b GetMenuFromList() add code for marking external links
+dbcc9e1c Improve GetSystemMenuList()
+4a11c1e9 Don't replace dollar signs in output HTML when in expo mode
+460a8e37 Rename 'Bio' to 'Information'
+df76fb79 Cleanup and clarify
+91752260 add no_permalink option to GetItemTemplate()
+f19a6d76 GetImageContainer: allow images without links to the item
+13864325 Add inline_block_css setting
+d98c84e2 Rename script
+fef34b0d rename 'Bio' to more generic 'Information'
+017d76f3 do not show notext replies if in expo mode
+6ec6dcdd add warning if html page is missing maincontent element
+
+#changelog

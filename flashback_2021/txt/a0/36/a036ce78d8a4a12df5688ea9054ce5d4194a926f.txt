@@ -1,0 +1,7 @@
+>>6d8be3c701e696c51772eb20a84527e78d661d95
+
+Anders Brownworth works in applied research on CBDCs within the Payments Strategy group at The Federal Reserve Bank of Boston. Previously he worked at Circle involved with designing and launching the USDC stablecoin. He co-taught the first blockchain class at MIT and previously helped create and launch Republic Wireless, a WiFi / cellular hybrid smartphone service. Brownworth holds a number of patents in the telecom space and played a key role in Bandwidth.com's evolution from startup to public company.
+
+-- 
+name: Anders Brownworth
+title: Principal Architect, Federal Reserve Bank of Boston
