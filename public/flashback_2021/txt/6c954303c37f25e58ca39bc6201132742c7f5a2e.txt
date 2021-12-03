@@ -1,9 +1,0 @@
-Robleh Ali is a founder of Wadagso Inc a specialist company offering software engineering and public policy expertise to design, build and performance test central bank digital currency (CBDC) and associated next generation financial market infrastructure.
-
-Before starting Wadagso, Robleh led the CBDC research at the MIT Digital Currency Initiative and prior to that he led the digital currency work for the Bank of England.
-
--- 
-name: Robleh Ali
-title: Founder of Wadagso Inc
-
->>7ce0af9bc3b390015f9b1a467f9f78c25572266d

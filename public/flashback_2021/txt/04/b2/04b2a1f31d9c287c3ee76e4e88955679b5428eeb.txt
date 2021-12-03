@@ -1,7 +1,0 @@
-Dan is currently Growth lead at Kraken. His former company Interchange, a portfolio reconciliation tool for crypto institutional traders, was acquired by Kraken in 7/2019. Prior to that, he was at Uber on Rider Growth/Global Data. Before Uber, Dan built some of the most popular early crypto products including ChangeTip (acquired by AirBnB), and ZeroBlock (acquired by Blockchain.com in the second ever all Bitcoin acquisition). He was part of the original 2013 crypto meetup group in SF which was comprised with the founders of Kraken, Coinbase, Litecoin, and others.
-
--- 
-name: Dan Held
-title: Growth Lead, Kraken
-
->>061e4f05e0fdbdf453315ab0b317862add0f3394
