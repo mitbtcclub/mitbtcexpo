@@ -1,0 +1,10 @@
+Software Updated to Version 5c4dbdf6..
+
+Installed software version has changed from d050cd820cb34c509f850c653f978974ba12b6c3 to 5c4dbdf670f0abf9918c3a6fc51c3a66dde8433e
+
+5c4dbdf6 GetItemTemplate2() --> GetItemTemplate()
+2fe109f9 GetItemTemplate2() --> GetItemTemplate()
+7b4d565c GetItemTemplate2() --> GetItemTemplate()
+ea4e528f fix bugs in pages.pl GetMenuTemplate()
+
+#changelog

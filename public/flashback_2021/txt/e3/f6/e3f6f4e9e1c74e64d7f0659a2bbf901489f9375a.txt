@@ -1,0 +1,10 @@
+>>2e0927443ce73e446f9b4b1c2c3c6d75d119036c
+
+MIT grad student working on privacy-preserving computations for economic and social design (auctions, matching, clearing and netting, risk sharing agreements).
+
+www.leadmit.com
+https://nicolasxyz.github.io/portfolio/
+
+-- 
+name: Nicolas Zhang
+title: Research Scientist, CSAIL and MIT Economics

@@ -1,0 +1,594 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="alternate" title="RSS Feed" href="./rss.xml" type="application/rss+xml">
+<title>Manual_advanced</title>
+<style type="text/css">
+<!--
+/* begin css/default.css */
+.tag-flag,
+.tag-troll,
+.tag-spam,
+.tag-remove,
+.tag-abuse {
+/* negative (red) tags */
+	color: #c00000;
+}
+
+.tag-remove {
+/* remove tag */
+	font-weight: bold;
+}
+
+.tag-approve,
+.tag-accept,
+.tag-friend,
+.tag-attend {
+/* positive (green) tags */
+	color: #008000;
+}
+
+div.reply {
+/* creates indented effect for sub-replies */
+	margin-left: 2%;
+	padding-left: 3em;
+}
+
+.item-textart {
+/* textart items get monospace font */
+	font-family: monospace;
+	font-size: 12pt;
+}
+
+.tag-aolart {
+/* aol art in 10-point arial font */
+    font-family: Arial;
+    font-size: 10pt;
+}
+
+div.txt {
+	padding-left: 1em;
+}
+
+.byadmin {
+/* text by admin, displayed in red for users' sake */
+	color: red;
+}
+
+.signed {
+/* signed things are displayed in gold */
+    border-color: gold;
+}
+
+
+#eventLocation, #eventBrcLocation {
+/* event form */
+	background-color: #ffffff;
+	padding: 5pt;
+}
+
+#eventDate {
+/* event form */
+	background-color: #e0e0e0;
+	padding: 5pt;
+}
+
+#loadingIndicator, #spanLoadingIndicator, #ariaAlert {
+	color: #000000;
+	background-color: #f0f0d0;
+	padding: 3pt;
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: 0;
+	font-family: tahoma, arial, sans-serif;
+	font-size: smaller;
+	font-weight: bold;
+}
+#loadingIndicator a {
+	/* style for links in loading indicator */
+}
+.notification {
+	color: #000000;
+	background-color: #f0f0d0;
+	padding: 3pt;
+	font-size: smaller;
+	font-weight: bold;
+}
+noscript {
+	color: red;
+}
+.menubar a, .titlebar a {
+	text-decoration: none;
+	color: #000000;
+}
+/* end css/default.css */
+
+/* avatar.css */
+.avatar .icon {
+	font-weight: bold;
+	font-size: smaller;
+}
+/* / avatar.css */
+
+/* dragging.css */
+
+table.dialog {
+	display: inline-block;
+	vertical-align: top;
+}
+form {
+	display: inline;
+}
+
+/* / dragging.css */
+
+/* theme/mitbtc/additional.css */
+/* / theme/mitbtc/additional.css */
+/* theme/chicago/additional.css */
+body {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	background-color: #008080;
+}
+input {
+	border-color: blue;
+}
+input[type=text], input[type=password], select, option, textarea {
+	background-color: #ffffff;
+	color: #000000;
+}
+#txtClock {
+	border: 1pt inset #c0c0c0;
+}
+@media (prefers-color-scheme: dark) {
+
+}
+.beginner {
+    background-color: #f0f0d0;
+}
+.dialog {
+	box-shadow: 3pt 3pt 0 rgba(0, 20, 20, 0.5);
+	border: #c0c0c0 outset 2pt;
+	background-color: #c0c0c0;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+.statusbar td {
+	border: 1pt inset #c0c0c0;
+}
+textarea {
+    font-family: Fixedsys, "Courier New", Courier, monospace;
+    font-size: 12pt;
+}
+
+.txt {
+/* regular text */
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 14pt;
+	background-color: #d0d2d4;
+	border: 1pt #ffffff inset;
+}
+
+a:focus, a:active {
+    color: red !important;
+    background-color: orange !important;
+}
+textarea:focus {
+    background-color: #fff0e0;
+}
+input:focus {
+    background-color: orange;
+}
+#serverResponse {
+/* response messages from the server */
+    background-color: #ffc080;
+    color: #000000;
+    padding: 5pt;
+    spacing: 5pt;
+    border: 0;
+	box-shadow: 5pt 5pt 0 rgba(0, 20, 20, 0.5);
+}
+#txtClock {
+	border: 1pt inset #c0c0c0;
+	background-color: #c0c0c0;
+}
+/* / theme/chicago/additional.css */
+-->
+</style>
+</head>
+<body background="/triangles.gif">
+<b><!-- mitbtc/template/topmenu2.template -->
+<table cellspacing=0 cellpadding=3 border=0 bgcolor="#c0c0c0" class=dialog>
+	<tr bgcolor="#35163A">
+		<td colspan=2>
+			<img alt="MIT Bitcoin Expo" title="MIT Bitcoin Expo" logo src="./logo.gif" height=16 width=16>
+			<font color="#ffffff"><b>MIT Bitcoin Expo 2021</b></font>
+			<a href="./etc.html">.</a>
+			<br>
+		</td>
+	</tr>
+	<tr bgcolor="#c0c0c0" class=menubar>
+		<td>
+			<big>
+				<big><!-- menuitem.template -->
+<a accesskey="h" href="./"><u>H</u>ome</a>
+<!-- / menuitem.template -->
+ &nbsp; <!-- menuitem.template -->
+<a accesskey="r" href="https://tinyurl.com/4ezdhdk"><u>R</u>egister</a>
+<!-- / menuitem.template -->
+ &nbsp; <!-- menuitem.template -->
+<a accesskey="s" href="./speakers.html"><u>S</u>peakers</a>
+<!-- / menuitem.template -->
+ &nbsp; <!-- menuitem.template -->
+<a accesskey="p" href="./sponsors.html">S<u>p</u>onsors</a>
+<!-- / menuitem.template -->
+ &nbsp; <!-- menuitem.template -->
+<a accesskey="m" href="./media.html"><u>M</u>edia Partners</a>
+<!-- / menuitem.template -->
+ &nbsp; <!-- menuitem.template -->
+<a accesskey="a" href="./academic.html"><u>A</u>cademic Partners</a>
+<!-- / menuitem.template -->
+ &nbsp; <!-- menuitem.template -->
+<a accesskey="g" href="./agenda.html">A<u>g</u>enda</a>
+<!-- / menuitem.template -->
+ &nbsp; <!-- menuitem.template -->
+<a accesskey="c" href="https://mit-bitcoin-expo-hackathon.devfolio.co/">Ha<u>c</u>kathon</a>
+<!-- / menuitem.template -->
+ &nbsp; <!-- menuitem.template -->
+<a accesskey="o" href="./committee.html">C<u>o</u>mmittee</a>
+<!-- / menuitem.template -->
+ &nbsp; <!-- menuitem.template -->
+<a accesskey="l" href="./links.html"><u>L</u>inks</a>
+<!-- / menuitem.template -->
+ &nbsp; <!-- menuitem.template -->
+<a accesskey="i" href="https://eepurl.com/gOVdKb">Ma<u>i</u>ling List</a>
+<!-- / menuitem.template -->
+ &nbsp; <!-- menuitem.template -->
+<a accesskey="e" href="./flashback_2020/">Prior <u>E</u>xpo</a>
+<!-- / menuitem.template -->
+ &nbsp; </big>
+			</big>
+		</td>
+	</tr>
+</table>
+<!-- / mitbtc/template/topmenu2.template -->
+</b>
+<p><MAIN ID=maincontent><A NAME=maincontent></A>
+<!-- window/standard.template -->
+<font face=arial>
+	<table cellspacing=0 cellpadding=6 border=0 bgcolor="#c0c0c0" class=dialog>
+		<!-- titlebar_with_button.template -->
+<tr bgcolor="#35163A" class=titlebar>
+	<td valign=middle>
+		<img alt="[-]" title="Window Icon" logo src="./logo.gif" height=16 width=16>
+		<font color="#ffffff"><b>Manual_advanced</b></font>
+		<br>
+	</td>
+</tr>
+<!-- / titlebar_with_button.template -->
+
+
+		
+
+		
+
+		<tr class=content><td><h1>Advanced Manual</h1>
+
+<h2>Introduction</h2>
+
+<p>
+	Please enjoy this manual, and report any inaccuracies or potential for improvement.
+	When reporting, please use both <code>#meta</code> and <code>#manual</code> tags.
+</p>
+
+<h3>These Features May Be Confusing At First</h3>
+
+<ul>
+	<li>Your profile key lives on your device, not on this website or server.</li>
+	<li>This means that you own your profile, not this website or server.</li>
+	<li>Forum can be exported, migrated, cloned, and forked, without restriction.</li>
+	<li>Your profile stays on your device, and you can use it between any other forums.</li>
+	<li>Profile management must be done with your hands and taught to others.</li>
+</ul>
+
+<!-- -->
+
+<h3>Expert Mode Overview</h3>
+
+	<p>
+		To send message:<br>
+		* Write message in text file<br>
+		* Submit it (e.g. using <tt>curl</tt>) to <tt>https://www.opxenioctibtim.org/post.html</tt>
+	</p>
+
+	<p>
+		To create profile:<br>
+		* Use <tt>gpg --gen-key</tt> to generate key<br>
+		* Export your public key using <tt>--gpg --armor --export</tt><br>
+		* Submit (e.g. using <tt>curl</tt>) to <tt>https://www.opxenioctibtim.org/post.html</tt>.<br>
+	</p>
+
+	<p>
+		To post using profile:<br>
+		* Use <tt>gpg --clearsign</tt> to sign your text file<br>
+		* Submit to <tt>https://www.opxenioctibtim.org/post.html</tt>.<br>
+	</p>
+
+	<p>
+		* Refer to <a href="./manual.html">Manual</a> for token syntax.<br>
+	</p>
+
+
+<!-- -->
+
+<h3>Terminology and Notation</h3>
+
+<p><b>epoch time</b></p>
+
+<p>Most timestamps are currently in epoch time. This is the number of seconds since the
+	beginning of the Unix Epoch, and is (for the foreseeable future) a 10-digit number, beginning with 15. Example: <code>1557587720</code>.</p>
+
+<p><b>item</b></p>
+
+<p>An item is one "something" that has been added to the message board. Items are the most basic elements, on which everything else is built.</p>
+
+<p>Everything that happens on the message board is an item. For example, a text that someone has posted is an item, and so is a user profile, a vote, a reply, etc.</p>
+
+<p>Items are stored as plain text files (.txt), one of the most common and supported file formats, so that they can be easily inspected.</p>
+
+<p>Items are identified with a 40-digit "hash", which looks like this: <code><a href="./6b/50/6b50a8112fde3a6276cb0c5b9cd8c949bc1625d0.html">6b50a8112fde3a6276cb0c5b9cd8c949bc1625d0</a></code>. Sometimes you may see it shortened, like this: <code><a href="./6b/50/a8112fde3a6276cb0c5b9cd8c949bc1625d0.html">6b50a811..</a></code></p>
+
+<p>(more to come)</p>
+
+<!-- -->
+
+
+<a name=gpg><h3>How to use GPG</h3></a>
+
+<h4>Summary for Experts</h4>
+
+<p>Creating a profile: Generate a PGP key, post public key.</p>
+
+<p>Posting stuff as your profile: sign with GPG, paste into textbox.</p>
+
+<h4>More descriptive version</h4>
+
+<p>You will need to <b>generate a key</b> and then <b>sign your messages</b>. Piece of cake.</p>
+
+<!-- -->
+
+<a name=sign><h3>Writing As Yourself</h3></a>
+
+<p>To write something under your new profile, you will need to sign your text.</p>
+
+<p>First, write the text that you want to post. Once you have finished writing it, save it to a .txt file.</p>
+
+<p>Look for the command to "Sign" (not encrypt) your text in your GPG software.</p>
+
+<p>Some software has no such option. In this case, you should use the "Encrypt" command, but ensure that the "To:" field is blank.</p>
+
+<p>You should end up with a big block of text that begins with "<tt>-----BEGIN PGP SIGNED MESSAGE-----</tt>"</p>
+
+<p>Copy this entire block of text, including the <tt>-----</tt> part, and submit it via the <a href="./write.html">Write</a> page.</p>
+
+<p>That's it!</p>
+
+<!-- -->
+
+
+<a name=uploadkey><h3>Uploading Your Public Key</h3></a>
+
+<p>Look for the option to export your public key in your software.</p>
+
+<p>You should end up with a block of text that starts with "<tt>-----BEGIN PGP PUBLIC KEY BLOCK-----</tt>".
+
+<p>Copy the whole thing, including the <tt>-----</tt> part, and submit it via the <a href="./write.html">Write</a> page.</p>
+
+<p>You have now aliased your name to your key fingerprint.</p>
+
+<!-- -->
+
+
+<!-- -->
+
+<a name=gpgcli><h3>Signing With Command-Line GPG</h3></a>
+
+<h4>Check GPG Version</h4>
+
+<p><tt>gpg --version</tt></p>
+
+<p>If you don't have GnuPG installed, go here: <a href="https://www.opengpg.org/">https://www.opengpg.org/</a></p>
+
+<h4>Generate Key Pair</h4>
+
+<p><tt>gpg --gen-key</tt></p>
+
+<h4>Export Public Key</h4>
+
+<p><tt>gpg --armor --export</tt></p>
+
+<h4>Sign Message in Text File</h4>
+
+<p><tt>gpg --clearsign example.txt</tt></p>
+
+<h4>Sign Message After Typing It</h4>
+
+<p><tt>gpg --clearsign</tt></p>
+
+<p>Start typing your message. When you're finished, press Enter, then ^D (Ctrl+D).</p>
+
+<!-- -->
+
+
+<a name=other><h3>Other Resources</h3></a>
+
+<p><a href="manual_tokens.html">Tokens Reference</a>.</p>
+
+<p><a href="write.html">If you have questions, please ask them using Write page</a>.</p>
+
+<!-- -->
+
+<h4>Server Key</h4>
+
+<p>The server key functionality is currently not functional.</p>
+<!--
+<p>The Server key is set by first generating or importing the whole key into the server's keychain.</p>
+
+<p>The Server key is used for signing (and in the process also timestamping) various events that happen on the server.</p>
+
+<p>This ensures that the items were not posted by a random.</p>
+
+<p>The following actions are currently server-signed:</p>
+
+<p>Admin user changes. Server-signed notice is posted.</p>
+
+<p>Version changed. Server-signed "changelog" is posted, which includes the comment from the current version's commit, as well as all the previous commits that came before it, up to the most recent commit included in a changelog.</p>
+
+<p>Client fingerprint and timestamp for items that are posted where the user requests this.</p>
+-->
+<!-- -->
+
+<a name=admin><h3>Admin Stuff</h3></a>
+
+<h4>Root Operator / Root Admin / Root Key</h4>
+
+<p>The root key is set by putting the public key, ASCII-armored, into <code>./admin.key</code>.
+
+<p>This gives the user unlimited powers.</p>
+
+<h5>Remove</h5>
+
+<p>
+	The <code>#remove</code> tag, when applied by Admin,
+	will cause an item to be removed at the nearest opportunity,
+	usually within seconds.
+</p>
+
+<h5>Approve</h5>
+
+<p>
+	When Admin uses <code>#approve</code> tag,
+	item is displayed in Approved Threads pages.
+</p>
+
+<h5>Admin</h5>
+
+<p>
+	When Admin uses <code>#admin</code> tag on a user's registration,
+	that user also becomes Admin.
+
+	This setting must be enabled using <code>config/admin/allow_admin_permissions_tag_lookup</code>
+</p>
+
+<h5>#config</h5>
+
+<p>
+	The <code>#config</code> token can always be applied by Admin.
+</p>
+
+<p>
+	Settings under the <code>config/admin/</code> directory can only be set by Admin user.
+</p>
+
+<p>
+	To allow non-admin users to change configuration,
+	which should only be enabled in a trusted environment,
+	use the following settings:
+</p>
+
+<p>
+	<code>config/admin/signed_can_config</code>
+	<code>config/admin/cookied_can_config</code>
+	<code>config/admin/anyone_can_config</code>
+</p>
+
+<!-- -->
+
+<a name=gpg><h3>How to use GPG</h3></a>
+
+<h4>Read This First</h4>
+
+<p>GnuPG<br><a href="https://www.gnupg.org/">https://www.gnupg.org/</a></p>
+
+<p>Read the GnuPG home page to familiarize yourself.</p>
+
+<h4>Android</h4>
+
+<p>OpenKeychain<br><a href="https://www.openkeychain.org/about/">https://www.openkeychain.org/about/</a></p>
+
+<h4>Apple iOS, iPhone, iPad</h4>
+
+<p>PGP Everywhere<br><a href="http://pgpeverywhere.com/">http://pgpeverywhere.com/</a></p>
+
+<h4>Apple macOS</h4>
+
+<p>GPG Suite<br><a href="https://gpgtools.org/">https://gpgtools.org/</a></p>
+
+<h4>Microsoft Windows</h4>
+
+<p>Gpg4Win<br><a href="https://www.gpg4win.org/">https://www.gpg4win.org/</a></p>
+
+<h4>More Options</h4>
+
+<p>OpenPGP Software<br><a href="https://www.openpgp.org/software/">https://www.openpgp.org/software/</a></p>
+
+<a name=keypair><h3>Creating Your Profile, AKA Key Pair</h3></a>
+
+<p>You can post your messages anonymously. Anonymous posting is very easy. Why even bother creating a profile?</p>
+
+<h3>Benefits and Explanation of Registration and Signatures</h3>
+
+<ul>
+	<li>All your posts will appear on your author page.</li>
+	<li>You can sign your posts with your name.</li>
+	<li>You can edit or delete your posts later.</li>
+	<li>You will get a colorful avatar that will appear with all your posts.</li>
+</ul>
+
+<p>
+	You will need to create a key pair.
+	Look for this option in your software and use it.
+</p>
+
+<p>
+	GPG is traditionally used for email,
+	but <b>you do not have to provide your address</b> for this forum.
+	In fact, we recommend that you either leave the field blank.
+	Otherwise, your email address will be accessible to spambots.
+</p>
+
+<p>
+	The key pair is stored on your device.
+	If it is important to you, keep it safe, and back it up.
+</p>
+
+<!-- -->
+</td></tr>
+
+		
+	</table>
+</font>
+<!-- / window/standard.template -->
+<a name=d92ecb9f></a></main>
+<hr>
+<img src="./p.gif" alt="" height=1 width=1>
+<!-- back_to_top_button.template -->
+<a
+    href="#"
+    onclick="if (window.scrollTo) { window.scrollTo(0, 0); return false; }"
+    title="Back to top"
+    id=aBackToTop
+    style="
+        position: fixed;
+        right: 5pt;
+        bottom: 5pt;
+        background-color: #f0f0d0;
+        border: 5pt;
+        padding: 5pt;
+        border-radius: 5pt;
+        text-decoration: none;
+    "
+>^^</span></a>
+<!-- / back_to_top_button.template --></body></html>

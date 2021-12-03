@@ -1,0 +1,8 @@
+Software Updated to Version 5ada7f8e..
+
+Installed software version has changed from 95a6fd6302d8fd64b4a64f7663a6e7fd74b5ae95 to 5ada7f8e89ca8bbcbd4298aaf3b43c6f6ad71cda
+
+5ada7f8e add list defaults
+8b38107e improve debug output
+
+#changelog

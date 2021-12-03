@@ -1,0 +1,10 @@
+Valerie A. Szczepanik is the Director of the Strategic Hub for Innovation and Financial
+Technology (FinHub) Office at the U.S. Securities and Exchange Commission (SEC). Before
+that, she was the Senior Advisor for Digital Assets and Innovation and an Associate Director in the SEC’s Division of Corporation Finance. She also served as Assistant Director in the SEC Division of Enforcement’s Cyber Unit. Ms. Szczepanik served as a Special Assistant United States Attorney at the United States Attorney’s Office for the Eastern District of New York. She clerked for federal judges on the United States District Court for the District of Columbia and the United States Court of Appeals for the Federal Circuit and, prior to clerking, practiced patent law. Ms. Szczepanik received her Juris Doctor degree from Georgetown University and her Bachelor of Science degree in Engineering from the University of Pennsylvania.
+-- 
+name: Valerie Szczepanik
+title: Director, US SEC FinHub
+
+>>64b71a37cbb2cbe17050b20c0d228478cd09f49e
+-- 
+Cookie: 19123B3A015E781F

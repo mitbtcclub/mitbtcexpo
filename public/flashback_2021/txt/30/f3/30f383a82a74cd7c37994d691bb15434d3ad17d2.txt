@@ -1,0 +1,7 @@
+Mr. Saylor is a technologist, entrepreneur, business executive, philanthropist, and best-selling author. He currently serves as Chairman of the Board of Directors and Chief Executive Office of MicroStrategy, Inc. (MSTR). Since co-founding the company at the age of 24, Mr. Saylor has built MicroStrategy into a global leader in business intelligence, mobile software, and cloud-based services. In 2012, he authored The Mobile Wave: How Mobile Intelligence Will Change Everything, which earned a spot on The New York Times Best Sellers list. Mr. Saylor attended the Massachusetts Institute of Technology, receiving an S.B. in Aeronautics and Astronautics and an S.B. in Science, Technology, and Society.
+
+-- 
+name: Michael Saylor
+title: Chairman of the Board of Directors and Chief Executive Officer of MicroStrategy, Inc.
+
+>>5fe707737fea2cb19c4ecbb6c3cf69f67509e62e
