@@ -1,0 +1,7 @@
+Software Updated to Version 95a6fd63..
+
+Installed software version has changed from c7df3c08689c8947b20d221fc16d189710787488 to 95a6fd6302d8fd64b4a64f7663a6e7fd74b5ae95
+
+95a6fd63 Add tagFromPath declaration (and media case)
+
+#changelog

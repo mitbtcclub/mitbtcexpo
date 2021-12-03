@@ -1,0 +1,48 @@
+/*
+*   PAGE | SCHEDULE
+*/
+
+.page-schedule{
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  background: @grayDarker url(../images/pages/schedule/bck.jpg) 50% 0 repeat fixed;
+  .background-size(cover);
+
+  padding-top: 90px;
+  padding-bottom: 130px;
+
+  header {
+    margin-top: 40px;
+    padding-bottom: 0;
+  }
+
+  .container {
+    z-index: 2;
+    position: relative;
+    font-size: 15px;
+
+    table {
+      position: relative;
+      overflow-x: auto;
+      margin: auto;
+      float: none;
+      display: inline-block;
+      .oneline {
+        white-space: nowrap;
+      }
+
+      @media only screen and (max-width: 960px) {
+          tbody {
+            border: solid 2px white;
+          }
+          td {
+            min-width: 180px;
+            word-break: break-word;
+            padding: 10px;
+          }
+      }
+    }
+  }
+}

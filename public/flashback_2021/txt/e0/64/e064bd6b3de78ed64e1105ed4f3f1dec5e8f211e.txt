@@ -1,0 +1,8 @@
+Software Updated to Version b9a90416..
+
+Installed software version has changed from 5eead3059208af71fea11fb5afccfb6c134aea2b to b9a90416b3d5756efaf6c6fb9f9ce6dfec034c57
+
+b9a90416 remake all pages when doing a rebuild
+247a18f8 improve item page titles
+
+#changelog

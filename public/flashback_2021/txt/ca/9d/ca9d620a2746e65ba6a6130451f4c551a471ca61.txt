@@ -1,0 +1,15 @@
+Software Updated to Version b0b07581..
+
+Installed software version has changed from cefdc3be01c7bde5135cc4f15049d3043f2cab72 to b0b07581f35650d6da0b379b134ead06a71dad66
+
+b0b07581 Remove default Untitled title in GetWindowTemplate()
+7350850e Increase delay of WriteSubmit callback
+711a05a4 GetWindowTemplate2() : if window contents contains a table, treat it differently
+c7ac6dbd Remove mittens form on 404 page for expo_site_mode
+ade37b64 add item_name_slug default
+166596f8 DBGetItemAttribute() return only attribute value when name is specified ; allow partial hash as identifier
+976042de add server_local.pl (renamed)
+17c6f02b add menu strings
+a1ca4f20 add speakers query
+
+#changelog

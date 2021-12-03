@@ -1,0 +1,9 @@
+John is the founder and director of Brink, an open source Bitcoin research and development centre. John has been contributing to Bitcoin Core for 5 years, and worked at Chaincode Labs prior to founding Brink.
+
+-- 
+name: John Newbery
+title: Director, Brink
+
+>>c6bc06baf46ff4ebf3f33328dd933f3e82ca4190
+-- 
+Cookie: 19123B3A015E781F

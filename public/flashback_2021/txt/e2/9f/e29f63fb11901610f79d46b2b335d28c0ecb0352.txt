@@ -1,0 +1,20 @@
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+The Blockchain Education Network (BEN) is the largest and longest running network of students, alumni, professors, teachers, professionals, and community leaders excited about blockchain across the world. We are on a mission to spur blockchain adoption by empowering our leaders to bring blockchain to their companies and communities.
+- --
+name: Blockchain Education Network (ben)
+title: http://ben.com/
+>>4003e8bd6ec8282b559fe835d9d8baf59c80448e
+-----BEGIN PGP SIGNATURE-----
+
+wsBcBAEBCAAQBQJgY+lQCRAvNSJJtxjthQAAud4IALd17nQRqytpJcC9xuKC
+2tIu4EE2hSTMLvq9Th12Zjo31T2aACc7HR5wAFfpjAz85UQmQ3jm706gYFFS
+Bi+8KcKH1622EPs/wzwW/aO5WvI9tJkWaDWN+ztWwcz46GwR4+ZjCzAPYgK3
+H54YzqLKPkgjF+4/8KZnbdszS0x7cIRtRbvYbeus+H0bqDJnM4ZPjlt5n/cY
+Vcs0g0adp1N0/yEm2dESyfKsZEkSnY6VmH9Mh8QXGZDTYVboCn2qyFTZDm/D
+E5jlYVO6ZDHlD26y7cZxlbdf5m9yWzq7PYqGJ/uz4gMXy+oh8HEwk2rV1pCz
+8j/wTdrhGCKFXpS5Z1dmZ+g=
+=L0Sy
+-----END PGP SIGNATURE-----

@@ -1,0 +1,6 @@
+The Algorand Foundation is dedicated to fulfilling the global promise of blockchain technology by leveraging the Algorand protocol and open source software, designed by Silvio Micali and a team of leading scientists. With core beliefs in the establishment of an open, public and permissionless blockchain, the Algorand Foundation has a vision for an inclusive ecosystem that provides an opportunity for everyone to harness the potential of an equitable and truly borderless economy."
+
+-- 
+name: Algorand
+title: https://algorand.foundation/
+>>0d257eedf136f1ee5dc43b31e12b92b7a2398bf7
