@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Speakers on MIT Bitcoin Expo 2022</title>
+    <link>https://mitbitcoinexpo.org/fr/speaker/</link>
+    <description>Recent content in Speakers on MIT Bitcoin Expo 2022</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Tue, 10 Sep 2019 13:51:25 +0600</lastBuildDate><atom:link href="https://mitbitcoinexpo.org/fr/speaker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Andrew Kemnitz</title>
+      <link>https://mitbitcoinexpo.org/fr/speaker/andrew-kemnitz/</link>
+      <pubDate>Tue, 10 Sep 2019 13:51:25 +0600</pubDate>
+      
+      <guid>https://mitbitcoinexpo.org/fr/speaker/andrew-kemnitz/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+    
+    <item>
+      <title>Kemnitz Wagon</title>
+      <link>https://mitbitcoinexpo.org/fr/speaker/kemnitz-wagon/</link>
+      <pubDate>Tue, 10 Sep 2019 13:51:25 +0600</pubDate>
+      
+      <guid>https://mitbitcoinexpo.org/fr/speaker/kemnitz-wagon/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+    
+    <item>
+      <title>Marta Kemnitz</title>
+      <link>https://mitbitcoinexpo.org/fr/speaker/marta-kemnitz/</link>
+      <pubDate>Tue, 10 Sep 2019 13:51:25 +0600</pubDate>
+      
+      <guid>https://mitbitcoinexpo.org/fr/speaker/marta-kemnitz/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+    
+    <item>
+      <title>Martin Gptil</title>
+      <link>https://mitbitcoinexpo.org/fr/speaker/martin-gptil/</link>
+      <pubDate>Tue, 10 Sep 2019 13:51:25 +0600</pubDate>
+      
+      <guid>https://mitbitcoinexpo.org/fr/speaker/martin-gptil/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+    
+    <item>
+      <title>Mehedi Keil</title>
+      <link>https://mitbitcoinexpo.org/fr/speaker/mehedi-keil/</link>
+      <pubDate>Tue, 10 Sep 2019 13:51:25 +0600</pubDate>
+      
+      <guid>https://mitbitcoinexpo.org/fr/speaker/mehedi-keil/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+    
+    <item>
+      <title>MJohn Doe</title>
+      <link>https://mitbitcoinexpo.org/fr/speaker/mjohn-doe/</link>
+      <pubDate>Tue, 10 Sep 2019 13:51:25 +0600</pubDate>
+      
+      <guid>https://mitbitcoinexpo.org/fr/speaker/mjohn-doe/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+    
+  </channel>
+</rss>
