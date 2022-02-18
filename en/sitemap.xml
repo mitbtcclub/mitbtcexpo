@@ -2,6 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://mitbitcoinexpo.org/</loc>
+    <lastmod>2022-02-17T23:01:56-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://mitbitcoinexpo.org/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mitbitcoinexpo.org/"
+                />
+  </url><url>
+    <loc>https://mitbitcoinexpo.org/sponsors/</loc>
+    <lastmod>2022-02-17T23:01:56-05:00</lastmod>
+  </url><url>
+    <loc>https://mitbitcoinexpo.org/sponsors/sponsors/</loc>
+    <lastmod>2022-02-17T23:01:56-05:00</lastmod>
+  </url><url>
     <loc>https://mitbitcoinexpo.org/about/</loc>
     <lastmod>2019-09-10T13:51:25+06:00</lastmod>
     <xhtml:link
@@ -26,19 +45,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://mitbitcoinexpo.org/contact/"
-                />
-  </url><url>
-    <loc>https://mitbitcoinexpo.org/</loc>
-    <lastmod>2019-09-10T13:51:25+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://mitbitcoinexpo.org/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mitbitcoinexpo.org/"
                 />
   </url><url>
     <loc>https://mitbitcoinexpo.org/categories/</loc>
