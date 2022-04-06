@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://mitbitcoinexpo.org/</loc>
-    <lastmod>2022-03-16T22:03:02-04:00</lastmod>
+    <lastmod>2022-04-02T15:24:21-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -14,6 +14,9 @@
                 hreflang="en"
                 href="https://mitbitcoinexpo.org/"
                 />
+  </url><url>
+    <loc>https://mitbitcoinexpo.org/pitchcontest/</loc>
+    <lastmod>2022-04-02T15:24:21-04:00</lastmod>
   </url><url>
     <loc>https://mitbitcoinexpo.org/speakers/</loc>
     <lastmod>2022-03-16T22:03:02-04:00</lastmod>
