@@ -1,0 +1,329 @@
+/*--------------------------------------------------------------
+  ## page-header
+--------------------------------------------------------------*/
+
+.page-header{
+  padding-top: 160px;
+  padding-bottom: 80px;
+  text-align: center;
+  @media only screen and (max-width: 1199px) {
+    padding-top: 120px;
+    padding-bottom: 60px;
+  }
+  @media only screen and (max-width: 767px) {
+    padding-top: 90px;
+    padding-bottom: 50px;
+  }
+  .page-title{
+   h1{
+    text-align: center;
+    font-family: $font-family-nasalization;
+    font-weight: normal;
+    font-size: 80px;
+    color: $bg-black;
+    @media only screen and (max-width: 1199px) {
+      font-size: 60px;
+    }
+    @media only screen and (max-width: 991px) {
+      margin-bottom: 10px;
+    }
+    @media only screen and (max-width: 767px) {
+      font-size: 40px;
+    }
+   }
+   p{
+    font-size: 26px;
+    font-weight: 400;
+    color: $title-color;
+    line-height: 1.2;
+    padding-top: 26px;
+    @media only screen and (max-width: 1199px) {
+      font-size: 23px;
+      padding-top: 20px;
+    }
+    @media only screen and (max-width: 767px) {
+      font-size: 20px;
+      padding-top: 12px;
+    }
+    @media only screen and (max-width: 482px) {
+      font-size: 18px;
+      padding-top: 6px;
+    }
+   }
+  }
+  .cming{
+    font-family: $font-family-nasalization;
+    font-size: 22px;
+     @media only screen and (max-width: 767px) {
+      font-size: 19px;
+     }
+  }
+}
+
+.pres{
+  padding-bottom: 80px;
+  padding-top: 30px;
+  @media only screen and (max-width: 1199px) {
+    padding-bottom: 60px;
+    padding-top: 20px;
+  }
+  @media only screen and (max-width: 767px) {
+    padding-bottom: 40px;
+    padding-top: 10px;
+  }
+  .sec-t{
+    h2{
+      font-size: 45px;
+      font-family: $font-family-nasalization;
+      color: $title-color;
+      margin-bottom: 30px;
+      @media only screen and (max-width: 991px) {
+        font-size: 40px;
+      }
+      @media only screen and (max-width: 767px) {
+        font-size: 33px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+ 
+}
+.mem-j-txt{
+  h6{
+    font-size: 22px;
+    font-family: $font-family-poppins;
+    @media only screen and (max-width: 767px) {
+      font-size: 20px;
+    }
+  }
+}
+
+/*--------------------------------------------------------------
+  ## team-2
+--------------------------------------------------------------*/
+
+.team-2{
+  padding: 80px 0px;
+  @media only screen and (max-width: 991px) {
+    padding: 60px 0px;
+  }
+  @media only screen and (max-width: 767px) {
+    padding: 50px 0px;
+  } 
+
+  .sec-t{
+    h2{
+      font-size: 45px;
+      font-family: $font-family-nasalization;
+      color: $title-color;
+      margin-bottom: 30px;
+      @media only screen and (max-width: 991px) {
+        font-size: 40px;
+      }
+      @media only screen and (max-width: 767px) {
+        font-size: 33px;
+        margin-bottom: 20px;
+      }
+      @media only screen and (max-width: 482px) {
+        font-size: 28px;
+      }
+    }
+  }
+
+}
+
+
+/*--------------------------------------------------------------
+  ## about-txt
+--------------------------------------------------------------*/
+
+.about-txt{
+
+  padding-bottom: 80px;
+  padding-top: 20px;
+  @media only screen and (max-width: 1199px) {
+    padding-bottom: 60px;
+    padding-top: 10px;
+  }
+  @media only screen and (max-width: 767px) {
+    padding-bottom: 40px;
+    padding-top: 10px;
+  }
+
+  p{
+    &:not(:last-child) {
+      margin-bottom: 26px;
+      @media only screen and (max-width: 767px) {
+        margin-bottom: 20px;
+      }
+    }
+    @media only screen and (max-width: 767px) {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+  }
+
+
+}
+
+
+/*--------------------------------------------------------------
+  ## sponser
+--------------------------------------------------------------*/
+
+.sponser{
+  padding-bottom: 80px;
+  padding-top: 30px;
+  text-align: center;
+  @media only screen and (max-width: 1199px) {
+    padding-bottom: 60px;
+    padding-top: 20px;
+  }
+  @media only screen and (max-width: 767px) {
+    padding-bottom: 40px;
+    padding-top: 10px;
+  }
+
+  .sponser-logo {
+    width: 200px;
+    height: 55px;
+    object-fit: contain;
+    @media only screen and (max-width: 1399px) {
+      width: 180px;
+    height: 46px;
+    }
+    @media only screen and (max-width: 1199px) {
+      width: 160px;
+      height: 45px;
+    }
+    @media only screen and (max-width: 991px) {
+      width: 130px;
+      height: 40px;
+    }
+    @media only screen and (max-width: 767px) {
+      width: 130px;
+      height: 40px;
+    }
+    @media only screen and (max-width: 482px) {
+      width: 100px;
+      height: 36px;
+    }
+    transition: all .2s ease-in;
+    &:hover{
+      transform: scale(1.05);
+    }
+  }
+
+}
+
+/*--------------------------------------------------------------
+  ## speakers
+--------------------------------------------------------------*/
+
+.speakers{
+  padding-bottom: 80px;
+  padding-top: 20px;
+  @media only screen and (max-width: 1199px) {
+    padding-bottom: 60px;
+    padding-top: 10px;
+  }
+  @media only screen and (max-width: 767px) {
+    padding-bottom: 40px;
+    padding-top: 10px;
+  }
+  .btn-outline{
+    justify-content: space-between;
+    font-size: 15px;
+    min-width: 200px;
+    &::after{
+      display: none;
+    }
+  }
+ 
+}
+
+
+/*--------------------------------------------------------------
+  ## api-demo
+--------------------------------------------------------------*/
+
+.api-demo{
+  padding-bottom: 80px;
+  padding-top: 0px;
+  @media only screen and (max-width: 1199px) {
+    padding-bottom: 60px;
+    padding-top: 0px;
+  }
+  @media only screen and (max-width: 767px) {
+    padding-bottom: 40px;
+    padding-top: 0px;
+  }
+}
+
+/*--------------------------------------------------------------
+  ## map-sec
+--------------------------------------------------------------*/
+
+.map-sec{
+  padding-bottom: 80px;
+  padding-top: 20px;
+  text-align: center;
+  @media only screen and (max-width: 1199px) {
+    padding-bottom: 60px;
+    padding-top: 10px;
+  }
+  @media only screen and (max-width: 767px) {
+    padding-bottom: 40px;
+    padding-top: 10px;
+  }
+
+  .sec-t{
+    text-align: center;
+    h2{
+      font-family: $font-family-poppins;
+      font-weight: 400;
+      font-size: 30px;
+      margin-bottom: 30px;
+      @media only screen and (max-width: 767px) {
+        font-size: 23px;
+        margin-bottom: 20px;
+
+      }
+    }
+    p{
+      margin-bottom: 40px;
+      @media only screen and (max-width: 767px) {
+        margin-bottom: 30px;
+      }
+      a{
+        text-decoration: none;
+        color: $title-color;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .map-btns {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    margin-left: -13px;
+    margin-right: -13px;
+    @media only screen and (max-width: 991px) {
+      padding-top: 50px;
+    }
+    @media only screen and (max-width: 767px) {
+      margin-left: -6px;
+      margin-right: -6px;
+    }
+    a {
+      margin-left: 13px;
+      margin-right: 13px;
+      @media only screen and (max-width: 767px) {
+        margin-left: 6px;
+        margin-right: 6px;
+      }
+    }
+  }
+
+}

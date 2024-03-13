@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Nasalization";
+  src: url("../fonts/nasalization-rg.otf") format("opentype");
+}
+$font-family-nasalization: "Nasalization";
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Syne:wght@400;500;600;700&display=swap");
+
+$font-family-barlow: "Barlow", sans-serif;
+$font-family-poppins: "Poppins", sans-serif;
+$font-family-syne: "Syne", sans-serif;
+
+$bg-white: #ffffff;
+$bg-black: #000000;
+$bg-nav-collapse: #e9e7db;
+$primary-color: #000000;
+$secondary-color: #7490a6;
+$text-color: #000000;
+$title-color: #000000;
+

@@ -1,0 +1,147 @@
+/*--------------------------------------------------------------
+  ## hero-area
+--------------------------------------------------------------*/
+
+.hero-area {
+  // padding-top: 180px;
+  // padding-bottom: 100px;
+  background-image: url("../img/hero/woman.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-position: 108% 0%;
+  background-color: $bg-white;
+
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media only screen and (max-width: 1399px) {
+    background-position: 130% 60%;
+    background-size: 65%;
+  }
+  @media only screen and (max-width: 991px) {
+    background-position: 130% 50%;
+    background-size: 65%;
+    background-image: none;
+    background-position: unset;
+    background-size: unset;
+    background: none;
+    padding-top: 80px;
+  }
+
+  // @media only screen and (max-width: 482px) {
+  //   background-position: 130% 90%;
+  //   background-size: 95%;
+  // }
+  .map {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    max-width: 340px;
+    display: none;
+  }
+}
+
+.hero-txt {
+  // h6 {
+  //   font-family: $font-family-syne;
+  //   font-weight: 700;
+  //   color: $title-color;
+  //   font-size: 34px;
+  //   margin-bottom: 16px;
+  //   @media only screen and (max-width: 991px) {
+  //     font-size: 30px;
+  //   }
+  //   @media only screen and (max-width: 767px) {
+  //     font-size: 25px;
+  //     margin-bottom: 12px;
+  //   }
+  // }
+  h1 {
+    display: flex;
+    align-items: end;
+    font-family: $font-family-nasalization;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 0.7;
+    @media only screen and (max-width: 991px) {
+      font-size: 43px;
+    }
+    @media only screen and (max-width: 767px) {
+      font-size: 36px;
+    }
+    @media only screen and (max-width: 482px) {
+      font-size: 26px;
+    }
+    span {
+      letter-spacing: 1.5px;
+      padding-top: 30px;
+      @media only screen and (max-width: 767px) {
+        letter-spacing: 1px;
+        padding-top: 22px;
+      }
+    }
+    img {
+      width: 100%;
+      max-width: 220px;
+      @media only screen and (max-width: 991px) {
+        max-width: 180px;
+      }
+      @media only screen and (max-width: 767px) {
+        max-width: 100px;
+      }
+      @media only screen and (max-width: 482px) {
+        max-width: 80px;
+      }
+    }
+  }
+  .title-img{
+    img{
+      width: 100%;
+      max-width: 750px;
+      margin-top: 50px;
+      @media only screen and (max-width: 1399px) {
+        max-width: 600px;
+      }
+      @media only screen and (max-width: 1199px) {
+        margin-top: 40px;
+      }
+      @media only screen and (max-width: 767px) {
+        max-width: 400px;
+      }
+      @media only screen and (max-width: 767px) {
+        max-width: 350px;
+      }
+    }
+  }
+  p {
+    font-family: $font-family-syne;
+    font-weight: 500;
+    color: $title-color;
+    font-size: 33px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    @media only screen and (max-width: 991px) {
+      font-size: 28px;
+    }
+    @media only screen and (max-width: 767px) {
+      font-size: 23px;
+      margin-bottom: 25px;
+    }
+  }
+}
+
+.hero-btns {
+  display: flex;
+  margin-left: -8px;
+  margin-right: -8px;
+  a {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}
+

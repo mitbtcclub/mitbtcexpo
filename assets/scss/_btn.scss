@@ -1,0 +1,63 @@
+/*--------------------------------------------------------------
+  ## btn-solid
+--------------------------------------------------------------*/
+
+.btn-solid{
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 600;
+  color: $bg-white;
+  background-color: $bg-black;
+  border-radius: 5px;
+  border: 2px solid $bg-black;
+  padding: 10px 18px;
+  transition: all .2s ease-in;
+  svg{
+    height: 13px;
+    margin-left: 10px;
+    transition: all .2s ease-in;
+    path{
+      stroke: #ffffff;
+    }
+  }
+  &:hover{
+    color: $bg-white;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+    svg{
+      transform: translateX(3px);
+    }
+  }
+}
+
+.btn-outline{
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 600;
+  color: $bg-black;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 2px solid $bg-black;
+  padding: 10px 18px;
+  transition: all .2s ease-in;
+  svg{
+    height: 13px;
+    margin-left: 10px;
+    transition: all .2s ease-in;
+    path{
+      stroke: #000000;
+    }
+  }
+  &:hover{
+    color: $bg-black;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+    svg{
+      transform: translateX(3px);
+    }
+  }
+}

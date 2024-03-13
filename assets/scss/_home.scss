@@ -1,0 +1,310 @@
+/*--------------------------------------------------------------
+  ## expo
+--------------------------------------------------------------*/
+
+.expo {
+  padding: 80px 0px;
+  @media only screen and (max-width: 991px) {
+    padding: 60px 0px;
+  }
+  @media only screen and (max-width: 767px) {
+    padding: 50px 0px;
+  }
+  .sec-t {
+    margin-bottom: 36px;
+    @media only screen and (max-width: 1199px) {
+      margin-bottom: 28px;
+    }
+    @media only screen and (max-width: 767px) {
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-family: $font-family-nasalization;
+      font-weight: normal;
+      font-size: 70px;
+      color: $bg-black;
+      margin-bottom: 8px;
+      @media only screen and (max-width: 1199px) {
+        font-size: 60px;
+        margin-bottom: 3px;
+      }
+      @media only screen and (max-width: 767px) {
+        font-size: 40px;
+      }
+    }
+    p {
+      font-size: 35px;
+      line-height: 1.2;
+      color: $text-color;
+      font-weight: 700;
+      max-width: 700px;
+      @media only screen and (max-width: 1199px) {
+        font-size: 27px;
+      }
+      @media only screen and (max-width: 767px) {
+        font-size: 20px;
+      }
+    }
+  }
+  p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #595959;
+    @media only screen and (max-width: 1199px) {
+      font-size: 15px;
+      font-weight: 500;
+    }
+  }
+}
+
+/*--------------------------------------------------------------
+  ## speakers
+--------------------------------------------------------------*/
+
+.speakers {
+  padding: 80px 0px;
+  @media only screen and (max-width: 991px) {
+    padding: 60px 0px;
+  }
+  @media only screen and (max-width: 767px) {
+    padding: 50px 0px;
+  }
+  .sec-t {
+    h2 {
+      font-family: $font-family-nasalization;
+      font-weight: normal;
+      font-size: 70px;
+      color: $bg-black;
+      margin-bottom: 60px;
+      @media only screen and (max-width: 1199px) {
+        font-size: 60px;
+        margin-bottom: 40px;
+      }
+      @media only screen and (max-width: 767px) {
+        font-size: 40px;
+      }
+    }
+  }
+
+  h5 {
+    font-family: $font-family-poppins;
+    font-size: 26px;
+    @media only screen and (max-width: 767px) {
+      font-size: 20px;
+    }
+  }
+
+  .sp-btns {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-left: -8px;
+    margin-right: -8px;
+    @media only screen and (max-width: 991px) {
+      margin-top: 30px;
+      flex-direction: column;
+    }
+    a {
+      margin-left: 8px;
+      margin-right: 8px;
+      @media only screen and (max-width: 991px) {
+        margin-top: 18px;
+      }
+    }
+  }
+}
+
+.team-single {
+  text-align: center;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.2s ease-in;
+  height: 100%;
+  .team-info {
+    padding: 15px;
+    h5 {
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 13px;
+      line-height: 1.3;
+    }
+  }
+  &:hover {
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.45);
+  }
+}
+
+/*--------------------------------------------------------------
+  ## theme
+--------------------------------------------------------------*/
+
+.theme {
+  padding: 80px 0px;
+  @media only screen and (max-width: 991px) {
+    padding: 60px 0px;
+  }
+  @media only screen and (max-width: 767px) {
+    padding: 50px 0px;
+  }
+  .sec-t {
+    h2 {
+      font-family: $font-family-nasalization;
+      font-weight: normal;
+      font-size: 70px;
+      color: $bg-black;
+      margin-bottom: 40px;
+      @media only screen and (max-width: 1199px) {
+        font-size: 60px;
+        margin-bottom: 30px;
+      }
+      @media only screen and (max-width: 767px) {
+        font-size: 40px;
+      }
+    }
+  }
+}
+
+.gc-single {
+  background-color: #f5f5f7;
+  padding: 70px 60px;
+  background-image: url("../img/theme/removal.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: contain;
+  @media only screen and (max-width: 1199px) {
+    padding: 50px 50px;
+  }
+  @media only screen and (max-width: 991px) {
+    padding: 40px 40px;
+  }
+  .gc-wrapper {
+    max-width: 640px;
+  }
+  h4 {
+    font-size: 33px;
+    font-weight: 600;
+    color: $title-color;
+    margin-bottom: 20px;
+    @media only screen and (max-width: 991px) {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+    @media only screen and (max-width: 767px) {
+      font-size: 22px;
+    }
+  }
+  p {
+    color: $text-color;
+    margin-bottom: 20px;
+    font-size: 16px;
+    @media only screen and (max-width: 767px) {
+      margin-bottom: 15px;
+      font-size: 15px;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: #2997ff;
+  }
+  transition: all 0.3s ease-in;
+  &:hover {
+    transform: scale(1.01);
+  }
+}
+
+/*--------------------------------------------------------------
+  ## expo-h
+--------------------------------------------------------------*/
+.expo-h {
+  padding: 80px 0px;
+  @media only screen and (max-width: 991px) {
+    padding: 60px 0px;
+  }
+  @media only screen and (max-width: 767px) {
+    padding: 50px 0px;
+  }
+}
+.expo-son {
+  padding: 155px 0px;
+  background-image: url("../img/theme/bg-pattern.png");
+  background-size: cover;
+  background-position: center;
+  @media only screen and (max-width: 1199px) {
+    padding: 120px 0px;
+  }
+  @media only screen and (max-width: 991px) {
+    padding: 100px 0px;
+  }
+  @media only screen and (max-width: 767px) {
+    padding: 70px 0px;
+  }
+  .sec-t {
+    h2 {
+      font-family: $font-family-nasalization;
+      font-weight: normal;
+      font-size: 70px;
+      color: $bg-black;
+      @media only screen and (max-width: 1199px) {
+        font-size: 60px;
+      }
+      @media only screen and (max-width: 991px) {
+        margin-bottom: 10px;
+      }
+      @media only screen and (max-width: 767px) {
+        font-size: 40px;
+      }
+    }
+  }
+
+  .ex-tx {
+    p {
+      font-size: 18px;
+      margin-bottom: 25px;
+      font-weight: 400;
+      @media only screen and (max-width: 767px) {
+        font-size: 16px;
+        font-weight: 500;
+      }
+      @media only screen and (max-width: 767px) {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+/*--------------------------------------------------------------
+  ## api-sec
+--------------------------------------------------------------*/
+
+.api-sec {
+  padding: 80px 0px;
+  @media only screen and (max-width: 991px) {
+    padding: 60px 0px;
+  }
+  @media only screen and (max-width: 767px) {
+    padding: 50px 0px;
+  }
+
+  .sec-t {
+    h2 {
+      text-align: center;
+      font-family: $font-family-nasalization;
+      font-weight: normal;
+      font-size: 70px;
+      color: $bg-black;
+      line-height: 1;
+      @media only screen and (max-width: 1199px) {
+        font-size: 60px;
+      }
+      @media only screen and (max-width: 991px) {
+        margin-bottom: 10px;
+      }
+      @media only screen and (max-width: 767px) {
+        font-size: 40px;
+      }
+    }
+  }
+}

@@ -1,7 +1,0 @@
-Jameson has been building multisignature Bitcoin wallets for 6 years, first at BitGo for enterprises and now at Casa for individuals. He is the founder of Mensa's Bitcoin Special Interest Group, the Triangle Blockchain & Business meetup, and several open source Bitcoin projects, Throughout this time he has been writing and given presentations about what he has learned the hard way while trying to write robust software that can withstand both adversaries and unsophisticated end users.
-
--- 
-name: Jameson Lopp
-title: Founder, Mensa's Bitcoin Special Interest Group
-
->>4e18fe3e9e36633e5e7ae437d8bf96704d128a0d

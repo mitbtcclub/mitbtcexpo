@@ -1,0 +1,108 @@
+/*--------------------------------------------------------------
+  ## footer-sec
+--------------------------------------------------------------*/
+.footer-sec {
+  padding-top: 60px;
+  @media only screen and (max-width: 1199px) {
+    padding-top: 40px;
+  }
+  @media only screen and (max-width: 767px) {
+    padding-top: 20px;
+  }
+}
+.footer-up {
+  padding: 80px 0px;
+  @media only screen and (max-width: 1199px) {
+    padding: 60px 0px;
+  }
+  @media only screen and (max-width: 767px) {
+    padding: 40px 0px;
+  }
+}
+.footer-logo {
+  .footer-l {
+    display: flex;
+    align-items: end;
+    img {
+      height: 55px;
+      margin-right: 10px;
+      @media only screen and (max-width: 767px) {
+        height: 45px;
+        margin-right: 6px;
+      }
+    }
+    span {
+      font-family: $font-family-nasalization;
+      font-size: 18px;
+      color: $text-color;
+      @media only screen and (max-width: 767px) {
+        font-size: 16px;
+      }
+    }
+  }
+  p {
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+}
+
+.footer-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  li {
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+    display: inline-block;
+  }
+  a {
+    text-decoration: none;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: $text-color;
+    transition: all .2s ease-in;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
+
+.footer-social {
+  h5 {
+    font-weight: 600;
+    font-size: 15px;
+    color: $title-color;
+    margin-bottom: 12px;
+  }
+}
+.social-list {
+  margin-bottom: 16px;
+  a {
+    &:not(:last-child) {
+      margin-right: 16px;
+    }
+    img {
+      height: 20px;
+    }
+  }
+}
+
+.footer-down {
+  text-align: center;
+  padding-bottom: 50px;
+  @media only screen and (max-width: 1199px) {
+    padding-bottom: 35px;
+  }
+  @media only screen and (max-width: 767px) {
+    padding-bottom: 25px;
+  }
+  p {
+    font-size: 13px;
+    color: $text-color;
+  }
+}
